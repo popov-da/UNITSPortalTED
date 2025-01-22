@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>08/27/24</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPM-A-20-21-02-00A-257A-A</XMLFileName>
+<DocumentFile>DMC-MTPM-A-20-21-02-00A-257A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#00FF00</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">proced</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">02</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">257</value>
+<value name="infoName" decl-id="INFONAME" type="string">Окраска и маркировка</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20240722</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPM</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">21</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">20</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Нанесение грунтовок</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPM" data-systemDiffCode="A" data-systemCode="20" data-subSystemCode="2" data-subSubSystemCode="1" data-assyCode="02" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="257" data-infoCodeVariant="A" data-itemLocationCode="A">MTPM-A-20-21-02-00A-257A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2024" data-month="07" data-day="22">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Нанесение грунтовок</div>
+					<div class="infoName">Окраска и маркировка</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="procedure">
+			<div class="preliminaryRqmts" id="preliminaryRqmts_ID2BB01IGY">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDLC0HUQG3"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDF3E4REVA"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="supportEquipDescr">
+<td>
+<div>
+<div class="name">Кисть филеночная</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="identNumber" data-partNumber="КФК8 ГОСТ Р 58516-2019">
+</div>
+</td>
+<td>
+<div class="reqQuantity" data-unitOfMeasure="шт.">2 шт.</div>
+</td>
+<td>
+</td>
+</tr>
+<tr class="supportEquipDescr">
+<td>
+<div>
+<div class="name">Термогигрометр ИВА-6Н</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="identNumber">
+</div>
+</td>
+<td>
+<div class="reqQuantity" data-unitOfMeasure="шт.">1 шт.</div>
+</td>
+<td>
+</td>
+</tr>
+<tr class="supportEquipDescr">
+<td>
+<div>
+<div class="name">Секундомер</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="identNumber">
+</div>
+</td>
+<td>
+<div class="reqQuantity" data-unitOfMeasure="шт.">1 шт.</div>
+</td>
+<td>
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDZYQZDYYI"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Грунтовка</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="ГФ-021 ГОСТ 25129-2020" data-supplyNumberType="sp01">ГФ-021 ГОСТ 25129-2020</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Растворитель</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="Ксилол ГОСТ 9410-78" data-supplyNumberType="sp01">Ксилол ГОСТ 9410-78</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Растворитель</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="Сольвент ГОСТ 10214-78" data-supplyNumberType="sp01">Сольвент ГОСТ 10214-78</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Шпатлевка</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="ХВ-005 ГОСТ 10277-90" data-supplyNumberType="sp01">ХВ-005 ГОСТ 10277-90</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_ID1SSGLWQG"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSpares">
+<td class="noSpares" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<div class="reqSafety">
+					<div class="safetyRqmts">
+						<div>
+<div class="warning" id="wrn-001">
+							<div class="warningAndCautionPara p">СОБЛЮДАЙТЕ ПРАВИЛА ПОЖАРНОЙ БЕЗОПАСНОСТИ, ПРАВИЛА ЗАЩИТЫ
+ОТ СТАТИЧЕСКОГО ЭЛЕКТРИЧЕСТВА. НЕ ПРИМЕНЯЙТЕ ОТКРЫТЫЙ ОГОНЬ. НЕ КУРИТЕ. ВЫПОЛНЯЙТЕ РАБОТЫ В
+СПЕЦОДЕЖДЕ.</div>
+						</div>
+</div>
+						<div>
+<div class="warning" id="wrn-002">
+							<div class="warningAndCautionPara p">СОБЛЮДАЙТЕ МЕРЫ
+ПРЕДОСТОРОЖНОСТИ ПРИ РАБОТЕ С МАТЕРИАЛАМИ. НЕ ПОДНОСИТЕ МАТЕРИАЛЫ КО РТУ. ИЗБЕГАЙТЕ ВДЫХАНИЯ ЯДОВИТЫХ
+ПАРОВ, ВЫДЕЛЯЕМЫХ МАТЕРИАЛАМИ. ОБРАТИТЕСЬ ЗА МЕДИЦИНСКОЙ ПОМОЩЬЮ ПРИ ВОЗНИКНОВЕНИИ
+РАЗДРАЖЕНИЯ КОЖИ И ГЛАЗ.</div>
+						</div>
+</div>
+						<div>
+<div class="caution" id="ctn-001">
+							<div class="warningAndCautionPara p">СТРОГО СОБЛЮДАЙТЕ РЕЖИМЫ СУШКИ НАНОСИМЫХ МАТЕРИАЛОВ.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div>
+<div class="mainProcedure" id="mainProcedure_IDRUGPUBKY">
+</div>
+</div>
+<div class="Procedure levels" id="">
+				<div class="proceduralStep level1 link" id="proceduralStep_ID3HGV54DR">
+					<div class="title">Подготовительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNRSFG0WB">
+						<div class="para p">Наденьте спецодежду: халат, респиратор аэрозольный, перчатки, очки.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDIESSYPPK">
+						<div class="para p">Обеспечьте доступ к месту выполнения работ.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNWIZQFPJ">
+						<div class="para p">Выполните подготовку поверхности <a class="dmRef  link" href="MTPM-A-20-21-01-00A-254A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="254" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="1" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-21-01-00A-254A-A</div>
+								</div></a>.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDVQN5GCMT">
+					<div class="title">Нанесение грунтовки</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDTFPAEMIP">
+						<div class="para p">В случае выполнения работ не в покрасочной камере, замерьте температуру воздуха окружающей среды.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNZ4JNEIH">
+						<div class="para p">Перед началом нанесения грунтовки проверьте качество защиты не подлежащих окраски
+поверхностей.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDILCHKMOB">
+						<div class="para p">Убедитесь, что не подлежащие окраски поверхности надежно защищены полиэтиленовой пленкой и прикриплены с помощью малярного скотча.</div>
+						<div>
+<div class="note" id="not-002">
+							<div class="notePara p">По возможности необходимо сокращать время нахождения
+малярного скотча на ЛКП, и выполнять работы по нанесению грунтовок сразу после подготовки, во избежание образования на поверхности цветных пятен от малярного скотча.</div>
+						</div>
+</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDUS01FRBN">
+						<div class="para p">В случае повреждения защиты перед нанесением грунтовок необходимо защитить элементы, не подлежащие окраске, заново.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDJHFCYAYL">
+						<div class="para p">Аккуратно нанесите
+						на восстанавливаемый участок ЛКП первый слок грунтовки.</div>
+						<div>
+<div class="note" id="not-003">
+							<div class="notePara p">При необходимости для разбавления грунтовок и шпатлевки можно использовать
+один из растворителей ксилол  или сольвент.</div>
+						</div>
+</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDCXB0LCO4">
+						<div class="para p">Просушите поверхность согласно режиму сушки наносимых материалов <a class="internalRef irtt02 link" data-index="5" href="#tab-001" title=""></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDKR1I3DI3">
+						<div class="para p">Аккуратно нанесите второй слой грунтовки поверх первого готового слоя.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDZ33YGSVP">
+						<div class="para p">Просушите поверхность согласно режиму сушки наносимых материалов <a class="internalRef irtt02 link" data-index="5" href="#tab-001" title=""></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDZCTOLO40">
+						<div class="para p">В случае необходимости выравнивания поверхности нанесите шпатлевку.</div>
+					</div>
+				</div>
+				<div class="table" id="tab-001"><div class="table-contents">
+					<div class="title">Режимы сушки наносимых материалов</div>
+					<table summary="Режимы сушки наносимых материалов" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title">Режимы сушки наносимых материалов</div></caption><caption class="rest"><div class="title">Режимы сушки наносимых материалов</div></caption><colgroup><col width="19%" align="center" class="col1"><col width="22%" align="center" class="col2"><col width="18%" align="center" class="col3"><col width="22%" align="center" class="col4"><col width="19%" align="center" class="col5"></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " rowspan="3" align="center">
+									<div class="para p">Наименование наносимого материала</div>
+								</th><th style="border-bottom: 1px solid ; " colspan="4" align="center">
+									<div class="para p">Режимы сушки</div>
+								</th></tr><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Температура, °С</div>
+								</th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Время, ч</div>
+								</th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Температура, °С</div>
+								</th><th style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">Время, ч</div>
+								</th></tr><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " colspan="2" align="center">
+									<div class="para p">Для первого слоя</div>
+								</th><th style="border-bottom: 1px solid ; " colspan="2" align="center">
+									<div class="para p">Для второго слоя</div>
+								</th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Грунтовка ГФ-021</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">от +18 до +22</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">от 2 до 3</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">от +18 до +22</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">не менее 9</div>
+								</td></tr><tr><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">Шпатлевка ХВ-005</div>
+								</td><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">от +15 до +22</div>
+								</td><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">от 2 до 2,5</div>
+								</td><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">от +15 до +22</div>
+								</td><td style="" align="center">
+									<div class="para p">не менее 10</div>
+								</td></tr></tbody></table>
+				</div></div><br class="table-break">
+				<div class="proceduralStep level1 link" id="proceduralStep_ID3RAYG2P5">
+					<div class="title">Заключительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDS34B3C12">
+						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
+					</div>
+				</div>
+			</div>
+			<div class="closeRqmts" id="closeRqmts_IDIMG0U5Q3">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDJHDC5N21"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>11/21/24</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPM-A-20-20-00-00A-040A-A</XMLFileName>
+<DocumentFile>DMC-MTPM-A-20-20-00-00A-040A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">descript</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">00</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">040</value>
+<value name="infoName" decl-id="INFONAME" type="string">Описание</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20240719</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPM</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">20</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">20</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Механические технологические процессы</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPM" data-systemDiffCode="A" data-systemCode="20" data-subSystemCode="2" data-subSubSystemCode="0" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="040" data-infoCodeVariant="A" data-itemLocationCode="A">MTPM-A-20-20-00-00A-040A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2024" data-month="07" data-day="19">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Механические технологические процессы</div>
+					<div class="infoName">Описание</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="description levels" id="description_ID3DGIZ1HE">
+			<div>
+<div class="caution" id="ctn-001">
+				<div class="warningAndCautionPara p">НЕ ДОПУСКАЕТСЯ ВЫПОЛНЕНИЕ РАБОТ ПРИ СЛЕДУЮЩИХ УСЛОВИЯХ:</div>
+				<div class="warningAndCautionPara p">НЕБЛАГОПРИЯТНЫЕ ПОГОДНЫЕ УСЛОВИЯ, ТАКИЕ КАК ДОЖДЬ, ТУМАН, СНЕГ ИЛИ, КОГДА ВЕРОЯТНО НАСТУПЛЕНИЕ ТАКОЙ ПОГОДЫ ДО ПОЛНОГО ОТВЕРЖДЕНИЯ ПОКРЫТИЯ;</div>
+				<div class="warningAndCautionPara p">ПРИ ТЕМПЕРАТУРАХ ОКРУЖАЮЩЕГО ВОЗДУХА И ПОДЛОЖКИ НИЖЕ И ВЫШЕ ЗНАЧЕНИЙ, УКАЗАННЫХ В ТЕХНИЧЕСКИХ ПАСПОРТАХ НА МАТЕРИАЛЫ;</div>
+				<div class="warningAndCautionPara p">ПРИ ОТНОСИТЕЛЬНОЙ ВЛАЖНОСТИ ВОЗДУХА БОЛЕЕ 85 %;</div>
+				<div class="warningAndCautionPara p">ПРИ ТЕМПЕРАТУРЕ ПОВЕРХНОСТИ МЕТАЛЛА МЕНЕЕ ЧЕМ НА 3 °С ВЫШЕ ТОЧКИ РОСЫ ОКРУЖАЮЩЕГО ВОЗДУХА;</div>
+				<div class="warningAndCautionPara p">ПОСЛЕ НАСТУПЛЕНИЯ ТЕМНОТЫ БЕЗ ИСКУССТВЕННОГО ОСВЕЩЕНИЯ.</div>
+			</div>
+</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDS0CBXVSJ">
+				<div class="title">Общие сведения</div>
+				<div class="para p">Данный раздел содержит общепринятые методики применительно к практике
+эксплуатации траверсы в части механических технологических процессов. В механические технологические процессы входят процедуры по восстановлению ЛКП и склеиванию поверхностей.</div>
+				<div class="para p"> Данный раздел устанавливает требования к  входному контролю и хранению ЛКМ, а также требования к подготовке поверхностей перед окрашиванием, к процессу нанесения ЛКМ,  к склеиванию и к пооперационному контролю качества выполняемых работ.</div>
+				<div class="para p">Контроль качества выполненных работ обеспечивается на всех этапах технологического процесса. В процессе выполнения работ заполняется журнал производства работ по окраске и склеиванию, составляются акты приемки скрытых работ, характеризующие качество подготовки поверхностей, акты приемки готовых покрытий.</div>
+				<div class="levelledPara level2 link" id="levelledPara_IDW1UTPANC">
+					<div class="title">Входной контроль лакокрасочных материалов</div>
+					<div class="para p">Входной контроль ЛКМ включает проверку сопроводительной документации и осмотр транспортной тары. Качество ЛКМ оценивается путем сопоставления их основных технических характеристик, указанных в сертификатах и технических описаниях на материалы. </div>
+					<div class="para p">Все ЛКМ должны поставляться в герметично закрытой таре с сопроводительными документами (свидетельство о государственной регистрации, сертификат соответствия). На таре обязательно наличие информационной наклейки, содержащей следующую информацию:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">наименование и товарный знак предприятия-изготовителя;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">наименование и марку материала;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">дату изготовления;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">место изготовления;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">массу нетто;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">номер партии.</div>
+							</div>
+</div>
+						</div>
+					</div>
+				</div>
+				<div class="levelledPara level2 link" id="levelledPara_ID2G14RH3M">
+					<div class="title">Хранение лакокрасочных материалов</div>
+					<div class="para p">ЛКМ рекомендуется хранить в сухом, хорошо вентилируемом помещении при температуре от плюс 5 °С до плюс 25 °С. Допускается хранение и транспортировка при температурах от минус 30 °С до плюс 30 °С. При хранении тара не должна подвергаться воздействию атмосферных осадков и прямых солнечных лучей.</div>
+					<div class="para p">В случае хранения ЛКМ при отрицательных температурах, необходимо за сутки до нанесения поместить необходимый к использованию продукт в теплое помещение для обеспечения равномерного нагрева. Оптимальная температура ЛКМ во время хранения и нанесения от плюс 18 °С до плюс 25 °С.</div>
+					<div class="para p">Срок хранения ЛКМ и растворителей:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">Литапрайм Акрил — 48 месяцев;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">88-НП ТУ 38 105540-85 — 6 месяцев;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">Литум Растворитель № 7 — 48 месяцев;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">Нефрас-С-50/170 ГОСТ 8505-80 — 60 месяцев.</div>
+							</div>
+</div>
+						</div>
+					</div>
+					<div class="para p">Не допускается использование лакокрасочных материалов, в которых наблюдается гелеобразование, выпадение твердо-сухого осадка или у которых ухудшились каким-либо образом свои характеристики в период хранения.</div>
+				</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDJEGJA2KH">
+				<div class="title">Восстановление лакокрасочных покрытий</div>
+				<div class="levelledPara level2 link" id="levelledPara_IDRBZTRBOX">
+					<div class="title">Основные виды работ</div>
+					<div class="para p">Технологический процесс по восстановлению лакокрасочных покрытий включает в себя подготовку поверхностей, окрашивание подготовленных поверхностей и контроль качества выполненных работ.</div>
+					<div class="para p">Подготовка поверхности включает в себя:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">устранение дефектов;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">очистку от грязи, масляных и жировых загрязнений;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">удаление продуктов коррозии и окалины;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">удаление прочих загрязнений (пыли и пр.);</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">контроль качества и приемку подготовки поверхности.</div>
+							</div>
+</div>
+						</div>
+					</div>
+					<div class="para p">Процесс окрашивания подготовленной поверхности включает следующие операции:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">подготовку ЛКМ к работе;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">нанесение покрытия;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">сушку;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">контроль качества и приемку покрытия.</div>
+							</div>
+</div>
+						</div>
+					</div>
+					<div class="para p">Четкая последовательность выполнения работ изложена в следующих технологических картах, которыми необходимо
+руководствоваться при выполнении восстановления лакокрасочных покрытий в процессе обслуживания траверсы:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">подготовка поверхностей перед восстановлением лакокрасочного покрытия <a class="dmRef  link" href="MTPM-A-20-21-01-00A-254A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="254" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="1" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-21-01-00A-254A-A</div>
+										</div></a>;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">нанесение эмалей <a class="dmRef  link" href="MTPM-A-20-21-03-00A-257A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="257" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="1" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-21-03-00A-257A-A</div>
+										</div></a>.</div>
+							</div>
+</div>
+						</div>
+					</div>
+				</div>
+				<div class="levelledPara level2 link" id="levelledPara_IDLPLJFLWC">
+					<div class="title">Основные используемые лакокрасочные материалы при восстановлении лакокрасочных покрытий</div>
+					<div class="para p">В качестве основных ЛКМ используется Литапрайм Акрил и растворитель Литум № 7.</div>
+					<div class="para p">Литапрайм Акрил — однокомпонентное акриловое толстослойное быстросохнущее покрытие физического отверждения. Основные свойства:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">сухой остаток (по объему): (47 ± 2) %;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">плотность: 1,2 кг/л;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">температура вспышки: плюс 25 °С;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">цвет: согласно спецификации.</div>
+							</div>
+</div>
+						</div>
+					</div>
+					<div class="para p">Литум Растворитель № 7 — специальный растворитель для акриловых и аналогичных продуктов. Основные свойства:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">сухой остаток (по объему): 0 %;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">плотность: 0,9 кг/л;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">температура вспышки: плюс 25 °С.</div>
+							</div>
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDSZDH1RVF">
+				<div class="title">Склеивание поверхностей</div>
+				<div class="levelledPara level2 link" id="levelledPara_IDCQRKZIPP">
+					<div class="title">Основные виды работ</div>
+					<div class="para p">Технологический процесс по склеиванию поверхностей включает в себя подготовку поверхностей, склеивание подготовленных поверхностей и контроль качества выполненных работ.</div>
+					<div class="para p">Подготовка поверхности включает в себя:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">очистку от грязи, масляных и жировых загрязнений;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">удаление прочих загрязнений (пыли и пр.);</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">шлифовку поверхности, с целью выравнивания толщины покрытия;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">контроль качества и приемку подготовки поверхности.</div>
+							</div>
+</div>
+						</div>
+					</div>
+					<div class="para p">Процесс склеивания подготовленных поверхностей включает следующие операции:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">подготовку клея к работе;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">нанесение клея;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">сушку;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">прижим и прокат роликом;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">контроль качества и приемку склеивания.</div>
+							</div>
+</div>
+						</div>
+					</div>
+					<div class="para p">Четкая последовательность выполнения работ изложена в следующих технологических картах, которыми необходимо
+руководствоваться при выполнении склеивания поверхностей в процессе обслуживания траверсы:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">подготовка поверхностей перед склеиванием <a class="dmRef  link" href="MTPM-A-20-22-01-00A-254A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="254" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-22-01-00A-254A-A</div>
+										</div></a>;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">склеивание клеем <a class="dmRef  link" href="MTPM-A-20-22-02-00A-621A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="621" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="02" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-22-02-00A-621A-A</div>
+										</div></a>.</div>
+							</div>
+</div>
+						</div>
+					</div>
+				</div>
+				<div class="levelledPara level2 link" id="levelledPara_IDMZWNG0S2">
+					<div class="title">Основные используемые лакокрасочные материалы при склеивании поверхностей</div>
+					<div class="para p">В качестве основных ЛКМ используется клей 88-НП ТУ 38 105540-85 и растворитель Нефрас-С-50/170 ГОСТ 8505-80.</div>
+					<div class="para p">88-НП ТУ 38 105540-85 — однокомпонентный клей холодного отверждения на основе хлоропренового каучука (резиновая смесь 31НП),  фенолформальдегидной смолы, с усиливающими добавками в смеси растворителей. Основные свойства:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">сухой остаток (по объему): (28 ± 3) %;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">однородность: однороден;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">условная вязкость по ВЗ-1: от 15 до 40;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">расход: 300 г/м<div class="superScript">2</div>;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">внешний вид: вязко-текучая масса от светло-желтого до светло-коричневого цвета.</div>
+							</div>
+</div>
+						</div>
+					</div>
+					<div class="para p">Нефрас-С-50/170 ГОСТ 8505-80 — высокоэффективный нефтяной растворитель смешанного типа. Основные свойства:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">сухой остаток (по объему): 0 %;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">плотность: 0,7 кг/л;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">температура вспышки: минус 39 °С.</div>
+							</div>
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

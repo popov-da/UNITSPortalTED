@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>09/19/24</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPM-A-B0-10-00-00A-310A-A</XMLFileName>
+<DocumentFile>DMC-MTPM-A-B0-10-00-00A-310A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#00FF00</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">proced</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">00</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">310</value>
+<value name="infoName" decl-id="INFONAME" type="string">Визуальный осмотр</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20240903</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPM</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">10</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">B0</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Башня</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$ICNMethod" decl-id="ICNMETHOD" type="string">MI</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPM" data-systemDiffCode="A" data-systemCode="B0" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="310" data-infoCodeVariant="A" data-itemLocationCode="A">MTPM-A-B0-10-00-00A-310A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2024" data-month="09" data-day="03">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Башня</div>
+					<div class="infoName">Визуальный осмотр</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="procedure">
+			<div class="preliminaryRqmts" id="preliminaryRqmts_ID5KIOUKSR">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDKNLMOKGS"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_ID2QLF2SLK"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="supportEquipDescr">
+<td>
+<div>
+<div class="name">Шаблоны сварщика универсальные</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="identNumber" data-partNumber="УШС-3">
+</div>
+</td>
+<td>
+<div class="reqQuantity" data-unitOfMeasure="шт.">1 шт.</div>
+</td>
+<td>
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDAYZL0GZM"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Ветошь обтирочная</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="ТУ 8189-018-01877509-2001" data-supplyNumberType="sp01">ТУ 8189-018-01877509-2001</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Растворитель</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" data-supplyNumberType="sp01">Нефрас-С-50/170 ГОСТ 8505-80</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Спирт этиловый ректификованный</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="ГОСТ Р 55878-2013" data-supplyNumberType="sp01">ГОСТ Р 55878-2013</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDSGMUT0Z1"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSpares">
+<td class="noSpares" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<div class="reqSafety">
+					<div class="safetyRqmts">
+						<div>
+<div class="warning" id="wrn-001">
+							<div class="warningAndCautionPara p">РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div>
+<div class="mainProcedure" id="mainProcedure_IDFFKZJDGS">
+</div>
+</div>
+<div class="Procedure levels" id="">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDA5HOSLL2">
+					<div class="title">Подготовительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID4I4SIS5S">
+						<div class="para p">Выполните спуск траверсы <a class="dmRef  link" href="MTPM-A-07-10-00-00A-176A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="176" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="07" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-07-10-00-00A-176A-A</div>
+								</div></a>.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDVWFWJ14B">
+					<div class="title">Осмотр</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDKFZG2OXF">
+						<div class="title">Осмотр стенки</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDDORKX5GA">
+							<div class="para p">Осмотрите стенку на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDIGFARJ41">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDCEJUR22F">
+							<div class="para p">Осмотрите стенку на отсутствие трещин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDLM33EK3T">
+								<div class="para p">При необходимости выполните замену  стенки <a class="dmRef  link" href="MTPM-A-B0-10-05-00A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="05" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-B0-10-05-00A-922A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDIXK5NMQE">
+							<div class="para p">Убедитесь в надежности крепления упорной стенки.</div>
+							<div>
+<div class="note" id="not-001">
+								<div class="notePara p">Для осмотра другой упорной стенки, демонтируйте редуктор башни <a class="dmRef  link" href="MTPM-A-A1-21-01-00A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="1" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-21-01-00A-922A-A</div>
+										</div></a>.</div>
+							</div>
+</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID4DSPOH31">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDS3K3IFWM">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDOAUDGGFG">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDKTFDS0SW">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDS3RQZTE3">
+							<div class="para p">Осмотрите сварные швы. Убедитесь, что сварные швы не имеют следующих
+поверхностных дефектов:<div class="randomList list  ul">
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">трещин, расположенных в металле шва, по линии
+сплавления и в околошовной зоне основного металла;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">свищей и пористости наружной поверхности шва;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">подрезов глубиной более 0,5 мм;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">наплывов общей длиной более 10 % от длины участка шва;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">пор, расположенных в виде сплошной сетки;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">прожогов, незаваренных кратеров, свищей;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">отклонений по геометрическим размерам и взаимному расположению свариваемых
+элементов;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">дефектов на поверхности основного металла и сварных соединений (вмятин,
+расслоений, раковин, непроваров, включений).</div>
+									</div>
+</div>
+								</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDSSLLJ2UM">
+								<div class="para p">В случае обнаружения дефектов прекратите использование траверсы
+до устранения дефектов. В случае невозможности устранения обнаруженных дефектов
+выведите траверсу из эксплуатации.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID0J5F42O1">
+							<div class="para p">Убедитесь, что ЛКП на стенке не повреждено.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDPPCSFSFS">
+								<div class="para p">В случае повреждения ЛКП восстановите его <a class="dmRef  link" href="MTPM-A-20-21-03-00A-257A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="257" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="1" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-21-03-00A-257A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDXMCZBPNQ">
+							<div class="para p">Повторите вышеуказанные процедуры для другой стенки.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDQ5GELX2E">
+						<div class="title">Осмотр крышки башни</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDINWEBDVV">
+							<div class="para p">Осмотрите крышку на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID4VL15AVM">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDQNU05LCN">
+							<div class="para p">Осмотрите крышку на отсутствие трещин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDWJAJJSST">
+								<div class="para p">При необходимости выполните замену  крышки <a class="dmRef  link" href="MTPM-A-B0-10-04-00A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="04" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-B0-10-04-00A-922A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID1S2FNYV4">
+							<div class="para p">Убедитесь в надежности крепления крышки к стенкам.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID4EFAU5FR">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDRO0EIMMC">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDWQ0VVTX5">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDFJU3WKSP">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID1Y0GWH3Z">
+							<div class="para p">Убедитесь, что ЛКП на крышке не повреждено.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDGPIZD5MT">
+								<div class="para p">В случае повреждения ЛКП восстановите его <a class="dmRef  link" href="MTPM-A-20-21-03-00A-257A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="257" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="1" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-21-03-00A-257A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDMNKBD4E1">
+							<div class="para p">Повторите вышеуказанные процедуры для другой крышки.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID02EWKH2Y">
+						<div class="title">Осмотр опоры</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDK4UFDA4K">
+							<div class="para p">Осмотрите опору на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDK0AS40YB">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDWSVAU2OC">
+							<div class="para p">Осмотрите опору на отсутствие трещин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDQU5OHTNL">
+								<div class="para p">При необходимости выполните замену  опоры <a class="dmRef  link" href="MTPM-A-B0-10-01-01A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="01" data-assyCode="01" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-B0-10-01-01A-922A-A</div>
+										</div></a>.</div>
+								<div>
+<div class="note" id="not-002">
+									<div class="notePara p">Для замены опоры с кронштейном кабельной цепи и кронштейном под жгут <a class="dmRef  link" href="MTPM-A-B0-10-01-02A-922A-A.htm"><div class="dmRefIdent">
+												<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="02" data-assyCode="01" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-B0-10-01-02A-922A-A</div>
+											</div></a>.</div>
+								</div>
+</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDC2FCPND5">
+							<div class="para p">Убедитесь в надежности крепления опоры к стенке.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDVONLJORX">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDUL2FC3NJ">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDIRG3VHX2">
+							<div class="para p">Убедитесь в надежности крепления кронштейна кабельной цепи и кронштейна под жгут к опоре.</div>
+							<div>
+<div class="note" id="not-003">
+								<div class="notePara p">Выполнять только на опоре с установленными кронштейном кабельной цепи и кронштейном под жгут.</div>
+							</div>
+</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDHM3PJIC0">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDYMMCTSHO">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDMW3YZDCK">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDVUJDZ2SS">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDLX34YPL1">
+							<div class="para p">Осмотрите сварные швы. Убедитесь, что сварные швы не имеют следующих
+поверхностных дефектов:<div class="randomList list  ul">
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">трещин, расположенных в металле шва, по линии
+сплавления и в околошовной зоне основного металла;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">свищей и пористости наружной поверхности шва;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">подрезов глубиной более 0,5 мм;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">наплывов общей длиной более 10 % от длины участка шва;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">пор, расположенных в виде сплошной сетки;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">прожогов, незаваренных кратеров, свищей;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">отклонений по геометрическим размерам и взаимному расположению свариваемых
+элементов;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">дефектов на поверхности основного металла и сварных соединений (вмятин,
+расслоений, раковин, непроваров, включений).</div>
+									</div>
+</div>
+								</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDMJXODN1Z">
+								<div class="para p">В случае обнаружения дефектов при необходимости прекратите использование траверсы
+до устранения дефектов. В случае невозможности устранения обнаруженных дефектов
+выведите траверсу из эксплуатации.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDGYNKI52B">
+							<div class="para p">Убедитесь, что ЛКП на опоре не повреждено.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDP0ZIFRW3">
+								<div class="para p">В случае повреждения ЛКП восстановите его <a class="dmRef  link" href="MTPM-A-20-21-03-00A-257A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="257" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="1" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-21-03-00A-257A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDLM2RUEPX">
+							<div class="para p">Повторите вышеуказанные процедуры для других опор.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDFUTKOTCE">
+						<div class="title">Осмотр такелажного элемента</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDTSW4XHJV">
+							<div class="para p">Осмотрите такелажный элемент на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDDXJHL4ID">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDJPYUGPZM">
+							<div class="para p">Осмотрите такелажный элемент на отсутствие трещин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDULEBZ5CB">
+								<div class="para p">При необходимости выполните замену  такелажного элемента <a class="dmRef  link" href="MTPM-A-B0-10-06-00A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="06" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-B0-10-06-00A-922A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDGEBOK2O3">
+							<div class="para p">Убедитесь в надежности крепления такелажного элемента.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDGFBQKXMX">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDHJSWITAS">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID5Z1YYRA2">
+							<div class="para p">Убедитесь в надежности крепления стержня.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDRMMKILEM">
+								<div class="para p">При необходимости установите на свое место штифт.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDXP2AV44I">
+								<div class="para p">При необходимости замените шплинт.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID3FCKBAIS">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID3Q0YIHBD">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDLYRREDBY">
+							<div class="para p">Убедитесь, что ЛКП на такелажном элементе не повреждено.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDRQD1VGQL">
+								<div class="para p">В случае повреждения ЛКП восстановите его <a class="dmRef  link" href="MTPM-A-20-21-03-00A-257A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="257" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="1" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-21-03-00A-257A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDMRTWR53X">
+						<div class="title">Осмотр стояночной ножки</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID1IWYHOTI">
+							<div class="para p">Осмотрите стояночную ножку  на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDCYTZPH5B">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDIYIIWWS1">
+							<div class="para p">Осмотрите стояночную ножку на отсутствие трещин, разрывов и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDIA4JSAEQ">
+								<div class="para p">При наличии дефектов подклейте стояночную ножку <a class="dmRef  link" href="MTPM-A-20-22-02-00A-621A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="621" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="02" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-22-02-00A-621A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDXMZGCVA1">
+							<div class="para p">Осмотрите стояночную ножку на отсутствие деформаций, разрушений, стесанности и других видов износа поверхности.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID53YLETIR">
+								<div class="para p">При необходимости выполните замену  стояночной ножки.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDCL0TKWN3">
+							<div class="para p">Убедитесь в надежности крепления стояночной ножки.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDJLAMNRV4">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDDW5FD24O">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDIPGVXPQC">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDWS4FZZOF">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID3QOJDNWD">
+							<div class="para p">Повторите вышеуказанные процедуры для других стояночных ножек.</div>
+						</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDG0NWZHTM">
+					<div class="title">Заключительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDTLHYMA2W">
+						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
+					</div>
+				</div>
+			</div>
+			<div class="closeRqmts" id="closeRqmts_IDY0MIM0LL">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDWQEYFNIG"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

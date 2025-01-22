@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>11/21/24</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPM-A-D2-70-03-00A-311A-A</XMLFileName>
+<DocumentFile>DMC-MTPM-A-D2-70-03-00A-311A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">proced</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">03</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">311</value>
+<value name="infoName" decl-id="INFONAME" type="string">Осмотр</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20241009</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPM</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">70</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">D2</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Распределительное устройство АКБ №1</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPM" data-systemDiffCode="A" data-systemCode="D2" data-subSystemCode="7" data-subSubSystemCode="0" data-assyCode="03" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="311" data-infoCodeVariant="A" data-itemLocationCode="A">MTPM-A-D2-70-03-00A-311A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2024" data-month="10" data-day="09">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Распределительное устройство АКБ №1</div>
+					<div class="infoName">Осмотр</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="procedure">
+			<div class="preliminaryRqmts" id="preliminaryRqmts_IDSIUDWQHH">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_ID2CNXMA1T"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDXLH33TKV"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSupportEquips">
+<td class="noSupportEquips" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDWYV1S2W1"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Ветошь обтирочная</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="ТУ 8189-018-01877509-2001" data-supplyNumberType="sp01">ТУ 8189-018-01877509-2001</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Растворитель</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" data-supplyNumberType="sp01">Нефрас-С-50/170 ГОСТ 8505-80</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+<tr class="supplyDescr">
+<td>
+<div>
+<div class="name">Спирт этиловый ректификованный</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="supplyRef" data-supplyNumber="ГОСТ Р 55878-2013" data-supplyNumberType="sp01">ГОСТ Р 55878-2013</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDI3D1AB4A"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSpares">
+<td class="noSpares" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<div class="reqSafety">
+					<div class="safetyRqmts">
+						<div>
+<div class="warning">
+							<div class="warningAndCautionPara p">РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div>
+<div class="mainProcedure" id="mainProcedure_IDWYBHSJR2">
+</div>
+</div>
+<div class="Procedure levels" id="">
+				<div class="proceduralStep level1 link" id="proceduralStep_ID0DU0PJHW">
+					<div class="title">Подготовительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDDKINVJKZ">
+						<div class="para p">Выполните спуск траверсы <a class="dmRef  link" href="MTPM-A-07-10-00-00A-176A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="176" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="07" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-07-10-00-00A-176A-A</div>
+								</div></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDSFCKQEUT">
+						<div class="para p">Осмотрите  вентилятор <a class="dmRef  link" href="MTPM-A-J1-41-00-00A-311A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="311" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="1" data-subSystemCode="4" data-systemCode="J1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-J1-41-00-00A-311A-A</div>
+								</div></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDYFGMA2TT">
+						<div class="para p">Осмотрите  вентиляционную решетку <a class="dmRef  link" href="MTPM-A-J1-42-00-00A-311A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="311" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="2" data-subSystemCode="4" data-systemCode="J1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-J1-42-00-00A-311A-A</div>
+								</div></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDDRD4ZHOL">
+						<div class="para p">Осмотрите  репей <a class="dmRef  link" href="MTPM-A-D2-90-01-00A-311A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="311" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="0" data-subSystemCode="9" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-90-01-00A-311A-A</div>
+								</div></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDUKQY2OAJ">
+						<div class="para p">Осмотрите  аккумулятор <a class="dmRef  link" href="MTPM-A-D2-20-00-00A-311A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="311" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="2" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-20-00-00A-311A-A</div>
+								</div></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDKJ3BZCBS">
+						<div class="para p">Обеспечьте доступ <a class="dmRef  link" href="MTPM-A-D2-70-00-00A-540A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="540" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="7" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-70-00-00A-540A-A</div>
+								</div></a>.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDDRVS235N">
+					<div class="title">Осмотр</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDUTYFQKZB">
+						<div class="title">Осмотр шкафа</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDMMJGTXZZ">
+							<div class="para p">Осмотрите шкаф на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID0GSBMGLS">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID0SUKKAFN">
+							<div class="para p">Осмотрите  шкаф на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID3QC0XZ1S">
+								<div class="para p">При необходимости выполните замену шкафа <a class="dmRef  link" href="MTPM-A-D2-70-03-00A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="0" data-subSystemCode="7" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-70-03-00A-922A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID5HLIJKQP">
+							<div class="para p">Убедитесь в надежности крепления шкафа.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDAKU1UXCE">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID3KF0EA3G">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDFAHLNJTI">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах шкафа.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDCVCOXDJN">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID51WTPCV1">
+							<div class="para p">Осмотрите электрические соединители на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDDZXK335T">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDA0A3H5VM">
+							<div class="para p">Осмотрите электрические соединители на отсутствие сколов, трещин, вмятин, следов температурного воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDHUI4TRUN">
+								<div class="para p">При необходимости выполните замену электрических соединителей.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDCLYVMG0P">
+							<div class="para p">Убедитесь в надежности крепления электрических соединителей.
+				</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDQHJAIBPX">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDQCUGQ3HL">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDOD3BMMDQ">
+								<div class="para p">При необходимости выполните снятие и установку электрических соединителей. </div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID1WCCGJOV">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах электрических соединителей.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDGRUVIDGE">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDUMDPWXR4">
+						<div class="title">Осмотр светодиодного индикатора</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDVW2L0ATP">
+							<div class="para p">Осмотрите индикатор на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDXGD3K4N2">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDB1AYQ4DG">
+							<div class="para p">Осмотрите индикатор на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDOTXCRWK4">
+								<div class="para p">При необходимости выполните замену индикатора <a class="dmRef  link" href="MTPM-A-D2-70-00-02A-921A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="921" data-disassyCodeVariant="A" data-disassyCode="02" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="7" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-70-00-02A-921A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDBAB3UTJT">
+							<div class="para p">Убедитесь в надежности крепления индикатора.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDC41AU25Q">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID5MU1RBF0">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDUVJHKMT2">
+							<div class="para p">Осмотрите провода на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID1230OIGU">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDXWHY3TXD">
+							<div class="para p">Осмотрите провода на отсутствие повреждений изоляции и экранирующих оболочек,  крутых изгибов, скручиваний, растрескиваний от термического воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDQZLURKBL">
+								<div class="para p">При необходимости выполните замену поврежденных проводов.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDPGM4W4AJ">
+							<div class="para p">Убедитесь в надежности крепления проводов.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDBTTPNBG0">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDBGQ0ZHSK">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDSYHXRB0Q">
+							<div class="para p">Повторите вышеуказанные процедуры для другого индикатора.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDMPK5WTGS">
+						<div class="title">Осмотр кнопки аварийной остановки</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDZRX2YEFD">
+							<div class="para p">Осмотрите кнопку на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDU1L45CEK">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDO53LDVLJ">
+							<div class="para p">Осмотрите кнопку на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDALUGMWXA">
+								<div class="para p">При необходимости выполните замену кнопки <a class="dmRef  link" href="MTPM-A-D2-70-00-03A-921A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="921" data-disassyCodeVariant="A" data-disassyCode="03" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="7" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-70-00-03A-921A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDLRPZURIO">
+							<div class="para p">Осмотрите кнопку на наличие маркировки.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID3CNRMURT">
+								<div class="para p">При необходимости выполните замену кнопки <a class="dmRef  link" href="MTPM-A-D2-70-00-03A-921A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="921" data-disassyCodeVariant="A" data-disassyCode="03" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="7" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-70-00-03A-921A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDVNGDDR4B">
+							<div class="para p">Убедитесь в надежности крепления кнопки.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDBKGYZ3M2">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDID3IEXTY">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID2OYLCAD2">
+							<div class="para p">Осмотрите провода на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDIC2NORPZ">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDQFQGS2RX">
+							<div class="para p">Осмотрите провода на отсутствие повреждений изоляции и экранирующих оболочек,  крутых изгибов, скручиваний, растрескиваний от термического воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDITLJKVBM">
+								<div class="para p">При необходимости выполните замену поврежденных проводов.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDHABVFHBB">
+							<div class="para p">Убедитесь в надежности крепления проводов.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDQPWKPDVZ">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDO4CIH2H4">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDKRIWLL5C">
+						<div class="title">Осмотр переключателя</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID1Y4YFAHJ">
+							<div class="para p">Осмотрите переключатель на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDXFZGALQV">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDGJLJ3YLY">
+							<div class="para p">Осмотрите переключатель на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDXZIXX2I4">
+								<div class="para p">При необходимости выполните замену переключателя <a class="dmRef  link" href="MTPM-A-D2-70-00-04A-921A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="921" data-disassyCodeVariant="A" data-disassyCode="04" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="7" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-70-00-04A-921A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDFKWGYYEG">
+							<div class="para p">Убедитесь в надежности крепления переключателя.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDSFGQVIOL">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDWAIWV0Q1">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDRQMSR542">
+							<div class="para p">Осмотрите провода на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDEVN5KGOT">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDTP44BGKS">
+							<div class="para p">Осмотрите провода на отсутствие повреждений изоляции и экранирующих оболочек,  крутых изгибов, скручиваний, растрескиваний от термического воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDSETSGNZC">
+								<div class="para p">При необходимости выполните замену поврежденных проводов.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID4MRO3Z0V">
+							<div class="para p">Убедитесь в надежности крепления проводов.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDDPVQFC0A">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID11BZAU5V">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID4NOH1H2Q">
+						<div class="title">Осмотр кронштейна шкафа</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDSAD1N54D">
+							<div class="para p">Осмотрите кронштейн шкафа на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDDGWEVZY3">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDKLEZWO5J">
+							<div class="para p">Осмотрите кронштейн шкафа на отсутствие трещин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDSNKE11YM">
+								<div class="para p">При необходимости выполните замену кронштейна шкафа <a class="dmRef  link" href="MTPM-A-D2-70-03-00A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="0" data-subSystemCode="7" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-70-03-00A-922A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDQGJH3DLH">
+							<div class="para p">Убедитесь в надежности крепления кронштейна шкафа.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID2CIGJ5CS">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDDTMCEVJ1">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDQY2GCRPB">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID2VKJVSFB">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID0H4NDIFU">
+							<div class="para p">Убедитесь, что ЛКП на кронштейне не повреждено.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDQCGC0MOQ">
+								<div class="para p">В случае повреждения ЛКП восстановите его <a class="dmRef  link" href="MTPM-A-20-21-03-00A-257A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="257" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="1" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-21-03-00A-257A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID110R2IJW">
+							<div class="para p">Повторите вышеуказанные процедуры для другого кронштейна.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDQHRR3VVS">
+						<div class="title">Осмотр перфорированного короба  </div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDIG3E2IID">
+							<div class="para p">Осмотрите короб на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDD0HSL3BE">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDDZCAGTDJ">
+							<div class="para p">Осмотрите короб на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID3DW4BLVC">
+								<div class="para p">При необходимости выполните замену <span class="emphasis ">короба</span>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID2A3WJIIR">
+							<div class="para p">Убедитесь в надежности крепления короба.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDM5KYBQTB">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID1KMJG2Z2">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDFHW5XE03">
+								<div class="para p">При необходимости выполните снятие и установку крышки короба.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDPLFGTFX0">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDGFIS5T4H">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDXC4042RQ">
+							<div class="para p">Повторите вышеуказанные процедуры для других коробов.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDA5PEKX2C">
+						<div class="title">Осмотр монтажной панели  </div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDZPGILFZ4">
+							<div class="para p">Убедитесь в надежности крепления панели.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDSJ1UQF3H">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDLYMDF34V">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDH1BNKKA4">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDK5C2BJDX">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDFPHJI2US">
+						<div class="title">Осмотр пластины</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDCQP25NGC">
+							<div class="para p">Осмотрите пластину на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDE0HZEKYF">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDVXYWXXRT">
+							<div class="para p">Осмотрите пластину на отсутствие трещин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDYG1HIX25">
+								<div class="para p">При необходимости выполните замену <span class="emphasis ">пластины</span>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDQC0RWGHR">
+							<div class="para p">Убедитесь в надежности крепления пластины.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDREA0AHCU">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDER1MHCS2">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDLIZLOOC2">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDTUQNGZ5Z">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDA5ZIH0GH">
+						<div class="title">Осмотр кронштейна аккумулятора</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDGZ4UANMN">
+							<div class="para p">Осмотрите кронштейн аккумулятора на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDULQ5YWZJ">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDOZO4SIRJ">
+							<div class="para p">Осмотрите кронштейн аккумулятора на отсутствие трещин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDT3NUPE4U">
+								<div class="para p">При необходимости выполните замену <span class="emphasis ">кронштейна аккумулятора</span>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDRGW3AASO">
+							<div class="para p">Убедитесь в надежности крепления кронштейна аккумулятора.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDGB2HCVIY">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDHVEJLKRV">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDZB1QD5WS">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDF5OH3CD1">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID33GPEXBV">
+						<div class="title">Осмотр прижимного уголка</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDZRN0RRWQ">
+							<div class="para p">Осмотрите прижимной уголок на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDAVR2I5QX">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDKYKYLSUA">
+							<div class="para p">Осмотрите прижимной уголок на отсутствие трещин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDQJCOHYA3">
+								<div class="para p">При необходимости выполните замену <span class="emphasis ">прижимного уголка</span>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDTC04ZFZW">
+							<div class="para p">Убедитесь в надежности крепления прижимного уголка.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDUBBCHLF3">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDXSY41LKU">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDFDGUWSPH">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDEW0MHN2I">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDQXAZXMCG">
+						<div class="title">Осмотр упорного уголка</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDZZ0MOEDC">
+							<div class="para p">Осмотрите упорный уголок на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID5S5IBJGU">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDRXLMEL1F">
+							<div class="para p">Осмотрите упорный уголок на отсутствие трещин, деформаций, разрушений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID1SOCZ2DO">
+								<div class="para p">При необходимости выполните замену <span class="emphasis ">упорного уголка</span>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID0VDKXJ54">
+							<div class="para p">Убедитесь в надежности крепления упорного уголка.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDUNLGVABE">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID5POUZXYF">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID5WSL3OLD">
+							<div class="para p">Убедитесь в отсутствии механических повреждений на крепежных элементах.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDBDX4LANX">
+								<div class="para p">При необходимости замените поврежденные крепежные элементы на новые.</div>
+							</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDX0JISZWS">
+						<div class="title">Осмотр демпфера </div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDR0AAQ434">
+							<div class="para p">Осмотрите демпфер  на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDWKRAY5H4">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID3QW1FIHX">
+							<div class="para p">Убедитесь, что демпфер надежно приклеен.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID4HWG5ITI">
+								<div class="para p">В случае повреждения клеевого соединения восстановите его <a class="dmRef  link" href="MTPM-A-20-22-02-00A-621A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="621" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="02" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-22-02-00A-621A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID3MJ2C5TB">
+							<div class="para p">Осмотрите демпфер на отсутствие трещин, разрывов, порезов, расслоений и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDEMFMDLIO">
+								<div class="para p">При наличии дефектов подклейте демпфер <a class="dmRef  link" href="MTPM-A-20-22-02-00A-621A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="621" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="02" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-22-02-00A-621A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDJOMDZFQR">
+							<div class="para p">Осмотрите демпфер на отсутствие деформаций, разрушений, стесанности и других видов износа поверхности.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDMEE4ZFGM">
+								<div class="para p">При необходимости выполните замену  <span class="emphasis ">демпфера</span>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDQBSDCI1V">
+							<div class="para p">Повторите вышеуказанные процедуры для другого демпфера.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID5NFZRRCB">
+						<div class="title">Осмотр оборудования в шкафу</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDJUCOOW0R">
+							<div class="para p">Осмотрите оборудование в шкафу на отсутствие загрязнений:</div>
+							<div class="para p">
+								<div class="randomList list  ul">
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">концевые фиксаторы;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">модульные автоматические выключатели;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">разделители;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">модульные контакторы;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">блоки дополнительных контактов;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">проходные клеммы;</div>
+									</div>
+</div>
+									<div class="listItem li">
+<div class="listItemBody">
+										<div class="para p">проходные клеммы с предохранителями.</div>
+									</div>
+</div>
+								</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDPEP22ZA4">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDGD2RG5HL">
+							<div class="para p">Осмотрите оборудование на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDKJDBXIIQ">
+								<div class="para p">При необходимости выполните замену оборудования <a class="dmRef  link" href="MTPM-A-20-11-00-00A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="1" data-subSystemCode="1" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-11-00-00A-922A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDKBJIXIQV">
+							<div class="para p">Убедитесь в надежности крепления оборудования.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDBKQDLFTH">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDQUB1OK3Y">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDLIEI1ITV">
+								<div class="para p">При необходимости выполните снятие и установку оборудования.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID25GUT3QM">
+							<div class="para p">Осмотрите провода на отсутствие загрязнений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDU2JBDVA0">
+								<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDGU3MPOTD">
+							<div class="para p">Осмотрите провода на отсутствие повреждений изоляции и экранирующих оболочек,  крутых изгибов, скручиваний, растрескиваний от термического воздействия и других механических повреждений.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDXNVQDBKN">
+								<div class="para p">При необходимости выполните замену поврежденных проводов.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDOQ52MWME">
+							<div class="para p">Убедитесь в надежности крепления проводов.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDH5IVXB4O">
+								<div class="para p">При необходимости затяните слабо затянутые крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDRJXAU5TD">
+								<div class="para p">При необходимости установите на свои места недостающие крепежные элементы.</div>
+							</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_ID2B3L4ANQ">
+								<div class="para p">При необходимости выполните снятие и установку проводов.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDIXE3FZTA">
+							<div class="para p">Убедитесь, что все модульные автоматические выключатели находятся в своем исходном положении.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDXKWZP4YB">
+								<div class="para p">При необходимости включите  автоматические выключатели <a class="dmRef  link" href="MTPM-A-20-11-00-00A-730A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="730" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="1" data-subSystemCode="1" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-11-00-00A-730A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDGC35BMQL">
+							<div class="para p">Убедитесь, что предохранители на проходных клеммах в исправном состоянии.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDBOFKR4UC">
+								<div class="para p">При необходимости замените перегоревший предохранитель на новый <a class="dmRef  link" href="MTPM-A-20-11-00-00A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="1" data-subSystemCode="1" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-11-00-00A-922A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_ID2DN1BYCV">
+					<div class="title">Заключительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDWPY10LWW">
+						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID0ETUQHB0">
+						<div class="para p">Закройте дверцу шкафа <a class="dmRef  link" href="MTPM-A-D2-70-00-00A-740A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="740" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="7" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-70-00-00A-740A-A</div>
+								</div></a>.</div>
+					</div>
+				</div>
+			</div>
+			<div class="closeRqmts" id="closeRqmts_IDC51RF3DM">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDFSNQQ5KL"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

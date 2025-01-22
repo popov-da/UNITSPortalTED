@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>11/22/24</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPM-A-00-00-00-00A-012A-A</XMLFileName>
+<DocumentFile>DMC-MTPM-A-00-00-00-00A-012A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">descript</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">00</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">012</value>
+<value name="infoName" decl-id="INFONAME" type="string">Общие предупреждения и предостережения и данные по мерам безопасности</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20240624</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPM</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">00</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">00</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Линейная траверса</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+<Picture descr="ICN-MTPM-A-002000-A-MDMKD-00001-A-001-01" flags="1">ICN-MTPM-A-002000-A-MDMKD-00001-A-001-01.svg</Picture>
+<Picture descr="ICN-MTPM-A-002000-A-MDMKD-00002-A-001-01" flags="1">ICN-MTPM-A-002000-A-MDMKD-00002-A-001-01.svg</Picture>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPM" data-systemDiffCode="A" data-systemCode="00" data-subSystemCode="0" data-subSubSystemCode="0" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="012" data-infoCodeVariant="A" data-itemLocationCode="A">MTPM-A-00-00-00-00A-012A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2024" data-month="06" data-day="24">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Линейная траверса</div>
+					<div class="infoName">Общие предупреждения и предостережения и данные по мерам безопасности</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="description levels" id="description_IDRIWKAA2S">
+			<div class="levelledPara level1 link" id="levelledPara_IDSPQ5QO3V">
+				<div class="title">Общие сведения</div>
+				<div class="para p">Настоящие меры безопасности распространяются на все этапы эксплуатации изделия. Выполнение установленных мер безопасности обязательно независимо от срочности работ и других причин.</div>
+				<div class="para p">При эксплуатации изделия обслуживающий персонал должен знать и соблюдать меры безопасности и правила технической эксплуатации (обслуживания), требования правил по охране труда (правил безопасности) при различных видах работ, а также требования инструкций по технике безопасности, действующих в эксплуатирующих организациях, местах хранения, и выполнять требования, предъявляемые нормативными документами и инструкциями изготовителя. К эксплуатации и обслуживанию изделия должны допускаться лица, изучившие настоящее рукодство по технической эксплуатации (РЭ), а также прошедшие инструктаж по технике безопасности.</div>
+				<div class="para p">При выполнении вышеуказанных работ необходимо строго соблюдать дисциплину и выполнять следующие основные правила по технике безопасности:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">все работы выполнять под руководством лица, ответственного за проведение работ;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">подъем, спуск, перемещение изделия краном, а также установку на горизонтальной поверхности производить осторожно, не допуская ударов и резких толчков;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">рабочая площадка должны быть освобождена от посторонних предметов;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">поверхность рабочей площадки должна быть ровной и очищенной от загрязнений и мусора;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">использовать только исправные приспособления, принадлежности и инструмент.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p">При эксплуатации изделия необходимо соблюдать требования:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">к персоналу;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">электробезопасности и другие правила безопасности при эксплуатации электрооборудования;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">пожарной безопасности;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">безопасности при эксплуатации оборудования;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">безопасности при проведении погрузочно-разгрузочных работ;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">безопасности при работах на высоте;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">безопасности при воздействии химических
+загрязняющих веществ.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p">Рабочая площадка должна ограждаться и охраняться. При необходимости должны выставляться рабочие для предотвращения проникновения посторонних лиц в зону строительных работ. Зона строительных работ должна быть ограждена или обозначена знаками безопасности и предупредительными надписями, а при необходимости должны быть предусмотрены предупредительные звуковые сигналы. В соответствующих местах должны быть установлены специальные таблички: «Въезд», «Выезд», «Проход закрыт», «Опасная зона», «Не стой под грузом» и другие.</div>
+				<div class="para p">Во время работ с изделием запрещается:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">присутствать в зоне выполнения работ посторонним лицам, а также работникам в нетрезвом состоянии или состоянии наркотического опьянения;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">находиться людям на поднимаемых или опускаемых конструкциях;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">поднимать или опускать людей;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">находиться людям под монтируемыми элементами конструкций и оборудованием, а также вносить какие-либо исправления в них в процессе подъема, до их установки и закрепления;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">оставлять<span class="emphasis ">
+								</span>поднятые элементы конструкций и оборудования на весу во время перерывов в работе;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">поднимать элементы конструкции, не имеющие монтажных мест или меток, обеспечивающих их правильную строповку и монтаж, а также грузы свыше 10 тонн;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">временно крепить при сборке отдельные элементы конструкций неполным крепежом;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">сбрасывать с высоты какие-либо предметы;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">допускать к месту выполнения работ лица, не связанные с проведением работ.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p"> Особую опасность представляют подвижные элементы траверсы, такие как:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">башня;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">каретки;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">цепи привода кареток;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">держатели цепи привода кареток;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">цепь привода башни;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">звездочки привода цепей;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">звездочки электродвигателей;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">кабельнесущая траковая цепь;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">овальное звено с такелажной скобой;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">цепные стропы.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p">Опасные зоны при работе с траверсой, которые представляют риск получения травм и увечий для персонала <a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-002000-A-MDMKD-00001-A-001-01.cgm" title="Наиболее опасные зоны при работе с траверсой"></a>.</div>
+				<div class="figure" id="fig-001">
+					<div class="title">Наиболее опасные зоны при работе с траверсой</div>
+					<a title="Наиболее опасные зоны при работе с траверсой" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-002000-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-002000-A-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDLHA0SO13" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-002000-A-MDMKD-00001-A-001-01.cgm">Наиболее опасные зоны при работе с траверсой</a>
+					<a title="Наиболее опасные зоны при работе с траверсой" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-002000-A-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-002000-A-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDGI5NBFEZ" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-002000-A-MDMKD-00002-A-001-01.cgm">Наиболее опасные зоны при работе с траверсой</a>
+				</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDSMWSWQF0">
+				<div class="title">Требования к персоналу</div>
+				<div class="para p">К работам с изделием допускается квалифицированный персонал, прошедший обучение по правилам эксплуатации и техники безопасности и имеющий:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">специальную подготовку;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">знания об изделии и об оборудовании, установленном на изделии;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">знания о действующей технической документации;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">практические навыки в работе в объеме функциональных обязанностей.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p">Перед началом выполнения работ персонал должен быть ознакомлен с характером, условиями выполнения работ и правилами техники безопасности, а также должен получить соответствующий инструктаж по характеру предстоящей работы с указанием возможных опасностей при выполнении работ. Инструктаж необходимо оформить записями в журнале инструктажа. При организации работ должны быть учтены реальные условия проведения работ, для обеспечения безопасности персонала.</div>
+				<div class="para p">До начала выполнения демонтажно/монтажных работ необходимо установить порядок обмена условными сигналами между лицом, руководящим монтажом и монтажниками. Все сигналы должны подаваться только одним лицом, кроме сигнала «СТОП», который может быть подан любым работником, заметившим явную опасность.</div>
+				<div class="para p">Во время работ совмещение отверстий и проверка их совпадения в монтируемых деталях должны проводиться с использованием специального инструмента. Проверять совпадение отверстий и монтируемых деталей пальцами рук категорически запрещается!</div>
+				<div class="para p">При работе на высоте более 1,5 м от земли монтажники должны использовать предохранительные пояса. При нарушении правил пользования предохранительным поясом, монтажник должен быть подвергнут административному взысканию и отстранен от работы.</div>
+				<div class="para p">Все лица, находящиеся на строительной площадке, обязаны носить защитные каски. Лица без защитных касок и других необходимых средств индивидуальной защиты к выполнению работ не допускаются!</div>
+				<div class="para p">При эксплуатации изделия следует дополнительно руководствоваться эксплуатационной документацией (ЭД) на покупные и комплектующие изделия (ПКИ), а также настоящим РЭ.</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDXFWLNFCD">
+				<div class="title">Требования электробезопасности</div>
+				<div class="para p">При эксплуатации изделия должны соблюдаться требования, которые изложены в  «Правилах технической эксплуатации
+электроустановок потребителей», «Межотраслевых правилах по охране труда при
+эксплуатации электроустановок».</div>
+				<div class="para p">При проведении работ необходимо соблюдать правила техники безопасности для
+установок с напряжением до 1000 В.</div>
+				<div class="para p">При эксплуатации изделия запрещается:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">подключать и отключать электрические соединители кабелей, находящихся под напряжением;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">включать электропитание при неисправной изоляции электрических цепей;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">включать электропитание технических средств при снятых дверцах распределительных шкафов, за исключением случаев проведения регулировки лицами, имеющими
+допуск;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">пользоваться неисправными или имеющими повреждения приборами;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">касаться открытыми частями тела деталей средств, находящихся под высоким
+напряжением;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">использовать кабели и другое электрооборудование с поврежденной изоляцией;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">отвлекать внимание лиц, работающих с аппаратурой, находящейся под напряжением.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p">При подключении (отключении) изделия к источнику силового электропитания и техническом обслуживании необходимо использовать средства индивидуальной защиты:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">диэлектрические резиновые перчатки;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">диэлектрический ковер;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">плакаты предупреждающие «НЕ ВКЛЮЧАТЬ! РАБОТАЮТ ЛЮДИ»,  «КАБЕЛЬ ПОД НАПРЯЖЕНИЕМ», «НАХОДИТСЯ ПОД НАПРЯЖЕНИЕМ!», «СТОЙ!
+НАПРЯЖЕНИЕ!» (или «ОСТОРОЖНО! ЭЛЕКТРИЧЕСКОЕ НАПРЯЖЕНИЕ!») и другие;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">инструмент с диэлектрическими ручками.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDBUUEINAM">
+				<div class="title">Требования пожарной безопасности</div>
+				<div class="para p">При эксплуатации изделия должны соблюдаться «Правила противопожарного режима в Российской Федерации»,  утвержденные постановлением Правительства
+Российской Федерации
+от 16.09.2020  № 1479.</div>
+				<div class="para p">Пожарная безопасность изделия обеспечивается:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">применяемыми конструкционными материалами;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">технологическими мероприятиями при изготовлении;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">мероприятиями по обеспечению пожарной безопасности.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p">При эксплуатации изделия запрещается:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">курить и пользоваться открытым огнем;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">нарушать установленные правила работы с легковоспламеняющимися и
+пожароопасными материалами — эмалями, лаками, клеями, растворителями,
+различными горюче-смазочными материалами;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">складывать в непосредственной близости от изделия промасленные или
+пропитанные топливом (растворителями) тряпки, ветошь, бумагу.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p">Использованную обтирочную ветошь, промасленные или пропитанные топливом
+(растворителями) материалы следует складировать в специально отведенном месте
+вне пределов рабочей площадки и далее утилизировать (отправлять на свалку, при
+отсутствии такой возможности сжигать или закапывать).</div>
+				<div class="para p">Хранение легковоспламеняющихся, самовозгораемых и других пожароопасных
+материалов должно производиться  в специально отведенных для этого
+местах и только в специальной таре.</div>
+				<div class="para p">В случае возникновения пожара необходимо:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">подать голосом тревожный сигнал «ПОЖАР» для оповещения окружающего
+(находящегося поблизости) персонала;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">немедленно сообщить по телефону в пожарную часть и вызвать пожарных;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">провести тушение очага возгорания с помощью огнетушителей и другими
+противопожарными средствами.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDVY2KDGKV">
+				<div class="title">Требования безопасности при эксплуатации оборудования, проведении погрузочно-разгрузочных работ,
+работе на высоте</div>
+				<div class="para p">Запрещается перемещение людей на изделии при его эксплуатации.</div>
+				<div class="para p">Демонтажно-монтажные и погрузочно-разгрузочные работы при скорости ветра более 15 м/с не допускаются. Запрещается нагружать изделие массой,
+превосходящей его грузоподъемность.</div>
+				<div class="para p">При работах с изделием запрещается:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">находиться под стрелой крана с поднятым изделием;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">находиться на пути возможного движения стрелы крана.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p">Не допускается самопроизвольное нарушение фиксации и изменение заданного
+положения подъемных устройств при проведении погрузочно-разгрузочных работ.</div>
+				<div class="para p">При эксплуатации изделия должны соблюдаться «Правила по охране труда при погрузочно-разгрузочных работах и размещении грузов», утвержденные приказом Министерства труда и социальной защиты РФ
+от 15.12.2020  № 753н.</div>
+				<div class="para p">Погрузочно-разгрузочные работы производить в соответствии с правилами безопасной
+эксплуатации грузоподъемных машин (подъемно-транспортного оборудования), типовыми
+инструкциями для ответственных лиц, крановщиков, стропальщиков, правилами безопасности при производстве погрузочно-разгрузочных (такелажных) работ на
+различных видах транспорта, и в соответствии с требованиями эксплуатационных
+документов на транспортные и грузоподъемные средства.</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDGOCXLVKO">
+				<div class="title">Требования безопасности при воздействии химических
+загрязняющих веществ</div>
+				<div class="para p">При работе с лакокрасочными материалами, растворителями, клеями, средствами
+дезинфекции и средствами специальной обработки необходимо соблюдать
+установленные для них правила применения и меры безопасности. При необходимости
+пользоваться соответствующими средствами защиты. При возникновении раздражения
+кожи и глаз необходимо сразу прекратить все работы и обратиться за медицинской
+помощью.</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDATBEHDVY">
+				<div class="title">Требования  к средствам защиты</div>
+				<div class="para p">При выполнении работ необходимо использовать средства индивидуальной защиты, соответствующие виду выполнемых работ:<div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">спецодежда и обувь — защита от воздействия общих производственных загрязнений и механических повреждений. При работе с красками, эмалями и т.д. необходимо использовать одноразовый комбинезон;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">каска — защита от механических повреждений;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">перчатки — защита от воздействия химических веществ, электрического тока и т.д.;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">средства защиты лица — защита от воздействия паров химических веществ.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>
