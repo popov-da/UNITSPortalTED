@@ -1,346 +1,345 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    height: 100vh;
-    color: #333;
-    display: flex;
-    overflow: hidden;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  height: 100vh;
+  color: #333;
+  display: flex;
+  overflow: hidden;
 }
 .container {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    flex-direction: row;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
 }
-
 /* Адаптивные стили для мобильных устройств */
 @media (max-width: 768px) {
-.container {
+  .container {
     flex-direction: column;
-}
-.structure {
+  }
+  .structure {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid #ddd;
-}
-.content-area {
+  }
+  .content-area {
     width: 100%;
-}
+  }
 }
 .structure {
-    width: 20%;
-    background-color: #fff;
-    border-right: 1px solid #ddd;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    overflow-y: auto;
-    transition: width 0.3s ease;
+  width: 20%;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  transition: width 0.3s ease;
 }
 .hidden {
-    width: 0;
-    padding: 0;
-    overflow: hidden;
-    transition: width 0.3s ease;
+  width: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: width 0.3s ease;
 }
 .toggle-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 8px 12px;
-    background-color: #0056b3;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    z-index: 20;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    transition: background-color 0.3s, box-shadow 0.3s;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 8px 12px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 20;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
 .toggle-button:hover {
-    background-color: #004494;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #004494;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .toggle-button span {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 h2 {
-    font-size: 1.6em;
-    color: #0056b3;
-    margin-bottom: 15px;
+  font-size: 1.6em;
+  color: #0056b3;
+  margin-bottom: 15px;
 }
 .section-title {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #333;
-    margin: 20px 0 10px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #ddd;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ddd;
 }
 .skin-tree {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 .file-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    transition: background-color 0.3s;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+  cursor: pointer;
 }
 .file-item:hover {
-    background-color: #e6f2ff;
+  background-color: #e6f2ff;
 }
 .file-item.active {
-    background-color: #d0e8ff;
-    font-weight: bold;
-    color: #3152BA;
+  background-color: #d0e8ff;
+  font-weight: bold;
+  color: #3152BA;
 }
 .icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    border-radius: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 .icon.folder {
-    background-color: #4caf50;
+  background-color: #4caf50;
 }
 .icon.file {
-    background-color: #3152BA;
+  background-color: #3152BA;
 }
 .pdf-link {
-    display: flex;
-    align-items: center;
-    color: #d9534f;
-    text-decoration: none;
-    font-size: 0.9em;
-    margin-left: 10px;
-    padding: 5px;
-    border: 1px solid #d9534f;
-    border-radius: 3px;
-    transition: background-color 0.3s, color 0.3s;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #d9534f;
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #d9534f;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
 }
 .pdf-link:hover {
-    background-color: #d9534f;
-    color: #fff;
+  background-color: #d9534f;
+  color: #fff;
 }
 .verge3d-link {
-    display: flex;
-    align-items: center;
-    color: #002B8C;
-    text-decoration: none;
-    font-size: 0.9em;
-    padding: 5px;
-    border: 1px solid #002B8C;
-    border-radius: 3px;
-    transition: background-color 0.3s, color 0.3s;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #002B8C;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #002B8C;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
 }
 .verge3d-link:hover {
-    background-color: #008c8c;
-    color: #fff;
+  background-color: #008c8c;
+  color: #fff;
 }
 .pdf-link .icon.pdf, .verge3d-link .icon.verge3d {
-    width: 18px;
-    height: 18px;
-    margin-right: 5px;
-    background-size: contain;
-    background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .pdf-link .icon.pdf {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg');
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg');
 }
 .verge3d-link .icon.verge3d {
-    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Verge3D_logo.png/237px-Verge3D_logo.png');
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Verge3D_logo.png/237px-Verge3D_logo.png');
 }
 .content-area {
-    width: 80%;
-    padding: 0;
-    position: relative;
-    transition: width 0.3s ease;
+  width: 80%;
+  padding: 0;
+  position: relative;
+  transition: width 0.3s ease;
 }
 .content-area.full-width {
-    width: 100%;
+  width: 100%;
 }
 iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /* Индикатор загрузки */
 .loading {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-    font-size: 1.5em;
-    color: #b3b3b3;
-    font-weight: bold;
-    display: none;
-    text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  font-size: 1.5em;
+  color: #b3b3b3;
+  font-weight: bold;
+  display: none;
+  text-transform: uppercase;
 }
 .loading span {
-    font-family: Arial, sans-serif;
-    letter-spacing: 1px;
-    color: #0056b3;
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;
+  color: #0056b3;
 }
 .start-page {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 5;
-    font-size: 1.2em;
-    color: #333;
-    text-align: center;
-    flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  font-size: 1.2em;
+  color: #333;
+  text-align: center;
+  flex-direction: column;
 }
 .start-page button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #0056b3;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 .start-page button:hover {
-    background-color: #004494;
+  background-color: #004494;
 }
 .start-page .item-option {
-    margin: 20px;
-    text-align: center;
-    cursor: pointer;
-    transition: transform 0.3s, box-shadow 0.3s;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: #f4f8fb; /* Легкий цвет фона для карточки */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Легкая тень */
-    width: 180px; /* Фиксированная ширина для выравнивания */
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f4f8fb; /* Легкий цвет фона для карточки */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Легкая тень */
+  width: 180px; /* Фиксированная ширина для выравнивания */
 }
 .start-page .item-option img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    transition: transform 0.3s ease; /* Плавное увеличение */
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease; /* Плавное увеличение */
 }
 .start-page .item-option:hover {
-    transform: scale(1.05); /* Увеличение карточки при наведении */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Усиление тени при наведении */
+  transform: scale(1.05); /* Увеличение карточки при наведении */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Усиление тени при наведении */
 }
 .start-page .item-option span {
-    display: block;
-    margin-top: 8px;
-    font-weight: bold;
-    color: #333;
-    font-size: 1em; /* Яркий текст подписи */
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 1em; /* Яркий текст подписи */
 }
 .toggle-button, .home-button {
-    padding: 8px 12px;
-    background-color: #fff;
-    color: #0056b3;
-    border: 1px solid #0056b3;
-    cursor: pointer;
-    border-radius: 5px;
-    z-index: 20;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s, box-shadow 0.3s;
+  padding: 8px 12px;
+  background-color: #fff;
+  color: #0056b3;
+  border: 1px solid #0056b3;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 20;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
 .toggle-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 .toggle-button:hover, .home-button:hover {
-    background-color: #e6f2ff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #e6f2ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .control-panel {
-    position: absolute;
-    left: 10px;
-    display: flex;
-    gap: 10px;
-    z-index: 100;
-    bottom: 10px;
+  position: absolute;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 100;
+  bottom: 10px;
 }
 .control-button {
-    padding: 8px;
-    background-color: #fff;
-    color: #0056b3;
-    border: 1px solid #0056b3;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    width: 40px;
-    height: 40px;
+  padding: 8px;
+  background-color: #fff;
+  color: #0056b3;
+  border: 1px solid #0056b3;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  width: 40px;
+  height: 40px;
 }
 .control-button:hover {
-    background-color: #e6f2ff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #e6f2ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .icon-home {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/66/Home_icon_blue-1.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/66/Home_icon_blue-1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
 }
 .icon-logo {
-    background-image: url('ref/LOGO.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 40px;
-    height: 40px;
+  background-image: url('ref/LOGO.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
 }
 .toggle-icon {
-    font-size: 20px;
-    color: #0056b3;
+  font-size: 20px;
+  color: #0056b3;
 }
 .select-message {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    display: none; /* Скрыто по умолчанию */
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2em;
-    color: #333;
-    text-align: center;
-    flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: none; /* Скрыто по умолчанию */
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  color: #333;
+  text-align: center;
+  flex-direction: column;
 }
 .close-button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 18px;
-    cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 18px;
+  cursor: pointer;
 }
