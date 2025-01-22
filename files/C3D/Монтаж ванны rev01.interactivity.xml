@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.480 (64-bit))-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.480 (64-bit)</ExporterVersionNumber>
+<ModificationDate>01/22/25</ModificationDate>
+<SpecID>RAPID_WORK_INSTRUCTIONS</SpecID>
+<SpecVersion>4.10</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>Монтаж ванны rev01</XMLFileName>
+<FileName>Монтаж ванны rev01</FileName>
+<DocumentFile>Монтаж ванны.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">60</Value>
+<Value name="StartAfterNavigate" type="boolean">No</Value>
+<Value name="ShowSmoothControl" type="boolean">Yes</Value>
+<Value name="ShowSpeedSelection" type="boolean">Yes</Value>
+<Value name="ShowMessagesBox" type="boolean">Yes</Value>
+<Value name="ShowFreezeCheckbox" type="boolean">Yes</Value>
+<Value name="ShowPMIBox" type="boolean">Yes</Value>
+<Value name="Enable3DPartSelection" type="boolean">Yes</Value>
+<Value name="EnablePMI" type="boolean">Yes</Value>
+<Value name="EnableWarnings" type="boolean">Yes</Value>
+<Value name="AutoNumbering" type="boolean">Yes</Value>
+<Value name="UpRight" type="boolean">No</Value>
+<Value name="3DBackgroundColor" type="color">#F4F4F4</Value>
+<Value name="ToolbarColor" type="color">#131A22</Value>
+<Value name="ToolbarBackgroundColor" type="color">#F4F4F4</Value>
+<Value name="TableFontSize" type="string">Medium</Value>
+<Value name="TableHeaderBackgroundColor" type="color">#F4F4F4</Value>
+<Value name="TableHeaderColor" type="color">#131A22</Value>
+<Value name="TableColor" type="color">#131A22</Value>
+<Value name="TableBackgroundColor" type="color">#F4F4F4</Value>
+<Value name="TableSelectedColor" type="color">#131A22</Value>
+<Value name="TableSelectedBackgroundColor" type="color">#CBD4EE</Value>
+<Value name="TableBorderColor" type="color">#858D98</Value>
+<Value name="PadsTextColor" type="color">#131A22</Value>
+<Value name="PadsBackgroundColor" type="color">#F4F4F4</Value>
+<Value name="SubHeadersTextColor" type="color">#131A22</Value>
+<Value name="SubHeadersBackgroundColor" type="color">#F4F4F4</Value>
+<Value name="MessageTextAreaFontSize" type="string">Medium</Value>
+<Value name="MessageTextAreaBackgroundColor" type="color">#F4F4F4</Value>
+<Value name="MessageTextAreaColor" type="color">#131A22</Value>
+<Value name="MessageBodyBackgroundColor" type="color">#F4F4F4</Value>
+<Value name="MessageBodyColor" type="color">#F4F4F4</Value>
+<Value name="BOMStyle" type="string">0</Value>
+<Value name="EnablePartThumbnails" type="boolean">Yes</Value>
+<Value name="DocumentStyle" type="string">0</Value>
+<Value name="RemoveSpace" type="boolean">Yes</Value>
+<Value name="SimplifyFloats" type="boolean">Yes</Value>
+<Value name="CoordinateResolution" type="string">5</Value>
+<Value name="TooltipFormat" type="string">Наименование: %[_6A7337C8022746BA8C02F29B0FC2257F]%[_6A7337C8022746BA8C02F29B0FC2257F]$ITEM$
+Обозначение: %[_F0CF006A8AC54725A80D5DC19077CD1D]%[_F0CF006A8AC54725A80D5DC19077CD1D]</Value>
+<Value name="VRMLProfile" type="string">1</Value>
+<Value name="PublicPath" type="string">
+</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="X3D" type="boolean">No</Value>
+<Value name="KeepSurfaceEdges" type="boolean">Yes</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="iOSViewpointTransitionMode" type="string">0</Value>
+<Value name="ShowAxes" type="boolean">Yes</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+<Value name="InitialAmbientOcclusion" type="boolean">No</Value>
+<Value name="InitialAntiAliasing" type="boolean">No</Value>
+<Value name="InitialOutlineHoveredObjects" type="boolean">No</Value>
+<Value name="InitialSelectionMode" type="string">0</Value>
+</Options>
+</SimulationInformation>
+<Simulation id="step137c3ff971cb471b767b747c9c05c483">
+<Description>Монтаж ванны</Description>
+<Step id="r378e239a-3e06-46b6-853d-f5bd7aff7754">
+<Description>Подготовительная операция</Description>
+<Substep id="r1fc283d1-10a5-4244-bf1e-c8a01a5e1d9a">
+<Description>Установить вид на &lt;не задано&gt;</Description>
+</Substep>
+<Substep id="r28a1d2a9-5c12-4964-bc2e-3faafe03b640">
+<Description>Показать-скрыть СМ. ДОК</Description>
+</Substep>
+</Step>
+<Step id="r3ffff9ad-f744-4914-af19-c0b25404b52a">
+<Description>Сборка</Description>
+<Substep id="r2d049d37-f024-43c7-a839-6ebd9eff0729">
+<Description>Использовать Шуруповёрт</Description>
+</Substep>
+<Substep id="r8e5770fa-1dc0-4794-8641-85117e9fa0ed">
+<Description>Ванна</Description>
+</Substep>
+<Substep id="r4dd35ed7-01c4-4ea9-81b7-f1d0ceee538e">
+<Description>Установить профили</Description>
+</Substep>
+<Substep id="r3d751bed-8bfe-4ef6-9290-9a2110936dde">
+<Description>Установить вид на wp_004.045-BAT-0000_001_A;1-Монтаж ванной_104793</Description>
+</Substep>
+<Substep id="r2d86a0d0-90d0-4df3-b2fa-bcd591c2abe8">
+<Description>Выдержать размеры</Description>
+</Substep>
+<Substep id="r732f9c13-322e-4125-b8d5-362307f03e96">
+<Description>Установить винты</Description>
+</Substep>
+<Substep id="r8bf1f54f-9722-4f13-9369-72d08a2500d1">
+<Description>Скрыть Шуруповёрт</Description>
+</Substep>
+<Substep id="reed571a6-7c81-4cac-9769-0906221effdd">
+<Description>Установить вид на &lt;не задано&gt;</Description>
+</Substep>
+<Substep id="r297d984a-a558-45a2-b19f-61a00e43f387">
+<Description>Неизвестное действие</Description>
+</Substep>
+<Substep id="r15ed1b92-0bcd-40f0-aa9d-af955248887c">
+<Description>Установить ножки</Description>
+</Substep>
+<Substep id="rdd9dc1ff-fadc-4504-a0f2-81d453a26c6f">
+<Description>Установить вид на wp_004.045-BAT-0000_001_A;1-Монтаж ванной_183846</Description>
+</Substep>
+<Substep id="r1e57ba42-5792-486f-a912-01e93a4cf2e7">
+<Description>Использовать Сифон для ванной с гидрозатвором (60 мм.), Орио, А40089</Description>
+</Substep>
+<Substep id="r2b28bb76-0be4-4be1-a2ee-d2558e7bfc75">
+<Description>Установить перелив</Description>
+<Event id="CAUTION-6E50C86B-9592-498F-A8B0-06715D9E4040">
+<Description>Прокладка устанавливается конусом наружу!</Description>
+<Type>CAUTION</Type>
+</Event>
+</Substep>
+<Substep id="r9e9e9fb5-7e40-4f66-949e-9df41979f690">
+<Description>Установка гофры</Description>
+</Substep>
+<Substep id="rb348431f-a525-4f16-b1e5-aa8401e5cfcb">
+<Description>Скрыть Ванна акриловая "Тритон" - Ультра 160, поставляется с ножками</Description>
+</Substep>
+</Step>
+<Step id="r7532d339-29af-4eaf-88e2-266d5b4dbb66">
+<Description>Установка ванны</Description>
+<Substep id="r56be0ac7-3815-4d17-94ef-3e3b997cca23">
+<Description>Установить вид на wp_004.045-BAT-0000_001_A;1-Монтаж ванной_104793</Description>
+</Substep>
+<Substep id="r75fc7972-05d8-4e60-8293-63855a9a911b">
+<Description>Установить ванну</Description>
+</Substep>
+<Substep id="r09d20520-502c-412f-9774-6559d1e2d2a2">
+<Description>Установить вид на &lt;не задано&gt;</Description>
+</Substep>
+<Substep id="r30cb7a76-7bfb-40e8-bb82-ab481e25539b">
+<Description>Установить гофру</Description>
+<Event id="MESSAGE-67CD7A14-AB61-4356-920B-D0C0D5715EEA">
+<Description>Смазать гофру смазкой по контуру</Description>
+<Type>MESSAGE</Type>
+</Event>
+</Substep>
+<Substep id="r0e30a50d-0cad-4604-b3b9-2e1ae9b9f4aa">
+<Description>Установить вид на &lt;не задано&gt;</Description>
+</Substep>
+<Substep id="r49d0e827-44de-42c9-96db-53c2d7d47909">
+<Description>Замерить высоту ванной</Description>
+</Substep>
+<Substep id="r15de8031-cf80-43fd-9f95-5195bedd2998">
+<Description>Отрегулировать ножки</Description>
+</Substep>
+<Substep id="r81a5c7fe-75b2-43d9-b561-70ee73d902c2">
+<Description>Установить HoseSpline</Description>
+</Substep>
+<Substep id="r78f28e74-32e7-4e44-ba72-82e9d86e7c73">
+<Description>Установить каркас</Description>
+</Substep>
+<Substep id="rb1da6dca-59c3-4062-8b49-1d092ba9772b">
+<Description>Сдвинуть дверцы</Description>
+</Substep>
+</Step>
+</Simulation>
+<Procedure id="step137c3ff971cb471b767b747c9c05c483">
+<Item id="r378e239a-3e06-46b6-853d-f5bd7aff7754">
+<Action id="r1fc283d1-10a5-4244-bf1e-c8a01a5e1d9a">
+</Action>
+<Item id="r09e8277e-e408-4faa-9790-94c15ad99b0d">
+<Item id="r845d4cb9-e721-4d06-8ab7-d04792ebadf4">
+<Action id="r28a1d2a9-5c12-4964-bc2e-3faafe03b640">
+</Action>
+<Description>Распаковать ванну из заводской упаковки. Произвести осмотр поддона, экрана на предмет наличия дефектов. Произвести осмотр каркаса и ножек ванны на наличие полной комплектации.</Description>
+<Text><![CDATA[
+					<h3>Распаковать ванну из заводской упаковки. Произвести осмотр поддона, экрана на предмет наличия дефектов. Произвести осмотр каркаса и ножек ванны на наличие полной комплектации.</h3>
+				]]></Text>
+</Item>
+<Comment><![CDATA[<p><span style="font-size: 138%;">Распаковать ванну из заводской упаковки. Произвести осмотр поддона, экрана на предмет наличия дефектов: трещин, повреждение лицевых поверхностей. Произвести осмотр каркаса и ножек ванны на наличие полной комплектации.</span></p>]]></Comment>
+<Description>Осмотр ванны</Description>
+<Text><![CDATA[
+				<h3>Осмотр ванны</h3>
+				
+			]]></Text>
+</Item>
+<Description>Подготовительная операция</Description>
+<Text><![CDATA[
+			<h3>Подготовительная операция</h3>
+			
+		]]></Text>
+</Item>
+<Item id="r3ffff9ad-f744-4914-af19-c0b25404b52a">
+<Item id="rfca1cecc-f512-4471-abe9-ca25c8b6cfb0">
+<Action id="r2d049d37-f024-43c7-a839-6ebd9eff0729">
+</Action>
+<Item id="r99ad3450-2c2d-41b6-b1cd-11d8b4220719">
+<Action id="r8e5770fa-1dc0-4794-8641-85117e9fa0ed">
+<Description>Ванна</Description>
+</Action>
+<Description>1.	Установить ванну на стол подсборки.</Description>
+<Text><![CDATA[
+					<h3>1.	Установить ванну на стол подсборки.</h3>
+				]]></Text>
+</Item>
+<Item id="r7371fbb8-5a92-4d98-952a-750f9c42c731">
+<Action id="r4dd35ed7-01c4-4ea9-81b7-f1d0ceee538e">
+<Description>Установить профили</Description>
+</Action>
+<Action id="r3d751bed-8bfe-4ef6-9290-9a2110936dde">
+</Action>
+<Action id="r2d86a0d0-90d0-4df3-b2fa-bcd591c2abe8">
+<Description>Выдержать размеры</Description>
+</Action>
+<Action id="r732f9c13-322e-4125-b8d5-362307f03e96">
+<Description>Установить винты</Description>
+</Action>
+<Action id="r8bf1f54f-9722-4f13-9369-72d08a2500d1">
+</Action>
+<Action id="reed571a6-7c81-4cac-9769-0906221effdd">
+</Action>
+<Action id="r297d984a-a558-45a2-b19f-61a00e43f387">
+</Action>
+<Action id="r15ed1b92-0bcd-40f0-aa9d-af955248887c">
+<Description>Установить ножки</Description>
+</Action>
+<Description>2.	Установить каркас на ванну, выдерживая размеры согласно схеме. Закрепить саморезами к фанере (под слоем акрила) на все отверстия (рис. 1). Планку выставить симметрично относительно центра ванны.</Description>
+<Text><![CDATA[
+					<h3>2.	Установить каркас на ванну, выдерживая размеры согласно схеме. Закрепить саморезами к фанере (под слоем акрила) на все отверстия. Планку выставить симметрично относительно центра ванны.</h3>
+				]]></Text>
+</Item>
+<Item id="rd7d5e69f-9b6b-47e0-a2b6-696f2d6efe25">
+<Action id="rdd9dc1ff-fadc-4504-a0f2-81d453a26c6f">
+</Action>
+<Action id="r1e57ba42-5792-486f-a912-01e93a4cf2e7">
+</Action>
+<Action id="r2b28bb76-0be4-4be1-a2ee-d2558e7bfc75">
+<Description>Установить перелив</Description>
+</Action>
+<Description>3.	Установить слив на поддон. Вывод в сливе установить в сторону сливного отверстия в стене (рис.1,2).</Description>
+<Text><![CDATA[
+					<h3>3.	Установить слив на поддон. Вывод в сливе установить в сторону сливного отверстия в стене.</h3>
+				]]></Text>
+</Item>
+<Item id="r365e0b51-05be-412a-a605-18f903070245">
+<Action id="r9e9e9fb5-7e40-4f66-949e-9df41979f690">
+<Description>Установка гофры</Description>
+</Action>
+<Action id="rb348431f-a525-4f16-b1e5-aa8401e5cfcb">
+</Action>
+<Description>4.	Установить гофру на слив (рис. 1).</Description>
+<Text><![CDATA[
+					<h3>4.	Установить гофру на слив.</h3>
+				]]></Text>
+</Item>
+<Description>Сборка ванны</Description>
+<Text><![CDATA[
+				<h3>Сборка ванны</h3>
+				
+				
+				
+				
+			]]></Text>
+</Item>
+<Description>Сборка</Description>
+<Text><![CDATA[
+			<h3>Сборка</h3>
+			<p>
+				Шуруповёрт
+				Сифон для ванной с гидрозатвором (60 мм.), Орио, А40089
+				Ванна акриловая "Тритон" - Ультра 160, поставляется с ножками
+				Отвёртка
+			</p>
+			
+		]]></Text>
+</Item>
+<Item id="r7532d339-29af-4eaf-88e2-266d5b4dbb66">
+<Action id="r56be0ac7-3815-4d17-94ef-3e3b997cca23">
+</Action>
+<Item id="rb2458ac9-331d-424f-a170-d9da5e10ef5e">
+<Item id="ra6a2cc10-80a6-41b4-807a-06942744b417">
+<Action id="r75fc7972-05d8-4e60-8293-63855a9a911b">
+<Description>Установить ванну</Description>
+</Action>
+<Action id="r09d20520-502c-412f-9774-6559d1e2d2a2">
+</Action>
+<Action id="r30cb7a76-7bfb-40e8-bb82-ab481e25539b">
+<Description>Установить гофру</Description>
+</Action>
+<Description>1.	Установить ванну в санузел модуля, при этом направление слива поддона и отверстия в стене должны совпадать. Гофру вставить в отверстие в стене, предварительно смазав смазкой по контуру.</Description>
+<Text><![CDATA[
+					<h3>1.	Установить ванну в санузел модуля, при этом направление слива поддона и отверстия в стене должны совпадать. Гофру вставить в отверстие в стене, предварительно смазав смазкой по контуру.</h3>
+				]]></Text>
+</Item>
+<Item id="r7633446b-25f2-48a4-81e7-545864410dd4">
+<Action id="r0e30a50d-0cad-4604-b3b9-2e1ae9b9f4aa">
+</Action>
+<Action id="r49d0e827-44de-42c9-96db-53c2d7d47909">
+<Description>Замерить высоту ванной</Description>
+</Action>
+<Action id="r15de8031-cf80-43fd-9f95-5195bedd2998">
+<Description>Отрегулировать ножки</Description>
+</Action>
+<Description>2.	Выставить регулировкой ножек ванны необходимую высоту от пола - 610 мм, при это должен перекрыться шов между 3 и 4 плитками (считать от пола).</Description>
+<Text><![CDATA[
+					<h3>2.	Выставить регулировкой ножек ванны необходимую высоту от пола - 610 мм, при это должен перекрыться шов между 3 и 4 плитками (считать от пола).</h3>
+				]]></Text>
+</Item>
+<Item id="r2dcfbef2-fa6e-4863-bfa7-4af71ba24987">
+<Action id="r81a5c7fe-75b2-43d9-b561-70ee73d902c2">
+</Action>
+<Description>3.	Засиликонить шов между ванной и стеной (технологи нанесения в отдельной ТК).</Description>
+<Text><![CDATA[
+					<h3>3.	Засиликонить шов между ванной и стеной (технологи нанесения в отдельной ТК).</h3>
+				]]></Text>
+</Item>
+<Item id="r775d2641-bbfe-4d11-b294-51a53aaf441a">
+<Action id="r78f28e74-32e7-4e44-ba72-82e9d86e7c73">
+<Description>Установить каркас</Description>
+</Action>
+<Action id="rb1da6dca-59c3-4062-8b49-1d092ba9772b">
+<Description>Сдвинуть дверцы</Description>
+</Action>
+<Description>4.	Установить экран под ванну.</Description>
+<Text><![CDATA[
+					<h3>4.	Установить экран под ванну.</h3>
+				]]></Text>
+</Item>
+<Description>Произвести установку ванны</Description>
+<Text><![CDATA[
+				<h3>Произвести установку ванны</h3>
+				
+				
+				
+				
+			]]></Text>
+</Item>
+<Description>Установка ванны</Description>
+<Text><![CDATA[
+			<h3>Установка ванны</h3>
+			<p>
+				Экран для ванной. "Сибпласт (Метакам)" Панель фронтальная
+				Ванна акриловая "Тритон" - Ультра 160, поставляется с ножками
+				Сантехническая смазка Ostendorf
+			</p>
+			
+		]]></Text>
+</Item>
+</Procedure>
+<DocItems>
+<DocItem id="Шуруповёрт_1" objectID="1965174727920">
+<metadata>
+<value name="DocID" decl-id="DocID" type="string">id001</value>
+<value name="Наименование" decl-id="_6A7337C8022746BA8C02F29B0FC2257F" type="string">Шуруповёрт</value>
+<value name="Количество" decl-id="_F519A19D050D45A68584453C44EA85DC" type="string">1</value>
+</metadata>
+<tooltip>Наименование: ШуруповёртШуруповёртШуруповёрт
+Обозначение: [][]</tooltip>
+</DocItem>
+<DocItem id="Экран_для_ванной___Сибпласт_(Метакам)__Панель_фронтальная_2d" objectID="1965174737920">
+<metadata>
+<value name="DocID" decl-id="DocID" type="string">id002</value>
+<value name="Наименование" decl-id="_6A7337C8022746BA8C02F29B0FC2257F" type="string">Экран для ванной. "Сибпласт (Метакам)" Панель фронтальная</value>
+<value name="Количество" decl-id="_F519A19D050D45A68584453C44EA85DC" type="string">1</value>
+</metadata>
+<tooltip>Наименование: Экран для ванной. "Сибпласт (Метакам)" Панель фронтальнаяЭкран для ванной. "Сибпласт (Метакам)" Панель фронтальнаяЭкран для ванной. "Сибпласт (Метакам)" Панель фронтальная
+Обозначение: [][]</tooltip>
+</DocItem>
+<DocItem id="Ванна_акриловая__Тритон__-_Ультра_160__поставляется_с_ножками_8c" objectID="1965174758480">
+<metadata>
+<value name="DocID" decl-id="DocID" type="string">id003</value>
+<value name="Наименование" decl-id="_6A7337C8022746BA8C02F29B0FC2257F" type="string">Ванна акриловая "Тритон" - Ультра 160, поставляется с ножками</value>
+</metadata>
+<tooltip>Наименование: Ванна акриловая "Тритон" - Ультра 160, поставляется с ножкамиВанна акриловая "Тритон" - Ультра 160, поставляется с ножкамиВанна акриловая "Тритон" - Ультра 160, поставляется с ножками
+Обозначение: [][]</tooltip>
+</DocItem>
+<DocItem id="Сифон_для_ванной_с_гидрозатвором_(60_мм_)__Орио__А40089_b0" objectID="1965174766000" parent-id="Ванна_акриловая__Тритон__-_Ультра_160__поставляется_с_ножками_8c">
+<metadata>
+<value name="DocID" decl-id="DocID" type="string">id003</value>
+<value name="Наименование" decl-id="_6A7337C8022746BA8C02F29B0FC2257F" type="string">Сифон для ванной с гидрозатвором (60 мм.), Орио, А40089</value>
+<value name="Количество" decl-id="_F519A19D050D45A68584453C44EA85DC" type="string">1</value>
+</metadata>
+<tooltip>Наименование: Сифон для ванной с гидрозатвором (60 мм.), Орио, А40089Сифон для ванной с гидрозатвором (60 мм.), Орио, А40089Сифон для ванной с гидрозатвором (60 мм.), Орио, А40089
+Обозначение: [][]</tooltip>
+</DocItem>
+<DocItem id="Сантехническая_смазка_Ostendorf_d7" objectID="1965174777200">
+<metadata>
+<value name="DocID" decl-id="DocID" type="string">id004</value>
+<value name="Наименование" decl-id="_6A7337C8022746BA8C02F29B0FC2257F" type="string">Сантехническая смазка Ostendorf</value>
+</metadata>
+<tooltip>Наименование: Сантехническая смазка OstendorfСантехническая смазка OstendorfСантехническая смазка Ostendorf
+Обозначение: [][]</tooltip>
+</DocItem>
+<DocItem id="Отвёртка_da" objectID="1965174778720">
+<metadata>
+<value name="DocID" decl-id="DocID" type="string">id004</value>
+<value name="Наименование" decl-id="_6A7337C8022746BA8C02F29B0FC2257F" type="string">Отвёртка</value>
+</metadata>
+<tooltip>Наименование: ОтвёрткаОтвёрткаОтвёртка
+Обозначение: [][]</tooltip>
+</DocItem>
+</DocItems>
+<Resources>
+</Resources>
+<DocumentTemplate><![CDATA[]]></DocumentTemplate>
+</SimulationInteractivity>
