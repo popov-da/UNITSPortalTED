@@ -1,0 +1,205 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="4" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="08" day="02"></issueDate>
+<dmTitle>
+<techName>Тормозной механизм</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+				Тормозной механизм предназначен для остановки и фиксации кареток в заданном положении.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>Тормозной механизм состоит из двух одинаковых частей, которые зеркально отражены относительно центра траверсы. В состав одной части тормозного механизма входят:<randomList>
+<listItem>
+<para>крышка корпуса (1 шт.);</para>
+</listItem>
+<listItem>
+<para>внешний корпус (1 шт.);</para>
+</listItem>
+<listItem>
+<para>внутренний корпус (1 шт.);</para>
+</listItem>
+<listItem>
+<para>центровочное кольцо (1 шт.);</para>
+</listItem>
+<listItem>
+<para>задняя крышка корпуса (1 шт.);</para>
+</listItem>
+<listItem>
+<para>тормозное колесо (1 шт.);</para>
+</listItem>
+<listItem>
+<para>блокиратор (1 шт.);</para>
+</listItem>
+<listItem>
+<para>эксцентрик (1 шт.);</para>
+</listItem>
+<listItem>
+<para>шаговый двигатель тормоза (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики тормозного механизма <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики тормозного механизма</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры, мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>240×160×155</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>13,7</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Тормозной механизм установлен на валу ведущей звездочки и закреплен корпусом к кронштейну вала ведущей звездочки с помощью шести утопленных винтов.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Тормозной механизм представляет собой корпус, в котором установлены тормозное колесо, блокиратор и эксцентрик.</para>
+<levelledPara>
+<title>Корпус</title>
+<para>Корпус тормозного механизма состоит из крышки корпуса,  внешнего корпуса, внутреннего корпуса, центровочного кольца и задней крышки корпуса.</para>
+<para>Крышка корпуса,  внешний корпус, внутренний корпус и задняя крышка корпуса изготовлены из низколегированной конструкционной стали марки 09Г2С, а центровочное кольцо  изготовлено из низколегированной стали марки 40Х с цинковым бесцветным покрытием.</para>
+<para>В конструкции крышки корпуса предусмотрено отверстие для вала ведущей звездочки и отверстие для эксцентрика. Для крепления крышки к внешнему корпусу выполнено семь отверстий под установку винтов и шесть отверстий для обеспечния доступа к винтам установки тормозного механизма.</para>
+<para>Внешний корпус, внутренний корпус и задняя крышка корпуса имеют шесть  отверстий для установки винтов крепления конструкции к кронштейну вала ведущей звездочки. Для позиционирования компонентов предусмотрены два штифта, которые установлены в отверстия в задней крышке, внутреннем и внешнем корпусах.</para>
+<para>В конструкции задней крышки корпуса имеется отверстие для установки вала тормозного шагового двигателя.  Для крепления корпуса тормозного шагового двигателя предусмотрено четыре резьбовых отверстия на задней крышке и  внутреннем корпусе. В задней крышке выполнено отверстие для установки центровочного кольца, а также шесть резьбовых отверстий для его крепления.</para>
+<para>В центровочном кольце имеется отверстие, предназначенное для центрирования и установки вала ведущей звездочки.</para>
+</levelledPara>
+<levelledPara>
+<title>Тормозное колесо</title>
+<para>  Тормозное колесо  изготовлено  из легированной стали. В конструкции по внешнему контору тормозного колеса предусмотрено шесть пазов, обеспечивающих фиксацию колеса упором блокиратора. В центральной части имеется отверстие с четыремя пазами для установки на вал ведущей шестерни.</para>
+</levelledPara>
+<levelledPara>
+<title>Блокиратор</title>
+<para>Блокиратор сделан из    низколегированной конструкционной стали марки 09Г2С. Эксцентрик устанавливается в овальное отверстие, выполненное в блокираторе. С противоположной стороны от овального отверстия блокиратор оснащен упором, который  обеспечивает фиксацию тормозного колеса.</para>
+</levelledPara>
+<levelledPara>
+<title>Эксцентрик</title>
+<para>Эксцентрик изготовлен из легированной стали марки 40Х. Конструкция представляет собой цилиндр со смещенным центровым отверстием. В отверстие эксцентрика устанавливается  вал шагового двигателя тормоза, который крепится с помощью одного винта.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para> Вал тормозного шагового двигателя  приводит в движение эксцентрик. Эксцентрик за счет вращения вокруг своей оси перемещает упор блокиратора в паз тормозного колеса. Тормозное колесо блокирует вращение вала ведущей звездочки и фиксирует каретку в заданном положении.</para>
+<figure id="fig-001">
+<title>Тормозной механизм</title>
+<graphic infoEntityIdent="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_036" applicationStructureName="ВИНТ х6"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_037" applicationStructureName="ВИНТ х6"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_027" applicationStructureName="ЦЕНТРОВОЧНОЕ КОЛЬЦО "></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_038" applicationStructureName="ТОРМОЗНОЕ КОЛЕСО"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_387" applicationStructureName="КРЫШКА  КОРПУСА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_015" applicationStructureName="КРЫШКА  КОРПУСА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_003" applicationStructureName="ВНЕШНИЙ  КОРПУС"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_007" applicationStructureName="ВНЕШНИЙ КОРПУС"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_004" applicationStructureName="ВНУТРЕННИЙ КОРПУС"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_017" applicationStructureName="ВНУТРЕННИЙ КОРПУС"></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_001" applicationStructureName="ЗАДНЯЯ КРЫШКА КОРПУСА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_016" applicationStructureName="ЗАДНЯЯ КРЫШКА КОРПУСА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_008" applicationStructureName="ШАГОВЫЙ ДВИГАТЕЛЬ ТОРМОЗА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-014" applicationStructureIdent="AUTOID_034" applicationStructureName="ВИНТ х7"></hotspot>
+<hotspot id="fig-001-gra-001-hot-015" applicationStructureIdent="AUTOID_005" applicationStructureName="ЭКСЦЕНТРИК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-016" applicationStructureIdent="AUTOID_029" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-017" applicationStructureIdent="AUTOID_030" applicationStructureName="БЛОКИРАТОР"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_024" applicationStructureName="ЭКСЦЕНТРИК"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="ЭКСЦЕНТРИК"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_006" applicationStructureName="БЛОКИРАТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_025" applicationStructureName="БЛОКИРАТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_004" applicationStructureName="ШТИФТ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_026" applicationStructureName="ТОРМОЗНОЕ КОЛЕСО"></hotspot>
+<hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_028" applicationStructureName="ТОРМОЗНОЕ КОЛЕСО"></hotspot>
+<hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_005" applicationStructureName="ШТИФТ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

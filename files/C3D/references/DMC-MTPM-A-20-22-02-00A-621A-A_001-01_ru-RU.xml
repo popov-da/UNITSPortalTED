@@ -1,0 +1,187 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="2" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="621" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="07" day="22"></issueDate>
+<dmTitle>
+<techName>Склеивание клеем</techName>
+<infoName>Склеивание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Кисть филеночная</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber>КФК8 ГОСТ Р 58516-2019</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Термогигрометр ИВА-6Н</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Секундомер</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Ролик раскатной</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Клей</name>
+<supplyRef supplyNumber="88-НП ТУ 38 105540-85" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning id="wrn-001">
+<warningAndCautionPara>СОБЛЮДАЙТЕ ПРАВИЛА ПОЖАРНОЙ БЕЗОПАСНОСТИ, ПРАВИЛА ЗАЩИТЫ
+ОТ СТАТИЧЕСКОГО ЭЛЕКТРИЧЕСТВА.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ПРИМЕНЕНИЕ ОТКРЫТОГО ОГНЯ.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ КУРЕНИЕ НА РАБОЧЕМ МЕСТЕ.</warningAndCautionPara>
+<warningAndCautionPara>РАБОТЫ ПРОВОДЯТСЯ ТОЛЬКО В
+СПЕЦОДЕЖДЕ.</warningAndCautionPara>
+</warning>
+<warning id="wrn-002">
+<warningAndCautionPara>СОБЛЮДАЙТЕ МЕРЫ
+ПРЕДОСТОРОЖНОСТИ ПРИ РАБОТЕ С МАТЕРИАЛАМИ.  </warningAndCautionPara>
+<warningAndCautionPara>НЕ ПОДНОСИТЕ МАТЕРИАЛЫ КО РТУ.</warningAndCautionPara>
+<warningAndCautionPara>ИЗБЕГАЙТЕ ВДЫХАНИЯ ЯДОВИТЫХ
+ПАРОВ, ВЫДЕЛЯЕМЫХ МАТЕРИАЛАМИ. </warningAndCautionPara>
+<warningAndCautionPara>ОБРАТИТЕСЬ ЗА МЕДИЦИНСКОЙ ПОМОЩЬЮ ПРИ ВОЗНИКНОВЕНИИ
+РАЗДРАЖЕНИЯ КОЖИ И ГЛАЗ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Наденьте спецодежду: комбинезон, респиратор аэрозольный, перчатки, очки.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ к месту выполнения работ.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните подготовку поверхностей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="254" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="2" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Нанесение клея</title>
+<proceduralStep>
+<para>Нанесите первый слой клея на склеиваемые поверхности.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Высушите первый слой клея при температуре окружающей среды не менее плюс 15 °С в
+течение (15 ± 1) мин.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите второй слой клея.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Высушите второй слой клея при температуре окружающей среды не менее плюс 15 °С в
+течение (5 ± 1) мин.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Прижмите плотно друг к другу поверхности с нанесенным клеем.</para>
+<note id="not-001">
+<notePara>При необходимости склеиваемые поверхности прикатывают последовательно гладким роликом от центра склеивания в двух
+противоположных направлениях.</notePara>
+</note>
+</proceduralStep>
+<proceduralStep>
+<para>Выдержите склеиваемые поверхности не менее 24 ч.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

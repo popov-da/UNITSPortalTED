@@ -1,0 +1,175 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="B0" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="02"></issueDate>
+<dmTitle>
+<techName>Башня</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+				Башня предназначена для установки и крепления крюка или другого такелажного элемента подъемного устройства, а также балансировки траверсы в заданных условиях эксплуатации.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав башни входят:<randomList>
+<listItem>
+<para>такелажный элемент (1 шт.);</para>
+</listItem>
+<listItem>
+<para>стержень (1 шт.);</para>
+</listItem>
+<listItem>
+<para>крышка башни (2 шт.);</para>
+</listItem>
+<listItem>
+<para>стенка (2 шт.);</para>
+</listItem>
+<listItem>
+<para>опора (4 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики башни <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики башни</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>1183×580×844</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>456</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Максимальный угол отклонения траверсы при балансировке башни, не более</para>
+</entry>
+<entry colname="col2">
+<para>10°</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Башня установлена сверху на основании траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Башня представляет собой сборную конструкцию из стенок, крышек башни, опор и такелажного элемента с возможностью перемещения в горизонтальной плоскости относительно основания траверсы.</para>
+<levelledPara>
+<title>Стенка</title>
+<para>В конструкции башни предусмотрено две стенки. Стенки являются основными силовыми элементами башни. К стенке, установленной с передней стороны траверсы, приварены четыре кронштейна установки редуктора башни. К стенке, установленной с задней стороны траверсы, приварены два уха для установки штифта. В остальном стенки имеют идентичную конструкцию. Обе стенки изготовлены из стального листа марки 09Г2С толщиной 20 мм и имеют с торцевой стороны по 12 отверстий с метрической резьбой М6 под установку крышек башни. На каждой стенке с помощью четырех болтов установлены упорные стенки.</para>
+</levelledPara>
+<levelledPara>
+<title>Крышка башни</title>
+<para>В конструкции  имеется две идентичные крышки башни. Крышка изготовлена из стального листа марки 09Г2С толщиной 3 мм. В крышке выполнено 12 отверстий диаметром 6,5 мм. Крышка крепится сверху на стенки башни с помощью 12 болтов, создавая таким образом закрытую конструкцию и защищая элементы системы перемещения башни от прямого попадания посторонних предметов или мусора сверху.</para>
+</levelledPara>
+<levelledPara>
+<title>Опора</title>
+<para>В конструкции башни предусмотрено четыре опоры. Опоры устанавливаются симметрично относительно стенок, по две с каждой стороны. Каждая опора крепится к стенке с помощью болтового соединения, состоящего из четырех болтов и гаек. Все опоры имеют одинаковый состав и конструкцию, за исключением опоры, установленной с передней стороны траверсы слева. К ней крепятся кронштейн кабельной цепи, кронштейн жгута и кронштейн-мишень. Каждая опора представляет собой сварную конструкцию из стали марки 09Г2С. Опоры обеспечивают основную устойчивость и перемещение башни относительно основания траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Такелажный элемент</title>
+<para>Конструкция башни оснащена такелажным элементом, установленным в верхней части башни между двух стенок. Такелажный элемент представляет собой сборную конструкцию из стенок и проставки выполненную из стали марки 09Г2С. В такелажном элементе выполнено четыре отверстия. Два по центру для крепежа его сборки, одно для его фиксации между стенок башни, и одно для установки такелажной скобы. Цельная конструкция образуется с помощью болтовых соединений.</para>
+</levelledPara>
+<levelledPara>
+<title>Стержень</title>
+<para>Стержень изготовлен из  конструкционной легированной стали марки 40Х. Он предназначен для фиксации такелажного элемента. Стержень устанавливается перпендикулярно в отверстия в стенках башни и в самом такелажном элементе. Стержень фиксируется с помощью штифта со шплинтом.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Башня</title>
+<graphic infoEntityIdent="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" xlink:type="simple">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_010" applicationStructureName="ТАКЕЛАЖНЫЙ ЭЛЕМЕНТ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_015" applicationStructureName="ШТИФТ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_008" applicationStructureName="СТЕРЖЕНЬ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_017" applicationStructureName="ШПЛИНТ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_012" applicationStructureName="СТЕНКА х2" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_004" applicationStructureName="УПОРНАЯ СТЕНКА х2" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_013" applicationStructureName="КРЫШКА БАШНИ х2" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_005" applicationStructureName="ПЛАСТИНКА ПОД УСТАНОВКУ РЕДУКТОРА БАШНИ х4" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_014" applicationStructureName="ОПОРА х4" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_007" applicationStructureName="КРОНШТЕЙН КАБЕЛЬНОЙ ЦЕПИ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_009" applicationStructureName="КРОНШТЕЙН ПОД ЖГУТ" hotspotTitle=""></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

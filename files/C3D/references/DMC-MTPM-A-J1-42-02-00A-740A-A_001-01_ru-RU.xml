@@ -1,0 +1,119 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-J14202-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-J14202-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="J1" subSystemCode="4" subSubSystemCode="2" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="740" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="20"></issueDate>
+<dmTitle>
+<techName>Вентиляционная решетка</techName>
+<infoName>Процедуры закрытия доступа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<noSupportEquips></noSupportEquips>
+</reqSupportEquips>
+<reqSupplies>
+<noSupplies></noSupplies>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning id="wrn-001">
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Закрытие доступа</title>
+<proceduralStep>
+<para>Закройте решетку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>  вентиляции.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте плотное прилегание решетки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> к корпусу.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Проконтролируйте фиксацию защелки  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в замке вентеляционной решетки.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Установите распределительное устройство АКБ № 1 <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> для обеспечения закрытия доступа к нижней вентиляционной	 решетке.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите распределительное устройство АКБ № 2 <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="04" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>  для обеспечения закрытия доступа к нижне	 вентиляционной	 решетке.</para>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-001">
+<title>Закрытие доступа</title>
+<graphic infoEntityIdent="ICN-MTPM-A-J14202-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-J14202-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_018" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_019" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_023" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_024" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_026" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_027" applicationStructureName="2"></hotspot>
+</graphic>
+</figure>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

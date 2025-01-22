@@ -1,0 +1,411 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="7" subSubSystemCode="0" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="11" day="06"></issueDate>
+<dmTitle>
+<techName>Распределительные устройства АКБ</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+						Распределительные устройства аккумуляторных батарей (АКБ) предназначены для:<randomList>
+<listItem>
+<para>размещения оборудования;</para>
+</listItem>
+<listItem>
+<para>подключения зарядной станции и зарядки АКБ;</para>
+</listItem>
+<listItem>
+<para>распределения электроэнергии постоянного тока напряжением 5 В, 12 В, 24 В между потребителями;</para>
+</listItem>
+<listItem>
+<para>приема и перераспределения дискретных сигналов 24 В;</para>
+</listItem>
+<listItem>
+<para>транзитной передачи электроэнергии постоянного тока напряжением 12 В, 24 В и дискретных сигналов 24 В.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>						Распределительные устройства (РУ) АКБ состоит из двух одинаковых частей, которые зеркально
+отражены относительно центра траверсы. В состав одной части РУ АКБ входят:<randomList>
+<listItem>
+<para>шкаф (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>кронштейн (2 шт.);</para>
+</listItem>
+<listItem>
+<para>вентилятор (2 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>вентиляционная решетка (2 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>репей (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>аккумулятор (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="2" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>светодиодный индикатор (3 шт.);</para>
+</listItem>
+<listItem>
+<para>кнопка аварийной остановки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>выключатель нагрузки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модульный автоматический выключатель (2 шт.);</para>
+</listItem>
+<listItem>
+<para>сигнальный контакт (2 шт.);</para>
+</listItem>
+<listItem>
+<para>модульный контактор (3 шт.);</para>
+</listItem>
+<listItem>
+<para>дополнительный контактный модуль (3 шт.);</para>
+</listItem>
+<listItem>
+<para>проходная клемма (22 шт.);</para>
+</listItem>
+<listItem>
+<para>проходная клемма с предохранителем (4 шт.);</para>
+</listItem>
+<listItem>
+<para>проходная клемма с заземлением (2 шт.);</para>
+</listItem>
+<listItem>
+<para>разделитель (3 шт.);</para>
+</listItem>
+<listItem>
+<para>концевой фиксатор (2 шт.);</para>
+</listItem>
+<listItem>
+<para>DIN-рейка (1 шт.);</para>
+</listItem>
+<listItem>
+<para>перфорированный кабельный канал (4 шт.);</para>
+</listItem>
+<listItem>
+<para>крышка перфорированного кабельного канала (4 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики РУ АКБ <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики распределительного устройста АКБ</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>702×280×485</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>???</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>РУ АКБ размещено на основание траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>РУ АКБ 
+представляет собой шкаф с двумя кронштейнами, внутри которого размещены АКБ и коммутационное оборудование.</para>
+<levelledPara>
+<title>Шкаф</title>
+<para>Шкаф состоит из металлического каркаса, дверца и двух замков. Для транспортировки РУ АКБ на верхней части корпуса предусмотрены отверстия для рым-болтов. На корпусе шкафа имеются отверстия для установки вентиляционных решеток, вентиляторов и электрических соединителей. На дверце шкафа предусмотрены отверстия для установки вентиляционной решетки,  базовой станции, индикаторов, кнопки аварийного остановки и выключателя нагрузки. В шкафу имеется основание для установки АКБ, а для надежной фиксации его предусмотрены прижимные упоры, которые крепятся к основанию. Для плотного прилегания упоров к АКБ к ним приклеены резиновые уплотнители. Также в шкафу предусмотрена монтажная панель, на которую устанавливают навесное оборудование. </para>
+</levelledPara>
+<levelledPara>
+<title>Кронштейн</title>
+<para>Кроштейн представляет собой сварную конструкцию из полки, стенки и косынки. В кронштейне предусмотрены отверстия для крепления к шкафу и для установки на траверсу.</para>
+</levelledPara>
+<levelledPara>
+<title>Светодиодный индикатор</title>
+<para>В шкафу установлено три светодиодных индикатора:<randomList>
+<listItem>
+<para>индикатор зарядки АКБ зеленого цвета предназначен для отображения наличия питания от зарядной станции. Его включение сигнализирует о том, что питание от зарядной станции подается на систему и АКБ начинает процесс зарядки;</para>
+</listItem>
+<listItem>
+<para>индикатор блокировки АКБ желтого цвета используется для отображения состояния блокировки контактора АКБ. Этот индикатор загорается в случае, когда цепи контактора АКБ разомкнуты, сигнализируя об отсутствии возможности зарядки или разрядки АКБ;</para>
+</listItem>
+<listItem>
+<para>индикатор состояния АКБ желтого цвета предназначен для отображения уровня заряда АКБ. Его включение сигнализирует о том, что заряд АКБ ниже установленного минимального уровня напряжения. </para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Кнопка аварийной остановки</title>
+<para>Кнопка аварийной остановки (КАО) служит для быстрого снятия напряжения с реле управления и остановки силовых агрегатов.</para>
+</levelledPara>
+<levelledPara>
+<title>Выключатель нагрузки</title>
+<para>Выключатель нагрузки позволяет включать и отключать цепи питания.</para>
+</levelledPara>
+<levelledPara>
+<title>Модульный автоматический выключатель</title>
+<para>Модульный автоматический выключатель (автомат защиты) предназначен для автоматического отключения электрической цепи при возникновении коротких замыканий или перегрузок.</para>
+</levelledPara>
+<levelledPara>
+<title>Сигнальный контакт</title>
+<para>Сигнальный контакт (СК) предназначен для сигнализации аварийного срабатывания при возникновении коротких замыканий или перегрузок.</para>
+</levelledPara>
+<levelledPara>
+<title>Модульный контактор</title>
+<para>В шкафу установлено три модульных контактора:<randomList>
+<listItem>
+<para>контактор зарядной станции предназначен для коммутации цепи с напряжением 12 В, поступающим от зарядной станции, до шины зарядки;</para>
+</listItem>
+<listItem>
+<para>контактор РУ АКБ  предназначен для коммутации цепи с напряжением 12 В, поступающим от РУ АКБ , до шины зарядки;</para>
+</listItem>
+<listItem>
+<para>контактор АКБ предназначен для коммутации цепи напряжения 12 В от шины зарядки до АКБ.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Дополнительный контактный модуль</title>
+<para>Дополнительный контактный модуль (ДКМ) предназначен для расширения функциональности контакторов, обеспечивая дополнительные контакты для коммутации электрических цепей.</para>
+</levelledPara>
+<levelledPara>
+<title>Проходная клемма</title>
+<para>Проходная клемма предназначена  для соединения двух и более проводников. Она также используется для создания клеммных блоков, через которые осуществляется распределение сигнала на потребителей.  </para>
+<para>В шкафу установлено 18 проходные клеммы:<randomList>
+<listItem>
+<para>четыре проходные клеммы 1745230000 предназначен для подключения плюсовых контактов АКБ и модульных контакторов;</para>
+</listItem>
+<listItem>
+<para>четыре проходные клеммы 1745240000 предназначен для подключения минусовых контактов АКБ и модульных контакторов;</para>
+</listItem>
+<listItem>
+<para>клеммный блок из четырех проходных клемм 1689990000 предназначен для распределения силового питания 24 В по потребителям;</para>
+</listItem>
+<listItem>
+<para>клеммный блок из шести проходных клемм 1674300000 предназначен для распределения дискретного сигнала 24 В от потребителей;</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Проходная клемма с предохранителем</title>
+<para>Проходная клемма с предохранителем предназначена  для соединения двух и более проводников, а также для защиты электрических цепей от перегрузок и коротких замыканий.</para>
+</levelledPara>
+<levelledPara>
+<title>Проходная клемма с заземлением</title>
+<para>Проходная клемма с заземлением предназначена для соединения двух и более проводников, а также для организации защитного заземления электрических цепей.</para>
+</levelledPara>
+<levelledPara>
+<title>Разделитель</title>
+<para>Разделитель обеспечивает  рабочий зазор между контакторами для штатного охлаждения.</para>
+</levelledPara>
+<levelledPara>
+<title>Концевой фиксатор</title>
+<para>Концевой фиксаторобеспечивает фиксацию и ограничивает перемещение установленного оборудования на DIN-рейке.</para>
+</levelledPara>
+<levelledPara>
+<title>DIN-рейка</title>
+<para>DIN-рейка обеспечивает установку оборудования на монтажную панель.</para>
+</levelledPara>
+<levelledPara>
+<title>Перфорированный кабельный канал</title>
+<para>Перфорированный кабельный канал предназначен для прокладки проводников и кабелей, а также для обеспечения их вентиляции.</para>
+</levelledPara>
+<levelledPara>
+<title>Крышка перфорированного кабельного канала</title>
+<para>Крышка перфорированного кабельного канала предназначена для защиты кабелей и проводников от механических повреждений, пыли и загрязнений, а также для предотвращения случайного контакта с проводниками.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Распределительное устройство АКБ с оборудованием </title>
+<graphic infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_018" applicationStructureName="ВЕНТИЛЯЦИОННАЯ  РЕШЕТКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_036" applicationStructureName="ВЕНТИЛЯЦИОННАЯ  РЕШЕТКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="ВЕНТИЛЯТОР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_003" applicationStructureName="БАЗОВАЯ  СТАНЦИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_006" applicationStructureName="СВЕТОДИОДНЫЙ  ИНДИКАТОР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_035" applicationStructureName="РАЗЪЕМ ПИТАНИЯ ЗАРЯДКИ АКБ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_004" applicationStructureName="КНОПКА АВАРИЙНОЙ ОСТАНОВКИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_005" applicationStructureName="ЗАМОК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_008" applicationStructureName="РЫМ-БОЛТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_001" applicationStructureName="ВЫКЛЮЧАТЕЛЬ НАГРУЗКИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_012" applicationStructureName="РАСПРЕДЕЛИТЕЛЬНОЕ УСТРОЙСТВО № 2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_011" applicationStructureName="КРОНШТЕЙН"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_089" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_074" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_102" applicationStructureName="1674300000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_091" applicationStructureName="1814700000 КЛЕММА ПРОХОДНАЯ С ПРЕДОХРАНИТЕЛЕМ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_086" applicationStructureName="22.74 МОДУЛЬНЫЙ КОНТАКТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_087" applicationStructureName="22.09 РАЗДЕЛИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_092" applicationStructureName="22.09 РАЗДЕЛИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_085" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-009" applicationStructureIdent="AUTOID_088" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-010" applicationStructureIdent="AUTOID_093" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-011" applicationStructureIdent="AUTOID_685" applicationStructureName="1690000000 ПРОХОДНАЯ КЛЕММА С ЗАЗЕМЛЕНИЕМ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-012" applicationStructureIdent="AUTOID_075" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-013" applicationStructureIdent="AUTOID_076" applicationStructureName="1674300000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-014" applicationStructureIdent="AUTOID_101" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-015" applicationStructureIdent="AUTOID_097" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-016" applicationStructureIdent="AUTOID_078" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-017" applicationStructureIdent="AUTOID_081" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-018" applicationStructureIdent="AUTOID_098" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-019" applicationStructureIdent="AUTOID_077" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-020" applicationStructureIdent="AUTOID_082" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-021" applicationStructureIdent="AUTOID_095" applicationStructureName="182725 МОДУЛЬНЫЙ АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-022" applicationStructureIdent="AUTOID_079" applicationStructureName="182725 МОДУЛЬНЫЙ АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-023" applicationStructureIdent="AUTOID_080" applicationStructureName="184996 СИГНАЛЬНЫЙ КОНТАКТ SD"></hotspot>
+<hotspot id="fig-001-gra-002-hot-024" applicationStructureIdent="AUTOID_035" applicationStructureName="АККУМУЛЯТОРНАЯ БАТАРЕЯ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-025" applicationStructureIdent="AUTOID_036" applicationStructureName="РЕПЕЙ  ДАТЧИК"></hotspot>
+<hotspot id="fig-001-gra-002-hot-026" applicationStructureIdent="AUTOID_037" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-027" applicationStructureIdent="AUTOID_038" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-028" applicationStructureIdent="AUTOID_039" applicationStructureName="1674300000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-029" applicationStructureIdent="AUTOID_040" applicationStructureName="1814700000 КЛЕММА ПРОХОДНАЯ С ПРЕДОХРАНИТЕЛЕМ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-030" applicationStructureIdent="AUTOID_041" applicationStructureName="22.74 МОДУЛЬНЫЙ КОНТАКТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-031" applicationStructureIdent="AUTOID_042" applicationStructureName="22.09 РАЗДЕЛИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-032" applicationStructureIdent="AUTOID_043" applicationStructureName="22.09 РАЗДЕЛИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-033" applicationStructureIdent="AUTOID_044" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-034" applicationStructureIdent="AUTOID_045" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-035" applicationStructureIdent="AUTOID_046" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-036" applicationStructureIdent="AUTOID_047" applicationStructureName="1690000000 ПРОХОДНАЯ КЛЕММА С ЗАЗЕМЛЕНИЕМ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-037" applicationStructureIdent="AUTOID_048" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-038" applicationStructureIdent="AUTOID_049" applicationStructureName="1674300000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-039" applicationStructureIdent="AUTOID_050" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-040" applicationStructureIdent="AUTOID_051" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-041" applicationStructureIdent="AUTOID_052" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-042" applicationStructureIdent="AUTOID_053" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-043" applicationStructureIdent="AUTOID_054" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-044" applicationStructureIdent="AUTOID_055" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-045" applicationStructureIdent="AUTOID_056" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-046" applicationStructureIdent="AUTOID_057" applicationStructureName="182725 МОДУЛЬНЫЙ АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-047" applicationStructureIdent="AUTOID_058" applicationStructureName="182725 МОДУЛЬНЫЙ АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-048" applicationStructureIdent="AUTOID_059" applicationStructureName="184996 СИГНАЛЬНЫЙ КОНТАКТ SD"></hotspot>
+<hotspot id="fig-001-gra-002-hot-049" applicationStructureIdent="AUTOID_061" applicationStructureName="АККУМУЛЯТОРНАЯ БАТАРЕЯ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-050" applicationStructureIdent="AUTOID_062" applicationStructureName="РЕПЕЙ  ДАТЧИК"></hotspot>
+</graphic>
+</figure>
+<levelledPara>
+<title>Работа</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>АКБ выдает силовое питание 12 В на клеммный блок силовой шины 12 В. С данного клеммного блока силовое питание 12 В распределяется на потребителей в распределительном устройстве (РУ) № 1 и в распределительном шкафу (РШ).</para>
+<para>Силовое питание 24 В поступает с преобразователя 12 В / 24 В, который находится в РУ № 2, на клеммный блок. Отсюда оно распределяется на все СК, ДКМ   и на КАО. При срабатывании любого СК, ДКМ дискретный сигнал 24 В от него передается в модуль дискретного ввода PLC, расположенный в РУ № 2.</para>
+<para>При нажатии КАО генерируется дискретный сигнал 24 В, который поступает в РУ № 2. Одновременно с этим силовое питание 24 В, поступившее из РШ, коммутируется и возвращается обратно в РШ.</para>
+<para>При подключении кабеля зарядной станции, силовое питание 12 В от зарядной станции поступает на выключатель нагрузки. Далее питание проходит через автомат защиты и сигнал поступает на контактор зарядной станции. От контактора питание подается на клеммный блок шины зарядки 12 В, при этом загорается индикатор питания. С клеммного блока силовой шины 12 В, через контактор АКБ, силовое питание 12 В направляется на АКБ, обеспечивая его зарядку.</para>
+<para>Для контроля состояния АКБ к его клеммам подключен датчик, который в реальном времени передает показания на базовую станцию через беспроводную связь по протоколу Bluetooth. Базовая станция питается от силового питания 5 В, поступающего с преобразователя 12 В / 5 В, расположенного в РУ № 2. Кроме того, базовая станция передает свои данные по цифровой шине RS-485, которые поступают на модуль расширения RS-485 PLC, также расположенный в РУ № 2.</para>
+<para>При достижении заданного минимального  значения напряжения при разрядки АКБ, базовая станция выдает сигнал на включении индикации состояния АКБ, который сигнализирует о необходимости зарядки АКБ.</para>
+<para>При достижении заданного значения напряжения при зарядке АКБ, базовая станция генерирует дискретный сигнал 24 В, который используется для отключения контактной группы на контакторе АКБ. Параллельно с этим загорается индикатор блокировки АКБ, сигнализируя о завершении зарядки или необходимости устранения неисправности, а также выключается индикация состояния АКБ.</para>
+<para>Управление контактором зарядной станции и контактором РУ АКБ осуществляется с помощью дискретного сигнала 24 В. Каждый из этих сигналов поступает от соответствующего реле управления, расположенного в РУ № 2.</para>
+<figure id="fig-002">
+<title>Функциональная схема распределительного устройства АКБ</title>
+<graphic infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

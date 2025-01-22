@@ -1,0 +1,222 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01 SYSTEM "ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01 SYSTEM "ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="1" subSubSystemCode="0" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="08" day="30"></issueDate>
+<dmTitle>
+<techName>Шаговый двигатель башни</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+						Шаговый двигатель башни предназначен для перемещения башни на заданное растояние.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав шагового двигателя
+						башни  MP3-86TZ150 входят:<randomList>
+<listItem>
+<para>шаговый электродвигатель;</para>
+</listItem>
+<listItem>
+<para>энкодер;</para>
+</listItem>
+<listItem>
+<para>электромагнитный тормоз.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики двигателя <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики шагового двигателя башни</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>257×98×86</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>???</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Тип двигателя</para>
+</entry>
+<entry colname="col2">
+<para>Двухфазный шаговый двигатель</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Момент удержания, Н·м</para>
+</entry>
+<entry colname="col2">
+<para>12</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Угловой шаг</para>
+</entry>
+<entry colname="col2">
+<para>1.8°</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Фланец, мм</para>
+</entry>
+<entry colname="col2">
+<para>86×86</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диаметр вала, мм</para>
+</entry>
+<entry colname="col2">
+<para>14</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Тип энкодера</para>
+</entry>
+<entry colname="col2">
+<para>	Оптический</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Номинальный ток, А</para>
+</entry>
+<entry colname="col2">
+<para>6</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Мощность, Вт</para>
+</entry>
+<entry colname="col2">
+<para>450</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+					Двигатель размещен на редукторе башни.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>
+					Двигатель устанавливается на переходную плиту и крепится к редуктору с помощью винтового соединения.</para>
+<para>Внутри корпуса двигателя расположены шаговый электродвигатель, энкодер и электромагнитный тормоз. Шаговый электродвигатель состоит из статора и ротора, в котором ток, подаваемый на обмотку статора, приводит в движение вал ротора. На валу ротора установлены энкодер и электромагнитный тормоз. Энкодер позволяет  отслеживать угловое положение,
+скорость и направление вращения вала. Электромагнитный тормоз обеспечивает полную остановку
+или удержание вала в заданном угловом положении.</para>
+<figure id="fig-001">
+<title>Шаговый двигатель башни</title>
+<graphic infoEntityIdent="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01" xlink:href="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_002" applicationStructureName="РЕДУКТОР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="ШАГОВЫЙ ДВИГАТЕЛЬ БАШНИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_011" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_004" applicationStructureName="ЭЛЕКТРИЧЕСКИЙ СОЕДИНИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_007" applicationStructureName="ПЕРЕХОДНАЯ ПЛИТА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_006" applicationStructureName="КЛЕММНАЯ КОЛОДКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_027" applicationStructureName="ВАЛ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_005" applicationStructureName="ШПОНКА"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>Управление двигателем осуществляется с помощью шагового серводрайвера башни (ШСБ). ШСБ принимает управляющий сигнал от контроллера, преобразует его и выдает выходные дискретные сигналы 48 В на обмотки статора шагового электродвигателя. Каждый дискретный сигнал 48 В активирует определенную обмотку, создавая магнитное поле. Под воздействием этого поля ротор начинает вращаться вокруг своей оси, следуя за изменяющимся магнитным полем.</para>
+<para>Когда ротор вращается, энкодер генерирует дискретные сигналы 12 В, которые соответствуют его угловому положению, скорости и направлению вращения ротора. Внутри энкодера находится диск, на котором нанесены прорези или метки. Этот диск установлен на роторе двигателя и вращается вместе с ним. Напротив диска располагается источник света. Когда диск начинает вращаться, свет от источника проходит через прорези на диске и попадает на фотодетектор, создавая последовательность светлых и темных зон. Эти изменения в освещенности фотодетектора преобразуются в  дискретный сигнал 12 В, который передается в ШСБ.</para>
+<para>При получении дискретного сигнала 12 В от энкодера ШСБ сравнивает угловое положение ротора с заданным значением. В случае обнаружения расхождений он автоматически корректирует подачу дискретных сигналов 48 В на обмотки статора, изменяя направление или скорость вращения ротора двигателя.</para>
+<para>ШСБ также управляет электромагнитным тормозом, подавая на реле управления тормозом (РУТ) дискретный сигнал 24 В. Силовое питание 12 В от аккумулятора преобразуется в 24 В и подается на обмотку катушки электромагнитного тормоза через РУТ. В результате создается магнитное поле, которое разжимает тормозной элемент. Это позволяет ротору свободно вращаться.</para>
+<figure id="fig-002">
+<title>Функциональная схема шагового двигателя башни</title>
+<graphic infoEntityIdent="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01" xlink:href="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

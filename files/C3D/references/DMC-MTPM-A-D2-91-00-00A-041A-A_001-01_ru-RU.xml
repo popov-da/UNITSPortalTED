@@ -1,0 +1,299 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="9" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="16"></issueDate>
+<dmTitle>
+<techName>Система контроля</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Система контроля предназначена для контроля крайних положений башни и кареток, а также для контроля угла наклона траверсы относительно ее продольной и поперечной осей.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав системы контроля входят:<randomList>
+<listItem>
+<para>индуктивный датчик (7 шт.);</para>
+</listItem>
+<listItem>
+<para>датчик угла наклона (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики индуктивного датчика <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table id="tab-001">
+<title>Технические характеристики индуктивного датчика</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Диаметр корпуса, мм</para>
+</entry>
+<entry colname="col2">
+<para>18</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Длина корпуса, мм</para>
+</entry>
+<entry colname="col2">
+<para>82</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Расстояние срабатывания, мм</para>
+</entry>
+<entry colname="col2">
+<para>16</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Предел основной погрешности измерений, %</para>
+</entry>
+<entry colname="col2">
+<para>± 10</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочий температурный диапазон, °С</para>
+</entry>
+<entry colname="col2">
+<para>от -25 до +75</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Напряжение питания, В</para>
+</entry>
+<entry colname="col2">
+<para>от 10 до 30</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемый ток, мА, не более</para>
+</entry>
+<entry colname="col2">
+<para>10</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг</para>
+</entry>
+<entry colname="col2">
+<para>0,07</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Технические характеристики датчика угла наклона <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики датчика угла наклона</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Ширина корпуса, мм</para>
+</entry>
+<entry colname="col2">
+<para>39</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Длина корпуса, мм</para>
+</entry>
+<entry colname="col2">
+<para>51,2</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диапазон измерений, °</para>
+</entry>
+<entry colname="col2">
+<para>± 48</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Предел основной погрешности измерений, %</para>
+</entry>
+<entry colname="col2">
+<para>± 0,05</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочий температурный диапазон, °С</para>
+</entry>
+<entry colname="col2">
+<para>от -40 до +60</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Напряжение питания, В</para>
+</entry>
+<entry colname="col2">
+<para>от 9 до 28</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемый ток при напряжении 24 В, мА</para>
+</entry>
+<entry colname="col2">
+<para>2</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг</para>
+</entry>
+<entry colname="col2">
+<para>0,25</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>Индуктивные датчики установлены на кронштейнах основании траверсы, датчик угла наклона –  в распределительном устройстве № 2.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Система контроля представляет собой набор индуктивных датчиков и датчика угла наклона, соединенных с помощью электрического жгута с контроллером.</para>
+<levelledPara>
+<title>Индуктивный датчик</title>
+<para>Индуктивный датчик расширенного диапазона представляет собой изделие цилиндрической формы с резьбой М18, выполненное в пыле-влагозащищенном корпусе IP67 из медно-никелевого сплава. Устанавливается на кронштейн и крепится с помощью двух гаек. На одном торце датчика имеется чувствительная поверхность, выполненная  из полибутилентерефталата, на другом торце имеется разъем для подключения электрического жгута.</para>
+</levelledPara>
+<levelledPara>
+<title>Датчик угла наклона</title>
+<para>Датчик угла наклона представляет собой изделие в форме параллелепипеда, выполненное в пыле-влагозащищенном корпусе IP68 из нержавеющей стали. Устанавливается на кронштейн с помощью <emphasis>винтового соединения*</emphasis>. На датчик устанавливается гермоввод, поставляющийся в комплекте с датчиком.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<levelledPara>
+<title>Индуктивный датчик</title>
+<para>Принцип работы индуктивного датчика заключается в следующем: при появлении проставки на расстоянии срабатывания, составляющего 16 мм, датчик выдает соответствующий сигнал на контроллер. Контроллер выдает управляющий сигнал, направленный на предупреждение выхода объекта за заданные пределы перемещения.</para>
+<para>Два датчика контролируют крайние положения башни, один – центральное положение башни. Четыре датчика контролируют крайние положения кареток (по два на одну каретку). </para>
+</levelledPara>
+<levelledPara>
+<title>Датчик угла наклона</title>
+<para>Принцип работы датчика угла наклона заключается в следующем: в корпусе датчика находится подвешенная инертная масса, при наклоне траверсы она  изменяет своё положение относительно боковых электродов за счёт действия силы тяжести, что приводит к изменению электрических емкостей. Изменение емкостей преобразуется в цифровой сигнал, который передается по линии RS-485 на контроллер. Контроллер выдает управляющий сигнал, направленный на предупреждение выхода траверсы за заданные углы отклонения.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Система контроля</title>
+<graphic infoEntityIdent="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="-14°"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_045" applicationStructureName="-14°"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="0"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_003" applicationStructureName="0"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_043" applicationStructureName="+14°"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_044" applicationStructureName="+14°"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_016" applicationStructureName="16 мм  РАССТОЯНИЕ СРАБАТЫВАНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_004" applicationStructureName="КРОНШТЕЙН"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_005" applicationStructureName="РАСПРЕДЕЛИТЕЛЬНОЕ УСТРОЙСТВО № 2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_017" applicationStructureName="ИНДУКТИВНЫЙ ДАТЧИК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_029" applicationStructureName="ДАТЧИК УГЛА НАКЛОНА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_030" applicationStructureName="ГЕРМОВВОД"></hotspot>
+<hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_027" applicationStructureName="ДАТЧИК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-014" applicationStructureIdent="AUTOID_018" applicationStructureName="КРОШТЕЙН"></hotspot>
+<hotspot id="fig-001-gra-001-hot-015" applicationStructureIdent="AUTOID_025" applicationStructureName="КРОШТЕЙН"></hotspot>
+<hotspot id="fig-001-gra-001-hot-016" applicationStructureIdent="AUTOID_019" applicationStructureName="ПРОСТАВКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-017" applicationStructureIdent="AUTOID_024" applicationStructureName="ПРОСТАВКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-018" applicationStructureIdent="AUTOID_020" applicationStructureName="РАЗЪЁМ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-019" applicationStructureIdent="AUTOID_021" applicationStructureName="ЖГУТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-020" applicationStructureIdent="AUTOID_028" applicationStructureName="ЖГУТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-021" applicationStructureIdent="AUTOID_022" applicationStructureName="ГАЙКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-022" applicationStructureIdent="AUTOID_026" applicationStructureName="ГАЙКА"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

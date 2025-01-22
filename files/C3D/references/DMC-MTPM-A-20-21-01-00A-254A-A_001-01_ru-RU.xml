@@ -1,0 +1,249 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="1" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="254" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="07" day="22"></issueDate>
+<dmTitle>
+<techName>Подготовка поверхностей перед восстановлением лакокрасочного покрытия</techName>
+<infoName>Механическая очистка</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Пневматический продувочный пистолет</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Пневматическая эксцентриковая шлифмашина</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Секундомер</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Ветошь обтирочная</name>
+<supplyRef supplyNumber="ТУ 8189-018-01877509-2001" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Литум № 7" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Салфетки х/б безворсовые</name>
+<supplyRef supplyNumber="ГОСТ 29250-91" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Полиэтиленовая пленка</name>
+<supplyRef supplyNumber="ГОСТ 10354-82" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Скотч малярный</name>
+<supplyRef supplyNumber="ГОСТ 18251-87" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Набор шлифовальных
+самосцепляющихся дисков</name>
+<supplyRef supplyNumber="P80–P180 d=150 мм ГОСТ Р 52781-2007" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning id="wrn-001">
+<warningAndCautionPara>СОБЛЮДАЙТЕ ПРАВИЛА ПОЖАРНОЙ БЕЗОПАСНОСТИ, ПРАВИЛА ЗАЩИТЫ
+ОТ СТАТИЧЕСКОГО ЭЛЕКТРИЧЕСТВА. </warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ПРИМЕНЕНИЕ ОТКРЫТОГО ОГНЯ. </warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ КУРЕНИЕ НА РАБОЧЕМ МЕСТЕ. </warningAndCautionPara>
+<warningAndCautionPara>РАБОТЫ ПРОВОДЯТСЯ ТОЛЬКО В
+СПЕЦОДЕЖДЕ.</warningAndCautionPara>
+</warning>
+<warning id="wrn-002">
+<warningAndCautionPara>СОБЛЮДАЙТЕ МЕРЫ
+ПРЕДОСТОРОЖНОСТИ ПРИ РАБОТЕ С МАТЕРИАЛАМИ. </warningAndCautionPara>
+<warningAndCautionPara>НЕ ПОДНОСИТЕ МАТЕРИАЛЫ КО РТУ. </warningAndCautionPara>
+<warningAndCautionPara>ИЗБЕГАЙТЕ ВДЫХАНИЯ ЯДОВИТЫХ
+ПАРОВ, ВЫДЕЛЯЕМЫХ МАТЕРИАЛАМИ. </warningAndCautionPara>
+<warningAndCautionPara>ОБРАТИТЕСЬ ЗА МЕДИЦИНСКОЙ ПОМОЩЬЮ ПРИ ВОЗНИКНОВЕНИИ
+РАЗДРАЖЕНИЯ КОЖИ И ГЛАЗ.</warningAndCautionPara>
+</warning>
+<caution>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ВЫПОЛНЕНИЕ РАБОТ ПРИ СЛЕДУЮЩИХ УСЛОВИЯХ:</warningAndCautionPara>
+<warningAndCautionPara>НЕБЛАГОПРИЯТНЫЕ ПОГОДНЫЕ УСЛОВИЯ, ТАКИЕ КАК ДОЖДЬ, ТУМАН, СНЕГ ИЛИ, КОГДА ВЕРОЯТНО НАСТУПЛЕНИЕ ТАКОЙ ПОГОДЫ ДО ПОЛНОГО ОТВЕРЖДЕНИЯ ПОКРЫТИЯ;</warningAndCautionPara>
+<warningAndCautionPara>ПРИ ТЕМПЕРАТУРАХ ОКРУЖАЮЩЕГО ВОЗДУХА И ПОДЛОЖКИ НИЖЕ И ВЫШЕ ЗНАЧЕНИЙ, УКАЗАННЫХ В ТЕХНИЧЕСКИХ ПАСПОРТАХ НА МАТЕРИАЛЫ;</warningAndCautionPara>
+<warningAndCautionPara>ПРИ ОТНОСИТЕЛЬНОЙ ВЛАЖНОСТИ ВОЗДУХА БОЛЕЕ 85 %;</warningAndCautionPara>
+<warningAndCautionPara>ПРИ ТЕМПЕРАТУРЕ ПОВЕРХНОСТИ МЕТАЛЛА МЕНЕЕ ЧЕМ НА 3 °С ВЫШЕ ТОЧКИ РОСЫ ОКРУЖАЮЩЕГО ВОЗДУХА;</warningAndCautionPara>
+<warningAndCautionPara>ПОСЛЕ НАСТУПЛЕНИЯ ТЕМНОТЫ БЕЗ ИСКУССТВЕННОГО ОСВЕЩЕНИЯ.</warningAndCautionPara>
+</caution>
+<caution id="ctn-001">
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ИСПОЛЬЗОВАТЬ РАСТВОРИТЕЛИ ПО ТИПУ УАЙТ-СПИРИТА ИЛИ НЕФРАСА.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ПРОВОДИТЬ РАБОТЫ ПРЕДВАРИТЕЛЬНО НЕ УДАЛИВ ЗАГРЯЗНЕНИЯ С ПОВЕРХНОСТИ.</warningAndCautionPara>
+<warningAndCautionPara>НА ВОССТАНАВЛИВАЕМЫХ  ПОВЕРХНОСТЯХ НЕ ДОПУСКАЮТСЯ
+МАСЛЯНЫЕ ПЯТНА И ЗАГРЯЗНЕНИЯ.</warningAndCautionPara>
+<warningAndCautionPara>ПРИ ОБЕЗЖИРИВАНИИ ПОВЕРХНОСТЕЙ ПОД ОКРАСКУ НЕ ДОПУСКАЕТСЯ
+ОБРАЗОВАНИЕ ПОТЕКОВ И КАПЕЛЬ РАСТВОРИТЕЛЯ. </warningAndCautionPara>
+<warningAndCautionPara>ПРИ ОБРАЗОВАНИИ ПОТЕКОВ И КАПЕЛЬ ИХ НЕОБХОДИМО СРАЗУ ЖЕ УДАЛЯТЬ ХЛОПЧАТОБУМАЖНОЙ САЛФЕТКОЙ, НЕ ДОЖИДАЯСЬ ИХ ВЫСЫХАНИЯ.</warningAndCautionPara>
+</caution>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните замер влажности воздуха и температуры окружающей среды и занесите значения в журнал.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Наденьте спецодежду: комбинезон, респиратор аэрозольный, перчатки, очки.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ к месту выполнения работ.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Подготовка поверхностей перед восстановлением лакокрасочного покрытия</title>
+<proceduralStep>
+<para>Произведите защиту элементов, не подлежащих окраске, от попадания лакокрасочных материалов с помощью
+полиэтиленовой пленки и малярного скотча.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Протрите поверхность поврежденного участка и вокруг него обтирочной ветошью,
+смоченной растворителем.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Удалите остатки растворителя сухой безворсовой тканью.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Просушите поверхность от 15 до 30 мин.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Произведите шлифовку поврежденного участка ЛКП, последовательно уменьшая
+зернистость шлифовальных дисков, с целью выравнивания толщины покрытия.</para>
+<note id="not-002">
+<notePara>Особое внимание необходимо уделить удалению в зоне поврежденного участка ЛКП окалин, сварного шлака и брызг сварного шва.</notePara>
+</note>
+</proceduralStep>
+<proceduralStep id="stp-001">
+<para>Удалите образовавшуюся пыль.</para>
+</proceduralStep>
+<proceduralStep id="stp-002">
+<para>Протрите поверхность безворсовыми х/б салфетками, смоченными растворителем.</para>
+</proceduralStep>
+<proceduralStep id="stp-003">
+<para>Просушите поверхность от 15 до 30 мин.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что после шлифовки в зоне поврежденного участка ЛКП не образовались заусенцы, острые края или срезы.</para>
+<proceduralStep>
+<para>В случае обнаружения вышеуказанных дефектов, аккуратно удалите их.</para>
+</proceduralStep>
+<proceduralStep>
+<para>После удаления дефектов, повторите <internalRef internalRefId="stp-001" internalRefTargetType="irtt08" xlink:href="#stp-001"></internalRef>, <internalRef internalRefId="stp-002" internalRefTargetType="irtt08" xlink:href="#stp-002"></internalRef>, <internalRef internalRefId="stp-003" internalRefTargetType="irtt08" xlink:href="#stp-003"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что оставшаяся неповрежденная краска по периметру поврежденного участка ЛКП не имеет остаточного лоска.</para>
+<proceduralStep>
+<para>В случае обнаружения вышеуказанного дефекта, аккуратно заполируйте участок неповрежденной краски с помощью безворсовых х/б салфеток, смоченных растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Перед началом окраски проверьте качество защиты не подлежащих окраски
+поверхностей.</para>
+<note id="not-001">
+<notePara>По возможности необходимо сокращать время нахождения
+малярного скотча на ЛКП, и выполнять работы по восстановлению ЛКП сразу после подготовки, во избежание образования на поверхности цветных пятен от малярного скотча.</notePara>
+</note>
+<proceduralStep>
+<para>В случае повреждения защиты необходимо защитить элементы, не
+подлежащие окраске заново.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

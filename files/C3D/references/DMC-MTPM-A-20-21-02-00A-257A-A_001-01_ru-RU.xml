@@ -1,0 +1,280 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="1" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="257" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="07" day="22"></issueDate>
+<dmTitle>
+<techName>Нанесение грунтовок</techName>
+<infoName>Окраска и маркировка</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Кисть филеночная</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber>КФК8 ГОСТ Р 58516-2019</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">2</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Термогигрометр ИВА-6Н</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Секундомер</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Грунтовка</name>
+<supplyRef supplyNumber="ГФ-021 ГОСТ 25129-2020" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Ксилол ГОСТ 9410-78" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Сольвент ГОСТ 10214-78" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Шпатлевка</name>
+<supplyRef supplyNumber="ХВ-005 ГОСТ 10277-90" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning id="wrn-001">
+<warningAndCautionPara>СОБЛЮДАЙТЕ ПРАВИЛА ПОЖАРНОЙ БЕЗОПАСНОСТИ, ПРАВИЛА ЗАЩИТЫ
+ОТ СТАТИЧЕСКОГО ЭЛЕКТРИЧЕСТВА. НЕ ПРИМЕНЯЙТЕ ОТКРЫТЫЙ ОГОНЬ. НЕ КУРИТЕ. ВЫПОЛНЯЙТЕ РАБОТЫ В
+СПЕЦОДЕЖДЕ.</warningAndCautionPara>
+</warning>
+<warning id="wrn-002">
+<warningAndCautionPara>СОБЛЮДАЙТЕ МЕРЫ
+ПРЕДОСТОРОЖНОСТИ ПРИ РАБОТЕ С МАТЕРИАЛАМИ. НЕ ПОДНОСИТЕ МАТЕРИАЛЫ КО РТУ. ИЗБЕГАЙТЕ ВДЫХАНИЯ ЯДОВИТЫХ
+ПАРОВ, ВЫДЕЛЯЕМЫХ МАТЕРИАЛАМИ. ОБРАТИТЕСЬ ЗА МЕДИЦИНСКОЙ ПОМОЩЬЮ ПРИ ВОЗНИКНОВЕНИИ
+РАЗДРАЖЕНИЯ КОЖИ И ГЛАЗ.</warningAndCautionPara>
+</warning>
+<caution id="ctn-001">
+<warningAndCautionPara>СТРОГО СОБЛЮДАЙТЕ РЕЖИМЫ СУШКИ НАНОСИМЫХ МАТЕРИАЛОВ.</warningAndCautionPara>
+</caution>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Наденьте спецодежду: халат, респиратор аэрозольный, перчатки, очки.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ к месту выполнения работ.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните подготовку поверхности <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="254" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="1" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Нанесение грунтовки</title>
+<proceduralStep>
+<para>В случае выполнения работ не в покрасочной камере, замерьте температуру воздуха окружающей среды.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Перед началом нанесения грунтовки проверьте качество защиты не подлежащих окраски
+поверхностей.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что не подлежащие окраски поверхности надежно защищены полиэтиленовой пленкой и прикриплены с помощью малярного скотча.</para>
+<note id="not-002">
+<notePara>По возможности необходимо сокращать время нахождения
+малярного скотча на ЛКП, и выполнять работы по нанесению грунтовок сразу после подготовки, во избежание образования на поверхности цветных пятен от малярного скотча.</notePara>
+</note>
+</proceduralStep>
+<proceduralStep>
+<para>В случае повреждения защиты перед нанесением грунтовок необходимо защитить элементы, не подлежащие окраске, заново.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Аккуратно нанесите
+						на восстанавливаемый участок ЛКП первый слок грунтовки.</para>
+<note id="not-003">
+<notePara>При необходимости для разбавления грунтовок и шпатлевки можно использовать
+один из растворителей ксилол  или сольвент.</notePara>
+</note>
+</proceduralStep>
+<proceduralStep>
+<para>Просушите поверхность согласно режиму сушки наносимых материалов <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Аккуратно нанесите второй слой грунтовки поверх первого готового слоя.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Просушите поверхность согласно режиму сушки наносимых материалов <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>В случае необходимости выравнивания поверхности нанесите шпатлевку.</para>
+</proceduralStep>
+</proceduralStep>
+<table id="tab-001">
+<title>Режимы сушки наносимых материалов</title>
+<tgroup cols="5" align="center">
+<colspec colnum="1" colname="col1" colwidth="1.15*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1.34*"></colspec>
+<colspec colnum="3" colname="col3" colwidth="1.00*"></colspec>
+<colspec colnum="4" colname="col4" colwidth="1.29*"></colspec>
+<colspec colnum="5" colname="col5" colwidth="1.06*"></colspec>
+<thead>
+<row>
+<entry colname="col1" morerows="2">
+<para>Наименование наносимого материала</para>
+</entry>
+<entry namest="col2" nameend="col5">
+<para>Режимы сушки</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>Температура, °С</para>
+</entry>
+<entry colname="col3">
+<para>Время, ч</para>
+</entry>
+<entry colname="col4">
+<para>Температура, °С</para>
+</entry>
+<entry colname="col5">
+<para>Время, ч</para>
+</entry>
+</row>
+<row>
+<entry namest="col2" nameend="col3">
+<para>Для первого слоя</para>
+</entry>
+<entry namest="col4" nameend="col5">
+<para>Для второго слоя</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1">
+<para>Грунтовка ГФ-021</para>
+</entry>
+<entry colname="col2">
+<para>от +18 до +22</para>
+</entry>
+<entry colname="col3">
+<para>от 2 до 3</para>
+</entry>
+<entry colname="col4">
+<para>от +18 до +22</para>
+</entry>
+<entry colname="col5">
+<para>не менее 9</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Шпатлевка ХВ-005</para>
+</entry>
+<entry colname="col2">
+<para>от +15 до +22</para>
+</entry>
+<entry colname="col3">
+<para>от 2 до 2,5</para>
+</entry>
+<entry colname="col4">
+<para>от +15 до +22</para>
+</entry>
+<entry colname="col5">
+<para>не менее 10</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

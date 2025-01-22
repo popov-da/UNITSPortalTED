@@ -1,0 +1,187 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="12" subSystemCode="3" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="264" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="10" day="09"></issueDate>
+<dmTitle>
+<techName>Траверса</techName>
+<infoName>Удаление загрязнений</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Ведро мерное </name>
+<toolRef toolNumber="ОСТ 1 10885-73"></toolRef>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Щетка волосяная</name>
+<toolRef toolNumber="ГОСТ 28638-90"></toolRef>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Секундомер механический</name>
+<toolRef toolNumber="СОПпр-2а-2-010"></toolRef>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Ветошь обтирочная</name>
+<supplyRef supplyNumber="ТУ 8189-018-01877509-2001" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Мыло нейтральное с номинальной
+массой куска 100 г</name>
+<supplyRef supplyNumber="ГОСТ 28546-2002" supplyNumberType="sp01"></supplyRef>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Вода</name>
+</supplyDescr>
+<supplyDescr>
+<name>Безворсовая ткань</name>
+</supplyDescr>
+<supplyDescr>
+<name>Салфетки х/б безворсовые</name>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning>
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+</warning>
+<caution>
+<warningAndCautionPara>НЕ ДОПУСКАЙТЕ ПОПАДАНИЯ РАСТВОРИТЕЛЯ НА ЭЛЕКТРИЧЕСКИЕ КАБЕЛИ, СОЕДИНИТЕЛИ. В
+СЛУЧАЕ ПОПАДАНИЯ НЕОБХОДИМО СРАЗУ ЖЕ УДАЛИТЬ ОСТАТКИ РАСТВОРИТЕЛЯ
+ХЛОПЧАТОБУМАЖНОЙ САЛФЕТКОЙ, НЕ ДОЖИДАЯСЬ ИХ ВЫСЫХАНИЯ.</warningAndCautionPara>
+</caution>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните спуск траверсы  <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Переведите переключатель распределительного устройств № 1 в положение «OFF». </para>
+</proceduralStep>
+<proceduralStep>
+<para>Переведите переключатель распределительного устройств № 2 в положение «0».</para>
+</proceduralStep>
+<proceduralStep>
+<para>Проконтролируйте, что индикаторы нагрузок погасли. </para>
+</proceduralStep>
+<proceduralStep>
+<para>Приготовьте мыльный раствор, используя на 10 л воды 1/10 куска твердого нейтрального
+мыла.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Очистка</title>
+<proceduralStep>
+<para>Удалите пыль с поверхностей траверсы волосяной щеткой или сухой обтирочной ветошью.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите на поверхности траверсы мыльный раствор.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выдержите паузу не менее 10 мин.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Смойте мыльный раствор с поверхности траверсы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Удалите остатки воды сухой обтирочной ветошью.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Просушите траверсу от 15 до 30 мин.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите траверсу на отсутствие масляных пятен.</para>
+<proceduralStep>
+<para>При наличии масляных пятен и других водонерастворимых загрязнений удалите их обтирочной ветошью смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Удалите остатки растворителя сухой безворсовой тканью.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

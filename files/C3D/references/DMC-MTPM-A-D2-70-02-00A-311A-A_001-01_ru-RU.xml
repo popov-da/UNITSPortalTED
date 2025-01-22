@@ -1,0 +1,720 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="7" subSubSystemCode="0" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="311" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="10" day="08"></issueDate>
+<dmTitle>
+<techName>Распределительное устройство №2</techName>
+<infoName>Осмотр</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<noSupportEquips></noSupportEquips>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Ветошь обтирочная</name>
+<supplyRef supplyNumber="ТУ 8189-018-01877509-2001" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Спирт этиловый ректификованный</name>
+<supplyRef supplyNumber="ГОСТ Р 55878-2013" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning>
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните спуск траверсы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите  вентилятор <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите  вентиляционную решетку <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите  панель оператора <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите  приемник <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="1" subSystemCode="6" systemCode="E1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите  модуль внешней индикации <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="8" systemCode="E1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите  датчик угла наклона <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="1" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="540" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр</title>
+<proceduralStep>
+<title>Осмотр шкафа</title>
+<proceduralStep>
+<para>Осмотрите шкаф на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите  шкаф на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену шкафа <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления шкафа.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах шкафа.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите электрические соединители на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите электрические соединители на отсутствие сколов, трещин, вмятин, следов температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену электрических соединителей.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления электрических соединителей.
+				</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните снятие и установку электрических соединителей. </para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах электрических соединителей.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр защитного кожуха</title>
+<proceduralStep>
+<para>Осмотрите кожух на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кожух на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кожуха <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="2" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления кожуха.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните снятие и установку кожуха.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр светодиодного индикатора</title>
+<proceduralStep>
+<para>Осмотрите индикатор на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите индикатор на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену индикатора <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="921" disassyCodeVariant="A" disassyCode="02" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления индикатора.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите провода на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите провода на отсутствие повреждений изоляции и экранирующих оболочек,  крутых изгибов, скручиваний, растрескиваний от термического воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену поврежденных проводов.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления проводов.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для другого индикатора.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр кнопки аварийной остановки</title>
+<proceduralStep>
+<para>Осмотрите кнопку на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кнопку на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кнопки <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="921" disassyCodeVariant="A" disassyCode="03" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кнопку на наличие маркировки.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кнопки <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="921" disassyCodeVariant="A" disassyCode="03" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления кнопки.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите провода на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите провода на отсутствие повреждений изоляции и экранирующих оболочек,  крутых изгибов, скручиваний, растрескиваний от термического воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену поврежденных проводов.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления проводов.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр переключателя</title>
+<proceduralStep>
+<para>Осмотрите переключатель на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите переключатель на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену переключателя <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="921" disassyCodeVariant="A" disassyCode="04" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления переключателя.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите провода на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите провода на отсутствие повреждений изоляции и экранирующих оболочек,  крутых изгибов, скручиваний, растрескиваний от термического воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену поврежденных проводов.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления проводов.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр кронштейна шкафа</title>
+<proceduralStep>
+<para>Осмотрите кронштейн шкафа на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кронштейн шкафа на отсутствие трещин, деформаций, разрушений и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кронштейна шкафа <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления кронштейна шкафа.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что ЛКП на кронштейне не повреждено.</para>
+<proceduralStep>
+<para>В случае повреждения ЛКП восстановите его <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="257" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="1" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для другого кронштейна.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перфорированного короба  </title>
+<proceduralStep>
+<para>Осмотрите короб на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите короб на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену <emphasis>короба</emphasis>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления короба.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните снятие и установку крышки короба.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для других коробов.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр монтажной панели  </title>
+<proceduralStep>
+<para>Убедитесь в надежности крепления панели.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр монтажной рейки  </title>
+<proceduralStep>
+<para>Осмотрите рейку на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите рейку на отсутствие трещин, деформаций, разрушений и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену <emphasis>рейки</emphasis>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления рейки.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для других реек.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр кронштейна датчика угла наклона</title>
+<proceduralStep>
+<para>Осмотрите кронштейн датчика угла наклона на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кронштейн датчика угла наклона на отсутствие трещин, деформаций, разрушений и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену <emphasis>кронштейна датчика угла наклона</emphasis>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления кронштейна датчика угла наклона.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр оборудования в шкафу</title>
+<proceduralStep>
+<para>Осмотрите оборудование в шкафу на отсутствие загрязнений:</para>
+<para>
+<randomList>
+<listItem>
+<para>концевые фиксаторы;</para>
+</listItem>
+<listItem>
+<para>беспроводной сетевой клиент;</para>
+</listItem>
+<listItem>
+<para>неуправляемый коммуникатор;</para>
+</listItem>
+<listItem>
+<para>промежуточные электромеханические реле;</para>
+</listItem>
+<listItem>
+<para>промежуточные реле;</para>
+</listItem>
+<listItem>
+<para>преобразователи;</para>
+</listItem>
+<listItem>
+<para>проходные клеммы с предохранителями;</para>
+</listItem>
+<listItem>
+<para>проходные клеммы;</para>
+</listItem>
+<listItem>
+<para>модульные контакторы;</para>
+</listItem>
+<listItem>
+<para>процессорный модуль PLC;</para>
+</listItem>
+<listItem>
+<para>модули дискретного  вывода PLC;</para>
+</listItem>
+<listItem>
+<para>модуль дискретного  ввода PLC;</para>
+</listItem>
+<listItem>
+<para>интерфейсный модуль RS-485 PLC;</para>
+</listItem>
+<listItem>
+<para>проходные клеммы с заземлением.</para>
+</listItem>
+</randomList>
+</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите оборудование на отсутствие сколов, царапин, трещин, вмятин, деформаций, разрушений, следов температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену оборудования <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления оборудования.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните снятие и установку оборудования.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите провода на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите провода на отсутствие повреждений изоляции и экранирующих оболочек,  крутых изгибов, скручиваний, растрескиваний от термического воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену поврежденных проводов.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления проводов.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните снятие и установку проводов.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что предохранители на проходных клеммах в исправном состоянии.</para>
+<proceduralStep>
+<para>При необходимости замените перегоревший предохранитель на новый <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Закройте дверцу шкафа <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="740" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

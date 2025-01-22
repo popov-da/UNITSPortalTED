@@ -1,0 +1,172 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="E1" subSystemCode="8" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="10" day="14"></issueDate>
+<dmTitle>
+<techName>Модуль внешней индикации</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Модуль внешней индикации предназначен для визуального контроля траверсы в условиях эксплуатации.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав модуля внешней индикации входят:<randomList>
+<listItem>
+<para>заглушка (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль светосигнальный красный (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль светосигнальный желтый (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль светосигнальный зеленый (1 шт.);</para>
+</listItem>
+<listItem>
+<para>основание (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики  модуля внешней индикации <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>
+</para>
+<table id="tab-001">
+<title>Технические характеристики  модуля внешней индикации</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*" align="center"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1">
+<para>Высота, мм</para>
+</entry>
+<entry colname="col2">
+<para>236</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Диаметр снования, мм</para>
+</entry>
+<entry colname="col2">
+<para>70</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Установочный диаметр, мм</para>
+</entry>
+<entry colname="col2">
+<para>55</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>Модуль внешней индикации установлен на крышке распределительного устройства <inlineSignificantData significantParaDataType="psd01">№ 2</inlineSignificantData>.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Модуль внешней индикации представляет собой сборную конструкцию из заглушки, светосигнальных модулей трех цветов и основания. Общая степень защиты изделия – <emphasis>IP...</emphasis> .</para>
+<para>Цвет светосигнальных модулей означает:<randomList>
+<listItem>
+<para>зеленый – ... ;</para>
+</listItem>
+<listItem>
+<para>желтый – ... ;</para>
+</listItem>
+<listItem>
+<para>красныйй – ... .</para>
+</listItem>
+</randomList>
+</para>
+<levelledPara>
+<title>Заглушка</title>
+<para>Заглушка представляет собой цилиндрическое изделие из поликарбонатного полимера. Предназначена для защиты контактов верхнего светосигнального модуля от попадания пыли и влаги. Устанавливается на верхний светосигнальный модуль.</para>
+</levelledPara>
+<levelledPara>
+<title>Светосигнальный модуль</title>
+<para>Светосигнальный модуль представляет собой цилиндрическое изделие из поликарбонатного полимера. Предназначен для подачи светового сигнала. Зеленый светосигнальный модуль устанавливается на основание, желтый – на зеленый, красный – на желтый. </para>
+</levelledPara>
+<levelledPara>
+<title>Основание</title>
+<para>Основание представляет собой цилиндрическое изделие из поликарбонатного полимера. Предназначено для установки светосигнальных модулей и крепления изделия к крышке распределительного устройства <inlineSignificantData significantParaDataType="psd01">№ 2</inlineSignificantData> с помощью винтов.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Модуль внешней индикации</title>
+<graphic infoEntityIdent="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="ОСНОВАНИЕ СО СТОЙКОЙ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_002" applicationStructureName="МОДУЛЬ СВЕТОСИГНАЛЬНЫЙ ЗЕЛЁНЫЙ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_003" applicationStructureName="МОДУЛЬ СВЕТОСИГНАЛЬНЫЙ ЖЁЛТЫЙ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_004" applicationStructureName="МОДУЛЬ СВЕТОСИГНАЛЬНЫЙ КРАСНЫЙ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_005" applicationStructureName="ЗАГЛУШКА"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="J1" subSystemCode="4" subSubSystemCode="1" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="10" day="16"></issueDate>
+<dmTitle>
+<techName>Вентилятор</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Вентилятор предназначен для создания активной вентиляции, охлаждения электрических шкафов и фильтрации воздуха с помощью установленного внутри него сменного фильтра.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав вентилятора входят:<randomList>
+<listItem>
+<para>кулер (1 шт.);</para>
+</listItem>
+<listItem>
+<para>корпус (1 шт.);</para>
+</listItem>
+<listItem>
+<para>фильтр (1 шт.);</para>
+</listItem>
+<listItem>
+<para>внешняя защитная решетка (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para> На траверсе используются пять вентиляторов типоразмера 150х150 и два типоразмера 112х112.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>На дверце распределительного устройства № 1 установлено два вентилятора типоразмера 150х150, один – на дверце  распределительного устройства № 2. По одному вентилятору 150х150 установлено на боковых стенках распределительных устройств АКБ № 1 и <inlineSignificantData significantParaDataType="psd01">№ 2</inlineSignificantData>.</para>
+<para>По одному вентилятору типоразмера 112х112 установлено на боковых стенках распределительных устройств АКБ<inlineSignificantData significantParaDataType="psd01"> № 1</inlineSignificantData> и <inlineSignificantData significantParaDataType="psd01">№ 2</inlineSignificantData>.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Вентилятор представляет собой сборную конструкцию из кулера, корпуса, фильтра и внешней защитной решетки. Общая степень защиты вентилятора – IP54.</para>
+<levelledPara>
+<title>Кулер</title>
+<para>Кулер представляет собой изделие из АБС-пластика с устойчивостью к воспламенению класса UL94V0. Предназначен для охлаждения компонентов, размещенных в электрических шкафах. Кулер устанавливается с помощью винтов на корпус вентилятора. Для дополнительной защиты от пыли на  кулер устанавливается защитная решетка.</para>
+<para>На кулере установлена клемная колодка, предназначенная для подключения питания.</para>
+</levelledPara>
+<levelledPara>
+<title>Корпус</title>
+<para>Корпус представляет собой изделие из АБС-пластика с устойчивостью к воспламенению класса UL94V0. Он предназначен для фиксации фильтра и крепления кулера. Корпус устанавливается с помощью винтов и дополнительно фиксируется замками непосредственно на дверцах распределительных устройств № 1 и № 2, а также на боковых стенках распределительных устройств АКБ № 1 и № 2. </para>
+</levelledPara>
+<levelledPara>
+<title>Фильтр</title>
+<para>Фильтр представляет собой изделие из полиолефинового волокна. Он предназначен для обеспечения чистоты воздуха и предотвращения проникновения пыли и грязи в электротехнический шкаф. Класс очистки стандартного фильтра – G3. Фильтр обладает высокой пропускной способностью и долговечностью. Фильтр устанавливается в корпус вентилятора.</para>
+</levelledPara>
+<levelledPara>
+<title>Внешняя защитная решетка</title>
+<para>Внешняя защитная решетка представляет собой изделие из АБС-пластика с устойчивостью к воспламенению класса UL94V0. Она предназначена для обеспечения доступа к фильтру и его удержания в корпусе. Устанавливается на корпус. В закрытом положении фиксируется защелкой.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Вентилятор</title>
+<graphic infoEntityIdent="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="ЗАЩЕЛКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_016" applicationStructureName="РЕШЕТКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_009" applicationStructureName="ЗАЩИТНАЯ РЕШЕТКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_017" applicationStructureName="ФИЛЬТР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_005" applicationStructureName="КЛЕММНАЯ КОЛОДКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_008" applicationStructureName="ЗАМОК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_021" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_022" applicationStructureName="УПЛОТНИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_025" applicationStructureName="КОРПУС"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_002" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_004" applicationStructureName="КУЛЕР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_019" applicationStructureName="ВЕНТИЛЯТОР"></hotspot>
+</graphic>
+</figure>
+<levelledPara>
+<title>Работа</title>
+<para>Вентилятор функционирует следующим образом: при включении электрического шкафа <emphasis>автоматически</emphasis> включается и вентилятор. Происходит активное втягивание воздуха внутрь электрического шкафа и его охлаждение.</para>
+</levelledPara>
+</description>
+</content>
+</dmodule>

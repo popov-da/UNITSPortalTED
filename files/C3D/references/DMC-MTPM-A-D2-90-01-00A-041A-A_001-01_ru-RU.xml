@@ -1,0 +1,384 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="9" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="16"></issueDate>
+<dmTitle>
+<techName>Репей</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Комплекс поэлементного контроля и предиктивной диагностики аккумуляторной батареи Репей предназначен для непрерывного мониторинга аккумуляторных батарей.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>Репей состоит из двух одинаковых частей. В состав одной части входят:<randomList>
+<listItem>
+<para>датчик (1 шт.);</para>
+</listItem>
+<listItem>
+<para>базовая станция (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики датчика <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table id="tab-001">
+<title>Технические характеристики датчика</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Диаметр датчика, мм</para>
+</entry>
+<entry colname="col2">
+<para>70</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Толщина датчика, мм</para>
+</entry>
+<entry colname="col2">
+<para>19</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Ширина электрического разъема, мм</para>
+</entry>
+<entry colname="col2">
+<para>18,8</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>0,3</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочий диапазон температур, °С</para>
+</entry>
+<entry colname="col2">
+<para>от -40 до +70</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Влажность при +25°С, %, не более</para>
+</entry>
+<entry colname="col2">
+<para>98</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Номинальное напряжение постоянного тока, В</para>
+</entry>
+<entry colname="col2">
+<para>12</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемая мощность, не более мВт
+	</para>
+<para>– при отключенной индикации</para>
+<para>  – при включенной индикации</para>
+<para>– в режиме балансировки</para>
+</entry>
+<entry colname="col2">
+<para></para>
+<para>21</para>
+<para>280</para>
+<para>1000</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диапазон измерений напряжения, В</para>
+</entry>
+<entry colname="col2">
+<para>от 7 до 18</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диапазон измерения температуры, °С</para>
+</entry>
+<entry colname="col2">
+<para>от -70 до +100</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Погрешность измерения температуры, °С</para>
+</entry>
+<entry colname="col2">
+<para>± 0,5</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Технические характеристики базовой станции <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики базовой станции</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Диаметр лицевой панели, мм</para>
+</entry>
+<entry colname="col2">
+<para>89</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Толщина лицевой панели, мм</para>
+</entry>
+<entry colname="col2">
+<para>11,5</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диаметр корпуса, мм</para>
+</entry>
+<entry colname="col2">
+<para>69</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Длинна станции, мм</para>
+</entry>
+<entry colname="col2">
+<para>119</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>0,7</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочий диапазон температур, °С</para>
+</entry>
+<entry colname="col2">
+<para>от -40 до +70</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Влажность при +25°С, %, не более</para>
+</entry>
+<entry colname="col2">
+<para>98</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Номинальное напряжение постоянного тока, В</para>
+</entry>
+<entry colname="col2">
+<para>220</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемая мощность, не более мВт</para>
+</entry>
+<entry colname="col2">
+<para>5</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диапазон измерений напряжения, В</para>
+</entry>
+<entry colname="col2">
+<para>от 12 до 290</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Один комплект Репея устанавливается в распределительное устройство АКБ № 1, второй – в  распределительное устройство АКБ № 2.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>Репей представляет собой завершенный механизм, состоящий из датчика и базовой станции.</para>
+<levelledPara>
+<title>Датчик</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>Датчик выполнен в виде моноблока, устанавливается непосредственно на аккумулятор с помощью двусторонней клейкой ленты и измеряет его напряжение и температуру.</para>
+<para>На лицевой панели датчика  расположены элементы индикации: кольцевой светодиодный индикатор «Статус» и светодиоды индикации уровня напряжения аккумулятора.</para>
+<figure id="fig-002">
+<title>Датчик</title>
+<graphic infoEntityIdent="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm">
+<hotspot applicationStructureIdent="AUTOID_014" applicationStructureName="СВЕТОДИОДЫ ИНДИКАЦИИ УРОВНЯ НАПРЯЖЕНИЯ АККУМУЛЯТОРА"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_015" applicationStructureName="КОЛЬЦЕВОЙ СВЕТОДИОДНЫЙ ИНДИКАТОР СТАТУС"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Базовая станция</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Базовая станция выполнена в виде моноблока, устанавливается на дверь распределительного устройства с помощью винтов. Станция собирает информацию со всех датчиков по беспроводному каналу связи, обеспечивает выполнение функций диагностики и транслирует данные на <emphasis>панель оператора</emphasis>. </para>
+<para>На лицевой панели базовой станции  расположены элементы управления и индикации: кнопка управления, светодиодный индикатор «Bluetooth», светодиодный индикатор «Сигнализация» и кольцевой светодиодный индикатор «Статус». Кнопка управления имеет четыре режима работы:<randomList>
+<listItem>
+<para>кратковременное нажатие – включение индикации датчика на 10 минут;</para>
+</listItem>
+<listItem>
+<para>длительное нажатие (3 секунды) – съем сигнализации;</para>
+</listItem>
+<listItem>
+<para>длительное нажатие (10 секунд) – тест светодиодных индикаторов;</para>
+</listItem>
+<listItem>
+<para>длительное нажатие (30 секунд) при подаче питания – сброс настроек интерфейса RS-485 к начальным значениям.</para>
+</listItem>
+</randomList>
+</para>
+<para>На задней панели базовой станции  расположены: клеммы питания, клеммы входа измерения напряжения и тока аккумуляторной батареи, клеммы выходных реле, резервный разъем и разъем RS-485. </para>
+<figure id="fig-001">
+<title>Базовая станция</title>
+<graphic infoEntityIdent="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm">
+<hotspot applicationStructureIdent="AUTOID_387" applicationStructureName="БАЗОВАЯ СТАНЦИЯ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_004" applicationStructureName="ТОРЦЕВАЯ КРЫШКА"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_006" applicationStructureName="КНОПКА УПРАВЛЕНИЯ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_012" applicationStructureName="СВЕТОДИОДНЫЙ ИНДИКАТОР"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_014" applicationStructureName="СВЕТОДИОДНЫЙ ИНДИКАТОР"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_002" applicationStructureName="КОЛЬЦЕВОЙ НАКОНЕЧНИК "></hotspot>
+<hotspot applicationStructureIdent="AUTOID_005" applicationStructureName="КЛЕММЫ ПИТАНИЯ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_008" applicationStructureName="КЛЕММЫ ВЫХОДНЫХ РЕЛЕ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_009" applicationStructureName="КЛЕММЫ ВХОДА ИЗМЕРЕНИЯ НАПРЯЖЕНИЯ И ТОКА АКБ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_010" applicationStructureName="RS-485"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_011" applicationStructureName="РЕЗЕРВ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>Репей функционирует следующим образом: датчик передает измеренные параметры аккумулятора на базовую станцию, базовая станция выполняет диагностику системы и транслирует данные на контроллер для выработки управляющего сигнала. <emphasis>Что-то дальше происходит</emphasis>
+</para>
+<para>Индикация корректной работы базовой станции:<randomList>
+<listItem>
+<para>индикатор  «Bluetooth» горит голубым цветом – наличие связи с датчиком;</para>
+</listItem>
+<listItem>
+<para>индикатор  «Статус» не горит – устройство выключено;</para>
+</listItem>
+<listItem>
+<para>индикатор  «Статус» горит пурпурным цветом – устройство включено и функционирует исправно;</para>
+</listItem>
+<listItem>
+<para>индикатор  «Сигнализация» не горит – устройство функционирует исправно.</para>
+</listItem>
+</randomList>
+</para>
+<para>Индикация корректной работы датчика:<randomList>
+<listItem>
+<para>индикатор  «Статус» не горит – устройство выключено / индикация отключена;</para>
+</listItem>
+<listItem>
+<para>индикатор  «Статус» горит зеленым цветом – устройство включено и функционирует исправно;</para>
+</listItem>
+<listItem>
+<para>индикатор  «Статус» горит пурпурным цветом – устройство включено и функционирует исправно, выполнение информационного обмена с базовой станцией.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</description>
+</content>
+</dmodule>

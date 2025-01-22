@@ -1,0 +1,199 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="B0" subSystemCode="2" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="04"></issueDate>
+<dmTitle>
+<techName>Каретка</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Каретки предназначены для установки и крепления полезной нагрузки на траверсу в заданных условиях эксплуатации.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В конструкции имеется две одинаковые каретки, которые зеркально отражены относительно центра траверсы. В состав одной каретки входят:<randomList>
+<listItem>
+<para>каркас каретки под винт (1 шт.);</para>
+</listItem>
+<listItem>
+<para>каркас каретки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>каркас уха (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики каретки <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики каретки</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры, мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>365×580×497</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>125,3</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Максимальная полезная нагрузка одной каретки, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>5000</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Каретка установлена на балке основания траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Каретка образовывается тремя основными силовыми элементами: каркасом каретки под винт, каркасом каретки и каркасом уха. Каркас уха устанавливается по центру между каркасом каретки под винт и каркасом каретки и фиксируется с помощью четырех шпилек с гайками. В каретке установлены элементы скольжения, обеспечивающие возможность ее перемещения по направляющим основания траверсы от стопора до резиновой накладки, расположенной на перемычке кронштейна вала ведомой звездочки.</para>
+<levelledPara>
+<title>Каркас каретки</title>
+<para>Каркас каретки  является одним из основных силовых  элементов каретки. Каркас каретки представляет собой сварную конструкцию из трех одинаковых стенок, полки, нижней полки, верхней полки и перемычки. Все сварные элементы каркаса каретки изготовлены из стали марки 09Г2С.</para>
+<para>Г-образные вырезы на концах стенок и нижняя полка, образуют паз, в который вварена перестыковочная перемычка. В перестыковочной перемычке выполнено четыре отверстия. Перестыковочная перемычка обеспечивает крепление и сборку основных силовых элементов каретки. Для точного позиционирования во время сборки на перестыковочной перемычке предусмотрены два отверстия, в которые запрессовываются штифты.</para>
+<para>
+						В верхней части каретки 
+					между полкой и верхней полкой образован паз, в который вварена стенка для установки бокового элемента скольжения. По краям стенки  приварены две проставки под стопор. В каждой проставке выполнены два отверстия, которые обеспечивают крепление стопоров с помощью винтового соединения. Боковой элемент скольжения устанавливается вплотную к стенке каретки между проставок.</para>
+<para>Все элементы скольжения фиксируется с помощью стопоров <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+<para>В нижней части верхней полки по краям приварены аналогичные проставки под стопор. Которые также обеспечивают крепления стопоров для элемента скольжения. Элемент скольжения устанавливается на верхней полке между проставок и фиксируется сверху с помощью стопоров.</para>
+<para>
+						На 
+					двух крайних стенках, которые образуют каркас каретки приварено по одной проставке. Проставки служат для определения крайнего положения каретки.</para>
+</levelledPara>
+<levelledPara>
+<title>Каркас каретки под винт</title>
+<para>Каркас каретки под винт имеет одинаковую конструкцию с каркасом каретки за исключением наличия отверстия для натяжителя и посадочного места для натяжителя цепи каретки, а также отсутствия проставок.</para>
+<para>Сверху на полке находится сварная конструкция, обеспечивающая посадочное место и крепление натяжителя цепи каретки. Посадочное  место под натяжитель цепи каретки состоит из двух стенок, упора и крышки. Для крепления натяжетиля цепи каретки и регулировки натяжения в упоре предусмотрено отверстие, в которое устанавливается шпилька и фиксируется двумя гайками.</para>
+</levelledPara>
+<levelledPara>
+<title>Каркас уха</title>
+<para>Каркас уха является основным центральным силовым элементом каретки. Каркас уха представляет собой сварную конструкцию из шести одинаковых косынок, платформы и уха. Все сварные элементы каркаса уха изготовлены из стали марки 09Г2С.</para>
+<para>К уху по бокам привариваются по три косынки с каждой стороны, а сверху приваривается платформа. Для возможности установки и крепежа грузов в ухе выполнено отверстие. По краям платформы приварены четыре проставки под стопор, с возможностью установки элементов скольжения и фиксацией с помощью стопоров, аналогичные по конструкции таким же на каркасе каретки.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>			Каретка</title>
+<graphic infoEntityIdent="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" xlink:type="simple">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_010" applicationStructureName="СТОПОР" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_006" applicationStructureName="НАТЯЖИТЕЛЬ ЦЕПИ КАРЕТКИ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_003" applicationStructureName="КРЫШКА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_025" applicationStructureName="СТЕНКА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_024" applicationStructureName="УПОР" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_007" applicationStructureName="НАТЯЖИТЕЛЬ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_008" applicationStructureName="ЦЕПЬ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_009" applicationStructureName="ОСНОВАНИЕ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_005" applicationStructureName="ИНДУКТИВНЫЙ ДАТЧИК" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_013" applicationStructureName="КАРКАС КАРЕТКИ ПОД ВИНТ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_018" applicationStructureName="КАРКАС КАРЕТКИ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_014" applicationStructureName="КАРКАС УХА" hotspotTitle=""></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_001" applicationStructureName="УХО"></hotspot>
+<hotspot id="fig-001-gra-001-hot-014" applicationStructureIdent="AUTOID_011" applicationStructureName="КОСЫНКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-015" applicationStructureIdent="AUTOID_009" applicationStructureName="ПЕРЕМЫЧКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-016" applicationStructureIdent="AUTOID_015" applicationStructureName="ПЛАТФОРМА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-017" applicationStructureIdent="AUTOID_010" applicationStructureName="СТЕНКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-018" applicationStructureIdent="AUTOID_008" applicationStructureName="ШТИФТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-019" applicationStructureIdent="AUTOID_003" applicationStructureName="ШПИЛЬКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-020" applicationStructureIdent="AUTOID_005" applicationStructureName="ГАЙКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-021" applicationStructureIdent="AUTOID_006" applicationStructureName="ШАЙБА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-022" applicationStructureIdent="AUTOID_022" applicationStructureName="ПРОСТАВКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-023" applicationStructureIdent="AUTOID_012" applicationStructureName=" БОКОВОЙ ЭЛЕМЕНТ СКОЛЬЖЕНИЯ "></hotspot>
+<hotspot id="fig-001-gra-001-hot-024" applicationStructureIdent="AUTOID_013" applicationStructureName="ЭЛЕМЕНТ СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-025" applicationStructureIdent="AUTOID_026" applicationStructureName="СТОПОР ЭЛЕМЕНТА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-026" applicationStructureIdent="AUTOID_021" applicationStructureName="ЭЛЕМЕНТ СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-027" applicationStructureIdent="AUTOID_027" applicationStructureName="ПРОСТАВКА ПОД СТОПОР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-028" applicationStructureIdent="AUTOID_004" applicationStructureName="ПЕРЕСТЫКОВОЧНАЯ ПЕРЕМЫЧКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-029" applicationStructureIdent="AUTOID_020" applicationStructureName="ПОЛКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-030" applicationStructureIdent="AUTOID_023" applicationStructureName="ВЕРХНЯЯ ПОЛКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-031" applicationStructureIdent="AUTOID_024" applicationStructureName="НИЖНЯЯ ПОЛКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-032" applicationStructureIdent="AUTOID_016" applicationStructureName="НИЖНЯЯ ПОЛКА"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

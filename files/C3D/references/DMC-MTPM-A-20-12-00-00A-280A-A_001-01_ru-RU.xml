@@ -1,0 +1,210 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="1" subSubSystemCode="2" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="280" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="10" day="18"></issueDate>
+<dmTitle>
+<techName>Элементы скольжения</techName>
+<infoName>Проверки</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Штангенциркуль </name>
+<toolRef toolNumber="ШЦ-I-250-0,05"></toolRef>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity></reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Рулетка измерительная металлическая</name>
+<toolRef toolNumber="RGK R-5"></toolRef>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity></reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Ветошь обтирочная</name>
+<supplyRef supplyNumber="ТУ 8189-018-01877509-2001" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<noSafety></noSafety>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните спуск траверсы на высоту (1,0 ± 0,1) м  от горизонтальной поверхности <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите элемент скольжения на отсутствие механических повреждений и загрязнений.</para>
+<proceduralStep>
+<para>
+			При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+<proceduralStep>
+<para>
+							При наличии механических повреждений замените элемент скольжения на новый <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для других элементов скольжения.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Проверка элементов скольжения на каретках</title>
+<proceduralStep>
+<para>Проверьте элемент скольжения на отсутствие люфтов в посадочном месте.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы его стопоров.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните измерение толщины элемента скольжения.</para>
+<proceduralStep>
+<para>В случае значения толщины менее 10 мм — замените элемент скольжения на новый <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для других элементов скольжения на каретке.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Переместите каретку на расстояние не менее 200 мм.</para>
+<proceduralStep>
+<para>Убедитесь, что во время движения каретки отсутствуют характерные звуки износа элементов скольжения, такие как скрип, лязг и скрежет металла.</para>
+</proceduralStep>
+<proceduralStep>
+<para>В случае возникновения вышеуказанных звуков — замените дефектный элемент скольжения на новый <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите все вышеуказанные процедуры для элементов скольжения на другой каретке.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Проверка элементов скольжения на опорах башни</title>
+<proceduralStep>
+<para>Проверьте элемент скольжения на отсутствие люфтов в посадочном месте.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы его стопоров.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните измерение толщины элемента скольжения.</para>
+<proceduralStep>
+<para>В случае значения толщины менее 10 мм — замените элемент скольжения на новый <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для других элементов скольжения на всех опорах.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Переместите башню на расстояние не менее 200 мм.</para>
+<proceduralStep>
+<para>Убедитесь, что во время движения башни отсутствуют характерные звуки износа элементов скольжения, такие как скрип, лязг и скрежет металла.</para>
+</proceduralStep>
+<proceduralStep>
+<para>В случае возникновения вышеуказанных звуков — замените дефектный элемент скольжения на новый <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>
+							Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

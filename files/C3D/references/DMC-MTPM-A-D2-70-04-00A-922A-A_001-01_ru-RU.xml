@@ -1,0 +1,301 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-D27004-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-D27004-0-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-D27004-0-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-D27004-0-MDMKD-00004-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="7" subSubSystemCode="0" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="04"></issueDate>
+<dmTitle>
+<techName>Распределительное устройство АКБ № 2</techName>
+<infoName>Демонтаж и монтаж</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<noSupportEquips></noSupportEquips>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Ветошь обтирочная</name>
+<supplyRef supplyNumber="ТУ 8189-018-01877509-2001" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Фиксатор резьбы</name>
+<supplyRef supplyNumber="Loctite 243" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning>
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните спуск траверсы   <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните строповку распределительного устройства АКБ № 2   <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Переведите защелки электрического соединителя <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-009" referredFragment="10"></internalRef> в открытое положение.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите электрический соединитель <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-009" referredFragment="10"></internalRef> с его ответной части.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите технологическую заглушку на электрический соединитель <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-009" referredFragment="10"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Зафиксируйте болты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-005" referredFragment="5"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отверните гайки <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001" referredFragment="1"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите  шайбы  <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002" referredFragment="2"></internalRef>, <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-004" referredFragment="4"></internalRef> и болты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-005" referredFragment="5"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отверните болты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-006" referredFragment="7"></internalRef>, снимите шайбы <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007" referredFragment="8"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите распределительное устройство АКБ № 2 <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef> с кронштейнами <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-008" referredFragment="9"></internalRef> с пластин <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-010" referredFragment="11"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Вывесите распределительное устройство АКБ № 2 <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef> с кронштейнами <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-008" referredFragment="9"></internalRef> над столом.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ к крепежным элементам <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="540" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Зафиксируйте винты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-001" referredFragment="12"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отверните гайки <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-005" referredFragment="15"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите  шайбы  <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-004" referredFragment="14"></internalRef> и винты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-001" referredFragment="12"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Зафиксируйте винты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-003" referredFragment="13"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отверните гайки <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-008" referredFragment="17"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите  шайбы  <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-007" referredFragment="16"></internalRef> и винты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-003" referredFragment="13"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите кронштейны <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-008" referredFragment="9"></internalRef> с распределительного устройства АКБ № 2 <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите распределительное устройство АКБ № 2 <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef> на стол.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите строповку распределительного устройства АКБ № 2   <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите распределительное устройство АКБ № 2 <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="310" disassyCodeVariant="A" disassyCode="00" assyCode="04" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Выполните строповку распределительного устройства АКБ № 2   <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ к крепежным элементам <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="540" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Протрите резьбовые части крепежных элементов обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите кронштейны <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-008" referredFragment="9"></internalRef> на распределительное устройство АКБ № 2 <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите  винты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-003" referredFragment="13"></internalRef> и шайбы  <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-007" referredFragment="16"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите фиксатор на резьбовую часть винтов <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-003" referredFragment="13"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Зафиксируйте винты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-003" referredFragment="13"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните гайки <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-008" referredFragment="17"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите  винты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-001" referredFragment="12"></internalRef> и шайбы  <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-004" referredFragment="14"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите фиксатор на резьбовую часть винтов <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-001" referredFragment="12"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Зафиксируйте винты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-001" referredFragment="12"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните гайки <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-002-hot-005" referredFragment="15"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Произведите процедуру закрытия доступа <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="740" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите фиксатор на резьбовую часть болтов <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-006" referredFragment="7"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите распределительное устройство АКБ № 2 <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef> с кронштейнами <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-008" referredFragment="9"></internalRef> на пластины <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-010" referredFragment="11"></internalRef> до упора к кронштейнам <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-003" referredFragment="3"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите шайбы <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007" referredFragment="8"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните болты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-006" referredFragment="7"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите шайбы  <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002" referredFragment="2"></internalRef>, <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-004" referredFragment="4"></internalRef> и болты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-005" referredFragment="5"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите фиксатор на резьбовую часть болтов <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-005" referredFragment="5"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Зафиксируйте болты <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-005" referredFragment="5"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните гайки <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001" referredFragment="1"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите технологическую заглушку с электрического соединителя <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-009" referredFragment="10"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите электрический соединитель <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-009" referredFragment="10"></internalRef> на его ответную часть.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Переведите защелки электрического соединителя <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-009" referredFragment="10"></internalRef> в закрытое положение.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите строповку распределительного устройства АКБ № 2   <internalRef internalRefId="fig-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011" referredFragment="6"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-001">
+<title>Демонтаж и монтаж распределительного устройства АКБ № 2</title>
+<graphic infoEntityIdent="ICN-MTPM-A-D27004-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-D27004-0-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_039" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_040" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_049" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_041" applicationStructureName="4"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_042" applicationStructureName="5"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_043" applicationStructureName="7"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_044" applicationStructureName="8"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_045" applicationStructureName="9"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_046" applicationStructureName="10"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_047" applicationStructureName="11"></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_048" applicationStructureName="6"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-D27004-0-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-D27004-0-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_002" applicationStructureName="12"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="9"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_026" applicationStructureName="13"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_011" applicationStructureName="14"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_012" applicationStructureName="15"></hotspot>
+<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_027" applicationStructureName="6"></hotspot>
+<hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_031" applicationStructureName="16"></hotspot>
+<hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_032" applicationStructureName="17"></hotspot>
+</graphic>
+</figure>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

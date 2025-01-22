@@ -1,0 +1,291 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="07" day="19"></issueDate>
+<dmTitle>
+<techName>Механические технологические процессы</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<caution id="ctn-001">
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ВЫПОЛНЕНИЕ РАБОТ ПРИ СЛЕДУЮЩИХ УСЛОВИЯХ:</warningAndCautionPara>
+<warningAndCautionPara>НЕБЛАГОПРИЯТНЫЕ ПОГОДНЫЕ УСЛОВИЯ, ТАКИЕ КАК ДОЖДЬ, ТУМАН, СНЕГ ИЛИ, КОГДА ВЕРОЯТНО НАСТУПЛЕНИЕ ТАКОЙ ПОГОДЫ ДО ПОЛНОГО ОТВЕРЖДЕНИЯ ПОКРЫТИЯ;</warningAndCautionPara>
+<warningAndCautionPara>ПРИ ТЕМПЕРАТУРАХ ОКРУЖАЮЩЕГО ВОЗДУХА И ПОДЛОЖКИ НИЖЕ И ВЫШЕ ЗНАЧЕНИЙ, УКАЗАННЫХ В ТЕХНИЧЕСКИХ ПАСПОРТАХ НА МАТЕРИАЛЫ;</warningAndCautionPara>
+<warningAndCautionPara>ПРИ ОТНОСИТЕЛЬНОЙ ВЛАЖНОСТИ ВОЗДУХА БОЛЕЕ 85 %;</warningAndCautionPara>
+<warningAndCautionPara>ПРИ ТЕМПЕРАТУРЕ ПОВЕРХНОСТИ МЕТАЛЛА МЕНЕЕ ЧЕМ НА 3 °С ВЫШЕ ТОЧКИ РОСЫ ОКРУЖАЮЩЕГО ВОЗДУХА;</warningAndCautionPara>
+<warningAndCautionPara>ПОСЛЕ НАСТУПЛЕНИЯ ТЕМНОТЫ БЕЗ ИСКУССТВЕННОГО ОСВЕЩЕНИЯ.</warningAndCautionPara>
+</caution>
+<levelledPara>
+<title>Общие сведения</title>
+<para>Данный раздел содержит общепринятые методики применительно к практике
+эксплуатации траверсы в части механических технологических процессов. В механические технологические процессы входят процедуры по восстановлению ЛКП и склеиванию поверхностей.</para>
+<para> Данный раздел устанавливает требования к  входному контролю и хранению ЛКМ, а также требования к подготовке поверхностей перед окрашиванием, к процессу нанесения ЛКМ,  к склеиванию и к пооперационному контролю качества выполняемых работ.</para>
+<para>Контроль качества выполненных работ обеспечивается на всех этапах технологического процесса. В процессе выполнения работ заполняется журнал производства работ по окраске и склеиванию, составляются акты приемки скрытых работ, характеризующие качество подготовки поверхностей, акты приемки готовых покрытий.</para>
+<levelledPara>
+<title>Входной контроль лакокрасочных материалов</title>
+<para>Входной контроль ЛКМ включает проверку сопроводительной документации и осмотр транспортной тары. Качество ЛКМ оценивается путем сопоставления их основных технических характеристик, указанных в сертификатах и технических описаниях на материалы. </para>
+<para>Все ЛКМ должны поставляться в герметично закрытой таре с сопроводительными документами (свидетельство о государственной регистрации, сертификат соответствия). На таре обязательно наличие информационной наклейки, содержащей следующую информацию:<randomList>
+<listItem>
+<para>наименование и товарный знак предприятия-изготовителя;</para>
+</listItem>
+<listItem>
+<para>наименование и марку материала;</para>
+</listItem>
+<listItem>
+<para>дату изготовления;</para>
+</listItem>
+<listItem>
+<para>место изготовления;</para>
+</listItem>
+<listItem>
+<para>массу нетто;</para>
+</listItem>
+<listItem>
+<para>номер партии.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Хранение лакокрасочных материалов</title>
+<para>ЛКМ рекомендуется хранить в сухом, хорошо вентилируемом помещении при температуре от плюс 5 °С до плюс 25 °С. Допускается хранение и транспортировка при температурах от минус 30 °С до плюс 30 °С. При хранении тара не должна подвергаться воздействию атмосферных осадков и прямых солнечных лучей.</para>
+<para>В случае хранения ЛКМ при отрицательных температурах, необходимо за сутки до нанесения поместить необходимый к использованию продукт в теплое помещение для обеспечения равномерного нагрева. Оптимальная температура ЛКМ во время хранения и нанесения от плюс 18 °С до плюс 25 °С.</para>
+<para>Срок хранения ЛКМ и растворителей:<randomList>
+<listItem>
+<para>Литапрайм Акрил — 48 месяцев;</para>
+</listItem>
+<listItem>
+<para>88-НП ТУ 38 105540-85 — 6 месяцев;</para>
+</listItem>
+<listItem>
+<para>Литум Растворитель № 7 — 48 месяцев;</para>
+</listItem>
+<listItem>
+<para>Нефрас-С-50/170 ГОСТ 8505-80 — 60 месяцев.</para>
+</listItem>
+</randomList>
+</para>
+<para>Не допускается использование лакокрасочных материалов, в которых наблюдается гелеобразование, выпадение твердо-сухого осадка или у которых ухудшились каким-либо образом свои характеристики в период хранения.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Восстановление лакокрасочных покрытий</title>
+<levelledPara>
+<title>Основные виды работ</title>
+<para>Технологический процесс по восстановлению лакокрасочных покрытий включает в себя подготовку поверхностей, окрашивание подготовленных поверхностей и контроль качества выполненных работ.</para>
+<para>Подготовка поверхности включает в себя:<randomList>
+<listItem>
+<para>устранение дефектов;</para>
+</listItem>
+<listItem>
+<para>очистку от грязи, масляных и жировых загрязнений;</para>
+</listItem>
+<listItem>
+<para>удаление продуктов коррозии и окалины;</para>
+</listItem>
+<listItem>
+<para>удаление прочих загрязнений (пыли и пр.);</para>
+</listItem>
+<listItem>
+<para>контроль качества и приемку подготовки поверхности.</para>
+</listItem>
+</randomList>
+</para>
+<para>Процесс окрашивания подготовленной поверхности включает следующие операции:<randomList>
+<listItem>
+<para>подготовку ЛКМ к работе;</para>
+</listItem>
+<listItem>
+<para>нанесение покрытия;</para>
+</listItem>
+<listItem>
+<para>сушку;</para>
+</listItem>
+<listItem>
+<para>контроль качества и приемку покрытия.</para>
+</listItem>
+</randomList>
+</para>
+<para>Четкая последовательность выполнения работ изложена в следующих технологических картах, которыми необходимо
+руководствоваться при выполнении восстановления лакокрасочных покрытий в процессе обслуживания траверсы:<randomList>
+<listItem>
+<para>подготовка поверхностей перед восстановлением лакокрасочного покрытия <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="254" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="1" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>нанесение эмалей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="257" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="1" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Основные используемые лакокрасочные материалы при восстановлении лакокрасочных покрытий</title>
+<para>В качестве основных ЛКМ используется Литапрайм Акрил и растворитель Литум № 7.</para>
+<para>Литапрайм Акрил — однокомпонентное акриловое толстослойное быстросохнущее покрытие физического отверждения. Основные свойства:<randomList>
+<listItem>
+<para>сухой остаток (по объему): (47 ± 2) %;</para>
+</listItem>
+<listItem>
+<para>плотность: 1,2 кг/л;</para>
+</listItem>
+<listItem>
+<para>температура вспышки: плюс 25 °С;</para>
+</listItem>
+<listItem>
+<para>цвет: согласно спецификации.</para>
+</listItem>
+</randomList>
+</para>
+<para>Литум Растворитель № 7 — специальный растворитель для акриловых и аналогичных продуктов. Основные свойства:<randomList>
+<listItem>
+<para>сухой остаток (по объему): 0 %;</para>
+</listItem>
+<listItem>
+<para>плотность: 0,9 кг/л;</para>
+</listItem>
+<listItem>
+<para>температура вспышки: плюс 25 °С.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Склеивание поверхностей</title>
+<levelledPara>
+<title>Основные виды работ</title>
+<para>Технологический процесс по склеиванию поверхностей включает в себя подготовку поверхностей, склеивание подготовленных поверхностей и контроль качества выполненных работ.</para>
+<para>Подготовка поверхности включает в себя:<randomList>
+<listItem>
+<para>очистку от грязи, масляных и жировых загрязнений;</para>
+</listItem>
+<listItem>
+<para>удаление прочих загрязнений (пыли и пр.);</para>
+</listItem>
+<listItem>
+<para>шлифовку поверхности, с целью выравнивания толщины покрытия;</para>
+</listItem>
+<listItem>
+<para>контроль качества и приемку подготовки поверхности.</para>
+</listItem>
+</randomList>
+</para>
+<para>Процесс склеивания подготовленных поверхностей включает следующие операции:<randomList>
+<listItem>
+<para>подготовку клея к работе;</para>
+</listItem>
+<listItem>
+<para>нанесение клея;</para>
+</listItem>
+<listItem>
+<para>сушку;</para>
+</listItem>
+<listItem>
+<para>прижим и прокат роликом;</para>
+</listItem>
+<listItem>
+<para>контроль качества и приемку склеивания.</para>
+</listItem>
+</randomList>
+</para>
+<para>Четкая последовательность выполнения работ изложена в следующих технологических картах, которыми необходимо
+руководствоваться при выполнении склеивания поверхностей в процессе обслуживания траверсы:<randomList>
+<listItem>
+<para>подготовка поверхностей перед склеиванием <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="254" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="2" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>склеивание клеем <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="621" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="2" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Основные используемые лакокрасочные материалы при склеивании поверхностей</title>
+<para>В качестве основных ЛКМ используется клей 88-НП ТУ 38 105540-85 и растворитель Нефрас-С-50/170 ГОСТ 8505-80.</para>
+<para>88-НП ТУ 38 105540-85 — однокомпонентный клей холодного отверждения на основе хлоропренового каучука (резиновая смесь 31НП),  фенолформальдегидной смолы, с усиливающими добавками в смеси растворителей. Основные свойства:<randomList>
+<listItem>
+<para>сухой остаток (по объему): (28 ± 3) %;</para>
+</listItem>
+<listItem>
+<para>однородность: однороден;</para>
+</listItem>
+<listItem>
+<para>условная вязкость по ВЗ-1: от 15 до 40;</para>
+</listItem>
+<listItem>
+<para>расход: 300 г/м<superScript>2</superScript>;</para>
+</listItem>
+<listItem>
+<para>внешний вид: вязко-текучая масса от светло-желтого до светло-коричневого цвета.</para>
+</listItem>
+</randomList>
+</para>
+<para>Нефрас-С-50/170 ГОСТ 8505-80 — высокоэффективный нефтяной растворитель смешанного типа. Основные свойства:<randomList>
+<listItem>
+<para>сухой остаток (по объему): 0 %;</para>
+</listItem>
+<listItem>
+<para>плотность: 0,7 кг/л;</para>
+</listItem>
+<listItem>
+<para>температура вспышки: минус 39 °С.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+</description>
+</content>
+</dmodule>

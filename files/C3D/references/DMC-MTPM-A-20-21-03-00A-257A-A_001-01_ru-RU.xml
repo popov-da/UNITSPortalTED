@@ -1,0 +1,345 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="1" assyCode="03" disassyCode="00" disassyCodeVariant="A" infoCode="257" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="07" day="22"></issueDate>
+<dmTitle>
+<techName>Нанесение эмалей</techName>
+<infoName>Окраска и маркировка</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Кисть филеночная</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber>КФК8 ГОСТ Р 58516-2019</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Термогигрометр ИВА-6Н</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Секундомер</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Магнитный толщиномер покрытий</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber>МТ-2007</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Миксер ручной пневматический</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber>ПМ-3</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Эмаль</name>
+<supplyRef supplyNumber="Литапрайм Акрил" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Литум № 7" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning id="wrn-001">
+<warningAndCautionPara>СОБЛЮДАЙТЕ ПРАВИЛА ПОЖАРНОЙ БЕЗОПАСНОСТИ, ПРАВИЛА ЗАЩИТЫ
+ОТ СТАТИЧЕСКОГО ЭЛЕКТРИЧЕСТВА. </warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ПРИМЕНЕНИЕ ОТКРЫТОГО ОГНЯ.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ КУРЕНИЕ НА РАБОЧЕМ МЕСТЕ.</warningAndCautionPara>
+<warningAndCautionPara>РАБОТЫ ПРОВОДЯТСЯ ТОЛЬКО В
+СПЕЦОДЕЖДЕ.</warningAndCautionPara>
+</warning>
+<warning id="wrn-002">
+<warningAndCautionPara>СОБЛЮДАЙТЕ МЕРЫ
+ПРЕДОСТОРОЖНОСТИ ПРИ РАБОТЕ С МАТЕРИАЛАМИ.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ПОДНОСИТЕ  МАТЕРИАЛЫ КО РТУ.</warningAndCautionPara>
+<warningAndCautionPara>ИЗБЕГАЙТЕ ВДЫХАНИЯ ЯДОВИТЫХ
+ПАРОВ, ВЫДЕЛЯЕМЫХ МАТЕРИАЛАМИ.</warningAndCautionPara>
+<warningAndCautionPara>ОБРАТИТЕСЬ ЗА МЕДИЦИНСКОЙ ПОМОЩЬЮ ПРИ ВОЗНИКНОВЕНИИ
+РАЗДРАЖЕНИЯ КОЖИ И ГЛАЗ.</warningAndCautionPara>
+</warning>
+<caution>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ НАНЕСЕНИЕ ЛАКОКРАСОЧНЫХ МАТЕРИАЛОВ ПРИ НЕБЛАГОПРИЯТНЫХ  ПОГОДНЫХ УСЛОВИЯХ, А ТАКЖЕ В ТЕМНОЕ ВРЕМЯ СУТОК БЕЗ ИСКУССТВЕННОГО ОСВЕЩЕНИЯ.</warningAndCautionPara>
+<warningAndCautionPara>ВРЕМЯ МЕЖДУ ОКОНЧАНИЕМ МЕХАНИЧЕСКОЙ ОЧИСТКИ ПОВЕРХНОСТИ И НАЧАЛОМ ОКРАСКИ НЕ ДОЛЖНО ПРЕВЫШАТЬ 6 ЧАСОВ.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ УСКОРЯТЬ ПРОЦЕСС СУШКИ ПУТЕМ ОБДУВА ГОРЯЧИМ ВОЗДУХОМ ЛАКОКРАСОЧНЫХ МАТЕРИАЛОВ.</warningAndCautionPara>
+<warningAndCautionPara></warningAndCautionPara>
+</caution>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните замер параметров окружающей среды.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Наденьте спецодежду: комбинезон, респиратор аэрозольный, перчатки, очки.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ к месту выполнения работ.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните подготовку поверхности <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="254" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="1" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Нанесение эмали</title>
+<proceduralStep>
+<para>Откройте упаковку и тщательно перемешайте эмаль в течение (10 ± 1) мин до однородной консистенции по высоте тары.</para>
+<note id="not-001">
+<notePara>При необходимости уменьшения рабочей вязкости рекомендуется использовать растворитель в количестве не более 5 % от объема эмали.</notePara>
+</note>
+</proceduralStep>
+<proceduralStep>
+<para>Перед началом нанесения эмали проверьте качество подготовки восстанавливаемых поверхностей, а также поверхностей, не подлежащих окраске.</para>
+<proceduralStep>
+<para>Убедитесь, что на восстанавливаемых поверхностях отсутствуют видимое окисление, ржавление, потемнение и другие  коррозионные повреждения.</para>
+</proceduralStep>
+<proceduralStep>
+<para>В случае возникновения дефектов на восстанавливаемых поверхностях, выполните повторную подготовку.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что не подлежащие окраски поверхности надежно защищены полиэтиленовой пленкой и прикреплены с помощью малярного скотча.</para>
+</proceduralStep>
+<proceduralStep>
+<para>В случае повреждения защиты перед нанесением эмалей необходимо защитить элементы, не подлежащие окраске, заново.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Аккуратно нанесите
+						на восстанавливаемый участок ЛКП слой эмали толщиной не менее 160 мкм.</para>
+</proceduralStep>
+<proceduralStep id="stp-001">
+<para>Просушите поверхность согласно режиму сушки и отверждению лакокрасочных материалов <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep id="stp-002">
+<para>После сушки проверьте качество нанесенного лакокрасочного материала.</para>
+<proceduralStep>
+<para>Убедитесь, что на восстановленном участке ЛКП отсутствуют пропуски, непрокрасы, утончения нанесенного лакокрасочного материала и другие дефекты.</para>
+</proceduralStep>
+<proceduralStep>
+<para>В случае обнаружения вышеуказанных дефектов, нанесите дополнительный слой эмали толщиной не более 120 мкм.</para>
+</proceduralStep>
+<proceduralStep>
+<para>После нанесения дополнительного слоя, повторите  <internalRef internalRefId="stp-001" internalRefTargetType="irtt08" xlink:href="#stp-001"></internalRef>,  <internalRef internalRefId="stp-002" internalRefTargetType="irtt08" xlink:href="#stp-002"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<table id="tab-001">
+<title>Режимы сушки и отверждения лакокрасочных материалов</title>
+<tgroup cols="5">
+<colspec colnum="1" colname="col1" colwidth="1*" align="center"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*" align="center"></colspec>
+<colspec colnum="3" colname="col3" colwidth="1*" align="center"></colspec>
+<colspec colnum="4" colname="col4" colwidth="1*" align="center"></colspec>
+<colspec colnum="5" colname="col5" colwidth="1*" align="center"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование лакокрасочного материала</para>
+</entry>
+<entry colname="col2">
+<para>Температура, °С, не более</para>
+</entry>
+<entry colname="col3">
+<para>Высыхание на отлип, не менее</para>
+</entry>
+<entry colname="col4">
+<para>Высыхание до твердой пленки, не менее</para>
+</entry>
+<entry colname="col5">
+<para>Интервал до нанесения следующего слоя, не менее</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" morerows="5" align="center" valign="middle">
+<para>Литапрайм Акрил</para>
+</entry>
+<entry colname="col2">
+<para>-5</para>
+</entry>
+<entry colname="col3">
+<para>30 мин</para>
+</entry>
+<entry colname="col4">
+<para>20 ч</para>
+</entry>
+<entry colname="col5">
+<para>4 ч</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>0</para>
+</entry>
+<entry colname="col3">
+<para>20 мин</para>
+</entry>
+<entry colname="col4">
+<para>20 ч</para>
+</entry>
+<entry colname="col5">
+<para>4 ч </para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>+5</para>
+</entry>
+<entry colname="col3">
+<para>17 мин</para>
+</entry>
+<entry colname="col4">
+<para>17 ч</para>
+</entry>
+<entry colname="col5">
+<para>3 ч</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>+10</para>
+</entry>
+<entry colname="col3">
+<para>15 мин</para>
+</entry>
+<entry colname="col4">
+<para>11 ч</para>
+</entry>
+<entry colname="col5">
+<para>2,5 ч</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>+23</para>
+</entry>
+<entry colname="col3">
+<para>10 мин</para>
+</entry>
+<entry colname="col4">
+<para>10 ч</para>
+</entry>
+<entry colname="col5">
+<para>2 ч</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>+40</para>
+</entry>
+<entry colname="col3">
+<para>10 мин</para>
+</entry>
+<entry colname="col4">
+<para>6 ч</para>
+</entry>
+<entry colname="col5">
+<para>1,5 ч</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

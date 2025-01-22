@@ -1,0 +1,251 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-A12201-0-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-A12201-0-MDMKD-00004-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-A12201-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-A12201-0-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="2" subSubSystemCode="2" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="07" day="10"></issueDate>
+<dmTitle>
+<techName>Редуктор каретки</techName>
+<infoName>Демонтаж и монтаж</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<noSupportEquips></noSupportEquips>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Ветошь обтирочная</name>
+<supplyRef supplyNumber="ТУ 8189-018-01877509-2001" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Фиксатор резьбы</name>
+<supplyRef supplyNumber="Loctite 243" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning>
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните спуск траверсы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Демонтируйте двигатель каретки  <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Демонтируйте крышку редуктора <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Отверните болты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef> крепления кронштейнов <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef> редуктора <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите шайбы <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, редуктор <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef>  с кронштейнами <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>. </para>
+</proceduralStep>
+<proceduralStep>
+<para>Отверните гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="15" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="16" xlink:actuate="onRequest" xlink:show="replace"></internalRef> крепления редуктора <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> к кронштейнам <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Cнимите болты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="12" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="19" xlink:actuate="onRequest" xlink:show="replace"></internalRef>,  шайбы <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="13" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="14" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="17" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="18" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и кронштейны <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отверните гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"></internalRef> крепления переходной плиты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="10" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-011"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите винты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="9" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, переходную плиту <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="10" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите редуктор башни <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на отсутствие сколов, трещин, вмятин  и загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+<proceduralStep>
+<para> При наличии повреждений замените редуктор башни на новый.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Протрите резьбовые части крепежных элементов обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите переходную плиту <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="10" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите  фиксатор на резьбовую часть винтов <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="9" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите винты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="9" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите и заверните гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите  фиксатор на резьбовую часть болтов 	<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="12" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="19" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите кронштейны <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, шайбы <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="13" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="14" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="17" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="18" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, болты 	<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="12" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="19" xlink:actuate="onRequest" xlink:show="replace"></internalRef>  на редуктор <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите и заверните гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="15" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="16" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-002-hot-005"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Совместите шпонку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="11" xlink:actuate="onRequest" xlink:show="replace"></internalRef> вала и канавку в редукторе <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите редуктор <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> с кронштейнами <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>  на основание балки.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите фиксатор на резьбовую часть болтов <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите шайбы  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и болты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните болты 	<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef> до упора.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Установите крышку редуктора  <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите двигатель каретки  <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Произведите функциональные испытания  <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="340" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-001">
+<title>Демонтаж и монтаж редуктора каретки</title>
+<graphic infoEntityIdent="ICN-MTPM-A-A12201-0-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-A12201-0-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_007" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_010" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_011" applicationStructureName="5"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_012" applicationStructureName="6"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_005" applicationStructureName="11"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_006" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_013" applicationStructureName="4"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_019" applicationStructureName="8"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_025" applicationStructureName="9"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_024" applicationStructureName="7"></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_026" applicationStructureName="10"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-A12201-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-A12201-0-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_006" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_007" applicationStructureName="4"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_008" applicationStructureName="14"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_010" applicationStructureName="15"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_013" applicationStructureName="16"></hotspot>
+<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_014" applicationStructureName="17"></hotspot>
+<hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_016" applicationStructureName="18"></hotspot>
+<hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_017" applicationStructureName="19"></hotspot>
+<hotspot id="fig-001-gra-002-hot-009" applicationStructureIdent="AUTOID_015" applicationStructureName="7"></hotspot>
+<hotspot id="fig-001-gra-002-hot-010" applicationStructureIdent="AUTOID_011" applicationStructureName="13"></hotspot>
+<hotspot id="fig-001-gra-002-hot-011" applicationStructureIdent="AUTOID_012" applicationStructureName="12"></hotspot>
+</graphic>
+</figure>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-B04001-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-B04001-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="B0" subSystemCode="4" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="05"></issueDate>
+<dmTitle>
+<techName>Переходник для крана</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Переходник для крана предназначен для навески траверсы на грузоподъемное устройство.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав переходника для  крана входят:<randomList>
+<listItem>
+<para>овальное звено (1 шт.);</para>
+</listItem>
+<listItem>
+<para>такелажная скоба (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики овального звена <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table id="tab-001">
+<title>Технические характеристики овального звена</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Диаметр прутка, мм</para>
+</entry>
+<entry colname="col2">
+<para>65</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Высота отверстия, мм</para>
+</entry>
+<entry colname="col2">
+<para>290</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Ширина отверстия, мм</para>
+</entry>
+<entry colname="col2">
+<para>200</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Радиус скругления отверстия, мм</para>
+</entry>
+<entry colname="col2">
+<para>100</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг</para>
+</entry>
+<entry colname="col2">
+<para>26,44</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Допускаемая нагрузка, кг</para>
+</entry>
+<entry colname="col2">
+<para>16000</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Технические характеристики такелажной скобы <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики такелажной скобы</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Диаметр прутка, мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>45</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Расстояние от нижней точки дуги такелажной скобы до центра отверстий проушин, мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>149</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Расстояние между проушинами, мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>74</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диаметр отверстий проушин, мм</para>
+</entry>
+<entry colname="col2">
+<para>50</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>14,99</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Допускаемая нагрузка, кг</para>
+</entry>
+<entry colname="col2">
+<para>25000</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>Переходник для крана устанавливается на такелажный элемент башни.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Переходник для крана представляет собой сборную конструкцию из овального звена и такелажной скобы.</para>
+<levelledPara>
+<title>Овальное звено</title>
+<para>Овальное звено представляет собой изделие из стального прутка марки 09Г2С овальной формы. Концы прутка в месте стыка завариваются. Овальное звено обеспечивает установку крюка грузоподъемного устройства.</para>
+</levelledPara>
+<levelledPara>
+<title>Такелажная скоба</title>
+<para>Такелажная скоба представляет собой изделие из термообработанного стального прутка, класса 8 U-образной формы. На концах прутка имеются проушины, предназначенные для крепеления скобы к такелажному элементу с помощью болтового соединения, состоящего из болта, гайки и шплинта. Такелажная скоба обеспечивает соединение овального звена с основным каркасом траверсы.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Переходник для крана</title>
+<graphic infoEntityIdent="ICN-MTPM-A-B04001-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-B04001-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_054" applicationStructureName="ОВАЛЬНОЕ  ЗВЕНО "></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_004" applicationStructureName="ТАКЕЛАЖНАЯ СКОБА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_005" applicationStructureName="БОЛТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_009" applicationStructureName="ШПЛИНТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_010" applicationStructureName="ГАЙКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_011" applicationStructureName="ТАКЕЛАЖНЫЙ ЭЛЕМЕНТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_006" applicationStructureName="БАШНЯ"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

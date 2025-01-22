@@ -1,0 +1,194 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-B00000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-B00000-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="B0" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="028" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="19"></issueDate>
+<dmTitle>
+<techName>Конструкция</techName>
+<infoName>Общие сведения</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<para>В настоящем разделе указана информация об основных конструктивных частях каркаса траверсы и вспомогательном оборудовании.</para>
+<para>Раздел включает в себя следующие подразделы:<randomList>
+<listItem>
+<para>башня:<randomList>
+<listItem>
+<para>башня <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+<listItem>
+<para>подвижные конструкции:<randomList>
+<listItem>
+<para>каретка <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="2" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+<listItem>
+<para>основание:<randomList>
+<listItem>
+<para>основание <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+<listItem>
+<para>вспомогательное оборудование:<randomList>
+<listItem>
+<para>переходник для крана <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="4" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Конструкция траверсы представляет собой сборную конструкцию, образованную из основания, башни и подвижных конструкций. К подвижным конструкциям относятся каретки. Все основные конструктивные части каркаса преимущественно выполнены из низколегированной стали марки 09Г2С.</para>
+<para>Каркас траверсы обеспечивает три точки подвеса — две боковые на каретках и одну центральную с установкой за нижний зацеп. В качестве сортамента для основания траверсы выбран двутавр.</para>
+<para>В центральной части конструкции установлена башня. В вершине башни установлен такелажный элемент, к которому крепится вспомогательное оборудование.</para>
+<para>В состав вспомогательного оборудования входит переходник для крана, включающий в себя овальное звено и такелажную скобу.</para>
+<para>Стальная конструкция траверсы, а также современная защита ЛКП позволяют эксплуатировать ее при температурах окружающего
+воздуха от минус 40 °С до плюс 50 °С и среднегодовым значением относительной
+влажности 80 % при температуре плюс 27 °С.</para>
+<para>Основные технические характеристики конструкции  <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table frame="all" id="tab-001">
+<title>Основные технические характеристики конструкции</title>
+<tgroup cols="2" colsep="1" rowsep="1" align="left">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Максимальное смещение башни относительно центра, мм, не более</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para></para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Максимальный ход одной каретки, мм, не более</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para></para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Крайнее положение кареток, мм, не более:</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para></para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>максимальное</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para></para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>минимальное</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para></para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+<figure id="fig-001">
+<title>Конструкция траверсы</title>
+<graphic infoEntityIdent="ICN-MTPM-A-B00000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-B00000-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" xlink:type="simple">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="ОСНОВАНИЕ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_005" applicationStructureName="ОСНОВАНИЕ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_006" applicationStructureName="КАРЕТКА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_003" applicationStructureName="КАРЕТКА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_007" applicationStructureName="КАРЕТКА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_004" applicationStructureName="КАРЕТКА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_017" applicationStructureName="БАШНЯ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_008" applicationStructureName="БАШНЯ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_002" applicationStructureName="ПЕРЕХОДНИК КРАНА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_009" applicationStructureName="ПЕРЕХОДНИК КРАНА" hotspotTitle=""></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

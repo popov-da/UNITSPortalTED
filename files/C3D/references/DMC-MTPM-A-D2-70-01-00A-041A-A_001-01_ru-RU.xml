@@ -1,0 +1,423 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="7" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="10" day="23"></issueDate>
+<dmTitle>
+<techName>Распределительное устройство № 1</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+						Распределительное устройство (РУ) № 1  предназначен для:<randomList>
+<listItem>
+<para>размещение оборудования;</para>
+</listItem>
+<listItem>
+<para>распределения электроэнергии постоянного тока напряжением 24 В по потребителям;</para>
+</listItem>
+<listItem>
+<para>преобразование постоянного тока напряжением 12 В в напряжение 24 В;</para>
+</listItem>
+<listItem>
+<para>преобразование постоянного тока напряжением 24 В в напряжение 48 В;</para>
+</listItem>
+<listItem>
+<para>прием и перераспределение дискретных сигналов 24 В.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>						В состав РУ №1 входят:<randomList>
+<listItem>
+<para>шкаф (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кронштейн (2 шт.);</para>
+</listItem>
+<listItem>
+<para>вентилятор (2 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>вентиляционная решетка (2 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>защитный кожух (2 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>светодиодный индикатор (2 шт.);</para>
+</listItem>
+<listItem>
+<para>кнопка аварийной остановки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>выключатель нагрузки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модульный автоматический выключатель (2 шт.);</para>
+</listItem>
+<listItem>
+<para>сигнальный контакт (2 шт.);</para>
+</listItem>
+<listItem>
+<para>модульный контактор (2 шт.);</para>
+</listItem>
+<listItem>
+<para>дополнительный контактный модуль (2 шт.);</para>
+</listItem>
+<listItem>
+<para>проходная клемма (16 шт.);</para>
+</listItem>
+<listItem>
+<para>проходная клемма с предохранителем (17 шт.);</para>
+</listItem>
+<listItem>
+<para>концевой фиксатор (5 шт.);</para>
+</listItem>
+<listItem>
+<para>DIN-рейка (3 шт.);</para>
+</listItem>
+<listItem>
+<para>перфорированный кабельный канал (6 шт.);</para>
+</listItem>
+<listItem>
+<para>крышка перфорированного кабельного канала (6 шт.);</para>
+</listItem>
+<listItem>
+<para>шаговый серводрайвер (5 шт.);</para>
+</listItem>
+<listItem>
+<para>преобразователь 12 В / 24 В (2 шт.);</para>
+</listItem>
+<listItem>
+<para>преобразователь 24 В / 48 В (2 шт.);</para>
+</listItem>
+<listItem>
+<para>промежуточное реле (5 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики распределительного устройства №1 <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики распределительного устройста №1</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>702×280×485</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>???</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>РУ №1 размещено на основание траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>РУ №1 
+представляет собой шкаф с двумя кронштейнами, внутри которого размещены силовое и коммутационное оборудование.</para>
+<levelledPara>
+<title>Шкаф</title>
+<para>Шкаф состоит из металлического каркаса, дверца и двух замков. На корпусе шкафа имеются отверстия для установки вентиляционных решеток и электрических соединителей. На дверце шкафа предусмотрены отверстия для установки вентиляторов, индикаторов, кнопки аварийного остановки и выключателя нагрузки. В шкафу имеется кронштейн для установки преобразователей. Также в шкафу предусмотрена монтажная панель, на которую устанавливают навесное оборудование. </para>
+</levelledPara>
+<levelledPara>
+<title>Кронштейн</title>
+<para>Кроштейн представляет собой сварную конструкцию из полки, стенки и косынки. В кронштейне предусмотрены отверстия для крепления к шкафу и для установки на траверсу.</para>
+</levelledPara>
+<levelledPara>
+<title>Светодиодный индикатор</title>
+<para>В шкафу установлено два светодиодных индикатора:<randomList>
+<listItem>
+<para>индикатор питания линии АКБ № 1 зеленого цвета предназначен для отображения наличия питания от РУ АКБ № 1. Его включение сигнализирует о том, что питание от АКБ № 1 подается на запитку группы шаговых серводрайверов;</para>
+</listItem>
+<listItem>
+<para>индикатор питания линии АКБ № 2 зеленого цвета предназначен для отображения наличия питания от РУ АКБ № 2. Его включение сигнализирует о том, что питание от АКБ № 2 подается на запитку группы шаговых серводрайверов;</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Кнопка аварийной остановки</title>
+<para>Кнопка аварийной остановки (КАО) служит для быстрого снятия напряжения с реле управления и остановки силовых агрегатов.</para>
+</levelledPara>
+<levelledPara>
+<title>Выключатель нагрузки</title>
+<para>Выключатель нагрузки позволяет включать и отключать цепи питания.</para>
+</levelledPara>
+<levelledPara>
+<title>Модульный автоматический выключатель</title>
+<para>Модульный автоматический выключатель (автомат защиты) предназначен для автоматического отключения электрической цепи при возникновении коротких замыканий или перегрузок.</para>
+</levelledPara>
+<levelledPara>
+<title>Сигнальный контакт</title>
+<para>Сигнальный контакт (СК) предназначен для сигнализации аварийного срабатывания при возникновении коротких замыканий или перегрузок.</para>
+</levelledPara>
+<levelledPara>
+<title>Модульный контактор</title>
+<para>В шкафу установлено два модульных контактора: <randomList>
+<listItem>
+<para>контактор предназначен для коммутации цепи с напряжением 48 В, поступающим от преобразователя, до шаговых серводрайверов кареток;</para>
+</listItem>
+<listItem>
+<para>контактор предназначен для коммутации цепи с напряжением 48 В, поступающим от преобразователя, до шаговых серводрайверов тормозных механизмов и башни.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Дополнительный контактный модуль</title>
+<para>Дополнительный контактный модуль (ДКМ) предназначен для расширения функциональности контакторов, обеспечивая дополнительные контакты для коммутации электрических цепей.</para>
+</levelledPara>
+<levelledPara>
+<title>Проходная клемма</title>
+<para>Проходная клемма предназначена  для соединения двух и более проводников. Она также используется для создания клеммных блоков, через которые осуществляется распределение сигнала на потребителей.  </para>
+<para>В шкафу установлено 16 проходных клеммы:<randomList>
+<listItem>
+<para>три проходные клеммы 1745230000 предназначены для подключения плюсовых контактов серводрайверов и модульных контакторов;</para>
+</listItem>
+<listItem>
+<para>три проходные клеммы 1745240000 предназначен для подключения контактов серводрайверов и модульных контакторов;</para>
+</listItem>
+<listItem>
+<para>клеммный блок из четырех проходных клемм 1689990000 предназначен для распределения плюсового силового питания 24 В по потребителям;</para>
+</listItem>
+<listItem>
+<para>клеммный блок из четырех проходных клемм 1674300000 предназначен для распределения минусового силового питания 24 В по потребителям;;</para>
+</listItem>
+<listItem>
+<para>проходная клемма 1689990000 предназначен для распределения плюсового силового питания 24 В по потребителям;</para>
+</listItem>
+<listItem>
+<para>проходная клемма 1689990000 предназначен для распределения минусового силового питания 24 В по потребителям;</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Проходная клемма с предохранителем</title>
+<para>Проходная клемма с предохранителем предназначена  для соединения двух и более проводников, а также для защиты электрических цепей от перегрузок и коротких замыканий.</para>
+</levelledPara>
+<levelledPara>
+<title>Концевой фиксатор</title>
+<para>Концевой фиксатор обеспечивает фиксацию и ограничивает перемещение установленного оборудования на DIN-рейке.</para>
+</levelledPara>
+<levelledPara>
+<title>DIN-рейка</title>
+<para>DIN-рейка обеспечивает установку оборудования на монтажную панель.</para>
+</levelledPara>
+<levelledPara>
+<title>Перфорированный кабельный канал</title>
+<para>Перфорированный кабельный канал предназначен для прокладки проводников и кабелей, а также для обеспечения их вентиляции.</para>
+</levelledPara>
+<levelledPara>
+<title>Крышка перфорированного кабельного канала</title>
+<para>Крышка перфорированного кабельного канала предназначена для защиты кабелей и проводников от механических повреждений, пыли и загрязнений, а также для предотвращения случайного контакта с проводниками.</para>
+</levelledPara>
+<levelledPara>
+<title>Шаговый серводрайвер</title>
+<para>В шкафу установлено 5 шаговых серводрайверов:<randomList>
+<listItem>
+<para>шаговый серводрайвер левой части системы перемещения каретки предназначен для управления шаговым двигателем каретки;</para>
+</listItem>
+<listItem>
+<para>шаговый серводрайвер правой части системы перемещения каретки предназначен для управления шаговым двигателем каретки;</para>
+</listItem>
+<listItem>
+<para>шаговый серводрайвер  башни предназначен для управления шаговым двигателем башни;</para>
+</listItem>
+<listItem>
+<para>шаговый серводрайвер левой части тормозного механизма  предназначен для управления шаговым двигателем тормоза;</para>
+</listItem>
+<listItem>
+<para>шаговый серводрайвер правой части тормозного механизма  предназначен для управления шаговым двигателем тормоза.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Преобразователь 12 В / 24 В</title>
+<para>Преобразователь 12 В / 24 В предназначен 
+		 для преобразования напряжения с 12 В  (60 А) на 24 В (30 А). Каждый преобразователь получает питания со своего отдельного АКБ.</para>
+</levelledPara>
+<levelledPara>
+<title>Преобразователь 24 В / 48 В</title>
+<para>Преобразователь 24 В / 48 В предназначен для преобразования напряжения с 24 В (20 А) на 48 В (10 А). Каждый преобразователь получает питание от своего отдельного АКБ. Устройство позволяет работать двум преобразователям синхронно, питая одну нагрузку, что способствует равномерному разряду аккумуляторов</para>
+</levelledPara>
+<levelledPara>
+<title>Промежуточное реле</title>
+<para>Выполняет функцию усиления сигнала тормоза выданное от сервопривода к шаговому двигателю, а также служит для передачи информации процессору о состоянии тормоза. </para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Распределительное устройство № 1 с оборудованием </title>
+<graphic infoEntityIdent="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_004" applicationStructureName="ВЫКЛЮЧАТЕЛЬ НАГРУЗКИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="КНОПКА АВАРИЙНОЙ ОСТАНОВКИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_005" applicationStructureName="ЗАМОК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_001" applicationStructureName=" ИНДИКАТОР   ПИТАНИЯ ЛИНИИ АКБ № 1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_006" applicationStructureName=" ИНДИКАТОР   ПИТАНИЯ ЛИНИИ АКБ № 2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_012" applicationStructureName="РАСПРЕДЕЛИТЕЛЬНОЕ УСТРОЙСТВО АКБ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_011" applicationStructureName="КРОНШТЕЙН"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_009" applicationStructureName="КРОНШТЕЙН"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_685" applicationStructureName="ПН12-24-30 ПРЕОБРАЗОВАТЕЛЬ НАПРЯЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_087" applicationStructureName="DDR-480B-48 ПРЕОБРАЗОВАТЕЛЬ 24 VAC-48 VDC"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_088" applicationStructureName="DP3C-705 СЕРВОДРАЙВЕР ШАГОВОГО ПРИВОДА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_673" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_089" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_099" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_095" applicationStructureName="182725 МОДУЛЬНЫЙ АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_096" applicationStructureName="184996 СИГНАЛЬНЫЙ КОНТАКТ SD"></hotspot>
+<hotspot id="fig-001-gra-002-hot-009" applicationStructureIdent="AUTOID_676" applicationStructureName="22.32 КОНТАКТОР МОДУЛЬНЫЙ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-010" applicationStructureIdent="AUTOID_090" applicationStructureName="22.35 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-011" applicationStructureIdent="AUTOID_091" applicationStructureName="1814700000 КЛЕММА ПРОХОДНАЯ С ПРЕДОХРАНИТЕЛЕМ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-012" applicationStructureIdent="AUTOID_100" applicationStructureName="1814700000 КЛЕММА ПРОХОДНАЯ С ПРЕДОХРАНИТЕЛЕМ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-013" applicationStructureIdent="AUTOID_674" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-014" applicationStructureIdent="AUTOID_097" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-015" applicationStructureIdent="AUTOID_101" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-016" applicationStructureIdent="AUTOID_102" applicationStructureName="1674300000 ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-017" applicationStructureIdent="AUTOID_103" applicationStructureName="1814690000 КЛЕММА ПРОХОДНАЯ С ПРЕДОХРАНИТЕЛЕМ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-018" applicationStructureIdent="AUTOID_667" applicationStructureName="2988340000 ПРОМЕЖУТОЧНОЕ РЕЛЕ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-019" applicationStructureIdent="AUTOID_098" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-020" applicationStructureIdent="AUTOID_064" applicationStructureName="КАБЕЛЬНЫЙ КАНАЛ С КРЫШКОЙ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-021" applicationStructureIdent="AUTOID_003" applicationStructureName="МОНТАЖНАЯ РЕЙКА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-022" applicationStructureIdent="AUTOID_004" applicationStructureName="КРОНШТЕЙН ПРЕОБРАЗОВАТЕЛЕЙ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-023" applicationStructureIdent="AUTOID_005" applicationStructureName="КРОНШТЕЙН ПРЕОБРАЗОВАТЕЛЕЙ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-024" applicationStructureIdent="AUTOID_065" applicationStructureName="МОНТАЖНАЯ ПАНЕЛЬ"></hotspot>
+</graphic>
+</figure>
+<levelledPara>
+<title>Работа</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>При включении выключателя нагрузки силовое питание 12 В поступает с каждого РУ АКБ, проходя через распределительный шкаф (РШ) и подается на соответствующий клеммный блок.  Когда на каждом клеммном блоке появляется силовое питание 12 В, загорается одноименный индикатор питания линии АКБ, сигнализируя о наличии напряжения. Далее силовое питание 12 В, проходя каждый через свой автомат защиты, подается на соответствующий преобразователь 12 В / 24 В. После преобразования напряжения, силовое питание 24 В, поступившее с одного РУ АКБ, распределяется на вентиляторы с термостатом, реле управления тормозами и преобразователь 24 В / 48 В. С другого РУ АКБ силовое питание 24 В поступает только на свой преобразователь 24 В / 48 В. Силовой сигнал 48 В, поступающий от каждого преобразователя, проходит через свой контактор и подается на общий клеммный блок, откуда распределяется на каждый шаговый серводрайвер.</para>
+<para>Силовое питание 24 В поступает с преобразователя 12 В / 24 В, расположенного в РУ № 2, на клеммный блок. От клеммного блока оно распределяется на все СК и на КАО. При срабатывании любого СК дискретный сигнал 24 В от него передается в модуль дискретного ввода PLC, расположенный в РУ № 2.</para>
+<para>Каждый дискретный сигнал 24 В поступает с модуля дискретного вывода PLC, расположенного в РУ № 2, на свой контактор, проходя через клеммы КАО. При нажатии КАО эти сигналы перестают поступать на контакторы. Одновременно КАО информирует процессор о своем нажатии, передавая дискретный сигнал 24 В на модуль дискретного ввода PLC, расположенный в РУ № 2.</para>
+<para>В каждый шаговый серводрайвер поступают: <randomList>
+<listItem>
+<para>управляющие сигналы по цифровой шине ETHERCAT от модуля процессорного PLC, расположенный в РУ № 2;</para>
+</listItem>
+<listItem>
+<para>дискретные сигналы 24   В от реле сигнала разрешения движения, расположенный в РУ № 2;</para>
+</listItem>
+<listItem>
+<para>дискретные сигналы 12   В от энкодера шагового двигателя , расположенный на траверсе.</para>
+</listItem>
+</randomList>
+</para>
+<para>Каждый шаговый серводрайвер выдает: <randomList>
+<listItem>
+<para>управляющие сигналы по цифровой шине ETHERCAT на  модуль процессорного PLC, расположенный в РУ № 2;</para>
+</listItem>
+<listItem>
+<para>дискретные сигналы 48   В на электродвигатель шагового двигателя, расположенный на траверсе;</para>
+</listItem>
+<listItem>
+<para>дискретные сигналы 24   В на реле управления тормоза, который управляет электротормозом шагового двигателя;</para>
+</listItem>
+<listItem>
+<para>дискретные сигналы 24   В на реле сигнала аварии и на реле сигнала состояния, расположенные в РУ № 2.</para>
+</listItem>
+</randomList>
+</para>
+<figure id="fig-002">
+<title>Функциональная схема распределительного устройства № 1</title>
+<graphic infoEntityIdent="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

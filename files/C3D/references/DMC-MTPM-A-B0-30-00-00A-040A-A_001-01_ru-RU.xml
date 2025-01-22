@@ -1,0 +1,224 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="B0" subSystemCode="3" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="06"></issueDate>
+<dmTitle>
+<techName>Основание</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Основание предназначено для установки и крепления всех основных компонентов и систем траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав основания входят:<randomList>
+<listItem>
+<para>сварной каркас балки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>торцевая опора
+ (2 шт.);</para>
+</listItem>
+<listItem>
+<para>верхняя распорка (2 шт.);</para>
+</listItem>
+<listItem>
+<para>нижняя распорка (1 шт.);</para>
+</listItem>
+<listItem>
+<para>лоток электрических жгутов (1 шт.);</para>
+</listItem>
+<listItem>
+<para>горизонтальный кронштейн дальномера (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики основания <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики основания</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры, мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>7080×700×970</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>1000</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Основание является системообразующим элементом траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Основание — это главный силовой элемент траверсы. Основными составными частями основания являются сварной каркас балки и две торцевые опоры.</para>
+<levelledPara>
+<title>Сварной каркас балки</title>
+<para>Каркас является основным несущим элементом конструкции. Сварной каркас балки выполнен из стандартного двутаврового профиля из низколегированной стали. </para>
+<para>Основные типы соединений — сварные и резьбовые.</para>
+<para>Торцевые опоры крепятся к сварному каркасу балки с помощью восьми одинаковых ушей. Уши расположены по четыре с каждой стороны на противоположных концах каркаса. Они представляют собой пластины с резьбовым отверстием по центру и привариваются к стенке и поясам двутавра.</para>
+<para>На концах каркаса, в стенке двутавра, предусмотрены по два отверстия с каждой стороны. Эти отверстия преднозначенны для установки вала ведущей шестерни и прокладки электропроводки.</para>
+<para>По краям каркаса приварены кронштейны для установки редуктора, а также кронштейны кабелей датчиков и жгутов двигателей.</para>
+<para>Сверху к каркасу приварен лоток для цепи, а по краям лотка — высокие кронштейны дальномера.</para>
+<para>На каркасе предусмотрены специальные площадки для установки распределительных устройств и распределительных устройств АКБ. Площадки имеют одинаковую конструкцию и состоят из следующих элементов:<randomList>
+<listItem>
+<para>кронштейн распределительных устройств имеет четыри резьбовых отверстия для крепежа кронштейнов;</para>
+</listItem>
+<listItem>
+<para>платформа под амортизатор, которая приваривается между двумя кронштейнами распределительных устройств;</para>
+</listItem>
+<listItem>
+<para>амортизатор из технической резины, который крепится к платформе с помощью клеевого соединения.</para>
+</listItem>
+</randomList>
+</para>
+<para>Слева от кронштейна распределительных устройств приварены четыре кронштейна для установки распределительного шкафа. </para>
+<para>В верхнем поясе двутавра вырезан специальный паз,
+					в который вварен кронштейн кабеля двигателя. Ниже к стенке двутавра приварен кронштейн жгутов двигателей.</para>
+<para>На верхнем поясе двутавра приварены стопоры башни. Каждая набойка, установленная на стопоре, крепится клеем и дополнительно прижимается винтами для надежности. Аналогичным образом установлены стопоры кареток.</para>
+<para>В центральной	части стенки двутавра установлен лоток для электрических жгутов. Он крепится с помощью 15 болтов. Для дополнительной жесткости конструкции предусмотрены две верхние и одна нижняя распорки, которые фиксируются с помощью винтовых соединений. К торцу лотка электрических жгутов с помощью болтового соединения крепится горизонтальный кронштейн дальномера.</para>
+<para>На торце лотка электрических жгутов с помощью болтового соединения установлен горизонтальный кронштейн дальномера.</para>
+<para> К нижнему поясу двутавра приварен зацеп. В зацепе имеется отверстие для установки и крепления грузов.</para>
+<para>Для точного линейного перемещения кареток и опор предусмотрены направляющие:<randomList>
+<listItem>
+<para>восемь нижних направляющих одинаковой конструкции привариваются к нижнему поясу двутавра — четыре снизу и четыре сверху.</para>
+</listItem>
+<listItem>
+<para>две верхние направляющие с большей длиной привариваются по центру к верхнему поясу двутавра.</para>
+</listItem>
+</randomList>
+</para>
+<para>С передней стороны траверсы по краям направляющих приваренно по два  низких кронштейна  дальномеров, два кронштейна для крепления кабелей  и один кронштейн жгутов двигателей</para>
+</levelledPara>
+<levelledPara>
+<title>Торцевая опора</title>
+<para>В основании предусмотрены две торцевые опоры для установки траверсы на ровную горизонтальную поверхность. Обе опоры одинаковы по конструкции и составу. Каждая опора крепится к сварному каркасу балки с помощью винтового соединения через четыре уха.</para>
+<para>Торцевая опора представляет собой сварную конструкцию из стенки и косынки, выполненную из стали толщиной 10 мм. В торцевой стенке выполнено по четыре отверстия для крепления её к сварному каркасу балки.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Основание</title>
+<graphic infoEntityIdent="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" xlink:type="simple">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_019" applicationStructureName="ТОРЦЕВАЯ ОПОРА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_020" applicationStructureName="ТОРЦЕВАЯ ОПОРА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_031" applicationStructureName="СТОПОР КАРЕТОК" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_035" applicationStructureName="СТОПОР КАРЕТОК" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_036" applicationStructureName="СТОПОР КАРЕТОК" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_032" applicationStructureName="СТОПОР КАРЕТОК" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_002" applicationStructureName="КРОНШТЕЙН ПОД КАБЕЛЬ ДВИГАТЕЛЯ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_024" applicationStructureName="ЛОТОК ЦЕПИ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_039" applicationStructureName="СВАРНОЙ КАРКАС БАЛКИ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_026" applicationStructureName="ВЫСОКИЙ КРОНШТЕЙН ДАЛЬНОМЕРА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_027" applicationStructureName="ВЫСОКИЙ КРОНШТЕЙН ДАЛЬНОМЕРА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_033" applicationStructureName="ПЛАСТИНКА ПОД УСТАНОВКУ ШУ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_034" applicationStructureName="ПЛАСТИНКА ПОД УСТАНОВКУ ШУ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-014" applicationStructureIdent="AUTOID_025" applicationStructureName="НИЖНИЙ ЗАЦЕП" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-015" applicationStructureIdent="AUTOID_021" applicationStructureName="АМОРТИЗАТОР АКБ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-016" applicationStructureIdent="AUTOID_038" applicationStructureName="МЕСТО УСТАНОВКИ РАСПРЕДЕЛИТЕЛЬНОГО ШКАФА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-017" applicationStructureIdent="AUTOID_022" applicationStructureName="АМОРТИЗАТОР АКБ" hotspotTitle=""></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-018" applicationStructureIdent="AUTOID_026" applicationStructureName="ПЛАТФОРМА ДЛЯ ШУ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-019" applicationStructureIdent="AUTOID_029" applicationStructureName="ПЛАСТИНКА ПОД УСТАНОВКУ РЕДУКТОРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-020" applicationStructureIdent="AUTOID_036" applicationStructureName="КРОНШТЕЙН ПОД ЖГУТЫ ЭЛЕКТРИЧЕСКИЕ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-021" applicationStructureIdent="AUTOID_039" applicationStructureName="ЛОТОК ДЛЯ ЭЛЕКТРИЧЕСКИХ ЖГУТОВ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-022" applicationStructureIdent="AUTOID_040" applicationStructureName="ВЕРХНЯЯ РАСПОРКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-023" applicationStructureIdent="AUTOID_042" applicationStructureName="НИЖНЯЯ РАСПОРКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-024" applicationStructureIdent="AUTOID_043" applicationStructureName="КРОНШТЕЙН ПОД КАБЕЛЬ ДАТЧИКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-025" applicationStructureIdent="AUTOID_041" applicationStructureName="ВЕРХНЯЯ РАСПОРКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-026" applicationStructureIdent="AUTOID_038" applicationStructureName="КРОНШТЕЙН ПОД ЖГУТЫ ЭЛЕКТРИЧЕСКИЕ СИЛОВЫЕ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-027" applicationStructureIdent="AUTOID_033" applicationStructureName="КРОНШТЕЙН ПОД ЖГУТЫ ДВИГАТЕЛЕЙ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-028" applicationStructureIdent="AUTOID_035" applicationStructureName="КРОНШТЕЙН ПОД ЖГУТЫ ДВИГАТЕЛЕЙ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-029" applicationStructureIdent="AUTOID_030" applicationStructureName="ПЛАСТИНКА ПОД УСТАНОВКУ РЕДУКТОРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-030" applicationStructureIdent="AUTOID_031" applicationStructureName="ПЛАСТИНКА ПОД УСТАНОВКУ РЕДУКТОРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-031" applicationStructureIdent="AUTOID_032" applicationStructureName="ПЛАСТИНКА ПОД УСТАНОВКУ РЕДУКТОРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-032" applicationStructureIdent="AUTOID_045" applicationStructureName="ГОРИЗОНТАЛЬНЫЙ КРОНШТЕЙН ДАЛЬНОМЕРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-033" applicationStructureIdent="AUTOID_047" applicationStructureName="УХО"></hotspot>
+<hotspot id="fig-001-gra-001-hot-034" applicationStructureIdent="AUTOID_049" applicationStructureName="УХО"></hotspot>
+<hotspot id="fig-001-gra-001-hot-035" applicationStructureIdent="AUTOID_048" applicationStructureName="УХО"></hotspot>
+<hotspot id="fig-001-gra-001-hot-036" applicationStructureIdent="AUTOID_046" applicationStructureName="НИЗКИЙ КРОНШТЕЙН ДАЛЬНОМЕРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-037" applicationStructureIdent="AUTOID_028" applicationStructureName="РЕЗИНОВАЯ НАБОЙКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-038" applicationStructureIdent="AUTOID_027" applicationStructureName="ПЛАСТИНКА ПОД УСТАНОВКУ ШУ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-039" applicationStructureIdent="AUTOID_037" applicationStructureName="ВЫСОКИЙ КРОНШТЕЙН ДАЛЬНОМЕРА"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

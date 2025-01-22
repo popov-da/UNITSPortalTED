@@ -1,0 +1,305 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01 SYSTEM "ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="2" subSubSystemCode="2" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="08" day="15"></issueDate>
+<dmTitle>
+<techName>Система перемещения кареток</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Система перемещения кареток предназначена для передвижения кареток на заданное расстояние.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>Система перемещения кареток состоит из двух одинаковых частей, которые зеркально отражены относительно центра траверсы. В состав одной части системы  перемещения кареток входят:<randomList>
+<listItem>
+<para>шаговый двигатель каретки (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>редуктор каретки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>ведущая звездочка (1 шт.);</para>
+</listItem>
+<listItem>
+<para>вал ведущей звездочки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кронштейн вала ведущей звездочки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>ведомая звездочка (1 шт.);</para>
+</listItem>
+<listItem>
+<para>вал ведомой звездочки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кронштейн вала ведомой звездочки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>цепь (1 шт.);</para>
+</listItem>
+<listItem>
+<para>держатель (2 шт.);</para>
+</listItem>
+<listItem>
+<para>натяжитель (1 шт.);</para>
+</listItem>
+<listItem>
+<para>натяжитель цепи каретки (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики системы перемещения кареток <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики системы перемещения кареток</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Скорость, мм/сек, не более</para>
+</entry>
+<entry colname="col2">
+<para></para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диапозон перемещения, мм, не более</para>
+</entry>
+<entry colname="col2">
+<para></para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Система перемещения кареток установлена на балке основания траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Система перемещения кареток представляет собой завершенный механизм, состоящий из различных конструктивных элементов.</para>
+<levelledPara>
+<title>Редуктор каретки</title>
+<para>Редуктор каретки предназначен для передачи крутящего момента с вала шагового двигателя на вал ведущей звездочки, а также для снижения инерционных нагрузок. Его корпус выполнен из высокопрочного алюминиевого сплава методом литья и включает в себя вал с винтовой поверхностью, зубчатое колесо, подшипники и сальники.</para>
+<para>Редуктор установлен на двух кронштейнах — верхнем и нижнем и крепится к ним с помощью болтового соединения. Для монтажа редуктора к траверсе предусмотрены специальные кронштейны установки редуктора, которые приварены к  балке траверсы. К ним с помощью винтового соединения устанавливаются верхний и нижний кронштейны.</para>
+<para>На торцевой поверхности корпуса редуктора предусмотрена специальная площадка в форме диска с четырьмя отверстиями под болтовое соединение для установки шагового двигателя. Монтаж шагового двигателя осуществляется через специальную переходную пластину, которая служит переходником для крепления к корпусу редуктора. В центральной части редуктора предусмотрено сквозное отверстие для установки вала привода редуктора со шпоночным соединением. </para>
+</levelledPara>
+<levelledPara>
+<title>Ведущая звездочка</title>
+<para>Ведущая звездочка предназначена для передачи крутящего момента от вала ведущей
+звездочки на цепь. </para>
+<para>Она имеет 15 зубьев в два ряда,
+которые обеспечивают надежное зацепление со звеньями цепи. Для установки звездочки на вал предусмотрено центральное отверстие с пазами, где крепление осуществляется через шпоночное соединение. Для предотвращения продольного смещения звездочки на  валу установлены две шайбы и два стопорных кольца.</para>
+</levelledPara>
+<levelledPara>
+<title>Вал ведущей звездочки</title>
+<para>Вал ведущей звездочки предназначен для передачи крутящего момента с редуктора на цепь через ведущую звездочку. </para>
+<para>Вал имеет цинковое бесцветное покрытие для защиты от коррозии. В нем с одной стороны предусмотрен паз для крепления к редуктору с помощью шпонки, с другой стороны  — пазы и канавки для установки тормозного механизма. Для обеспечения вращения вала с обеих сторон относительно ведущей звездочки на валу установлены с натягом подшипники. Один подшипник устанавливается в центральное отверстие втулки подшипника, а другой — в центральное отверстие центровочного кольца. </para>
+</levelledPara>
+<levelledPara>
+<title>Кронштейн вала ведущей звездочки</title>
+<para>Кронштейн вала ведущей звездочки предназначен для установки и для обеспечения вращения вала ведущей звездочки.</para>
+<para>Кронштейн представляет собой цельносварную конструкцию, включающую в себя уши, основание и перемычку. Уши имеют отверстия для установки втулки подшипника и центровочного кольца. В основании предусмотрены овальные отверстия для крепления к нижней полке балки. Перемычка оснащена резьбовыми отверстиями для крепления резиновой набойки.</para>
+</levelledPara>
+<levelledPara>
+<title>Ведомая звездочка</title>
+<para>Ведомая звездочка предназначена для создания контура цепной передачи.</para>
+<para>Она имеет 15 зубьев в два ряда, которые обеспечивают
+надежное зацепление со звеньями цепи. Для установки звездочки на вал предусмотрено центральное отверстие с пазами, где крепление осуществляется через шпоночное соединение. Для предотвращения продольного смещения звездочки на  валу установлены две шайбы и два стопорных кольца.</para>
+</levelledPara>
+<levelledPara>
+<title>Вал ведомой звездочки</title>
+<para>Вал ведомой звездочки предназначен для установки и для вращения ведомой звездочки от
+цепи.</para>
+<para>Вал имеет цинковое бесцветное покрытие для защиты от коррозии. В средней части вала проточены канавки для установки стопорных колец и
+шпонок, которые фиксируют и позиционируют
+ведомую звездочку. Для обеспечения вращения вала на нем с двух концов относительно
+ведомой звездочки установлены с натягом подшипники. Каждый подшипник устанавливается в свою втулку подшипника. </para>
+</levelledPara>
+<levelledPara>
+<title>Кронштейн вала ведомой звездочки</title>
+<para>Кронштейн вала ведомой звездочки предназначен для установки и для обеспечения вращения вала ведомой звездочки.</para>
+<para>Кронштейн представляет собой цельносварную конструкцию, включающую в себя уши, основание и перемычку. Уши имеют отверстия для установки втулок подшипников. В основании предусмотрены овальные отверстия для крепления к нижней полке балки. Перемычка оснащена резьбовыми отверстиями для крепления резиновой набойки.</para>
+</levelledPara>
+<levelledPara>
+<title>Цепь</title>
+<para>Цепь предназначена для механического перемещения каретки.</para>
+<para>В конструкции используется приводная  двухрядная роликовая цепь. Каждое звено состоит из двух пластин, соединенных жесткими втулками и вращающимися роликами. Соединение звеньев в единую конструкцию осуществляется с помощью удлиненных соединительных втулок.</para>
+<para>Цепь крепится  с одной стороны в ушах натяжителя и устанавливается через ведомую звездочку, два держателя и ведущую звездочку, а затем фиксируется с другой стороны в ушах натяжителя цепи каретки, создавая таким образом контур цепной передачи.
+					</para>
+</levelledPara>
+<levelledPara>
+<title>Держатель </title>
+<para>Держатель обеспечивает поддержку цепи в заданном положении.</para>
+<para>Он состоит из кронштейна и ролика держателя. В ролике с двух сторон предусмотрены отверстия, в которых запрессованы шариковые радиальные подшипники.  Ролик держателя устанавливается на кронштейн держателя и фиксируется с помощью гайки с шайбой. Вся конструкция расположена на задней стенке балки и крепится к ней с помощью кронштейна и винтового соединения.</para>
+</levelledPara>
+<levelledPara>
+<title>Натяжитель</title>
+<para>
+						Натяжитель служит для создания натяжения цепи. </para>
+<para> В центральной части натяжителя выполнено отверстие для крепления его к верхней поверхности каретки с помощью болтового соединения. В боковой части расположены уши для крепления цепи.</para>
+</levelledPara>
+<levelledPara>
+<title>Натяжитель цепи каретки</title>
+<para>
+						Натяжитель цепи каретки предназначен для фиксации цепи к каретке и регулировки ее натяжения.</para>
+<para>Он имеет уши на боковой части для крепления цепи. На противоположной стороне расположено отверстие для крепления регулировочного болта. Натяжитель цепи крепится к упору,  расположенному на верхней поверхности каретки, с помощью регулировочного болта.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Система перемещения кареток</title>
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="ДЕРЖАТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_004" applicationStructureName="НАТЯЖИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_009" applicationStructureName="НАТЯЖИТЕЛЬ  ЦЕПИ КАРЕТКИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_001" applicationStructureName="ЦЕПЬ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_025" applicationStructureName="КРЫШКА РЕДУКТОРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_026" applicationStructureName="РЕДУКТОР КАРЕТКИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_017" applicationStructureName="ШАГОВЫЙ ДВИГАТЕЛЬ КАРЕТКИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_018" applicationStructureName="ТОРМОЗНОЙ МЕХАНИЗМ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_013" applicationStructureName="КРОНШТЕЙН  ВАЛА ВЕДОМОЙ ЗВЕЗДОЧКИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_057" applicationStructureName="КРОНШТЕЙН ВАЛА ВЕДУЩЕЙ ЗВЕЗДОЧКИ"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_070" applicationStructureName="НАТЯЖИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_071" applicationStructureName="НАТЯЖИТЕЛЬ  ЦЕПИ КАРЕТКИ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_072" applicationStructureName="РЕГУЛИРОВОЧНАЯ ШПИЛЬКА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_021" applicationStructureName="КРОНШТЕЙН  УСТАНОВКИ РЕДУКТОРА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_042" applicationStructureName="ВЕРХНИЙ КРОНШТЕЙН"></hotspot>
+<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_041" applicationStructureName="НИЖНИЙ КРОНШТЕЙН"></hotspot>
+<hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_005" applicationStructureName="КРОНШТЕЙН  УСТАНОВКИ РЕДУКТОРА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_007" applicationStructureName="ПЕРЕХОДНАЯ ПЛАСТИНА"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-003">
+<hotspot id="fig-001-gra-003-hot-001" applicationStructureIdent="AUTOID_009" applicationStructureName="СТОПОРНОЕ КОЛЬЦО"></hotspot>
+<hotspot id="fig-001-gra-003-hot-002" applicationStructureIdent="AUTOID_052" applicationStructureName="ВЕДУЩАЯ ЗВЕЗДОЧКА"></hotspot>
+<hotspot id="fig-001-gra-003-hot-003" applicationStructureIdent="AUTOID_032" applicationStructureName="ОСНОВАНИЕ"></hotspot>
+<hotspot id="fig-001-gra-003-hot-004" applicationStructureIdent="AUTOID_028" applicationStructureName="ШПОНКА"></hotspot>
+<hotspot id="fig-001-gra-003-hot-005" applicationStructureIdent="AUTOID_053" applicationStructureName="ВТУЛКА ПОД ПОДШИПНИК"></hotspot>
+<hotspot id="fig-001-gra-003-hot-006" applicationStructureIdent="AUTOID_023" applicationStructureName="СТОПОРНОЕ КОЛЬЦО"></hotspot>
+<hotspot id="fig-001-gra-003-hot-007" applicationStructureIdent="AUTOID_031" applicationStructureName="УХО"></hotspot>
+<hotspot id="fig-001-gra-003-hot-008" applicationStructureIdent="AUTOID_002" applicationStructureName="ШАЙБА"></hotspot>
+<hotspot id="fig-001-gra-003-hot-009" applicationStructureIdent="AUTOID_054" applicationStructureName="ЦЕНТРОВОЧНОЕ КОЛЬЦО"></hotspot>
+<hotspot id="fig-001-gra-003-hot-010" applicationStructureIdent="AUTOID_055" applicationStructureName="РЕЗИНОВАЯ НАБОЙКА"></hotspot>
+<hotspot id="fig-001-gra-003-hot-011" applicationStructureIdent="AUTOID_030" applicationStructureName="ПЕРЕМЫЧКА"></hotspot>
+<hotspot id="fig-001-gra-003-hot-012" applicationStructureIdent="AUTOID_056" applicationStructureName="ВАЛ ВЕДУЩЕЙ ЗВЕЗДОЧКИ"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-004">
+<hotspot id="fig-001-gra-004-hot-001" applicationStructureIdent="AUTOID_003" applicationStructureName="ВЕДОМАЯ ЗВЕЗДОЧКА"></hotspot>
+<hotspot id="fig-001-gra-004-hot-002" applicationStructureIdent="AUTOID_038" applicationStructureName="ШПОНКА"></hotspot>
+<hotspot id="fig-001-gra-004-hot-003" applicationStructureIdent="AUTOID_019" applicationStructureName="ВТУЛКА ПОД ПОДШИПНИК"></hotspot>
+<hotspot id="fig-001-gra-004-hot-004" applicationStructureIdent="AUTOID_037" applicationStructureName="ВТУЛКА ПОД ПОДШИПНИК"></hotspot>
+<hotspot id="fig-001-gra-004-hot-005" applicationStructureIdent="AUTOID_006" applicationStructureName="ПОДШИПНИК"></hotspot>
+<hotspot id="fig-001-gra-004-hot-006" applicationStructureIdent="AUTOID_007" applicationStructureName="ПОДШИПНИК"></hotspot>
+<hotspot id="fig-001-gra-004-hot-007" applicationStructureIdent="AUTOID_036" applicationStructureName="СТОПОРНОЕ КОЛЬЦО"></hotspot>
+<hotspot id="fig-001-gra-004-hot-008" applicationStructureIdent="AUTOID_009" applicationStructureName="СТОПОРНОЕ КОЛЬЦО"></hotspot>
+<hotspot id="fig-001-gra-004-hot-009" applicationStructureIdent="AUTOID_034" applicationStructureName="УХО"></hotspot>
+<hotspot id="fig-001-gra-004-hot-010" applicationStructureIdent="AUTOID_013" applicationStructureName="ПОДШИПНИК"></hotspot>
+<hotspot id="fig-001-gra-004-hot-011" applicationStructureIdent="AUTOID_001" applicationStructureName="ШАЙБА"></hotspot>
+<hotspot id="fig-001-gra-004-hot-012" applicationStructureIdent="AUTOID_033" applicationStructureName="ПЕРЕМЫЧКА"></hotspot>
+<hotspot id="fig-001-gra-004-hot-013" applicationStructureIdent="AUTOID_027" applicationStructureName="РЕЗИНОВАЯ НАБОЙКА"></hotspot>
+<hotspot id="fig-001-gra-004-hot-014" applicationStructureIdent="AUTOID_005" applicationStructureName="ВАЛ ВЕДОМОЙ ЗВЕЗДОЧКИ"></hotspot>
+<hotspot id="fig-001-gra-004-hot-015" applicationStructureIdent="AUTOID_016" applicationStructureName="ОСНОВАНИЕ"></hotspot>
+<hotspot id="fig-001-gra-004-hot-016" applicationStructureIdent="AUTOID_011" applicationStructureName="КРОНШТЕЙН ДЕРЖАТЕЛЯ"></hotspot>
+<hotspot id="fig-001-gra-004-hot-017" applicationStructureIdent="AUTOID_012" applicationStructureName="РОЛИК"></hotspot>
+</graphic>
+</figure>
+<levelledPara>
+<title>Работа</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>При нажатии на пульте управления кнопки оператором, радиосигнал поступает на приемник. Приемник преобразует радиосигнал в выходной дискретный сигнал 24 В, который поступает на вход дискретного модуля (ДМ) ввода PLC. ДМ  ввода PLC передает данные на процессорный модуль (ПМ) PLC через цифровую шину PLC. В ПМ PLC реализованы алгоритмические функции, на основе которых формируются выходные сигналы для шагового серводрайвера каретки (ШСК) и  для шагового серводрайвера тормоза (ШСТ) через цифровую шину EtherCat. </para>
+<para>ШСТ, получив команды от ПМ PLC, формирует  дискретные сигналы 48 В для управления шаговым двигателем тормоза (ШДТ). ШДТ освобождает вращение ведущего вала с помощью тормозного механизма (ТМ). По обратной связи, ШСТ сравнивает данные полученные от энкодера.  В случае обнаружения расхождений, он автоматически корректирует
+подачу дискретных сигналов 48 В на ШДТ и одновременно передает показания о положении ШДТ в ПМ PLC. </para>
+<para>ШСК,  получив команды от ПМ PLC, выдает дискретный сигнал 24 В для реле управления тормоза (РУТ). РУТ переключает свои контакты, что позволяет подать силовое питание 24 В, преобразованное из 12 В аккумулятора, на электромагнитный тормоз ШДТ, освобождая его вал. После срабатывания РУТ силовое питание 24 В,  преобразованное от другого преобразователя, поступает с сигнального контакта на вход ДМ ввода PLC.</para>
+<para>ПМ PLC обрабатывает сигнал от ДМ ввода PLC и данные от  ШСТ. После этого, ПМ PLC отправляет команду на ШСК. ШСК, в свою очередь, выдает дискретные сигналы 48 В на шаговый двигатель каретки (ШДК). Ротор ШДК передает крутящий момент на редуктор каретки, который преобразует его и передает на вал ведущей звездочки. Ведущая звездочка приводит в движение цепной механизм, обеспечивая передвижение каретки на заданное расстояние.</para>
+<para>Во время движения каретки на заданное расстояние, дискретные сигналы 12 В от энкодера поступает на ШСК. ШСК сравнивает поступающие данные от энкодера. В случае расхождений, он автоматически корректирует
+подачу дискретных сигналов 48 В на ШДК и одновременно передает показания о положении ШДК в ПМ PLC. При достижении заданного расстояния ШСК останавливает ШДК и снимает дискретный сигнал 24 В с РУТ, в результате чего электромагнитный тормоз ШДТ блокирует его вал. В это время также прекращается подача информационного питания 24 В с сигнального контакта на вход ДМ ввода PLC и ПМ PLC посылает сигнал на ШСТ для блокировки вала ведущей звездочки.</para>
+<para>В аварийных ситуациях, когда каретка достигает крайнего положения, дискретный сигнал 24 В поступает с индуктивного датчика  на реле блокировки движения каретки (РБДК). РБДК переключает свои контакты, тем самым дискретный сигнал 24 В от индуктивного датчика  поступает одновременно на ШСК и на вход ДМ ввода PLC. ШСК останавливает работу двигателя каретки и снимает дискретный сигнал 24 В с РУТ, тем самым обеспечивая блокировку вала электромагнитным тормозом ШДК. ДМ ввода PLC передает сигнал на ПМ PLC, который, в свою очередь, посылает сигнал на ШСТ для блокировки вала ведущей звездочки.</para>
+<para>Во время работы системы перемещения каретки, ПМ PLC опрашивает состояния
+периферийных устройств и передает значения, полученные при опрашивании, на панель
+оператора по шине Ethernet через неуправляемый коммутатор.</para>
+<figure id="fig-002">
+<title>Функциональная схема системы перемещения каретки</title>
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01" xlink:href="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

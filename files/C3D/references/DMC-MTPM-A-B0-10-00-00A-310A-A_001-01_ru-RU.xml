@@ -1,0 +1,467 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="B0" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="310" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="03"></issueDate>
+<dmTitle>
+<techName>Башня</techName>
+<infoName>Визуальный осмотр</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Шаблоны сварщика универсальные</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber>УШС-3</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Ветошь обтирочная</name>
+<supplyRef supplyNumber="ТУ 8189-018-01877509-2001" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Спирт этиловый ректификованный</name>
+<supplyRef supplyNumber="ГОСТ Р 55878-2013" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning id="wrn-001">
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните спуск траверсы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр</title>
+<proceduralStep>
+<title>Осмотр стенки</title>
+<proceduralStep>
+<para>Осмотрите стенку на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите стенку на отсутствие трещин, деформаций, разрушений и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену  стенки <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="05" subSubSystemCode="0" subSystemCode="1" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления упорной стенки.</para>
+<note id="not-001">
+<notePara>Для осмотра другой упорной стенки, демонтируйте редуктор башни <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="1" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</notePara>
+</note>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите сварные швы. Убедитесь, что сварные швы не имеют следующих
+поверхностных дефектов:<randomList>
+<listItem>
+<para>трещин, расположенных в металле шва, по линии
+сплавления и в околошовной зоне основного металла;</para>
+</listItem>
+<listItem>
+<para>свищей и пористости наружной поверхности шва;</para>
+</listItem>
+<listItem>
+<para>подрезов глубиной более 0,5 мм;</para>
+</listItem>
+<listItem>
+<para>наплывов общей длиной более 10 % от длины участка шва;</para>
+</listItem>
+<listItem>
+<para>пор, расположенных в виде сплошной сетки;</para>
+</listItem>
+<listItem>
+<para>прожогов, незаваренных кратеров, свищей;</para>
+</listItem>
+<listItem>
+<para>отклонений по геометрическим размерам и взаимному расположению свариваемых
+элементов;</para>
+</listItem>
+<listItem>
+<para>дефектов на поверхности основного металла и сварных соединений (вмятин,
+расслоений, раковин, непроваров, включений).</para>
+</listItem>
+</randomList>
+</para>
+<proceduralStep>
+<para>В случае обнаружения дефектов прекратите использование траверсы
+до устранения дефектов. В случае невозможности устранения обнаруженных дефектов
+выведите траверсу из эксплуатации.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что ЛКП на стенке не повреждено.</para>
+<proceduralStep>
+<para>В случае повреждения ЛКП восстановите его <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="257" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="1" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для другой стенки.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр крышки башни</title>
+<proceduralStep>
+<para>Осмотрите крышку на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите крышку на отсутствие трещин, деформаций, разрушений и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену  крышки <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="04" subSubSystemCode="0" subSystemCode="1" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления крышки к стенкам.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что ЛКП на крышке не повреждено.</para>
+<proceduralStep>
+<para>В случае повреждения ЛКП восстановите его <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="257" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="1" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для другой крышки.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр опоры</title>
+<proceduralStep>
+<para>Осмотрите опору на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите опору на отсутствие трещин, деформаций, разрушений и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену  опоры <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+<note id="not-002">
+<notePara>Для замены опоры с кронштейном кабельной цепи и кронштейном под жгут <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</notePara>
+</note>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления опоры к стенке.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления кронштейна кабельной цепи и кронштейна под жгут к опоре.</para>
+<note id="not-003">
+<notePara>Выполнять только на опоре с установленными кронштейном кабельной цепи и кронштейном под жгут.</notePara>
+</note>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите сварные швы. Убедитесь, что сварные швы не имеют следующих
+поверхностных дефектов:<randomList>
+<listItem>
+<para>трещин, расположенных в металле шва, по линии
+сплавления и в околошовной зоне основного металла;</para>
+</listItem>
+<listItem>
+<para>свищей и пористости наружной поверхности шва;</para>
+</listItem>
+<listItem>
+<para>подрезов глубиной более 0,5 мм;</para>
+</listItem>
+<listItem>
+<para>наплывов общей длиной более 10 % от длины участка шва;</para>
+</listItem>
+<listItem>
+<para>пор, расположенных в виде сплошной сетки;</para>
+</listItem>
+<listItem>
+<para>прожогов, незаваренных кратеров, свищей;</para>
+</listItem>
+<listItem>
+<para>отклонений по геометрическим размерам и взаимному расположению свариваемых
+элементов;</para>
+</listItem>
+<listItem>
+<para>дефектов на поверхности основного металла и сварных соединений (вмятин,
+расслоений, раковин, непроваров, включений).</para>
+</listItem>
+</randomList>
+</para>
+<proceduralStep>
+<para>В случае обнаружения дефектов при необходимости прекратите использование траверсы
+до устранения дефектов. В случае невозможности устранения обнаруженных дефектов
+выведите траверсу из эксплуатации.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что ЛКП на опоре не повреждено.</para>
+<proceduralStep>
+<para>В случае повреждения ЛКП восстановите его <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="257" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="1" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для других опор.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр такелажного элемента</title>
+<proceduralStep>
+<para>Осмотрите такелажный элемент на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите такелажный элемент на отсутствие трещин, деформаций, разрушений и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену  такелажного элемента <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="06" subSubSystemCode="0" subSystemCode="1" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления такелажного элемента.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления стержня.</para>
+<proceduralStep>
+<para>При необходимости установите на свое место штифт.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости замените шплинт.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что ЛКП на такелажном элементе не повреждено.</para>
+<proceduralStep>
+<para>В случае повреждения ЛКП восстановите его <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="257" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="1" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр стояночной ножки</title>
+<proceduralStep>
+<para>Осмотрите стояночную ножку  на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите стояночную ножку на отсутствие трещин, разрывов и других механических повреждений.</para>
+<proceduralStep>
+<para>При наличии дефектов подклейте стояночную ножку <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="621" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="2" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите стояночную ножку на отсутствие деформаций, разрушений, стесанности и других видов износа поверхности.</para>
+<proceduralStep>
+<para>При необходимости выполните замену  стояночной ножки.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в надежности крепления стояночной ножки.</para>
+<proceduralStep>
+<para>При необходимости затяните слабо затянутые крепежные элементы.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости установите на свои места недостающие крепежные элементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для других стояночных ножек.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

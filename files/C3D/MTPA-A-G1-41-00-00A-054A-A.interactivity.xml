@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16 (64-bit))-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16 (64-bit)</ExporterVersionNumber>
+<ModificationDate>01/22/25</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPA-A-G1-41-00-00A-054A-A</XMLFileName>
+<DocumentFile>DMC-MTPA-A-G1-41-00-00A-054A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">
+</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">descript</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">
+</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">00</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-00-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">054</value>
+<value name="infoName" decl-id="INFONAME" type="string">Схема принципиальная</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20240716</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPA</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">41</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">G1</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Камера</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;assert applicPropertyIdent="serialno" applicPropertyType="prodattr" applicPropertyValues="0001"/&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+<Picture descr="Камера. Схема принципиальная" flags="41">ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.svg</Picture>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPA" data-systemDiffCode="A" data-systemCode="G1" data-subSystemCode="4" data-subSubSystemCode="1" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="054" data-infoCodeVariant="A" data-itemLocationCode="A">MTPA-A-G1-41-00-00A-054A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2024" data-month="07" data-day="16">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Камера</div>
+					<div class="infoName">Схема принципиальная</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="assert" data-applicPropertyIdent="serialno" data-applicPropertyType="prodattr" data-applicPropertyValues="0001">
+</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-00-00A-022A-D" href="S1000D-E-04-10-00-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-00-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="description levels" id="description_IDU1HNTHRL">
+			<div class="table" id="table_IDRF1TSGBP"><div class="table-contents">
+				<div class="title">Перечень элементов</div>
+				<table summary="Перечень элементов" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title">Перечень элементов</div></caption><caption class="rest"><div class="title">Перечень элементов</div></caption><colgroup><col width="26%" align="center" class="col1"><col width="60%" align="center" class="col2"><col width="14%" align="center" class="col3"></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+								<div class="para p">Обозначение</div>
+							</th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+								<div class="para p">Наименование</div>
+							</th><th style="border-bottom: 1px solid ; " align="center">
+								<div class="para p">Кол.</div>
+							</th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="24.10A1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="24.10A1"></a>
+								</div>
+							</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">Электрический шкаф</div>
+							</td><td style="border-bottom: 1px solid ; " align="left">
+								<div class="para p">1</div>
+							</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="24.10A1-XP5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="24.10A1-XP5"></a>
+								</div>
+							</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">Вилка СНО50-83/63Х44В-6б-В ГЕО.364.246 ТУ</div>
+							</td><td style="border-bottom: 1px solid ; " align="left">
+								<div class="para p">1</div>
+							</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="G1.10A1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="G1.10A1"></a>
+								</div>
+							</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">Камера VPORT P16-1MP-M12-CAM36</div>
+							</td><td style="border-bottom: 1px solid ; " align="left">
+								<div class="para p">1</div>
+							</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="G1.10A1-XP1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="G1.10A1-XP1"></a>
+								</div>
+							</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">Кабельная вилка СРТ-75-425Ф3 ЦСНК.430421.009 ТУ</div>
+							</td><td style="border-bottom: 1px solid ; " align="left">
+								<div class="para p">1</div>
+							</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="G1.10A1-XS1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="G1.10A1-XS1"></a>
+								</div>
+							</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">Розетка SB612MG13Q4PQF00AN</div>
+							</td><td style="border-bottom: 1px solid ; " align="left">
+								<div class="para p">1</div>
+							</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="G1.11A1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="G1.11A1"></a>
+								</div>
+							</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+								<div class="para p">Дискета</div>
+							</td><td style="border-bottom: 1px solid ; " align="left">
+								<div class="para p">1</div>
+							</td></tr><tr><td style="border-right: 1px solid ; " align="left">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="G1.11A1-XP1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="G1.11A1-XP1"></a>
+								</div>
+							</td><td style="border-right: 1px solid ; " align="left">
+								<div class="para p">Вилка SB612MG13Q4PQF00AN</div>
+							</td><td style="" align="left">
+								<div class="para p">1</div>
+							</td></tr></tbody></table>
+			</div></div><br class="table-break">
+			<div class="table" id="table_IDR1RYNEP1"><div class="table-contents">
+				<div class="title">Перечень взаимосвязанных схем</div>
+				<table summary="Перечень взаимосвязанных схем" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title">Перечень взаимосвязанных схем</div></caption><caption class="rest"><div class="title">Перечень взаимосвязанных схем</div></caption><colgroup><col width="45%" align="center" class="col1"><col width="55%" align="center" class="col2"></colgroup><thead valign="middle"><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center" valign="middle">
+								<div class="para p">Ссылка на МД</div>
+							</th><th style="border-bottom: 1px solid ; " align="center" valign="middle">
+								<div class="para p">Наименование</div>
+							</th></tr></thead><tbody valign="middle"><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left" valign="middle">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="MTPA-A-24-10-01-054A-A" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="MTPA-A-24-10-01-054A-A"></a>
+								</div>
+							</td><td style="border-bottom: 1px solid ; " align="left" valign="middle">
+								<div class="para p">Распределительное устройство № 1</div>
+							</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left" valign="middle">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="MTPA-A-24-10-02-054A-A" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="MTPA-A-24-10-02-054A-A"></a>
+								</div>
+							</td><td style="border-bottom: 1px solid ; " align="left" valign="middle">
+								<div class="para p">Распределительное устройство № 2</div>
+							</td></tr><tr><td style="border-right: 1px solid ; " align="left" valign="middle">
+								<div class="para p">
+									<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="MTPA-A-24-10-03-054A-A" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-title="Камера. Схема принципиальная" title="MTPA-A-24-10-03-054A-A"></a>
+								</div>
+							</td><td style="" align="left" valign="middle">
+								<div class="para p">Распределительное устройство № 3</div>
+							</td></tr></tbody></table>
+			</div></div><br class="table-break">
+			<div class="pageSequence foldout">
+				<div class="figure" id="fig-001">
+					<div class="title">Камера. Схема принципиальная</div>
+					<a title="Камера. Схема принципиальная" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01" data-href="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="360mm" data-type="simple" id="graphic_ID5IBMOFQC" data-link="link2d" data-src="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm">Камера. Схема принципиальная</a>
+				</div>
+			<div class="headFootData endDM" id="page_MTPA-A-G1-41-00-00A-054A-A">
+<div class="pageHeader">
+<div class="pageHeader__container">
+<div class="headerFooter">
+<div class="headerFooter__left">
+<div class="logo">
+</div>
+</div>
+<div class="headerFooter__topCenter">
+<div class="security" data-securityClassification="01">
+</div>
+</div>
+<div class="headerFooter__topRight">
+</div>
+<div class="headerFooter__bottomRigth">
+</div>
+</div>
+</div>
+</div>
+<div class="pageFooter">
+<div class="pageFooter__container">
+<div class="headerFooter">
+<div class="headerFooter__left">
+<div class="applic">
+				<div class="assert" data-applicPropertyIdent="serialno" data-applicPropertyType="prodattr" data-applicPropertyValues="0001">
+</div>
+			</div>
+</div>
+<div class="headerFooter__topRight">
+<div class="dmCode" data-modelIdentCode="MTPA" data-systemDiffCode="A" data-systemCode="G1" data-subSystemCode="4" data-subSubSystemCode="1" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="054" data-infoCodeVariant="A" data-itemLocationCode="A">MTPA-A-G1-41-00-00A-054A-A</div>
+</div>
+<div class="headerFooter__center">
+<div class="endOfDataModule"></div>
+</div>
+<div class="headerFooter__bottomCenter">
+<div class="security" data-securityClassification="01">
+</div>
+</div>
+<div class="headerFooter__bottomRigth">
+<div class="issueDate" data-year="2024" data-month="07" data-day="16">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pageHeaderBlank">
+<div class="pageHeaderBlank__container">
+<div class="pageHeader__container blank"></div>
+<div class="blankString"></div>
+</div>
+</div>
+<div class="pageFooterBlank">
+</div>
+</div>
+</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

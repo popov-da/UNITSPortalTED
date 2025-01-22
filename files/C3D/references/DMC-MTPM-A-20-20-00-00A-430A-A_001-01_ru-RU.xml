@@ -1,0 +1,283 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="430" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="13"></issueDate>
+<dmTitle>
+<techName>Типовые повреждения траверcы</techName>
+<infoName>Вспомогательные данные для выполнения задачи по локализации неисправности</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<para>В данном разделе рассматриваются основные виды типовых повреждений, возникающие в ходе эксплуатации траверсы. К основным типовым повреждениям относятся:<randomList>
+<listItem>
+<para>повреждения ЛКП;</para>
+</listItem>
+<listItem>
+<para>механические повреждения;</para>
+</listItem>
+<listItem>
+<para>повреждения резинотехнических изделий;</para>
+</listItem>
+<listItem>
+<para>повреждения электрических элементов.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Повреждения лакокрасочного покрытия</title>
+<levelledPara>
+<title>Общие сведения</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Во время длительной эксплуатации любого изделия происходит постепенное разрушение его ЛКП за счет окисления, эрозии, влияния климатических условий, промышленной атмосферы, агрессивных сред, температурных колебаний и других факторов.</para>
+<para>В процессе разрушения ЛКП на его поверхности образуются различные дефекты, которые влекут за собой нарушение целостности, и потерю его защитно-декоративных свойств и разрушение окрашиваемой поверхности.</para>
+<para>Повреждения ЛКП разделяют на ранние спровоцированные уже имеющимися, неустраненными после окрашивания или отверждения, технологическими дефектами покрытия и эксплуатационные, появившиеся в результате прямого механического воздействия.</para>
+<para>Основные дефекты ЛКП:<randomList>
+<listItem>
+<para>царапины;</para>
+</listItem>
+<listItem>
+<para>сколы;</para>
+</listItem>
+<listItem>
+<para>коррозионные повреждения.</para>
+</listItem>
+</randomList>
+</para>
+<figure id="fig-001">
+<title>Основные дефекты лакокрасочного покрытия</title>
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_060" applicationStructureName="КОРРОЗИЯ" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_062" applicationStructureName="ЦАРАПИНА" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_061" applicationStructureName="СКОЛ" hotspotTitle=""></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Система лакокрасочного покрытия</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>Система ЛКП — это многослойное покрытие, которое не только придает внешний вид и требуемый цвет изделию, но и защищает металл от появления коррозии. Его состав и толщина могут меняться, в зависимости от типа и назначения. В конструкции траверсы применяется следующий тип ЛКП:<randomList>
+<listItem>
+<para>оксидная пленка — помогает устранить большинство потенциальных угроз и оградить детали на этапе сборки от негативного воздействия внешних агрессивных сред, а также является основой для нанесения последующих защитных покрытий — грунтовок, эмалей, лаков и т.д;</para>
+</listItem>
+<listItem>
+<para>нижний грунтовый слой акриловой грунт-эмали — улучшает сцепляемость с последующими слоями. Кроме того, он дополнительно защищает металл от воздействия коррозии и предупреждает ее появление;</para>
+</listItem>
+<listItem>
+<para>верхний слой акриловой грунт-эмали — обеспечивает защитные, а также декоративные свойства изделия. Придает необходимый цвет и оттенок.</para>
+</listItem>
+</randomList>
+</para>
+<figure id="fig-002">
+<title>Система лакокрасочного покрытия</title>
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple"></graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Царапины</title>
+<para>
+<internalRef internalRefId="fig-003" internalRefTargetType="irtt01" xlink:href="#fig-003"></internalRef>
+</para>
+<para>Царапины являются следствием касательного механического воздействия на верхние слои ЛКП. В большинстве случаев царапины представляют собой продолговатые потертости, риски, узкие полосы разной глубины и длины на поверхности изделия.</para>
+<para>Основные виды царапин:<randomList>
+<listItem>
+<para>голограммы — это множественные риски на поверхности верхнего слоя, глубина которых не превышает 2 мкм. Они не повреждают сам слой и заметны только под определённым углом при определённом освещении, не ощущаются тактильно.</para>
+</listItem>
+<listItem>
+<para>средние царапины — повреждают только верхний слой. Они более заметны, иногда можно ощутить тактильно;</para>
+</listItem>
+<listItem>
+<para>глубокие царапины — это серьёзные потертости на поверхности изделия. Эти дефекты невозможно не заметить: они проявляются изменением цвета покрытия и поражают нижний грунтовый слой.</para>
+</listItem>
+</randomList>
+</para>
+<figure id="fig-003">
+<title>Царапины</title>
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
+<hotspot id="fig-003-gra-001-hot-001" applicationStructureIdent="AUTOID_019" applicationStructureName="ВЕРХНИЙ СЛОЙ АКРИЛОВОЙ ГРУНТ-ЭМАЛИ" hotspotTitle=""></hotspot>
+<hotspot id="fig-003-gra-001-hot-002" applicationStructureIdent="AUTOID_020" applicationStructureName="НИЖНИЙ ГPУНТОВЫЙ СЛОЙ АКРИЛОВОЙ ГРУНТ-ЭМАЛИ" hotspotTitle=""></hotspot>
+<hotspot id="fig-003-gra-001-hot-003" applicationStructureIdent="AUTOID_001" applicationStructureName="ОКСИДНАЯ ПЛЕНКА" hotspotTitle=""></hotspot>
+<hotspot id="fig-003-gra-001-hot-004" applicationStructureIdent="AUTOID_002" applicationStructureName="МЕТАЛЛ" hotspotTitle=""></hotspot>
+<hotspot id="fig-003-gra-001-hot-005" applicationStructureIdent="AUTOID_016" applicationStructureName="ГОЛОГРАММА" hotspotTitle=""></hotspot>
+<hotspot id="fig-003-gra-001-hot-006" applicationStructureIdent="AUTOID_017" applicationStructureName="СРЕДНЯЯ ЦАРАПИНА" hotspotTitle=""></hotspot>
+<hotspot id="fig-003-gra-001-hot-007" applicationStructureIdent="AUTOID_018" applicationStructureName="ГЛУБОКАЯ ЦАРАПИНА" hotspotTitle=""></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Сколы</title>
+<para>
+<internalRef internalRefId="fig-004" internalRefTargetType="irtt01" xlink:href="#fig-004"></internalRef>
+</para>
+<para>Сколы представляют собой особый тип повреждений ЛКП. Скол — это полноценное пятно дефекта на поверхности ЛКП с высокой степенью глубины поражения. Сколы образуются в результате прямого воздействия постороннего объекта на поверхность изделия, будь то удар мелким камнем или каким-то небольшим твердым предметом.</para>
+<para>Основные виды сколов:<randomList>
+<listItem>
+<para>мелкий скол — представляет собой небольшое пятно дефекта диаметром до 2 мм. Он затрагивает только верхний слой на глубину не более 3 мкм;</para>
+</listItem>
+<listItem>
+<para>средний скол — представляет собой среднее пятно дефекта диаметром от 2 до 5 мм. Такие сколы повреждают уже не только верхний слой, но и частично нижний грунтовый слой;</para>
+</listItem>
+<listItem>
+<para>глубокий скол — представляет собой большое пятно дефекта диаметром  более 5 мм. Глубокие сколы наносят повреждения, которые достигают металла и становятся причиной появления коррозии.</para>
+</listItem>
+</randomList>
+</para>
+<figure id="fig-004">
+<title>Сколы</title>
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
+<hotspot id="fig-004-gra-001-hot-001" applicationStructureIdent="AUTOID_034" applicationStructureName="ВЕРХНИЙ СЛОЙ АКРИЛОВОЙ ГРУНТ-ЭМАЛИ" hotspotTitle=""></hotspot>
+<hotspot id="fig-004-gra-001-hot-002" applicationStructureIdent="AUTOID_035" applicationStructureName="НИЖНИЙ ГPУНТОВЫЙ СЛОЙ АКРИЛОВОЙ ГРУНТ-ЭМАЛИ" hotspotTitle=""></hotspot>
+<hotspot id="fig-004-gra-001-hot-003" applicationStructureIdent="AUTOID_003" applicationStructureName="ОКСИДНАЯ ПЛЕНКА" hotspotTitle=""></hotspot>
+<hotspot id="fig-004-gra-001-hot-004" applicationStructureIdent="AUTOID_004" applicationStructureName="МЕТАЛЛ" hotspotTitle=""></hotspot>
+<hotspot id="fig-004-gra-001-hot-005" applicationStructureIdent="AUTOID_024" applicationStructureName="МЕЛКИЙ СКОЛ" hotspotTitle=""></hotspot>
+<hotspot id="fig-004-gra-001-hot-006" applicationStructureIdent="AUTOID_005" applicationStructureName="СРЕДНИЙ СКОЛ" hotspotTitle=""></hotspot>
+<hotspot id="fig-004-gra-001-hot-007" applicationStructureIdent="AUTOID_006" applicationStructureName="ГЛУБОКИЙ СКОЛ" hotspotTitle=""></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Коррозионные повреждения</title>
+<para>
+<internalRef internalRefId="fig-005" internalRefTargetType="irtt01" xlink:href="#fig-005"></internalRef>
+</para>
+<para>Коррозионные повреждения изделия возникают в результате воздействия внешней среды на материал элементов конструкции и значительно увеличиваются при нарушении целостности ЛКП. Коррозия стальных деталей сопровождается образованием налета ржавчины.</para>
+<para>Основные виды коррозии стальных конструкций:<randomList>
+<listItem>
+<para>сплошная характеризуется относительно равномерным распределением коррозии по всей поверхности;</para>
+</listItem>
+<listItem>
+<para>пятнами характеризуется небольшой глубиной проникновения коррозии по сравнению с поперечными размерами поражений;</para>
+</listItem>
+<listItem>
+<para>язвенная характеризуется появлением на поверхности металла отдельных или множественных повреждений, глубина и поперечные размеры которых соизмеримы;</para>
+</listItem>
+<listItem>
+<para>точечная (питтинговая) представляет собой разрушение в виде отдельных мелких и глубоких язвочек;</para>
+</listItem>
+<listItem>
+<para>межкристаллическая характеризуется относительно равномерным распределением множественных трещин на больших участках элементов.</para>
+</listItem>
+</randomList>
+</para>
+<para>Обработка детали, пораженной коррозией, сводится к удалению продуктов коррозии путем шлифовки поврежденного участка до металла и защите  путем нанесения на локальном участке нового лакокрасочного покрытия.</para>
+<figure id="fig-005">
+<title>Коррозионные повреждения</title>
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple"></graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Механические повреждения</title>
+<para>
+<internalRef internalRefId="fig-006" internalRefTargetType="irtt01" xlink:href="#fig-006"></internalRef>
+</para>
+<para>В ходе эксплуатации траверсы возникает вероятность возникновения механических повреждений стальных конструкций и силовых элементов. Механические повреждения представляют особую опасность при эксплуатации  и требуют незамедлительного устранения. В отдельных случах при невозможности ремонта, выполняют замену поврежденных деталей.</para>
+<para>Основные механические повреждения:<randomList>
+<listItem>
+<para>трещина — это дефект поверхности, представляющий собой разрыв металла, идущий вглубь под прямым углом к поверхности. Трещины могут появляться при чрезмерных механических нагрузках, воздействии коррозии и частых, резких перепадах температур. На силовых элементах конструкции трещины могут возникать по причине усталости металла. В этом случае повреждения могут проявляться как по всей поверхности материала, так и в особенно подверженных разрушению местах (сварных и резьбовых соединениях). Эксплуатация изделия с трещиной на силовых элементах конструкции запрещена;</para>
+</listItem>
+<listItem>
+<para>пробоина — это дефект поверхности в виде пробитого насквозь отверстия, пролома в результате мощных силовых механических воздействий. Может возникнуть при плотном ударе или столкновении с крепким тяжелым предметом. Эксплуатация изделия с пробоиной не рекомендуется. В случае обнаружения пробоины необходимо незамедлительно принять меры по ее устранению;</para>
+</listItem>
+<listItem>
+<para>вмятина — это дефект поверхности в виде произвольно расположенных углублений различной формы, образовавшихся вследствие повреждения и ударов поверхности при использовании изделия по назначению, транспортировке, неправильном хранении и других операциях. В случае обнаружения вмятины необходимо выполнить дефектовку конструкции с целью определения ее влияния на технические характеристики и безопасность эксплуатации.</para>
+</listItem>
+</randomList>
+</para>
+<figure id="fig-006">
+<title>Основные механические повреждения</title>
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
+<hotspot id="fig-006-gra-001-hot-001" applicationStructureIdent="AUTOID_060" applicationStructureName="ВМЯТИНА" hotspotTitle=""></hotspot>
+<hotspot id="fig-006-gra-001-hot-002" applicationStructureIdent="AUTOID_062" applicationStructureName="ТРЕЩИНА" hotspotTitle=""></hotspot>
+<hotspot id="fig-006-gra-001-hot-003" applicationStructureIdent="AUTOID_061" applicationStructureName="ПРОБОИНА" hotspotTitle=""></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Повреждения резинотехнических изделий</title>
+<para>Резинотехнические изделия — наиболее уязвимые и наименее долговечные элементы конструкции, поэтому их монтаж и эксплуатация требуют тщательного соблюдения заводских инструкций и требований, изложенных в технической документации. Наиболее агрессивное воздействие на них оказывают повышенные температуры в зоне возможного трения, атмосферный озон и прямой солнечный свет в сочетании с растяжением и динамическими деформациями. Попадание  масел, агрессивных жидкостей, органических растворителей и кислот также способствуют их разрушению.</para>
+<para>Основные дефекты и повреждения резинотехнических изделий:<randomList>
+<listItem>
+<para>деградация свойств (старение) — это необратимое изменение свойств резинотехнических изделий преимущественно под действием немеханических факторов таких как температура, влажность, свет, агрессивная среда. Старение прогрессирует если резинотехнические изделия одновременно подвергаются воздействию механических нагрузок. Под воздействием солнечных лучей резинотехнические изделия сохнут и твердеют, а под действием повышенной температуры — приходят в состояние перевулканизации. Бензин, керосин, минеральные масла и агрессивные жидкости растворяют вулканизированную резину, а щелочи, кислоты и соли меди разрушают ее.
+
+Основные внешние признаки: вздутие, потеря формы, структурное расслоение;</para>
+</listItem>
+<listItem>
+<para>механические разрушения — cочетание агрессивных сред и напряжений при механических воздействиях в процессе эксплуатации приводит к растрескиванию и появлению усталостных трещин. Растрескивание резин в атмосферных условиях протекает с относительно большой скоростью.
+
+Основным условием образования трещин на резине является одновременное воздействие на нее озона и растягивающих усилий. Практически такие условия в той или иной степени создаются при эксплуатации почти всех резиновых изделий. Образование зародышевых озонных трещин на поверхности резин связывается или с одновременным разрывом под действием озона нескольких ориентированных в одном направлении макромолекул, или с разрывом структурированной хрупкой пленки озонида под влиянием напряжений. Проникновение озона в глубь микротрещин ведет к дальнейшему их разрастанию и разрыву резин.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Повреждения электрических элементов</title>
+<para>Повреждения электрической системы вызываются, как правило, механическими воздействиями, токовой перегрузкой при неисправной защите или подключением  неисправных потребителей. Виды повреждений в принципе сводятся к двум: замыканию и обрыву, но конкретных причин и последствий повреждений множество.</para>
+<para>Основные дефекты и повреждения:<randomList>
+<listItem>
+<para>замыкания — представляет собой такую ситуацию, когда в силу протекания каких-либо процессов из цепи снабжения исключаются линии, устройства или электрические аппараты. Электрический ток начинает протекать без нагрузки к источнику. Из-за чего величина тока мгновенно увеличивается в десятки раз, и он способен нарушить изоляцию токоведущих частей и вызвать ряд разрушительных процессов. Основные причины замыканий: повреждения изоляции токонесущих жил и элементов приборов, их ненадежное крепление;</para>
+</listItem>
+<listItem>
+<para>обрывы — представляют собой дефект в цепи электропроводки, они  происходят из-за надломов жил в результате их частых изгибов, из-за коррозии жил, ослабления контактных соединителей;</para>
+</listItem>
+<listItem>
+<para>перегревы и пережоги — это дефекты которые, возникают из-за несоответствия величины протекающего тока сечению проводника или при дуговых и разрядных явлениях в электрических системах. Могут привести к повреждению изоляции, перегоранию проводов или шлейфов в местах присоединения;</para>
+</listItem>
+<listItem>
+<para>пробои изоляции — это дефекты которые, характеризуются снижением диэлектрических свойств изоляционного слоя, которые могут произойти из-за механических повреждений, загрязнения или естественного износа.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</description>
+</content>
+</dmodule>

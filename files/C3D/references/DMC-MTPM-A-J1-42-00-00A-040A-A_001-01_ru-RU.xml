@@ -1,0 +1,123 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="J1" subSystemCode="4" subSubSystemCode="2" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="23"></issueDate>
+<dmTitle>
+<techName>Вентиляционная решетка</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Вентиляционная решетка предназначена для создания пассивной вентиляции в сочетании с вентиляторами.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав вентиляционной решетки входят:<randomList>
+<listItem>
+<para>корпус фильтра (1 шт.);</para>
+</listItem>
+<listItem>
+<para>фильтр (1 шт.);</para>
+</listItem>
+<listItem>
+<para>внешняя защитная решетка (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para> На траверсе используются пять решеток типоразмера 150х150 и две решетки типоразмера 112х112.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>На крышке распределительного устройства № 1 установлено две решетки типоразмера 150х150, одна – на крышке  распределительного устройства № 2. Данные решетки закрываются защитными кожухами. По одной решетке 150х150 установлено на дверцах распределительных устройств АКБ № 1 и <inlineSignificantData significantParaDataType="psd01">№ 2</inlineSignificantData>.</para>
+<para>По одной решетке 112х112 установлено на стенках распределительных устройств АКБ № 1 и № 2 со стороны подключения электрических соединителей.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Вентиляционная решетка представляет собой сборную конструкцию из корпуса фильтра, фильтра и внешней защитной решетки. Общая степень защиты вентиляционной решетки – IP54.</para>
+<levelledPara>
+<title>Корпус фильтра</title>
+<para>Корпус фильтра представляет собой изделие из АБС–пластика с устойчивостью к воспламенению класса UL94V0. Предназначен для фиксации фильтра. Устанавливается с помощью винтов и дополнительно фиксируется замками непосредственно на дверцах распределительных устройств АКБ № 1 и № 2.</para>
+</levelledPara>
+<levelledPara>
+<title>Фильтр</title>
+<para>Фильтр представляет собой изделие из полиолефинового волокна. Предназначен для обеспечения чистоты воздуха и предотвращения проникновения пыли и грязи в электротехнический шкаф. Класс очистки стандартного фильтра – G3. Обладает высокой пропускной способностью и долговечностью. Устанавливается в корпус фильтра.</para>
+</levelledPara>
+<levelledPara>
+<title>Внешняя защитная решетка</title>
+<para>Внешняя защитная решетка представляет собой изделие из АБС-пластика с устойчивостью к воспламенению класса UL94V0. Предназначена для обеспечения доступа к фильтру и его удержания в корпусе. Устанавливается на корпус фильтра. В закрытом положении фиксируется защелкой.</para>
+</levelledPara>
+<levelledPara>
+<title>Защитный кожух</title>
+<para>Защитный кожух представляет собой изделие из листовой стали. Предназначен для защиты вентиляционной решетки от попадания предметов и влаги, а также для обеспечения дополнительной защиты от механических воздействий. Устанавливается поверх решетки на основание с помощью скрытых направляющих и винта.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Вентиляционная решетка</title>
+<graphic infoEntityIdent="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_016" applicationStructureName="ЗАЩИТНЫЙ КОЖУХ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_010" applicationStructureName="ЗАЩИТНЫЙ КОЖУХ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_009" applicationStructureName="ЗАЩИТНЫЙ КОЖУХ"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="ЗАЩЕЛКА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_016" applicationStructureName="ВНЕШНЯЯ  ЗАЩИТНАЯ  РЕШЕТКА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_017" applicationStructureName="ФИЛЬТР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_008" applicationStructureName="ЗАМОК"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_021" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_022" applicationStructureName="УПЛОТНИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_025" applicationStructureName="КОРПУС  ФИЛЬТРА"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

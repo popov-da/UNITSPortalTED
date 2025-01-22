@@ -1,0 +1,587 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="9" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="420" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="09" day="16"></issueDate>
+<dmTitle>
+<techName>Репей</techName>
+<infoName>Общие процедуры по локализации неисправностей</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Перечень возможных неисправностей</title>
+<para>Индикация базовой станции позволяет отслеживать как работу Репея, так и АКБ. За работу Репея отвечают светодиодные индикаторы «Bluetooth» и «Статус», за работу АКБ – «Сигнализация». Состояние светодиодной индикации  базовой станции Репея <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table id="tab-001">
+<title>Состояние светодиодной индикации базовой станции</title>
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colname="col02" colnum="2" colwidth="1*" align="left"></colspec>
+<colspec colnum="3" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center" valign="middle">
+<para>Проявление неисправности</para>
+</entry>
+<entry colname="col02" align="center" valign="middle">
+<para>Возможная причина</para>
+</entry>
+<entry colname="col2" align="left" valign="middle">
+<para>Устранение неисправности</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Bluetooth» не горит</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Привязка датчиков к базовой станции не выполнена</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перезагрузите базовую станцию и датчик. В случае повторной ошибки осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>. </para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top"></entry>
+<entry colname="col2" align="left" valign="top">
+<para>Если осмотр не выявил причину неисправности, замените базовую станцию <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> и датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новые.</para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Bluetooth» мигает красным цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Отсутствие связи с датчиком</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перезагрузите базовую станцию и датчик. В случае повторной ошибки осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>. </para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top"></entry>
+<entry colname="col2" align="left" valign="top">
+<para>Если осмотр не выявил причину неисправности, замените базовую станцию <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> и датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новые.</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Bluetooth» горит красным цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Неисправность модуля Bluetooth</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>. Если осмотр не выявил причину неисправности, замените базовую станцию <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> и датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новые.</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Статус» мигает желтым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Система самодиагностики выявила неисправность, не препятствующую выполнению основных функций</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Статус» мигает красным цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Устройство неисправно</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Замените базовую станцию <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> и датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новые.</para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Сигнализация» горит желтым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Нарушение работы АКБ</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Осмотрите АКБ <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="2" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.
+									</para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top">
+<para>Потеря связи датчика с аккумулятором</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перезагрузите базовую станцию и датчик. В случае повторной ошибки осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>. </para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top"></entry>
+<entry colname="col2" align="left" valign="top">
+<para>Если осмотр не выявил причину неисправности, замените датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новый.</para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top">
+<para></para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Неисправность датчика аккумулятора</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перезагрузите базовую станцию и датчик. В случае повторной ошибки осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.
+									</para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top"></entry>
+<entry colname="col2" align="left" valign="top">
+<para>Если осмотр не выявил причину неисправности, замените датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новый.</para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top">
+<para>Неисправность Репея</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перезагрузите базовую станцию и датчик. В случае повторной ошибки осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>. </para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top"></entry>
+<entry colname="col2" align="left" valign="top">
+<para>Если осмотр не выявил причину неисправности, замените базовую станцию <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> и датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новые.</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Сигнализация» горит красным цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Выход АКБ из строя</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Замените АКБ на новую <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="2" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.
+									</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Индикация датчика позволяет отслеживать как работу Репея, так и аккумулятора. Состояние светодиодной индикации  датчика Репея <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Состояние светодиодной индикации датчика</title>
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colname="col02" colnum="2" colwidth="1*" align="left"></colspec>
+<colspec colnum="3" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center" valign="middle">
+<para>Проявление неисправности</para>
+</entry>
+<entry colname="col02" align="center" valign="middle">
+<para>Возможная причина</para>
+</entry>
+<entry colname="col2" align="left" valign="middle">
+<para>Устранение неисправности</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Статус» мигает пурпурным цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Устройство включено и функционирует исправно, потеря связи с базовой станцией</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перезагрузите базовую станцию и датчик. В случае повторной ошибки осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>. </para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top"></entry>
+<entry colname="col2" align="left" valign="top">
+<para>Если осмотр не выявил причину неисправности, замените базовую станцию <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> и датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новые.</para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Статус» горит желтым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Нарушение работы АКБ</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Осмотрите АКБ <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="2" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.
+									</para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top">
+<para>Потеря связи датчика с аккумулятором</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перезагрузите базовую станцию и датчик. В случае повторной ошибки осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>. </para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top"></entry>
+<entry colname="col2" align="left" valign="top">
+<para>Если осмотр не выявил причину неисправности, замените датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новый.</para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top">
+<para></para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Неисправность датчика аккумулятора</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перезагрузите базовую станцию и датчик. В случае повторной ошибки осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>. </para>
+</entry>
+</row>
+<row rowsep="0">
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top"></entry>
+<entry colname="col2" align="left" valign="top">
+<para>Если осмотр не выявил причину неисправности, замените датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новый.</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top"></entry>
+<entry colname="col02" align="left" valign="top">
+<para>Неисправность Репея</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перезагрузите базовую станцию и датчик. В случае повторной ошибки замените базовую станцию <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> и датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новые.</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Статус» горит красным цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Выход АКБ из строя</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Замените АКБ на новую <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="2" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.
+									</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Статус» мигает желтым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Система самодиагностики выявила неисправность, не препятствующую выполнению основных функций</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Осмотрите Репей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.
+									</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Статус» мигает красным цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Устройство неисправно</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Замените базовую станцию <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> и датчик <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef> на новые.</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Индикатор  «Статус» горит голубым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Устройство выполняет выравнивание напряжения на аккумуляторе</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>???</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Светодиоды 1, 2, 3 и 4 индикации уровня напряжения аккумулятора горят красным цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Напряжение на аккумуляторе не превышает <inlineSignificantData significantParaDataType="psd01">11,5 В</inlineSignificantData>
+</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>???</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Светодиоды 2, 3 и 4 индикации уровня напряжения аккумулятора горят желтым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Напряжение на аккумуляторе находится в диапазоне: <inlineSignificantData significantParaDataType="psd01">11,5 &lt; U ≤ 13 В</inlineSignificantData>
+</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>???</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Светодиоды 3 и 4 индикации уровня напряжения аккумулятора горят зеленым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Напряжение на аккумуляторе находится в диапазоне: <inlineSignificantData significantParaDataType="psd01">13 &lt; U ≤ 13,25 В</inlineSignificantData>
+</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>???</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Светодиод 4 индикации уровня напряжения аккумулятора горит зеленым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Напряжение на аккумуляторе находится в диапазоне: <inlineSignificantData significantParaDataType="psd01">13,25 &lt; U &lt; 13,75 В</inlineSignificantData>
+</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>???</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Светодиоды 4 и 5  индикации уровня напряжения аккумулятора горят зеленым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Напряжение на аккумуляторе находится в диапазоне: <inlineSignificantData significantParaDataType="psd01">13,75 ≤ U &lt; 14 В</inlineSignificantData>
+</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>???</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Светодиоды 4, 5 и 6  индикации уровня напряжения аккумулятора горят желтым цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Напряжение на аккумуляторе находится в диапазоне: <inlineSignificantData significantParaDataType="psd01">14 ≤ U &lt; 15 В</inlineSignificantData>
+</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>???</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="left" valign="top">
+<para>Светодиоды 4, 5, 6 и 7  индикации уровня напряжения аккумулятора горят красным цветом</para>
+</entry>
+<entry colname="col02" align="left" valign="top">
+<para>Напряжение на аккумуляторе не меньше <inlineSignificantData significantParaDataType="psd01">15 В</inlineSignificantData>
+</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>???</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</description>
+</content>
+</dmodule>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-D20000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-D20000-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPM-A-D20000-A-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-D20000-A-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="028" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="10" day="14"></issueDate>
+<dmTitle>
+<techName>Электрические системы</techName>
+<infoName>Общие сведения</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Назначение</title>
+<para>Электрическая система предназначена для:<randomList>
+<listItem>
+<para>подключение траверсы к наземной зарядной станции;</para>
+</listItem>
+<listItem>
+<para>приема электроэнергии постоянного тока от наземной зарядной станции  и
+преобразования ее в электроэнергию постоянного тока с параметрами,
+требуемыми для нормальной работы оборудования траверсы;</para>
+</listItem>
+<listItem>
+<para>распределения электроэнергии по оборудованию траверсы;</para>
+</listItem>
+<listItem>
+<para>поддержания значения напряжения на клеммных блоках распределительных
+устройств на заданном уровне;</para>
+</listItem>
+<listItem>
+<para>защиты установленного на траверсе
+оборудования при коротких замыканиях, перегрузках сети;</para>
+</listItem>
+<listItem>
+<para>диагностирование установленного оборудования.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>(Рис. 1)</para>
+<para>В состав электрической системы входят:<randomList>
+<listItem>
+<para>аккумуляторы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="2" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>распределительные устройства <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>система управления <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>система контроля <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Описание
+					</title>
+<para>Электрическая система обеспечивает:
+				<randomList>
+<listItem>
+<para>гарантированное бесперебойное питание потребителей электроэнергии постоянного
+тока при подключенной к ней наземной зарядной станции с выходным напряжением 12 и 24 В;</para>
+</listItem>
+<listItem>
+<para>гарантированное бесперебойное питание потребителей электроэнергии постоянного
+тока при подключенной к ней аккумуляторов с выходным напряжением 12 В;</para>
+</listItem>
+<listItem>
+<para>зарядку аккумуляторов от зарядной станции с выходным напряжением 12 В;</para>
+</listItem>
+<listItem>
+<para>управление оборудованием с помощью процессорного модуля  PLC;</para>
+</listItem>
+<listItem>
+<para>вывод диагностической информации на панель оператора.</para>
+</listItem>
+</randomList>
+</para>
+<para>На траверсе электрическая система состоит из двух распределительных устройств (РУ), двух распределительных устройств аккумуляторных батарей (РУ АКБ) и распределительного шкафа (РШ), а также систем управления и контроля. Связь между компонентами осуществляется с помощью силовых и информационных кабелей. В каждом РУ АКБ установлен собственный аккумулятор.</para>
+<para>Система управления включает в себя репей, который установлен в каждом РУ АКБ, и панель оператора, установленный в РУ №2. Система контроля состоит из датчика угла наклона, установленного в РУ №2, и индуктивных датчиков, размещенных на траверсе.</para>
+</levelledPara>
+<levelledPara>
+<title>Работа
+					от аккумуляторов</title>
+<para>(рис.2)</para>
+<para>При включении питания на РУ № 1 и РУ № 2 каждый аккумулятор обеспечивает электрическую систему силовым питанием с напряжением 12 В. Распределение питания по электрической системе, в большинстве случаев, осуществляется через распределительный шкаф.</para>
+<para>В РУ № 2 силовое питание с напряжением 12 В преобразуется в информационное напряжение 24 В, которое используется для питания установленного оборудования. Это напряжение также подается на индуктивные датчики, проходя через РШ от РУ № 2. При срабатывании индуктивных датчиков дискретный сигнал 24 В возвращается в РУ №2 тем же путем. Так же процессорный модуль PLC   начинает опрашивать устройста, установленные в РУ № 1, по цифровой шине EtherCat, проходя через РШ. </para>
+<para>В РУ № 1 силовое питание с напряжением 12 В от каждого аккумулятора поступает на каскад своих преобразователей, после чего  установленное оборудование получает силовые напряжением 24 и 48 В. Каждый серводрайвер  по команде от процессорного модуля PLC управляют своим шаговым двигателем башни, каретки и тормоза посредством дискретных сигналов 12 и 48 В и силового питания 24 В. Эти сигналы выходят с РУ № 1 и поступают сразу на соответсвующие шаговые двигатели.</para>
+<figure>
+<title>Схема</title>
+<graphic infoEntityIdent="ICN-MTPM-A-D20000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-D20000-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Зарядка
+					от наземной зарядной станции</title>
+<para>(Рис.2)</para>
+<levelledPara>
+<title>Подача питания через распределительное устройство АКБ № 1</title>
+<para>Подача питания на траверсу осуществляется с зарядной станции путем  подключении кабеля зарядной станции к РУ АКБ № 1. При включении  питания на РУ АКБ № 1 аккумулятор установленный  в нем начинает  заряжатся. Одновременно с этим, силовое питание напряжением 12 В приходит на РУ АКБ № 2 транзитом через РШ.  При включении  питания на РУ АКБ № 2 аккумулятор установленный  в нем тоже начнет заряжаться.</para>
+<para>Парралельно с этим,  силовое питание напряжением 12 В попадает на РУ №2, которое позволяет запитывать панель оператора при включения питания  на РУ АКБ № 2.</para>
+</levelledPara>
+<levelledPara>
+<title>Подача питания через распределительное устройство АКБ № 2</title>
+<para>
+						Работа подачи 
+					 питания через РУ АКБ № 2 аналогична работе РУ АКБ № 1. </para>
+</levelledPara>
+</levelledPara>
+<figure>
+<title>Схема зарядки  от наземной зарядной станции</title>
+<graphic infoEntityIdent="ICN-MTPM-A-D20000-A-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-D20000-A-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</description>
+</content>
+</dmodule>

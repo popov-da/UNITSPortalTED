@@ -1,0 +1,188 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="2" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="254" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="07" day="22"></issueDate>
+<dmTitle>
+<techName>Подготовка поверхностей перед склеиванием</techName>
+<infoName>Механическая очистка</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Пневматический продувочный пистолет</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Пневматическая эксцентриковая шлиф-машина</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Шлифовальный блок</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Салфетки х/б безворсовые</name>
+<supplyRef supplyNumber="ГОСТ 29250-91" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Набор шлифовальных электрокорундовых шкурок</name>
+<supplyRef supplyNumber="Зернистость № 40-80 ГОСТ 5009-82" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning>
+<warningAndCautionPara>СОБЛЮДАЙТЕ ПРАВИЛА ПОЖАРНОЙ БЕЗОПАСНОСТИ, ПРАВИЛА ЗАЩИТЫ
+ОТ СТАТИЧЕСКОГО ЭЛЕКТРИЧЕСТВА. </warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ПРИМЕНЕНИЕ ОТКРЫТОГО ОГНЯ.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ КУРЕНИЕ НА РАБОЧЕМ МЕСТЕ.</warningAndCautionPara>
+<warningAndCautionPara>РАБОТЫ ПРОВОДЯТСЯ ТОЛЬКО В
+СПЕЦОДЕЖДЕ.</warningAndCautionPara>
+</warning>
+<warning id="wrn-002">
+<warningAndCautionPara>СОБЛЮДАЙТЕ МЕРЫ
+ПРЕДОСТОРОЖНОСТИ ПРИ РАБОТЕ С МАТЕРИАЛАМИ.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ПОДНОСИТЕ МАТЕРИАЛЫ КО РТУ.</warningAndCautionPara>
+<warningAndCautionPara>ИЗБЕГАЙТЕ ВДЫХАНИЯ ЯДОВИТЫХ
+ПАРОВ, ВЫДЕЛЯЕМЫХ МАТЕРИАЛАМИ.</warningAndCautionPara>
+<warningAndCautionPara>ОБРАТИТЕСЬ ЗА МЕДИЦИНСКОЙ ПОМОЩЬЮ ПРИ ВОЗНИКНОВЕНИИ
+РАЗДРАЖЕНИЯ КОЖИ И ГЛАЗ.</warningAndCautionPara>
+</warning>
+<caution id="ctn-001">
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ПРОВОДИТЬ РАБОТЫ ПРЕДВАРИТЕЛЬНО НЕ УДАЛИВ ЗАГРЯЗНЕНИЯ С ПОВЕРХНОСТИ.</warningAndCautionPara>
+<warningAndCautionPara>НА СКЛЕИВАЕМЫХ ПОВЕРХНОСТЯХ НЕ ДОПУСКАЮТСЯ
+МАСЛЯНЫЕ ПЯТНА И ЗАГРЯЗНЕНИЯ.</warningAndCautionPara>
+<warningAndCautionPara>ПРИ ОБЕЗЖИРИВАНИИ ПОВЕРХНОСТЕЙ ПОД
+СКЛЕИВАНИЕ НЕ ДОПУСКАЕТСЯ ОБРАЗОВАНИЕ ПОТЕКОВ И КАПЕЛЬ РАСТВОРИТЕЛЯ.</warningAndCautionPara>
+<warningAndCautionPara>ПРИ ОБРАЗОВАНИИ ПОТЕКОВ И КАПЕЛЬ ИХ НЕОБХОДИМО СРАЗУ ЖЕ УДАЛЯТЬ ХЛОПЧАТОБУМАЖНОЙ САЛФЕТКОЙ, НЕ ДОЖИДАЯСЬ ИХ ВЫСЫХАНИЯ.</warningAndCautionPara>
+</caution>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Наденьте спецодежду: комбинезон,  респиратор аэрозольный, перчатки, очки.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ к месту выполнения работ.
+						</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Подготовка поверхностей резиновых изделий к склеиванию</title>
+<proceduralStep>
+<para>Протрите склеиваемые поверхности чистыми хлопчатобумажными салфетками,
+смоченными в растворителе.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Протрите поверхность насухо чистыми сухими салфетками до высыхания растворителя.</para>
+<note id="not-001">
+<notePara>Операции повторяйте до тех пор, пока сухая салфетка при протирании поверхности
+не останется чистой и сухой.</notePara>
+</note>
+</proceduralStep>
+<proceduralStep>
+<para>Произведите шлифовку склеиваемого участка, последовательно уменьшая
+зернистость шлифовальных шкурок, с целью выравнивания толщины покрытия.</para>
+<note id="not-002">
+<notePara>Не допускаются пропуски и разная степень шероховатости обработанной
+поверхности.</notePara>
+</note>
+</proceduralStep>
+<proceduralStep>
+<para>Удалите образовавшуюся пыль с поверхности с помощью пневматического продувочного
+пистолета.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>
