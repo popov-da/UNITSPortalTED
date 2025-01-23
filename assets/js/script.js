@@ -62,6 +62,8 @@
       document.querySelector('.IETP-docs').style.display = 'none';
       document.getElementById('PresSection').style.display = 'none';
       document.querySelector('.Pres-mat').style.display = 'none';
+	  document.getElementById('educationalSection').style.display = 'none';
+      document.querySelector('.educational-docs').style.display = 'none';
     }
 
     function showTechnicalDocs() {
@@ -76,6 +78,8 @@
       document.querySelector('.IETP-docs').style.display = 'none';
       document.getElementById('PresSection').style.display = 'none';
       document.querySelector('.Pres-mat').style.display = 'none';
+	  document.getElementById('educationalSection').style.display = 'none';
+      document.querySelector('.educational-docs').style.display = 'none';
     }
 
     function showIETPDocs() {
@@ -90,6 +94,40 @@
       document.querySelector('.IETP-docs').style.display = 'block';
       document.getElementById('PresSection').style.display = 'none';
       document.querySelector('.Pres-mat').style.display = 'none';
+	  document.getElementById('educationalSection').style.display = 'none';
+      document.querySelector('.educational-docs').style.display = 'none';
+    }
+
+	function showEducationalDocs() {
+      hideStartPage();
+      document.getElementById('selectMessage').style.display = 'flex';
+      // Показ только раздела "Учебная документация"
+      document.getElementById('exploitationSection').style.display = 'none';
+      document.querySelector('.exploitation-docs').style.display = 'none';
+      document.getElementById('technicalSection').style.display = 'none';
+      document.querySelector('.technical-docs').style.display = 'none';
+      document.getElementById('IETPSection').style.display = 'none';
+      document.querySelector('.IETP-docs').style.display = 'none';
+      document.getElementById('PresSection').style.display = 'none';
+      document.querySelector('.Pres-mat').style.display = 'none';
+	  document.getElementById('educationalSection').style.display = 'block';
+      document.querySelector('.educational-docs').style.display = 'block';
+    }
+
+	function showMTPMDocs() {
+      hideStartPage();
+      document.getElementById('selectMessage').style.display = 'flex';
+      // Показ только документации по Линейной траверсе
+      document.getElementById('exploitationSection').style.display = 'none';
+      document.querySelector('.exploitation-docs').style.display = 'none';
+      document.getElementById('technicalSection').style.display = 'none';
+      document.querySelector('.technical-docs').style.display = 'none';
+      document.getElementById('IETPSection').style.display = 'block';
+      document.querySelector('.IETP-docs').style.display = 'block';
+      document.getElementById('PresSection').style.display = 'none';
+      document.querySelector('.Pres-mat').style.display = 'none';
+	  document.getElementById('educationalSection').style.display = 'block';
+      document.querySelector('.educational-docs').style.display = 'block';
     }
 
     function loadContent(element, pageUrl) {
