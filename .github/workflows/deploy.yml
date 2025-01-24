@@ -22,7 +22,15 @@ jobs:
 
     # Устанавливаем зависимости для минификации
     - name: Install dependencies
-      run: npm install -g html-minifier terser clean-css-cli minify-xml
+      run: npm install -g html-minifier terser clean-css-cli
+    
+    # Установка xmllint
+    - name: Install xmllint
+      run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+    
+    # Удаляем все файлы .cgm
+    - name: Remove all .cgm files
+      run: find . -name '*.cgm' -type f -delete
 
     # Минифицируем HTML
     - name: Minify HTML files
@@ -34,11 +42,11 @@ jobs:
 
     # Минифицируем JavaScript
     - name: Minify JavaScript files
-      run: find . -name '*.js' -exec terser --compress --mangle -o {} -- {} \; 
+      run: find . -name '*.js' -exec terser --compress --mangle -o {} -- {} \;
       
     # Минифицируем XML
     - name: Minify XML files
-      run: find . -name '*.xml' -exec minify-xml --minify -o {} -- {} \;
+      run: find . -name '*.xml' -exec xmllint --format --noblanks {} -o {} \;
 
     # Деплоим минимизированные файлы в ветку gh-pages
     - name: Deploy to GitHub Pages
