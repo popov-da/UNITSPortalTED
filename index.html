@@ -18,8 +18,8 @@
   <!-- Левая колонка со структурой -->
   <div class="structure" id="structure"> 
     <!-- Раздел "Эксплуатационная документация" -->
-    <div class="section-title" id="exploitationSection">Эксплуатационная документация ДЕМО</div>
-    <div class="skin-tree exploitation-docs">
+    <div class="skin-tree exploitation-docs" id="exploitationSection">
+      <div class="section-title">Эксплуатационная документация ДЕМО</div>
       <div class="file-item" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-921A-A.htm')">
         <div>
           <div class="icon file"></div>
@@ -42,9 +42,18 @@
         <div class="icon pdf"></div>
         PDF </a> </div>
     </div>
+    <!-- Раздел "Учебная документация" -->
+    <div class="skin-tree Educate-docs" id="EducateSection">
+      <div class="section-title">Учебная документация ДЕМО</div>
+      <div class="file-item" onclick="loadContent(this, 'files/Help/HeplForLearn.html')">
+        <div>
+          <div class="icon file"></div>
+          <span>Каретка - Демонтаж и монтаж</span> </div>
+      </div>
+    </div>
     <!-- Раздел "Технологическая документация" -->
-    <div class="section-title" id="technicalSection">Технологическая документация ДЕМО</div>
-    <div class="skin-tree technical-docs">
+    <div class="skin-tree technical-docs" id="technicalSection">
+      <div class="section-title">Технологическая документация ДЕМО</div>
       <div class="file-item" onclick="loadContent(this, 'files/C3D/Монтаж ванны.htm')">
         <div>
           <div class="icon file"></div>
@@ -63,8 +72,8 @@
         PDF </a> </div>
     </div>
     <!-- Раздел "Интерактивная публикация" -->
-    <div class="section-title" id="IETPSection">Интерактивная публикация</div>
-    <div class="skin-tree IETP-docs">
+    <div class="skin-tree IETP-docs" id="IETPSection">
+      <div class="section-title">Интерактивная публикация</div>
       <div class="file-item" onclick="loadContent(this, 'files/C3D/MTPM-UNITS-MM000-00.htm'); toggleStructure()">
         <div>
           <div class="icon file"></div>
@@ -78,8 +87,8 @@
       </div>
     </div>
     <!-- Раздел "Презентационные материалы" -->
-    <div class="section-title" id="PresSection">Презентационные материалы</div>
-    <div class="skin-tree Pres-mat">
+    <div class="skin-tree Pres-mat" id="PresSection">
+      <div class="section-title">Презентационные материалы</div>
       <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/PresentUNITS.mp4'); toggleStructure()">
         <div>
           <div class="icon file"></div>
@@ -114,7 +123,7 @@
         <div style="display: flex; justify-content: center; margin-top: 20px;">
           <div class="item-option" onclick="showExploitationDocs()"> <img src="assets/images/ClearTraverce.png" alt="Механизированная траверса"> <span>Механизированная траверса</span> </div>
           <div class="item-option" onclick="showTechnicalDocs()"> <img src="assets/images/ClearMod.png" alt="Модуль"> <span>Модуль</span> </div>
-          <div class="item-option" onclick="showIETPDocs(); toggleStructure(); loadContent(this, 'files/C3D/MTPM-UNITS-MM000-00.htm')"> <img src="assets/images/LinTraverce.png" alt="Линейная траверса"> <span>Линейная траверса</span> </div>
+          <div class="item-option" onclick="showIETPDocs();"> <img src="assets/images/LinTraverce.png" alt="Линейная траверса"> <span>Линейная траверса</span> </div>
         </div>
       </div>
     </div>

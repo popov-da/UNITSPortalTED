@@ -13,7 +13,7 @@ vm2d:type CDATA #IMPLIED">
   <g id="AUTOID_007" vm2d:name="Background" vm2d:type="layer"/>
   <g id="AUTOID_008" vm2d:name="Drawing" vm2d:type="layer">
     <g transform="matrix(3.78462,0,0,3.78462,-0,128.838)">
-      <text font-family="Arial" font-size="3.53" x="6.32485" y="-14.0686" fill="#000">Выберите хотя бы один натяжитель</text>
+      <text font-family="Arial" font-size="3.53" x="6.32485" y="-14.0578" fill="#000">Выберите хотя бы один натяжитель</text>
     </g>
     <g id="AUTOID_006" vm2d:name="" vm2d:type="grnode">
       <g transform="matrix(3.78462,0,0,3.78462,-0,128.838)">
@@ -24,10 +24,10 @@ vm2d:type CDATA #IMPLIED">
       </g>
     </g>
     <g transform="matrix(3.78462,0,0,3.78462,-0,128.838)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
-      <text font-family="Arial" font-size="3.53" x="6.32485" y="-3.08903" fill="#00f" xml:space="preserve">Выберите любой:   МТПМ.131000.102_А;1 - Натяжитель цепи (1)    МТПМ.131000.102_А;1 - Натяжитель цепи (2)</text>
       <path stroke="#000" d="M5,-8 L191.45,-8 191.45,2.0564e-06 5,2.0564e-06 Z"/>
       <path stroke="#000" d="M5,-19 L65.994,-19 65.994,-11 5,-11 Z"/>
       <path stroke="#000" d="M5,-33.909 L170.07,-33.909 170.07,-21.909 5,-21.909 Z"/>
+      <text font-family="Arial" font-size="3.53" x="6.32485" y="-3.07843" fill="#00f" xml:space="preserve">Выберите любой:   МТПМ.131000.102 - Натяжитель цепи (1)    МТПМ.131000.102 - Натяжитель цепи (2)</text>
     </g>
   </g>
   <g id="AUTOID_009" vm2d:name="Axials" vm2d:type="layer"/>

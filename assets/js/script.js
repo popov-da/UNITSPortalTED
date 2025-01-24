@@ -11,13 +11,10 @@
       // Отображаем стартовую страницу и обе секции
       document.getElementById('startPage').style.display = 'flex';
       document.getElementById('exploitationSection').style.display = 'block';
+      document.getElementById('EducateSection').style.display = 'block';
       document.getElementById('technicalSection').style.display = 'block';
       document.getElementById('IETPSection').style.display = 'block';
-      document.querySelector('.exploitation-docs').style.display = 'block';
-      document.querySelector('.technical-docs').style.display = 'block';
-      document.querySelector('.IETP-docs').style.display = 'block';
       document.getElementById('PresSection').style.display = 'block';
-      document.querySelector('.Pres-mat').style.display = 'block';
     }
     // Функция загрузки HTML-контента или PDF в iframe с подсветкой активной вкладки
     function loadContent(element, pageUrl) {
@@ -53,43 +50,34 @@
     function showExploitationDocs() {
       hideStartPage();
       document.getElementById('selectMessage').style.display = 'flex';
-      // Показ только раздела "Эксплуатационная документация"
+      // Показ только раздела "Большая траверса"
       document.getElementById('exploitationSection').style.display = 'block';
-      document.querySelector('.exploitation-docs').style.display = 'block';
+      document.getElementById('EducateSection').style.display = 'none';
       document.getElementById('technicalSection').style.display = 'none';
-      document.querySelector('.technical-docs').style.display = 'none';
       document.getElementById('IETPSection').style.display = 'none';
-      document.querySelector('.IETP-docs').style.display = 'none';
       document.getElementById('PresSection').style.display = 'none';
-      document.querySelector('.Pres-mat').style.display = 'none';
     }
 
     function showTechnicalDocs() {
       hideStartPage();
       document.getElementById('selectMessage').style.display = 'flex';
-      // Показ только раздела "Технологическая документация"
+      // Показ только раздела "Модуль"
       document.getElementById('exploitationSection').style.display = 'none';
-      document.querySelector('.exploitation-docs').style.display = 'none';
+      document.getElementById('EducateSection').style.display = 'none';
       document.getElementById('technicalSection').style.display = 'block';
-      document.querySelector('.technical-docs').style.display = 'block';
       document.getElementById('IETPSection').style.display = 'none';
-      document.querySelector('.IETP-docs').style.display = 'none';
       document.getElementById('PresSection').style.display = 'none';
-      document.querySelector('.Pres-mat').style.display = 'none';
     }
 
     function showIETPDocs() {
       hideStartPage();
       document.getElementById('selectMessage').style.display = 'flex';
-      // Показ только раздела "Интерактивная документация"
+      // Показ только раздела "Линейная траверса"
       document.getElementById('exploitationSection').style.display = 'none';
-      document.querySelector('.exploitation-docs').style.display = 'none';
+      document.getElementById('EducateSection').style.display = 'block';
       document.getElementById('technicalSection').style.display = 'none';
-      document.querySelector('.technical-docs').style.display = 'none';
       document.getElementById('IETPSection').style.display = 'block';
-      document.querySelector('.IETP-docs').style.display = 'block';
       document.getElementById('PresSection').style.display = 'none';
-      document.querySelector('.Pres-mat').style.display = 'none';
     }
 
     function loadContent(element, pageUrl) {
