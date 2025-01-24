@@ -14,11 +14,19 @@ body {
   flex-direction: row;
 }
 /* Адаптивные стили для мобильных устройств */
-/* Адаптивные стили для мобильных устройств */
 @media (max-width: 768px) {
   /* Контейнеры структуры и контента остаются рядом */
   .container {
     flex-direction: row;
+  }
+  .options-section {
+    flex-wrap: wrap; /* Разрешаем перенос элементов */
+    flex-direction: column; /* Располагаем элементы в столбик */
+    align-items: center; /* Центрируем карточки */
+  }
+  .options-section .item-option {
+    width: 100%; /* Карточки занимают всю ширину */
+    max-width: 100%; /* Снимаем ограничения */
   }
   .structure {
     width: 30%; /* Уменьшаем ширину структуры на мобильных */
@@ -440,11 +448,9 @@ iframe {
   z-index: 1000;
   text-align: center;
 }
-
 .rotate-container {
   animation: fade-in 1.5s ease-in-out infinite;
 }
-
 @keyframes fade-in {
   0%, 100% {
     opacity: 0.5;
@@ -452,4 +458,15 @@ iframe {
   50% {
     opacity: 1;
   }
+}
+.options-section {
+  display: flex;
+  justify-content: space-around; /* Равномерное распределение элементов */
+  gap: 20px; /* Расстояние между элементами */
+  flex-wrap: nowrap; /* Запрещаем перенос элементов */
+}
+.options-section .item-option {
+  flex: 1; /* Устанавливаем равную ширину для всех элементов */
+  max-width: 200px; /* Максимальная ширина карточки */
+  text-align: center;
 }
