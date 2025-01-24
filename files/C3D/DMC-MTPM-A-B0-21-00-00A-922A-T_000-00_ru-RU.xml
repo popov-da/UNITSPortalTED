@@ -1,239 +1,207 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE dmodule [
+<!NOTATION CGM PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" "CGM" >
 <!ENTITY ICN-MTPM-A-B02100-0-00000-00001-A-001-01 SYSTEM "ICN-MTPM-A-B02100-0-00000-00001-A-001-01.cgm" NDATA CGM>
-<!NOTATION CGM PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" "CGM">
 ]>
-<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-0-2/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rfd="http://www.w3.org/1999/02/22-rfd-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<identAndStatusSection>
-		<dmAddress>
-			<dmIdent>
-				<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="B0" subSystemCode="2" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="T"/>
-				<language countryIsoCode="RU" languageIsoCode="ru"/>
-				<issueInfo issueNumber="000" inWork="00"/>
-			</dmIdent>
-			<dmAddressItems>
-				<issueDate year="2025" month="01" day="15"/>
-				<dmTitle>
-					<techName>Каретка</techName>
-					<infoName>Демонтаж и монтаж</infoName>
-				</dmTitle>
-			</dmAddressItems>
-		</dmAddress>
-		<dmStatus issueType="new">
-			<security securityClassification="01"/>
-			<responsiblePartnerCompany enterpriseCode="">
-				<enterpriseName>МОДУЛЬ МКД</enterpriseName>
-			</responsiblePartnerCompany>
-			<originator enterpriseCode="">
-				<enterpriseName>МОДУЛЬ МКД</enterpriseName>
-			</originator>
-			<applic>
-				<displayText>
-					<simplePara>ВСЕ</simplePara>
-				</displayText>
-			</applic>
-			<brexDmRef>
-				<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-A-04-10-0301-00A-022A-D_005-00_EN-US">
-					<dmRefIdent>
-						<dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
-						<issueInfo issueNumber="005" inWork="00"/>
-					</dmRefIdent>
-				</dmRef>
-			</brexDmRef>
-			<qualityAssurance>
-				<unverified/>
-			</qualityAssurance>
-		</dmStatus>
-	</identAndStatusSection>
-	<content>
-		<procedure>
-			<preliminaryRqmts>
-				<reqCondGroup>
-					<noConds/>
-				</reqCondGroup>
-				<reqSupportEquips>
-					<noSupportEquips/>
-				</reqSupportEquips>
-				<reqSupplies>
-					<noSupplies/>
-				</reqSupplies>
-				<reqSpares>
-					<noSpares/>
-				</reqSpares>
-				<reqSafety>
-					<safetyRqmts>
-						<warning id="wrn-001">
-							<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
-						</warning>
-					</safetyRqmts>
-				</reqSafety>
-			</preliminaryRqmts>
-			<mainProcedure>
-				<proceduralStep id="step1">
-					<title>Подготовительные работы</title>
-					<proceduralStep id="S1A60614B-5DCF-42C2-870B-014D8D402B4A">
-						<para id="step1.1">Выполните спуск траверсы <dmRef>
-								<dmRefIdent>
-									<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"/>
-								</dmRefIdent>
-							</dmRef>.</para>
-					</proceduralStep>
-					<proceduralStep id="rd01c5021-d318-48ff-8921-ac3e3d7eafe5">
-						<para id="step1.2">Демонтируйте натяжитель <dmRef>
-								<dmRefIdent>
-									<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/>
-								</dmRefIdent>
-							</dmRef>.</para>
-					</proceduralStep>
-					<proceduralStep id="rdb5d3b8d-8411-4636-9e5f-b999c82a870d">
-						<para id="step1.3">Демонтируйте натяжитель цепи <dmRef>
-								<dmRefIdent>
-									<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/>
-								</dmRefIdent>
-							</dmRef>.</para>
-					</proceduralStep>
-				</proceduralStep>
-				<proceduralStep id="step2">
-					<title>Демонтаж</title>
-					<proceduralStep id="r092fd688-eac6-47db-b867-80cf5c7f0ed9">
-						<para id="step2.1">Зафиксируйте гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="10" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="rf4ee3362-6b56-4788-8e7f-4c654f3c6a68">
-						<para id="step2.2">Отверните гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="rd3d31ccb-625d-4f5d-8334-6d8ea3d999fa">
-						<para id="step2.3">Снимите шайбы <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"/>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="9" xlink:actuate="onRequest" xlink:show="replace"/> и шпильки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="rc3d4e31b-8e81-4e94-8e47-e206a6c11a7d">
-						<para id="step2.4">Снимите каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"/>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"/> со штифтов <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"/> уха <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="rb8557206-4a6f-4438-b495-ecd6919fe13d">
-						<para id="step2.5">Демонтируйте ухо <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"/> с балки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="step2.6">
-						<para id="step2.6">Демонтируйте элементы скольжения <dmRef>
-								<dmRefIdent>
-									<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"/>
-								</dmRefIdent>
-							</dmRef>.</para>
-						<note id="not-001">
-							<notePara>Процедура проводится при замене каретки на новую.</notePara>
-						</note>
-					</proceduralStep>
-				</proceduralStep>
-				<proceduralStep id="step3">
-					<title>Осмотр перед монтажом</title>
-					<proceduralStep id="step3.1">
-						<para id="step3.1">
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rfd="http://www.w3.org/1999/02/22-rfd-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-0-2/xml_schema_flat/proced.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="B0" subSystemCode="2" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="T"/>
+        <language countryIsoCode="RU" languageIsoCode="ru"/>
+        <issueInfo issueNumber="000" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2025" month="01" day="15"/>
+        <dmTitle>
+          <techName>Каретка</techName>
+          <infoName>Демонтаж и монтаж</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="">
+        <enterpriseName>МОДУЛЬ МКД</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="">
+        <enterpriseName>МОДУЛЬ МКД</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>ВСЕ</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-A-04-10-0301-00A-022A-D_005-00_EN-US">
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+            <issueInfo issueNumber="005" inWork="00"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <procedure>
+      <preliminaryRqmts>
+        <reqCondGroup>
+          <noConds/>
+        </reqCondGroup>
+        <reqSupportEquips>
+          <noSupportEquips/>
+        </reqSupportEquips>
+        <reqSupplies>
+          <noSupplies/>
+        </reqSupplies>
+        <reqSpares>
+          <noSpares/>
+        </reqSpares>
+        <reqSafety>
+          <safetyRqmts>
+            <warning id="wrn-001">
+              <warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+            </warning>
+          </safetyRqmts>
+        </reqSafety>
+      </preliminaryRqmts>
+      <mainProcedure>
+        <proceduralStep id="step1">
+          <title>Подготовительные работы</title>
+          <proceduralStep id="S1A60614B-5DCF-42C2-870B-014D8D402B4A">
+            <para id="step1.1">Выполните спуск траверсы <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>.</para>
+          </proceduralStep>
+          <proceduralStep id="rd01c5021-d318-48ff-8921-ac3e3d7eafe5">
+            <para id="step1.2">Демонтируйте натяжитель <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>.</para>
+          </proceduralStep>
+          <proceduralStep id="rdb5d3b8d-8411-4636-9e5f-b999c82a870d">
+            <para id="step1.3">Демонтируйте натяжитель цепи <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>.</para>
+          </proceduralStep>
+        </proceduralStep>
+        <proceduralStep id="step2">
+          <title>Демонтаж</title>
+          <proceduralStep id="r092fd688-eac6-47db-b867-80cf5c7f0ed9">
+            <para id="step2.1">Зафиксируйте гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="10" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
+          </proceduralStep>
+          <proceduralStep id="rf4ee3362-6b56-4788-8e7f-4c654f3c6a68">
+            <para id="step2.2">Отверните гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
+          </proceduralStep>
+          <proceduralStep id="rd3d31ccb-625d-4f5d-8334-6d8ea3d999fa">
+            <para id="step2.3">Снимите шайбы <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"/>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="9" xlink:actuate="onRequest" xlink:show="replace"/> и шпильки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
+          </proceduralStep>
+          <proceduralStep id="rc3d4e31b-8e81-4e94-8e47-e206a6c11a7d">
+            <para id="step2.4">Снимите каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"/>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"/> со штифтов <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"/> уха <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
+          </proceduralStep>
+          <proceduralStep id="rb8557206-4a6f-4438-b495-ecd6919fe13d">
+            <para id="step2.5">Демонтируйте ухо <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"/> с балки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
+          </proceduralStep>
+          <proceduralStep id="step2.6">
+            <para id="step2.6">Демонтируйте элементы скольжения <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>.</para>
+            <note id="not-001">
+              <notePara>Процедура проводится при замене каретки на новую.</notePara>
+            </note>
+          </proceduralStep>
+        </proceduralStep>
+        <proceduralStep id="step3">
+          <title>Осмотр перед монтажом</title>
+          <proceduralStep id="step3.1">
+            <para id="step3.1">
 							Осмотрите каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"/>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"/> на отсутствие сколов, трещин и загрязнений.</para>
-						<proceduralStep id="r0295f5eb-ad00-4072-8887-dade9d5e811b">
-							<para>
+            <proceduralStep id="r0295f5eb-ad00-4072-8887-dade9d5e811b">
+              <para>
 							При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
 обтирочной ветошью, смоченной растворителем.
 						</para>
-						</proceduralStep>
-						<proceduralStep id="rff41216b-4822-48eb-b792-7b4153e36966">
-							<para>При наличии повреждений замените каретки на новые.</para>
-						</proceduralStep>
-					</proceduralStep>
-					<proceduralStep/>
-				</proceduralStep>
-				<proceduralStep id="step4">
-					<title>Монтаж</title>
-					<proceduralStep id="step4.1">
-						<para>Установите элементы скольжения <dmRef>
-								<dmRefIdent>
-									<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"/>
-								</dmRefIdent>
-							</dmRef>.</para>
-						<note id="not-002">
-							<notePara>Процедура проводится при замене каретки на новую.</notePara>
-						</note>
-					</proceduralStep>
-					<proceduralStep id="rac4fe705-5aaf-4fec-8f38-54fe7e9b4274">
-						<para id="step4.2">
+            </proceduralStep>
+            <proceduralStep id="rff41216b-4822-48eb-b792-7b4153e36966">
+              <para>При наличии повреждений замените каретки на новые.</para>
+            </proceduralStep>
+          </proceduralStep>
+          <proceduralStep/>
+        </proceduralStep>
+        <proceduralStep id="step4">
+          <title>Монтаж</title>
+          <proceduralStep id="step4.1">
+            <para>Установите элементы скольжения <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>.</para>
+            <note id="not-002">
+              <notePara>Процедура проводится при замене каретки на новую.</notePara>
+            </note>
+          </proceduralStep>
+          <proceduralStep id="rac4fe705-5aaf-4fec-8f38-54fe7e9b4274">
+            <para id="step4.2">
 							Установите каретки 
 						<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"/>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"/>, ухо <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-002"/> на балку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="r1328b73e-1763-42b7-a4f6-16878faed345">
-						<para id="step4.3">
+          </proceduralStep>
+          <proceduralStep id="r1328b73e-1763-42b7-a4f6-16878faed345">
+            <para id="step4.3">
 							Заведите каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"/>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"/> на штифты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"/> уха
 						<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="r360086c5-91c1-4a64-86cc-a70ae8b87535">
-						<para id="step4.4">Протрите резьбовые части крепежных элементов обтирочной ветошью, смоченной
+          </proceduralStep>
+          <proceduralStep id="r360086c5-91c1-4a64-86cc-a70ae8b87535">
+            <para id="step4.4">Протрите резьбовые части крепежных элементов обтирочной ветошью, смоченной
 растворителем.</para>
-					</proceduralStep>
-					<proceduralStep id="r6678a361-db1d-490d-902c-b804811e87a0">
-						<para id="step4.5">Нанесите фиксатор на резьбовую часть шпилек <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="r773669e3-0320-4a0d-b854-2d9f2bf74ab9">
-						<para id="step4.6">
+          </proceduralStep>
+          <proceduralStep id="r6678a361-db1d-490d-902c-b804811e87a0">
+            <para id="step4.5">Нанесите фиксатор на резьбовую часть шпилек <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
+          </proceduralStep>
+          <proceduralStep id="r773669e3-0320-4a0d-b854-2d9f2bf74ab9">
+            <para id="step4.6">
 							Установите шпильки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"/>, шайбы <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="9" xlink:actuate="onRequest" xlink:show="replace"/>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="r921643f1-fed9-49d0-9c56-9e1c84cf6b6c">
-						<para id="step4.7">
+          </proceduralStep>
+          <proceduralStep id="r921643f1-fed9-49d0-9c56-9e1c84cf6b6c">
+            <para id="step4.7">
 							Установите и заверните гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="10" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="r3aba91f1-d4fe-4da1-9563-0cc93dab776b">
-						<para id="step4.8">
+          </proceduralStep>
+          <proceduralStep id="r3aba91f1-d4fe-4da1-9563-0cc93dab776b">
+            <para id="step4.8">
 							Зафиксируйте гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="10" xlink:actuate="onRequest" xlink:show="replace"/>.</para>
-					</proceduralStep>
-					<proceduralStep id="r7ad08037-ba9b-4597-b887-c3597265e75d">
-						<para id="step4.9">
+          </proceduralStep>
+          <proceduralStep id="r7ad08037-ba9b-4597-b887-c3597265e75d">
+            <para id="step4.9">
 			Установите и заверните гайки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"/> согласно схеме установки
 							<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"/> с моментом затяжки<emphasis> 418 ± 5 H·м.</emphasis>
 						</para>
-					</proceduralStep>
-				</proceduralStep>
-				<proceduralStep id="step5">
-					<title>Заключительные работы</title>
-					<proceduralStep id="r2f2d5f2e-97cd-4e79-9544-677142d86ac1">
-						<para id="step5.1">Установите натяжитель <dmRef>
-								<dmRefIdent>
-									<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/>
-								</dmRefIdent>
-							</dmRef>.</para>
-					</proceduralStep>
-					<proceduralStep id="r9e28f687-5316-41e1-9961-7ac3e4861d6d">
-						<para id="step5.2">Установите натяжитель цепи <dmRef>
-								<dmRefIdent>
-									<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/>
-								</dmRefIdent>
-							</dmRef>.</para>
-					</proceduralStep>
-					<proceduralStep id="r258273f5-9139-48ae-a345-2f0834f314e1">
-						<para id="step5.3">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
-					</proceduralStep>
-					<proceduralStep id="r83e86d16-6820-40d1-9bc1-045ec7768c2a">
-						<para id="step5.4">Произведите проверку работоспособности шагового двигателя каретки  <dmRef>
-								<dmRefIdent>
-									<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="340" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/>
-								</dmRefIdent>
-							</dmRef>.</para>
-					</proceduralStep>
-				</proceduralStep>
-				<figure id="fig-001">
-					<title>ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01</title>
-					<graphic infoEntityIdent="ICN-MTPM-A-B02100-0-00000-00001-A-001-01" xlink:type="simple" xlink:href="../Images/576E4624B02B42B9962003FC6A17A7A6.cgm">
-						<hotspot id="hot_52BDBFE5DAF4407BA16E9D4A64E3C90C" applicationStructureIdent="AUTOID_023" applicationStructureName="1" hotspotTitle=""/>
-						<hotspot id="hot_11D716BCAAB64DCB84F737ABD6EFAE97" applicationStructureIdent="AUTOID_003" applicationStructureName="2" hotspotTitle=""/>
-						<hotspot id="hot_319E97F0DAD94B689B5388257272726B" applicationStructureIdent="AUTOID_005" applicationStructureName="3" hotspotTitle=""/>
-						<hotspot id="hot_DAE0C1DE5F0D4B3EB217C96E640092CA" applicationStructureIdent="AUTOID_010" applicationStructureName="4" hotspotTitle=""/>
-						<hotspot id="hot_B78AB13F9A4146ACA8FFEC3FAFECB81C" applicationStructureIdent="AUTOID_001" applicationStructureName="7" hotspotTitle=""/>
-						<hotspot id="hot_6FDFA02F07744995A8A4C0A21F33D2BF" applicationStructureIdent="AUTOID_017" applicationStructureName="5" hotspotTitle=""/>
-						<hotspot id="hot_58F7F166F30F421A818559E0545A6347" applicationStructureIdent="AUTOID_018" applicationStructureName="6" hotspotTitle=""/>
-						<hotspot id="hot_055630F55F15433592F086D5173A9C86" applicationStructureIdent="AUTOID_021" applicationStructureName="8" hotspotTitle=""/>
-						<hotspot id="hot_3EEC9188B43F45829351CFD4B459C9EB" applicationStructureIdent="AUTOID_022" applicationStructureName="9" hotspotTitle=""/>
-						<hotspot id="hot_DBE88D330F9A4D81AF9B105FF145C7FF" applicationStructureIdent="AUTOID_024" applicationStructureName="10" hotspotTitle=""/>
-					</graphic>
-				</figure>
-			</mainProcedure>
-			<closeRqmts>
-				<reqCondGroup>
-					<noConds/>
-				</reqCondGroup>
-			</closeRqmts>
-		</procedure>
-	</content>
+          </proceduralStep>
+        </proceduralStep>
+        <proceduralStep id="step5">
+          <title>Заключительные работы</title>
+          <proceduralStep id="r2f2d5f2e-97cd-4e79-9544-677142d86ac1">
+            <para id="step5.1">Установите натяжитель <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>.</para>
+          </proceduralStep>
+          <proceduralStep id="r9e28f687-5316-41e1-9961-7ac3e4861d6d">
+            <para id="step5.2">Установите натяжитель цепи <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>.</para>
+          </proceduralStep>
+          <proceduralStep id="r258273f5-9139-48ae-a345-2f0834f314e1">
+            <para id="step5.3">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+          </proceduralStep>
+          <proceduralStep id="r83e86d16-6820-40d1-9bc1-045ec7768c2a">
+            <para id="step5.4">Произведите проверку работоспособности шагового двигателя каретки  <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="340" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>.</para>
+          </proceduralStep>
+        </proceduralStep>
+        <figure id="fig-001">
+          <title>ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01</title>
+          <graphic infoEntityIdent="ICN-MTPM-A-B02100-0-00000-00001-A-001-01" xlink:type="simple" xlink:href="../Images/576E4624B02B42B9962003FC6A17A7A6.cgm">
+            <hotspot id="hot_52BDBFE5DAF4407BA16E9D4A64E3C90C" applicationStructureIdent="AUTOID_023" applicationStructureName="1" hotspotTitle=""/>
+            <hotspot id="hot_11D716BCAAB64DCB84F737ABD6EFAE97" applicationStructureIdent="AUTOID_003" applicationStructureName="2" hotspotTitle=""/>
+            <hotspot id="hot_319E97F0DAD94B689B5388257272726B" applicationStructureIdent="AUTOID_005" applicationStructureName="3" hotspotTitle=""/>
+            <hotspot id="hot_DAE0C1DE5F0D4B3EB217C96E640092CA" applicationStructureIdent="AUTOID_010" applicationStructureName="4" hotspotTitle=""/>
+            <hotspot id="hot_B78AB13F9A4146ACA8FFEC3FAFECB81C" applicationStructureIdent="AUTOID_001" applicationStructureName="7" hotspotTitle=""/>
+            <hotspot id="hot_6FDFA02F07744995A8A4C0A21F33D2BF" applicationStructureIdent="AUTOID_017" applicationStructureName="5" hotspotTitle=""/>
+            <hotspot id="hot_58F7F166F30F421A818559E0545A6347" applicationStructureIdent="AUTOID_018" applicationStructureName="6" hotspotTitle=""/>
+            <hotspot id="hot_055630F55F15433592F086D5173A9C86" applicationStructureIdent="AUTOID_021" applicationStructureName="8" hotspotTitle=""/>
+            <hotspot id="hot_3EEC9188B43F45829351CFD4B459C9EB" applicationStructureIdent="AUTOID_022" applicationStructureName="9" hotspotTitle=""/>
+            <hotspot id="hot_DBE88D330F9A4D81AF9B105FF145C7FF" applicationStructureIdent="AUTOID_024" applicationStructureName="10" hotspotTitle=""/>
+          </graphic>
+        </figure>
+      </mainProcedure>
+      <closeRqmts>
+        <reqCondGroup>
+          <noConds/>
+        </reqCondGroup>
+      </closeRqmts>
+    </procedure>
+  </content>
 </dmodule>

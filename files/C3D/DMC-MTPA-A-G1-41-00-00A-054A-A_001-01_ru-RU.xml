@@ -1,245 +1,245 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE dmodule [
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" >
 <!ENTITY ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
-<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
 ]>
-<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<identAndStatusSection>
-		<dmAddress>
-			<dmIdent>
-				<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="G1" subSystemCode="4" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="054" infoCodeVariant="A" itemLocationCode="A"/>
-				<language countryIsoCode="RU" languageIsoCode="ru"/>
-				<issueInfo issueNumber="001" inWork="01"/>
-			</dmIdent>
-			<dmAddressItems>
-				<issueDate year="2024" month="07" day="16"/>
-				<dmTitle>
-					<techName>Камера</techName>
-					<infoName>Схема принципиальная</infoName>
-				</dmTitle>
-			</dmAddressItems>
-		</dmAddress>
-		<dmStatus issueType="new">
-			<security securityClassification="01"/>
-			<responsiblePartnerCompany enterpriseCode="MDMKD">
-				<enterpriseName>МОДУЛЬ МКД</enterpriseName>
-			</responsiblePartnerCompany>
-			<originator enterpriseCode="MDMKD">
-				<enterpriseName>МОДУЛЬ МКД</enterpriseName>
-			</originator>
-			<applic>
-				<assert applicPropertyIdent="serialno" applicPropertyType="prodattr" applicPropertyValues="0001"/>
-			</applic>
-			<brexDmRef>
-				<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-00-00A-022A-D">
-					<dmRefIdent>
-						<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
-					</dmRefIdent>
-				</dmRef>
-			</brexDmRef>
-			<qualityAssurance>
-				<unverified/>
-			</qualityAssurance>
-		</dmStatus>
-	</identAndStatusSection>
-	<content>
-		<description>
-			<table>
-				<title>Перечень элементов</title>
-				<tgroup cols="3" align="center">
-					<colspec colnum="1" colname="col1" colwidth="40mm"/>
-					<colspec colnum="2" colname="col2" colwidth="1*"/>
-					<colspec colnum="3" colname="col3" colwidth="20mm"/>
-					<thead>
-						<row>
-							<entry colname="col1">
-								<para>Обозначение</para>
-							</entry>
-							<entry colname="col2">
-								<para>Наименование</para>
-							</entry>
-							<entry colname="col3">
-								<para>Кол.</para>
-							</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="24.10A1" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-001"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Электрический шкаф</para>
-							</entry>
-							<entry colname="col3" align="left">
-								<para>1</para>
-							</entry>
-						</row>
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="24.10A1-XP5" xlink:actuate="onRequest" xlink:show="replace"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Вилка СНО50-83/63Х44В-6б-В ГЕО.364.246 ТУ</para>
-							</entry>
-							<entry colname="col3" align="left">
-								<para>1</para>
-							</entry>
-						</row>
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.10A1" xlink:actuate="onRequest" xlink:show="replace"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Камера VPORT P16-1MP-M12-CAM36</para>
-							</entry>
-							<entry colname="col3" align="left">
-								<para>1</para>
-							</entry>
-						</row>
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.10A1-XP1" xlink:actuate="onRequest" xlink:show="replace"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Кабельная вилка СРТ-75-425Ф3 ЦСНК.430421.009 ТУ</para>
-							</entry>
-							<entry colname="col3" align="left">
-								<para>1</para>
-							</entry>
-						</row>
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.10A1-XS1" xlink:actuate="onRequest" xlink:show="replace"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Розетка SB612MG13Q4PQF00AN</para>
-							</entry>
-							<entry colname="col3" align="left">
-								<para>1</para>
-							</entry>
-						</row>
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.11A1" xlink:actuate="onRequest" xlink:show="replace"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Дискета</para>
-							</entry>
-							<entry colname="col3" align="left">
-								<para>1</para>
-							</entry>
-						</row>
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.11A1-XP1" xlink:actuate="onRequest" xlink:show="replace"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Вилка SB612MG13Q4PQF00AN</para>
-							</entry>
-							<entry colname="col3" align="left">
-								<para>1</para>
-							</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
-			<table>
-				<title>Перечень взаимосвязанных схем</title>
-				<tgroup cols="2" align="center">
-					<colspec colnum="1" colname="col1" colwidth="70mm"/>
-					<colspec colnum="2" colname="col2" colwidth="1*"/>
-					<thead valign="middle">
-						<row>
-							<entry colname="col1">
-								<para>Ссылка на МД</para>
-							</entry>
-							<entry colname="col2">
-								<para>Наименование</para>
-							</entry>
-						</row>
-					</thead>
-					<tbody valign="middle">
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="MTPA-A-24-10-01-054A-A" xlink:actuate="onRequest" xlink:show="replace"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Распределительное устройство № 1</para>
-							</entry>
-						</row>
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="MTPA-A-24-10-02-054A-A" xlink:actuate="onRequest" xlink:show="replace"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Распределительное устройство № 2</para>
-							</entry>
-						</row>
-						<row>
-							<entry colname="col1" align="left">
-								<para>
-									<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="MTPA-A-24-10-03-054A-A" xlink:actuate="onRequest" xlink:show="replace"/>
-								</para>
-							</entry>
-							<entry colname="col2" align="left">
-								<para>Распределительное устройство № 3</para>
-							</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
-			<foldout>
-				<figure id="fig-001">
-					<title>Камера. Схема принципиальная</title>
-					<graphic infoEntityIdent="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="360mm" xlink:type="simple">
-						<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_006" applicationStructureName="24.10A1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_039" applicationStructureName="24.10A1-XP5" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_017" applicationStructureName="G1.10A1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_031" applicationStructureName="G1.10A1-XP1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_034" applicationStructureName="XS1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_040" applicationStructureName="XS5" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_044" applicationStructureName="XS6" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_045" applicationStructureName="XS7" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_046" applicationStructureName="XS8" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_041" applicationStructureName="MTPA-A-24-10-01-054A-A" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_042" applicationStructureName="MTPA-A-24-10-02-054A-A" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_043" applicationStructureName="MTPA-A-24-10-03-054A-A" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_035" applicationStructureName="XP1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-014" applicationStructureIdent="AUTOID_032" applicationStructureName="G1.10A1-XS1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-015" applicationStructureIdent="AUTOID_022" applicationStructureName="G1.11A1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-016" applicationStructureIdent="AUTOID_028" applicationStructureName="G1.11A1-XP1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-017" applicationStructureIdent="AUTOID_029" applicationStructureName="1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-018" applicationStructureIdent="AUTOID_016" applicationStructureName="24.10A1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-019" applicationStructureIdent="AUTOID_021" applicationStructureName="G1.10A1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-020" applicationStructureIdent="AUTOID_024" applicationStructureName="G1.11A1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-021" applicationStructureIdent="AUTOID_010" applicationStructureName="G1.10A1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-022" applicationStructureIdent="AUTOID_049" applicationStructureName="G1.11A1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-023" applicationStructureIdent="AUTOID_023" applicationStructureName="G1.10A1-XP1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-024" applicationStructureIdent="AUTOID_048" applicationStructureName="24.10A1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-025" applicationStructureIdent="AUTOID_030" applicationStructureName="X1" hotspotTitle=""/>
-						<hotspot id="fig-001-gra-001-hot-026" applicationStructureIdent="AUTOID_047" applicationStructureName="XS5" hotspotTitle=""/>
-					</graphic>
-				</figure>
-			</foldout>
-		</description>
-	</content>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="G1" subSystemCode="4" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="054" infoCodeVariant="A" itemLocationCode="A"/>
+        <language countryIsoCode="RU" languageIsoCode="ru"/>
+        <issueInfo issueNumber="001" inWork="01"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2024" month="07" day="16"/>
+        <dmTitle>
+          <techName>Камера</techName>
+          <infoName>Схема принципиальная</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="MDMKD">
+        <enterpriseName>МОДУЛЬ МКД</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="MDMKD">
+        <enterpriseName>МОДУЛЬ МКД</enterpriseName>
+      </originator>
+      <applic>
+        <assert applicPropertyIdent="serialno" applicPropertyType="prodattr" applicPropertyValues="0001"/>
+      </applic>
+      <brexDmRef>
+        <dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-00-00A-022A-D">
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <table>
+        <title>Перечень элементов</title>
+        <tgroup cols="3" align="center">
+          <colspec colnum="1" colname="col1" colwidth="40mm"/>
+          <colspec colnum="2" colname="col2" colwidth="1*"/>
+          <colspec colnum="3" colname="col3" colwidth="20mm"/>
+          <thead>
+            <row>
+              <entry colname="col1">
+                <para>Обозначение</para>
+              </entry>
+              <entry colname="col2">
+                <para>Наименование</para>
+              </entry>
+              <entry colname="col3">
+                <para>Кол.</para>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="24.10A1" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-001"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Электрический шкаф</para>
+              </entry>
+              <entry colname="col3" align="left">
+                <para>1</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="24.10A1-XP5" xlink:actuate="onRequest" xlink:show="replace"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Вилка СНО50-83/63Х44В-6б-В ГЕО.364.246 ТУ</para>
+              </entry>
+              <entry colname="col3" align="left">
+                <para>1</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.10A1" xlink:actuate="onRequest" xlink:show="replace"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Камера VPORT P16-1MP-M12-CAM36</para>
+              </entry>
+              <entry colname="col3" align="left">
+                <para>1</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.10A1-XP1" xlink:actuate="onRequest" xlink:show="replace"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Кабельная вилка СРТ-75-425Ф3 ЦСНК.430421.009 ТУ</para>
+              </entry>
+              <entry colname="col3" align="left">
+                <para>1</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.10A1-XS1" xlink:actuate="onRequest" xlink:show="replace"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Розетка SB612MG13Q4PQF00AN</para>
+              </entry>
+              <entry colname="col3" align="left">
+                <para>1</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.11A1" xlink:actuate="onRequest" xlink:show="replace"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Дискета</para>
+              </entry>
+              <entry colname="col3" align="left">
+                <para>1</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="G1.11A1-XP1" xlink:actuate="onRequest" xlink:show="replace"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Вилка SB612MG13Q4PQF00AN</para>
+              </entry>
+              <entry colname="col3" align="left">
+                <para>1</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table>
+        <title>Перечень взаимосвязанных схем</title>
+        <tgroup cols="2" align="center">
+          <colspec colnum="1" colname="col1" colwidth="70mm"/>
+          <colspec colnum="2" colname="col2" colwidth="1*"/>
+          <thead valign="middle">
+            <row>
+              <entry colname="col1">
+                <para>Ссылка на МД</para>
+              </entry>
+              <entry colname="col2">
+                <para>Наименование</para>
+              </entry>
+            </row>
+          </thead>
+          <tbody valign="middle">
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="MTPA-A-24-10-01-054A-A" xlink:actuate="onRequest" xlink:show="replace"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Распределительное устройство № 1</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="MTPA-A-24-10-02-054A-A" xlink:actuate="onRequest" xlink:show="replace"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Распределительное устройство № 2</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1" align="left">
+                <para>
+                  <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="MTPA-A-24-10-03-054A-A" xlink:actuate="onRequest" xlink:show="replace"/>
+                </para>
+              </entry>
+              <entry colname="col2" align="left">
+                <para>Распределительное устройство № 3</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <foldout>
+        <figure id="fig-001">
+          <title>Камера. Схема принципиальная</title>
+          <graphic infoEntityIdent="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-G14100-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="360mm" xlink:type="simple">
+            <hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_006" applicationStructureName="24.10A1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_039" applicationStructureName="24.10A1-XP5" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_017" applicationStructureName="G1.10A1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_031" applicationStructureName="G1.10A1-XP1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_034" applicationStructureName="XS1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_040" applicationStructureName="XS5" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_044" applicationStructureName="XS6" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_045" applicationStructureName="XS7" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_046" applicationStructureName="XS8" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_041" applicationStructureName="MTPA-A-24-10-01-054A-A" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_042" applicationStructureName="MTPA-A-24-10-02-054A-A" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_043" applicationStructureName="MTPA-A-24-10-03-054A-A" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_035" applicationStructureName="XP1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-014" applicationStructureIdent="AUTOID_032" applicationStructureName="G1.10A1-XS1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-015" applicationStructureIdent="AUTOID_022" applicationStructureName="G1.11A1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-016" applicationStructureIdent="AUTOID_028" applicationStructureName="G1.11A1-XP1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-017" applicationStructureIdent="AUTOID_029" applicationStructureName="1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-018" applicationStructureIdent="AUTOID_016" applicationStructureName="24.10A1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-019" applicationStructureIdent="AUTOID_021" applicationStructureName="G1.10A1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-020" applicationStructureIdent="AUTOID_024" applicationStructureName="G1.11A1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-021" applicationStructureIdent="AUTOID_010" applicationStructureName="G1.10A1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-022" applicationStructureIdent="AUTOID_049" applicationStructureName="G1.11A1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-023" applicationStructureIdent="AUTOID_023" applicationStructureName="G1.10A1-XP1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-024" applicationStructureIdent="AUTOID_048" applicationStructureName="24.10A1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-025" applicationStructureIdent="AUTOID_030" applicationStructureName="X1" hotspotTitle=""/>
+            <hotspot id="fig-001-gra-001-hot-026" applicationStructureIdent="AUTOID_047" applicationStructureName="XS5" hotspotTitle=""/>
+          </graphic>
+        </figure>
+      </foldout>
+    </description>
+  </content>
 </dmodule>

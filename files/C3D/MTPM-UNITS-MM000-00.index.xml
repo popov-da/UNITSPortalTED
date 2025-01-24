@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-<item uri="URN:S1000D:DMC-MTPM-A-00-00-00-01A-001A-A" schema="frontmatter" projectType="general" frontMatterType="title" docHref="references/DMC-MTPM-A-00-00-00-01A-001A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-01A-001A-A" content="MTPM-A-00-00-00-01A-001A-A" techName="Линейная траверса" infoName="Титульный лист" href="references\MTPM-A-00-00-00-01A-001A-A.interactivity.xml">
-<html><![CDATA[
+  <item uri="URN:S1000D:DMC-MTPM-A-00-00-00-01A-001A-A" schema="frontmatter" projectType="general" frontMatterType="title" docHref="references/DMC-MTPM-A-00-00-00-01A-001A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-01A-001A-A" content="MTPM-A-00-00-00-01A-001A-A" techName="Линейная траверса" infoName="Титульный лист" href="references\MTPM-A-00-00-00-01A-001A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-00-00-00-01A-001A-A
 Линейная
 траверса
@@ -18,9 +18,9 @@ S1000D-E-04-10-0301-00A-022A-D
 MTPM-UNITS-MM000-00
 ICN-MTPM-A-000000-A-MDMKD-00002-A-001-01
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-00-00-00-01A-009A-A" schema="frontmatter" projectType="general" frontMatterType="toc" docHref="references/DMC-MTPM-A-00-00-00-01A-009A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-01A-009A-A" content="MTPM-A-00-00-00-01A-009A-A" techName="Линейная траверса" infoName="Содержание" href="references\MTPM-A-00-00-00-01A-009A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-00-00-00-01A-009A-A" schema="frontmatter" projectType="general" frontMatterType="toc" docHref="references/DMC-MTPM-A-00-00-00-01A-009A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-01A-009A-A" content="MTPM-A-00-00-00-01A-009A-A" techName="Линейная траверса" infoName="Содержание" href="references\MTPM-A-00-00-00-01A-009A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-00-00-00-01A-009A-A
 Линейная
 траверса
@@ -1515,9 +1515,9 @@ MTPM-A-J1-42-03-00A-922A-A
 и
 монтаж
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-00-00-00-01A-00TA-A" schema="descript" projectType="general" frontMatterType="cr" docHref="references/DMC-MTPM-A-00-00-00-01A-00TA-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-01A-00TA-A" content="MTPM-A-00-00-00-01A-00TA-A" techName="Линейная траверса" infoName="Лист регистрации изменений" href="references\MTPM-A-00-00-00-01A-00TA-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-00-00-00-01A-00TA-A" schema="descript" projectType="general" frontMatterType="cr" docHref="references/DMC-MTPM-A-00-00-00-01A-00TA-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-01A-00TA-A" content="MTPM-A-00-00-00-01A-00TA-A" techName="Линейная траверса" infoName="Лист регистрации изменений" href="references\MTPM-A-00-00-00-01A-00TA-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-00-00-00-01A-00TA-A
 Линейная
 траверса
@@ -1709,9 +1709,9 @@ ____________________
 _____________
 ____________________
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-00-00-00-00A-012A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-00-00-00-00A-012A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-00A-012A-A" content="MTPM-A-00-00-00-00A-012A-A" techName="Линейная траверса" infoName="Общие предупреждения и предостережения и данные по мерам безопасности" href="references\MTPM-A-00-00-00-00A-012A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-00-00-00-00A-012A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-00-00-00-00A-012A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-00A-012A-A" content="MTPM-A-00-00-00-00A-012A-A" techName="Линейная траверса" infoName="Общие предупреждения и предостережения и данные по мерам безопасности" href="references\MTPM-A-00-00-00-00A-012A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-00-00-00-00A-012A-A
 Линейная
 траверса
@@ -3005,9 +3005,9 @@ S1000D-E-04-10-0301-00A-022A-D
 химических
 веществ.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-00-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-00-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-00A-028A-A" content="MTPM-A-00-00-00-00A-028A-A" techName="Линейная траверса" infoName="Общие сведения" href="references\MTPM-A-00-00-00-00A-028A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-00-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-00-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-00-00-00-00A-028A-A" content="MTPM-A-00-00-00-00A-028A-A" techName="Линейная траверса" infoName="Общие сведения" href="references\MTPM-A-00-00-00-00A-028A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-00-00-00-00A-028A-A
 Линейная
 траверса
@@ -3426,9 +3426,9 @@ MTPM-A-J1-00-00-00A-028A-A
 Линейная
 траверса
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-06-10-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-06-10-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-06-10-00-00A-040A-A" content="MTPM-A-06-10-00-00A-040A-A" techName="Основные измерения" infoName="Описание" href="references\MTPM-A-06-10-00-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-06-10-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-06-10-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-06-10-00-00A-040A-A" content="MTPM-A-06-10-00-00A-040A-A" techName="Основные измерения" infoName="Описание" href="references\MTPM-A-06-10-00-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-06-10-00-00A-040A-A
 Основные
 измерения
@@ -3650,9 +3650,9 @@ S1000D-E-04-10-0301-00A-022A-D
 размеры
 траверсы
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-07-10-00-00A-176A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-07-10-00-00A-176A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-07-10-00-00A-176A-A" content="MTPM-A-07-10-00-00A-176A-A" techName="Траверса" infoName="Спуск" href="references\MTPM-A-07-10-00-00A-176A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-07-10-00-00A-176A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-07-10-00-00A-176A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-07-10-00-00A-176A-A" content="MTPM-A-07-10-00-00A-176A-A" techName="Траверса" infoName="Спуск" href="references\MTPM-A-07-10-00-00A-176A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-07-10-00-00A-176A-A
 Траверса
 Спуск
@@ -3692,9 +3692,9 @@ S1000D-E-04-10-0301-00A-022A-D
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-12-00-00-00A-120A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-00-00-00A-120A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-00-00-00A-120A-A" content="MTPM-A-12-00-00-00A-120A-A" techName="Траверса" infoName="Предэксплуатационные процедуры" href="references\MTPM-A-12-00-00-00A-120A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-12-00-00-00A-120A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-00-00-00A-120A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-00-00-00A-120A-A" content="MTPM-A-12-00-00-00A-120A-A" techName="Траверса" infoName="Предэксплуатационные процедуры" href="references\MTPM-A-12-00-00-00A-120A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-12-00-00-00A-120A-A
 Траверса
 Предэксплуатационные
@@ -3892,9 +3892,9 @@ MTPM-A-12-25-00-00A-280A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-12-21-01-00A-250A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-21-01-00A-250A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-21-01-00A-250A-A" content="MTPM-A-12-21-01-00A-250A-A" techName="Цепь башни" infoName="Очистка и нанесение защитного покрытия на поверхности" href="references\MTPM-A-12-21-01-00A-250A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-12-21-01-00A-250A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-21-01-00A-250A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-21-01-00A-250A-A" content="MTPM-A-12-21-01-00A-250A-A" techName="Цепь башни" infoName="Очистка и нанесение защитного покрытия на поверхности" href="references\MTPM-A-12-21-01-00A-250A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-12-21-01-00A-250A-A
 Цепь
 башни
@@ -4171,9 +4171,9 @@ MTPM-A-A1-10-02-00A-340A-A
 цепи
 башни
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-12-21-01-01A-250A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-21-01-01A-250A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-21-01-01A-250A-A" content="MTPM-A-12-21-01-01A-250A-A" techName="Цепь каретки" infoName="Очистка и нанесение защитного покрытия на поверхности" href="references\MTPM-A-12-21-01-01A-250A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-12-21-01-01A-250A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-21-01-01A-250A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-21-01-01A-250A-A" content="MTPM-A-12-21-01-01A-250A-A" techName="Цепь каретки" infoName="Очистка и нанесение защитного покрытия на поверхности" href="references\MTPM-A-12-21-01-01A-250A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-12-21-01-01A-250A-A
 Цепь
 каретки
@@ -4430,9 +4430,9 @@ MTPM-A-A1-10-01-00A-340A-A
 цепи
 каретки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-12-22-00-00A-238A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-22-00-00A-238A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-22-00-00A-238A-A" content="MTPM-A-12-22-00-00A-238A-A" techName="Распределительное устройство АКБ" infoName="Зарядка в составе изделия" href="references\MTPM-A-12-22-00-00A-238A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-12-22-00-00A-238A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-22-00-00A-238A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-22-00-00A-238A-A" content="MTPM-A-12-22-00-00A-238A-A" techName="Распределительное устройство АКБ" infoName="Зарядка в составе изделия" href="references\MTPM-A-12-22-00-00A-238A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-12-22-00-00A-238A-A
 Распределительное
 устройство
@@ -4589,9 +4589,9 @@ MTPM-A-12-25-00-00A-280A-A
 составе
 изделия
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-12-22-00-00A-238B-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-22-00-00A-238B-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-22-00-00A-238B-A" content="MTPM-A-12-22-00-00A-238B-A" techName="Распределительное устройство АКБ" infoName="Зарядка" href="references\MTPM-A-12-22-00-00A-238B-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-12-22-00-00A-238B-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-22-00-00A-238B-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-22-00-00A-238B-A" content="MTPM-A-12-22-00-00A-238B-A" techName="Распределительное устройство АКБ" infoName="Зарядка" href="references\MTPM-A-12-22-00-00A-238B-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-12-22-00-00A-238B-A
 Распределительное
 устройство
@@ -4893,9 +4893,9 @@ MTPM-A-07-10-00-00A-176A-A
 устройства
 АКБ
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-12-30-00-00A-264A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-30-00-00A-264A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-30-00-00A-264A-A" content="MTPM-A-12-30-00-00A-264A-A" techName="Траверса" infoName="Удаление загрязнений" href="references\MTPM-A-12-30-00-00A-264A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-12-30-00-00A-264A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-12-30-00-00A-264A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-12-30-00-00A-264A-A" content="MTPM-A-12-30-00-00A-264A-A" techName="Траверса" infoName="Удаление загрязнений" href="references\MTPM-A-12-30-00-00A-264A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-12-30-00-00A-264A-A
 Траверса
 Удаление
@@ -5099,9 +5099,9 @@ MTPM-A-07-10-00-00A-176A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-12-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-20-12-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-12-00-00A-040A-A" content="MTPM-A-20-12-00-00A-040A-A" techName="Элементы скольжения" infoName="Описание" href="references\MTPM-A-20-12-00-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-12-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-20-12-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-12-00-00A-040A-A" content="MTPM-A-20-12-00-00A-040A-A" techName="Элементы скольжения" infoName="Описание" href="references\MTPM-A-20-12-00-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-12-00-00A-040A-A
 Элементы
 скольжения
@@ -5389,9 +5389,9 @@ S1000D-E-04-10-0301-00A-022A-D
 Элементы
 скольжения
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-12-00-00A-280A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-12-00-00A-280A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-12-00-00A-280A-A" content="MTPM-A-20-12-00-00A-280A-A" techName="Элементы скольжения" infoName="Проверки" href="references\MTPM-A-20-12-00-00A-280A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-12-00-00A-280A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-12-00-00A-280A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-12-00-00A-280A-A" content="MTPM-A-20-12-00-00A-280A-A" techName="Элементы скольжения" infoName="Проверки" href="references\MTPM-A-20-12-00-00A-280A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-12-00-00A-280A-A
 Элементы
 скольжения
@@ -5685,9 +5685,9 @@ MTPM-A-20-12-00-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-12-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-12-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-12-00-00A-922A-A" content="MTPM-A-20-12-00-00A-922A-A" techName="Элемент скольжения" infoName="Демонтаж и монтаж" href="references\MTPM-A-20-12-00-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-12-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-12-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-12-00-00A-922A-A" content="MTPM-A-20-12-00-00A-922A-A" techName="Элемент скольжения" infoName="Демонтаж и монтаж" href="references\MTPM-A-20-12-00-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-12-00-00A-922A-A
 Элемент
 скольжения
@@ -5823,9 +5823,9 @@ MTPM-A-07-10-00-00A-176A-A
 элемента
 скольжения
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-20-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-20-20-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-20-00-00A-040A-A" content="MTPM-A-20-20-00-00A-040A-A" techName="Механические технологические процессы" infoName="Описание" href="references\MTPM-A-20-20-00-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-20-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-20-20-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-20-00-00A-040A-A" content="MTPM-A-20-20-00-00A-040A-A" techName="Механические технологические процессы" infoName="Описание" href="references\MTPM-A-20-20-00-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-20-00-00A-040A-A
 Механические
 технологические
@@ -6610,9 +6610,9 @@ MTPM-A-20-22-02-00A-621A-A
 39
 °С.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-20-00-00A-430A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-20-20-00-00A-430A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-20-00-00A-430A-A" content="MTPM-A-20-20-00-00A-430A-A" techName="Типовые повреждения траверcы" infoName="Вспомогательные данные для выполнения задачи по локализации неисправности" href="references\MTPM-A-20-20-00-00A-430A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-20-00-00A-430A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-20-20-00-00A-430A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-20-00-00A-430A-A" content="MTPM-A-20-20-00-00A-430A-A" techName="Типовые повреждения траверcы" infoName="Вспомогательные данные для выполнения задачи по локализации неисправности" href="references\MTPM-A-20-20-00-00A-430A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-20-00-00A-430A-A
 Типовые
 повреждения
@@ -7886,9 +7886,9 @@ cочетание
 естественного
 износа.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-21-01-00A-254A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-21-01-00A-254A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-21-01-00A-254A-A" content="MTPM-A-20-21-01-00A-254A-A" techName="Подготовка поверхностей перед восстановлением лакокрасочного покрытия" infoName="Механическая очистка" href="references\MTPM-A-20-21-01-00A-254A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-21-01-00A-254A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-21-01-00A-254A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-21-01-00A-254A-A" content="MTPM-A-20-21-01-00A-254A-A" techName="Подготовка поверхностей перед восстановлением лакокрасочного покрытия" infoName="Механическая очистка" href="references\MTPM-A-20-21-01-00A-254A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-21-01-00A-254A-A
 Подготовка
 поверхностей
@@ -8372,9 +8372,9 @@ d=150
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-21-02-00A-257A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-21-02-00A-257A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-21-02-00A-257A-A" content="MTPM-A-20-21-02-00A-257A-A" techName="Нанесение грунтовок" infoName="Окраска и маркировка" href="references\MTPM-A-20-21-02-00A-257A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-21-02-00A-257A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-21-02-00A-257A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-21-02-00A-257A-A" content="MTPM-A-20-21-02-00A-257A-A" techName="Нанесение грунтовок" infoName="Окраска и маркировка" href="references\MTPM-A-20-21-02-00A-257A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-21-02-00A-257A-A
 Нанесение
 грунтовок
@@ -8706,9 +8706,9 @@ MTPM-A-20-21-01-00A-254A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-21-03-00A-257A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-21-03-00A-257A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-21-03-00A-257A-A" content="MTPM-A-20-21-03-00A-257A-A" techName="Нанесение эмалей" infoName="Окраска и маркировка" href="references\MTPM-A-20-21-03-00A-257A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-21-03-00A-257A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-21-03-00A-257A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-21-03-00A-257A-A" content="MTPM-A-20-21-03-00A-257A-A" techName="Нанесение эмалей" infoName="Окраска и маркировка" href="references\MTPM-A-20-21-03-00A-257A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-21-03-00A-257A-A
 Нанесение
 эмалей
@@ -9143,9 +9143,9 @@ MTPM-A-20-21-01-00A-254A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-22-01-00A-254A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-22-01-00A-254A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-22-01-00A-254A-A" content="MTPM-A-20-22-01-00A-254A-A" techName="Подготовка поверхностей перед склеиванием" infoName="Механическая очистка" href="references\MTPM-A-20-22-01-00A-254A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-22-01-00A-254A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-22-01-00A-254A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-22-01-00A-254A-A" content="MTPM-A-20-22-01-00A-254A-A" techName="Подготовка поверхностей перед склеиванием" infoName="Механическая очистка" href="references\MTPM-A-20-22-01-00A-254A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-22-01-00A-254A-A
 Подготовка
 поверхностей
@@ -9388,9 +9388,9 @@ S1000D-E-04-10-0301-00A-022A-D
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-22-02-00A-621A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-22-02-00A-621A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-22-02-00A-621A-A" content="MTPM-A-20-22-02-00A-621A-A" techName="Склеивание клеем" infoName="Склеивание" href="references\MTPM-A-20-22-02-00A-621A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-22-02-00A-621A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-22-02-00A-621A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-22-02-00A-621A-A" content="MTPM-A-20-22-02-00A-621A-A" techName="Склеивание клеем" infoName="Склеивание" href="references\MTPM-A-20-22-02-00A-621A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-22-02-00A-621A-A
 Склеивание
 клеем
@@ -9589,9 +9589,9 @@ MTPM-A-20-22-01-00A-254A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-20-22-03-00A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-22-03-00A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-22-03-00A-921A-A" content="MTPM-A-20-22-03-00A-921A-A" techName="Резинотехнические изделия" infoName="Замена" href="references\MTPM-A-20-22-03-00A-921A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-20-22-03-00A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-20-22-03-00A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-20-22-03-00A-921A-A" content="MTPM-A-20-22-03-00A-921A-A" techName="Резинотехнические изделия" infoName="Замена" href="references\MTPM-A-20-22-03-00A-921A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-20-22-03-00A-921A-A
 Резинотехнические
 изделия
@@ -9952,9 +9952,9 @@ MTPM-A-07-10-00-00A-176A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-00-00-00A-028A-A" content="MTPM-A-A1-00-00-00A-028A-A" techName="Силовой привод" infoName="Общие сведения" href="references\MTPM-A-A1-00-00-00A-028A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-00-00-00A-028A-A" content="MTPM-A-A1-00-00-00A-028A-A" techName="Силовой привод" infoName="Общие сведения" href="references\MTPM-A-A1-00-00-00A-028A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-00-00-00A-028A-A
 Силовой
 привод
@@ -10072,9 +10072,9 @@ MTPM-A-A1-40-00-00A-041A-A
 Силовой
 привод
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-10-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-10-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-00-00A-040A-A" content="MTPM-A-A1-10-00-00A-040A-A" techName="Двигатели" infoName="Описание" href="references\MTPM-A-A1-10-00-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-10-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-10-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-00-00A-040A-A" content="MTPM-A-A1-10-00-00A-040A-A" techName="Двигатели" infoName="Описание" href="references\MTPM-A-A1-10-00-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-10-00-00A-040A-A
 Двигатели
 Описание
@@ -10162,9 +10162,9 @@ MTPM-A-A1-10-03-00A-041A-A
 Двигатели
 Двигатели
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-10-01-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-01-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-01-00A-310A-A" content="MTPM-A-A1-10-01-00A-310A-A" techName="Шаговый двигатель каретки" infoName="Визуальный осмотр" href="references\MTPM-A-A1-10-01-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-10-01-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-01-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-01-00A-310A-A" content="MTPM-A-A1-10-01-00A-310A-A" techName="Шаговый двигатель каретки" infoName="Визуальный осмотр" href="references\MTPM-A-A1-10-01-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-10-01-00A-310A-A
 Шаговый
 двигатель
@@ -10393,9 +10393,9 @@ MTPM-A-A1-10-01-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-10-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-01-00A-922A-A" content="MTPM-A-A1-10-01-00A-922A-A" techName="Шаговый двигатель каретки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-10-01-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-10-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-01-00A-922A-A" content="MTPM-A-A1-10-01-00A-922A-A" techName="Шаговый двигатель каретки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-10-01-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-10-01-00A-922A-A
 Шаговый
 двигатель
@@ -10621,9 +10621,9 @@ MTPM-A-A1-10-01-00A-340A-A
 двигателя
 каретки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-10-02-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-10-02-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-02-00A-041A-A" content="MTPM-A-A1-10-02-00A-041A-A" techName="Шаговый двигатель башни" infoName="Описание и работа" href="references\MTPM-A-A1-10-02-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-10-02-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-10-02-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-02-00A-041A-A" content="MTPM-A-A1-10-02-00A-041A-A" techName="Шаговый двигатель башни" infoName="Описание и работа" href="references\MTPM-A-A1-10-02-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-10-02-00A-041A-A
 Шаговый
 двигатель
@@ -11049,9 +11049,9 @@ MP3-86TZ150
 двигателя
 башни
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-10-02-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-02-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-02-00A-310A-A" content="MTPM-A-A1-10-02-00A-310A-A" techName="Шаговый двигатель башни" infoName="Визуальный осмотр" href="references\MTPM-A-A1-10-02-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-10-02-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-02-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-02-00A-310A-A" content="MTPM-A-A1-10-02-00A-310A-A" techName="Шаговый двигатель башни" infoName="Визуальный осмотр" href="references\MTPM-A-A1-10-02-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-10-02-00A-310A-A
 Шаговый
 двигатель
@@ -11282,9 +11282,9 @@ MTPM-A-A1-10-02-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-10-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-02-00A-922A-A" content="MTPM-A-A1-10-02-00A-922A-A" techName="Шаговый двигатель башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-10-02-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-10-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-02-00A-922A-A" content="MTPM-A-A1-10-02-00A-922A-A" techName="Шаговый двигатель башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-10-02-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-10-02-00A-922A-A
 Шаговый
 двигатель
@@ -11525,9 +11525,9 @@ MTPM-A-A1-10-02-00A-340A-A
 двигателя
 башни
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-10-03-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-03-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-03-00A-310A-A" content="MTPM-A-A1-10-03-00A-310A-A" techName="Шаговый двигатель тормоза" infoName="Визуальный осмотр" href="references\MTPM-A-A1-10-03-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-10-03-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-03-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-03-00A-310A-A" content="MTPM-A-A1-10-03-00A-310A-A" techName="Шаговый двигатель тормоза" infoName="Визуальный осмотр" href="references\MTPM-A-A1-10-03-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-10-03-00A-310A-A
 Шаговый
 двигатель
@@ -11758,9 +11758,9 @@ MTPM-A-A1-10-03-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-10-03-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-03-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-03-00A-922A-A" content="MTPM-A-A1-10-03-00A-922A-A" techName="Шаговый двигатель тормоза" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-10-03-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-10-03-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-10-03-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-10-03-00A-922A-A" content="MTPM-A-A1-10-03-00A-922A-A" techName="Шаговый двигатель тормоза" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-10-03-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-10-03-00A-922A-A
 Шаговый
 двигатель
@@ -12002,9 +12002,9 @@ MTPM-A-A1-10-03-00A-340A-A
 двигателя
 тормоза
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-21-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-21-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-00-00A-041A-A" content="MTPM-A-A1-21-00-00A-041A-A" techName="Система перемещения башни" infoName="Описание и работа" href="references\MTPM-A-A1-21-00-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-21-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-21-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-00-00A-041A-A" content="MTPM-A-A1-21-00-00A-041A-A" techName="Система перемещения башни" infoName="Описание и работа" href="references\MTPM-A-A1-21-00-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-21-00-00A-041A-A
 Система
 перемещения
@@ -13080,9 +13080,9 @@ Ethernet
 перемещения
 башни
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-21-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-00-00A-310A-A" content="MTPM-A-A1-21-00-00A-310A-A" techName="Система перемещения башни" infoName="Визуальный осмотр" href="references\MTPM-A-A1-21-00-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-21-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-00-00A-310A-A" content="MTPM-A-A1-21-00-00A-310A-A" techName="Система перемещения башни" infoName="Визуальный осмотр" href="references\MTPM-A-A1-21-00-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-21-00-00A-310A-A
 Система
 перемещения
@@ -13601,9 +13601,9 @@ MTPM-A-A1-21-04-00A-530A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-21-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-01-00A-922A-A" content="MTPM-A-A1-21-01-00A-922A-A" techName="Редуктор башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-21-01-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-21-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-01-00A-922A-A" content="MTPM-A-A1-21-01-00A-922A-A" techName="Редуктор башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-21-01-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-21-01-00A-922A-A
 Редуктор
 башни
@@ -13887,9 +13887,9 @@ MTPM-A-A1-10-02-00A-340A-A
 редуктора
 башни
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-21-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-02-00A-922A-A" content="MTPM-A-A1-21-02-00A-922A-A" techName="Крышка редуктора башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-21-02-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-21-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-02-00A-922A-A" content="MTPM-A-A1-21-02-00A-922A-A" techName="Крышка редуктора башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-21-02-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-21-02-00A-922A-A
 Крышка
 редуктора
@@ -14022,9 +14022,9 @@ MTPM-A-07-10-00-00A-176A-A
 редуктора
 башни
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-21-04-00A-530A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-04-00A-530A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-04-00A-530A-A" content="MTPM-A-A1-21-04-00A-530A-A" techName="Вал ведущей шестерни" infoName="Процедуры по разборке" href="references\MTPM-A-A1-21-04-00A-530A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-21-04-00A-530A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-04-00A-530A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-04-00A-530A-A" content="MTPM-A-A1-21-04-00A-530A-A" techName="Вал ведущей шестерни" infoName="Процедуры по разборке" href="references\MTPM-A-A1-21-04-00A-530A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-21-04-00A-530A-A
 Вал
 ведущей
@@ -14304,9 +14304,9 @@ MTPM-A-B0-10-05-00A-922A-A
 ведущей
 шестерни
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-21-05-00A-271A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-05-00A-271A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-05-00A-271A-A" content="MTPM-A-A1-21-05-00A-271A-A" techName="Цепь" infoName="Регулировка" href="references\MTPM-A-A1-21-05-00A-271A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-21-05-00A-271A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-05-00A-271A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-05-00A-271A-A" content="MTPM-A-A1-21-05-00A-271A-A" techName="Цепь" infoName="Регулировка" href="references\MTPM-A-A1-21-05-00A-271A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-21-05-00A-271A-A
 Цепь
 Регулировка
@@ -14572,9 +14572,9 @@ MTPM-A-B0-10-04-00A-922A-A
 Регулировка
 цепи
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-21-07-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-07-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-07-00A-922A-A" content="MTPM-A-A1-21-07-00A-922A-A" techName="Сателлит" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-21-07-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-21-07-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-07-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-07-00A-922A-A" content="MTPM-A-A1-21-07-00A-922A-A" techName="Сателлит" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-21-07-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-21-07-00A-922A-A
 Сателлит
 Демонтаж
@@ -14696,9 +14696,9 @@ MTPM-A-B0-10-05-00A-922A-A
 монтаж
 сателлита
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-21-08-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-08-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-08-00A-922A-A" content="MTPM-A-A1-21-08-00A-922A-A" techName="Натяжитель цепи башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-21-08-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-21-08-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-21-08-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-21-08-00A-922A-A" content="MTPM-A-A1-21-08-00A-922A-A" techName="Натяжитель цепи башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-21-08-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-21-08-00A-922A-A
 Натяжитель
 цепи
@@ -14858,9 +14858,9 @@ MTPM-A-A1-10-02-00A-340A-A
 цепи
 башни
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-22-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-00-00A-041A-A" content="MTPM-A-A1-22-00-00A-041A-A" techName="Система перемещения кареток" infoName="Описание и работа" href="references\MTPM-A-A1-22-00-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-22-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-00-00A-041A-A" content="MTPM-A-A1-22-00-00A-041A-A" techName="Система перемещения кареток" infoName="Описание и работа" href="references\MTPM-A-A1-22-00-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-00-00A-041A-A
 Система
 перемещения
@@ -16244,9 +16244,9 @@ Ethernet
 перемещения
 каретки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-00-00A-310A-A" content="MTPM-A-A1-22-00-00A-310A-A" techName="Система перемещения кареток" infoName="Визуальный осмотр" href="references\MTPM-A-A1-22-00-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-00-00A-310A-A" content="MTPM-A-A1-22-00-00A-310A-A" techName="Система перемещения кареток" infoName="Визуальный осмотр" href="references\MTPM-A-A1-22-00-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-00-00A-310A-A
 Система
 перемещения
@@ -17110,9 +17110,9 @@ MTPM-A-A1-22-08-00A-530A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-01-00A-922A-A" content="MTPM-A-A1-22-01-00A-922A-A" techName="Редуктор каретки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-01-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-01-00A-922A-A" content="MTPM-A-A1-22-01-00A-922A-A" techName="Редуктор каретки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-01-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-01-00A-922A-A
 Редуктор
 каретки
@@ -17381,9 +17381,9 @@ MTPM-A-A1-10-01-00A-340A-A
 редуктора
 каретки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-02-00A-922A-A_000-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-02-00A-922A-A" content="MTPM-A-A1-22-02-00A-922A-A" techName="Крышка редуктора каретки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-02-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-02-00A-922A-A_000-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-02-00A-922A-A" content="MTPM-A-A1-22-02-00A-922A-A" techName="Крышка редуктора каретки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-02-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-02-00A-922A-A
 Крышка
 редуктора
@@ -17512,9 +17512,9 @@ MTPM-A-07-10-00-00A-176A-A
 редуктора
 каретки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-03-00A-271A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-03-00A-271A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-03-00A-271A-A" content="MTPM-A-A1-22-03-00A-271A-A" techName="Цепь" infoName="Регулировка" href="references\MTPM-A-A1-22-03-00A-271A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-03-00A-271A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-03-00A-271A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-03-00A-271A-A" content="MTPM-A-A1-22-03-00A-271A-A" techName="Цепь" infoName="Регулировка" href="references\MTPM-A-A1-22-03-00A-271A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-03-00A-271A-A
 Цепь
 Регулировка
@@ -17823,9 +17823,9 @@ MTPM-A-A1-22-03-00A-922A-A
 Регулировка
 цепи
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-04-00A-530A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-04-00A-530A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-04-00A-530A-A" content="MTPM-A-A1-22-04-00A-530A-A" techName="Вал ведущей звездочки" infoName="Процедуры по разборке" href="references\MTPM-A-A1-22-04-00A-530A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-04-00A-530A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-04-00A-530A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-04-00A-530A-A" content="MTPM-A-A1-22-04-00A-530A-A" techName="Вал ведущей звездочки" infoName="Процедуры по разборке" href="references\MTPM-A-A1-22-04-00A-530A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-04-00A-530A-A
 Вал
 ведущей
@@ -18122,9 +18122,9 @@ MTPM-A-A1-40-00-00A-922A-A
 ведущей
 звездочки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-05-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-05-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-05-01A-922A-A" content="MTPM-A-A1-22-05-01A-922A-A" techName="Натяжитель" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-05-01A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-05-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-05-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-05-01A-922A-A" content="MTPM-A-A1-22-05-01A-922A-A" techName="Натяжитель" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-05-01A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-05-01A-922A-A
 Натяжитель
 Демонтаж
@@ -18255,9 +18255,9 @@ MTPM-A-A1-21-05-00A-922A-A
 монтаж
 натяжителя
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-05-02A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-05-02A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-05-02A-922A-A" content="MTPM-A-A1-22-05-02A-922A-A" techName="Натяжитель цепи каретки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-05-02A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-05-02A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-05-02A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-05-02A-922A-A" content="MTPM-A-A1-22-05-02A-922A-A" techName="Натяжитель цепи каретки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-05-02A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-05-02A-922A-A
 Натяжитель
 цепи
@@ -18439,9 +18439,9 @@ MTPM-A-A1-10-01-00A-340A-A
 натяжителя
 цепи
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-06-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-06-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-06-00A-922A-A" content="MTPM-A-A1-22-06-00A-922A-A" techName="Втулка под подшипник" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-06-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-06-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-06-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-06-00A-922A-A" content="MTPM-A-A1-22-06-00A-922A-A" techName="Втулка под подшипник" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-06-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-06-00A-922A-A
 Втулка
 под
@@ -18640,9 +18640,9 @@ MTPM-A-A1-22-09-02A-922A-A
 под
 подшипник
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-07-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-07-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-07-00A-922A-A" content="MTPM-A-A1-22-07-00A-922A-A" techName="Держатель" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-07-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-07-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-07-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-07-00A-922A-A" content="MTPM-A-A1-22-07-00A-922A-A" techName="Держатель" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-07-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-07-00A-922A-A
 Держатель
 Демонтаж
@@ -18771,9 +18771,9 @@ MTPM-A-07-10-00-00A-176A-A
 монтаж
 держателя
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-07-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-07-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-07-01A-922A-A" content="MTPM-A-A1-22-07-01A-922A-A" techName="Ролик держателя" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-07-01A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-07-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-07-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-07-01A-922A-A" content="MTPM-A-A1-22-07-01A-922A-A" techName="Ролик держателя" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-07-01A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-07-01A-922A-A
 Ролик
 держателя
@@ -18902,9 +18902,9 @@ MTPM-A-07-10-00-00A-176A-A
 ролика
 держателя
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-07-02A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-07-02A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-07-02A-921A-A" content="MTPM-A-A1-22-07-02A-921A-A" techName="Кронштейн держателя" infoName="Замена" href="references\MTPM-A-A1-22-07-02A-921A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-07-02A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-07-02A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-07-02A-921A-A" content="MTPM-A-A1-22-07-02A-921A-A" techName="Кронштейн держателя" infoName="Замена" href="references\MTPM-A-A1-22-07-02A-921A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-07-02A-921A-A
 Кронштейн
 держателя
@@ -19045,9 +19045,9 @@ MTPM-A-A1-22-07-01A-922A-A
 кронштейна
 держателя
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-08-00A-530A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-08-00A-530A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-08-00A-530A-A" content="MTPM-A-A1-22-08-00A-530A-A" techName="Вал ведомой звездочки" infoName="Процедуры по разборке" href="references\MTPM-A-A1-22-08-00A-530A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-08-00A-530A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-08-00A-530A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-08-00A-530A-A" content="MTPM-A-A1-22-08-00A-530A-A" techName="Вал ведомой звездочки" infoName="Процедуры по разборке" href="references\MTPM-A-A1-22-08-00A-530A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-08-00A-530A-A
 Вал
 ведомой
@@ -19341,9 +19341,9 @@ MTPM-A-A1-22-06-00A-922A-A
 ведомой
 звездочки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-09-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-09-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-09-01A-922A-A" content="MTPM-A-A1-22-09-01A-922A-A" techName="Кронштейн вала ведущей звездочки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-09-01A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-09-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-09-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-09-01A-922A-A" content="MTPM-A-A1-22-09-01A-922A-A" techName="Кронштейн вала ведущей звездочки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-09-01A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-09-01A-922A-A
 Кронштейн
 вала
@@ -19560,9 +19560,9 @@ MTPM-A-A1-22-04-00A-530A-A
 ведущей
 звездочки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-22-09-02A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-09-02A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-09-02A-922A-A" content="MTPM-A-A1-22-09-02A-922A-A" techName="Кронштейн вала ведомой звездочки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-09-02A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-22-09-02A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-22-09-02A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-22-09-02A-922A-A" content="MTPM-A-A1-22-09-02A-922A-A" techName="Кронштейн вала ведомой звездочки" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-22-09-02A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-22-09-02A-922A-A
 Кронштейн
 вала
@@ -19793,9 +19793,9 @@ MTPM-A-A1-22-08-00A-530A-A
 ведомой
 звездочки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-40-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-40-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-00-00A-041A-A" content="MTPM-A-A1-40-00-00A-041A-A" techName="Тормозной механизм" infoName="Описание и работа" href="references\MTPM-A-A1-40-00-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-40-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-A1-40-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-00-00A-041A-A" content="MTPM-A-A1-40-00-00A-041A-A" techName="Тормозной механизм" infoName="Описание и работа" href="references\MTPM-A-A1-40-00-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-40-00-00A-041A-A
 Тормозной
 механизм
@@ -20273,9 +20273,9 @@ MTPM-A-A1-10-03-00A-041A-A
 Тормозной
 механизм
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-40-00-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-00-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-00-00A-311A-A" content="MTPM-A-A1-40-00-00A-311A-A" techName="Тормозной механизм" infoName="Осмотр" href="references\MTPM-A-A1-40-00-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-40-00-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-00-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-00-00A-311A-A" content="MTPM-A-A1-40-00-00A-311A-A" techName="Тормозной механизм" infoName="Осмотр" href="references\MTPM-A-A1-40-00-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-40-00-00A-311A-A
 Тормозной
 механизм
@@ -20627,9 +20627,9 @@ MTPM-A-A1-40-04-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-40-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-00-00A-922A-A" content="MTPM-A-A1-40-00-00A-922A-A" techName="Тормозной механизм" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-40-00-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-40-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-00-00A-922A-A" content="MTPM-A-A1-40-00-00A-922A-A" techName="Тормозной механизм" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-40-00-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-40-00-00A-922A-A
 Тормозной
 механизм
@@ -21009,9 +21009,9 @@ MTPM-A-A1-10-03-00A-340A-A
 тормозного
 механизма
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-40-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-01-00A-922A-A" content="MTPM-A-A1-40-01-00A-922A-A" techName="Блокиратор" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-40-01-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-40-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-01-00A-922A-A" content="MTPM-A-A1-40-01-00A-922A-A" techName="Блокиратор" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-40-01-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-40-01-00A-922A-A
 Блокиратор
 Демонтаж
@@ -21145,9 +21145,9 @@ MTPM-A-A1-10-03-00A-340A-A
 монтаж
 блокиратора
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-40-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-02-00A-922A-A" content="MTPM-A-A1-40-02-00A-922A-A" techName="Тормозное колесо" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-40-02-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-40-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-02-00A-922A-A" content="MTPM-A-A1-40-02-00A-922A-A" techName="Тормозное колесо" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-40-02-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-40-02-00A-922A-A
 Тормозное
 колесо
@@ -21298,9 +21298,9 @@ MTPM-A-A1-10-03-00A-340A-A
 тормозного
 колеса
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-A1-40-03-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-03-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-03-00A-922A-A" content="MTPM-A-A1-40-03-00A-922A-A" techName="Крышка тормозного механизма" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-40-03-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-A1-40-03-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-A1-40-03-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-A1-40-03-00A-922A-A" content="MTPM-A-A1-40-03-00A-922A-A" techName="Крышка тормозного механизма" infoName="Демонтаж и монтаж" href="references\MTPM-A-A1-40-03-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-A1-40-03-00A-922A-A
 Крышка
 тормозного
@@ -21437,9 +21437,9 @@ MTPM-A-07-10-00-00A-176A-A
 тормозного
 механизма
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-00-00-00A-028A-A" content="MTPM-A-B0-00-00-00A-028A-A" techName="Конструкция" infoName="Общие сведения" href="references\MTPM-A-B0-00-00-00A-028A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-00-00-00A-028A-A" content="MTPM-A-B0-00-00-00A-028A-A" techName="Конструкция" infoName="Общие сведения" href="references\MTPM-A-B0-00-00-00A-028A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-00-00-00A-028A-A
 Конструкция
 Общие
@@ -21666,9 +21666,9 @@ MTPM-A-B0-40-01-00A-040A-A
 Конструкция
 траверсы
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-10-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-10-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-00-00A-040A-A" content="MTPM-A-B0-10-00-00A-040A-A" techName="Башня" infoName="Описание" href="references\MTPM-A-B0-10-00-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-10-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-10-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-00-00A-040A-A" content="MTPM-A-B0-10-00-00A-040A-A" techName="Башня" infoName="Описание" href="references\MTPM-A-B0-10-00-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-10-00-00A-040A-A
 Башня
 Описание
@@ -22112,9 +22112,9 @@ S1000D-E-04-10-0301-00A-022A-D
 Башня
 Башня
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-10-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-00-00A-310A-A" content="MTPM-A-B0-10-00-00A-310A-A" techName="Башня" infoName="Визуальный осмотр" href="references\MTPM-A-B0-10-00-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-10-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-00-00A-310A-A" content="MTPM-A-B0-10-00-00A-310A-A" techName="Башня" infoName="Визуальный осмотр" href="references\MTPM-A-B0-10-00-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-10-00-00A-310A-A
 Башня
 Визуальный
@@ -22951,9 +22951,9 @@ MTPM-A-20-22-02-00A-621A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-10-01-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-01-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-01-01A-922A-A" content="MTPM-A-B0-10-01-01A-922A-A" techName="Опора" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-01-01A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-10-01-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-01-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-01-01A-922A-A" content="MTPM-A-B0-10-01-01A-922A-A" techName="Опора" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-01-01A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-10-01-01A-922A-A
 Опора
 Демонтаж
@@ -23119,9 +23119,9 @@ MTPM-A-A1-10-02-00A-340A-A
 монтаж
 опоры
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-10-01-02A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-01-02A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-01-02A-922A-A" content="MTPM-A-B0-10-01-02A-922A-A" techName="Опора" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-01-02A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-10-01-02A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-01-02A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-01-02A-922A-A" content="MTPM-A-B0-10-01-02A-922A-A" techName="Опора" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-01-02A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-10-01-02A-922A-A
 Опора
 Демонтаж
@@ -23455,9 +23455,9 @@ MTPM-A-A1-10-02-00A-340A-A
 монтаж
 опоры
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-10-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-02-00A-922A-A" content="MTPM-A-B0-10-02-00A-922A-A" techName="Стержень" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-02-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-10-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-02-00A-922A-A" content="MTPM-A-B0-10-02-00A-922A-A" techName="Стержень" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-02-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-10-02-00A-922A-A
 Стержень
 Демонтаж
@@ -23576,9 +23576,9 @@ MTPM-A-B0-40-02-00A-922A-A
 монтаж
 стержня
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-10-04-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-04-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-04-00A-922A-A" content="MTPM-A-B0-10-04-00A-922A-A" techName="Крышка башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-04-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-10-04-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-04-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-04-00A-922A-A" content="MTPM-A-B0-10-04-00A-922A-A" techName="Крышка башни" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-04-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-10-04-00A-922A-A
 Крышка
 башни
@@ -23713,9 +23713,9 @@ MTPM-A-07-10-00-00A-176A-A
 крышки
 башни
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-10-05-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-05-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-05-00A-922A-A" content="MTPM-A-B0-10-05-00A-922A-A" techName="Стенки" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-05-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-10-05-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-05-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-05-00A-922A-A" content="MTPM-A-B0-10-05-00A-922A-A" techName="Стенки" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-05-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-10-05-00A-922A-A
 Стенки
 Демонтаж
@@ -24103,9 +24103,9 @@ MTPM-A-A1-10-02-00A-340A-A
 монтаж
 стенок
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-10-05-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-05-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-05-01A-922A-A" content="MTPM-A-B0-10-05-01A-922A-A" techName="Упорная стенка" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-05-01A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-10-05-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-05-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-05-01A-922A-A" content="MTPM-A-B0-10-05-01A-922A-A" techName="Упорная стенка" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-05-01A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-10-05-01A-922A-A
 Упорная
 стенка
@@ -24226,9 +24226,9 @@ MTPM-A-A1-10-02-00A-340A-A
 упорной
 стенки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-10-06-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-06-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-06-00A-922A-A" content="MTPM-A-B0-10-06-00A-922A-A" techName="Такелажный элемент" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-06-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-10-06-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-10-06-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-10-06-00A-922A-A" content="MTPM-A-B0-10-06-00A-922A-A" techName="Такелажный элемент" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-10-06-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-10-06-00A-922A-A
 Такелажный
 элемент
@@ -24370,9 +24370,9 @@ MTPM-A-B0-40-02-00A-922A-A
 такелажного
 элемента
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-21-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-21-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-21-00-00A-040A-A" content="MTPM-A-B0-21-00-00A-040A-A" techName="Каретка" infoName="Описание" href="references\MTPM-A-B0-21-00-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-21-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-21-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-21-00-00A-040A-A" content="MTPM-A-B0-21-00-00A-040A-A" techName="Каретка" infoName="Описание" href="references\MTPM-A-B0-21-00-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-21-00-00A-040A-A
 Каретка
 Описание
@@ -24904,9 +24904,9 @@ MTPM-A-20-12-00-00A-040A-A
 Каретка
 Каретка
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-21-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-21-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-21-00-00A-310A-A" content="MTPM-A-B0-21-00-00A-310A-A" techName="Каретка" infoName="Визуальный осмотр" href="references\MTPM-A-B0-21-00-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-21-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-21-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-21-00-00A-310A-A" content="MTPM-A-B0-21-00-00A-310A-A" techName="Каретка" infoName="Визуальный осмотр" href="references\MTPM-A-B0-21-00-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-21-00-00A-310A-A
 Каретка
 Визуальный
@@ -25444,9 +25444,9 @@ MTPM-A-20-12-00-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-21-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-21-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-21-00-00A-922A-A" content="MTPM-A-B0-21-00-00A-922A-A" techName="Каретка" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-21-00-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-21-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-21-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-21-00-00A-922A-A" content="MTPM-A-B0-21-00-00A-922A-A" techName="Каретка" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-21-00-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-21-00-00A-922A-A
 Каретка
 Демонтаж
@@ -25663,9 +25663,9 @@ MTPM-A-A1-10-01-00A-340A-A
 монтаж
 каретки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-30-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-30-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-00-00A-040A-A" content="MTPM-A-B0-30-00-00A-040A-A" techName="Основание" infoName="Описание" href="references\MTPM-A-B0-30-00-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-30-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-30-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-00-00A-040A-A" content="MTPM-A-B0-30-00-00A-040A-A" techName="Основание" infoName="Описание" href="references\MTPM-A-B0-30-00-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-30-00-00A-040A-A
 Основание
 Описание
@@ -26216,9 +26216,9 @@ S1000D-E-04-10-0301-00A-022A-D
 Основание
 Основание
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-30-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-00-00A-310A-A" content="MTPM-A-B0-30-00-00A-310A-A" techName="Основание" infoName="Визуальный осмотр" href="references\MTPM-A-B0-30-00-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-30-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-00-00A-310A-A" content="MTPM-A-B0-30-00-00A-310A-A" techName="Основание" infoName="Визуальный осмотр" href="references\MTPM-A-B0-30-00-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-30-00-00A-310A-A
 Основание
 Визуальный
@@ -27257,9 +27257,9 @@ MTPM-A-20-21-03-00A-257A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-30-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-01-00A-922A-A" content="MTPM-A-B0-30-01-00A-922A-A" techName="Торцевая опора" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-30-01-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-30-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-01-00A-922A-A" content="MTPM-A-B0-30-01-00A-922A-A" techName="Торцевая опора" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-30-01-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-30-01-00A-922A-A
 Торцевая
 опора
@@ -27403,9 +27403,9 @@ MTPM-A-07-10-00-00A-176A-A
 торцевой
 опоры
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-30-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-02-00A-922A-A" content="MTPM-A-B0-30-02-00A-922A-A" techName="Распорка" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-30-02-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-30-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-02-00A-922A-A" content="MTPM-A-B0-30-02-00A-922A-A" techName="Распорка" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-30-02-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-30-02-00A-922A-A
 Распорка
 Демонтаж
@@ -27569,9 +27569,9 @@ MTPM-A-07-10-00-00A-176A-A
 монтаж
 распорки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-30-03-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-03-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-03-00A-922A-A" content="MTPM-A-B0-30-03-00A-922A-A" techName="Горизонтальный кронштейн дальномера" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-30-03-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-30-03-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-03-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-03-00A-922A-A" content="MTPM-A-B0-30-03-00A-922A-A" techName="Горизонтальный кронштейн дальномера" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-30-03-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-30-03-00A-922A-A
 Горизонтальный
 кронштейн
@@ -27747,9 +27747,9 @@ MTPM-A-12-25-00-00A-280A-A
 кронштейна
 дальномера
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-30-04-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-04-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-04-00A-922A-A" content="MTPM-A-B0-30-04-00A-922A-A" techName="Лоток электрических жгутов" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-30-04-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-30-04-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-30-04-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-30-04-00A-922A-A" content="MTPM-A-B0-30-04-00A-922A-A" techName="Лоток электрических жгутов" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-30-04-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-30-04-00A-922A-A
 Лоток
 электрических
@@ -27981,9 +27981,9 @@ MTPM-A-B0-30-03-00A-922A-A
 электрических
 жгутов
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-40-01-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-40-01-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-40-01-00A-040A-A" content="MTPM-A-B0-40-01-00A-040A-A" techName="Переходник для крана" infoName="Описание" href="references\MTPM-A-B0-40-01-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-40-01-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-B0-40-01-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-40-01-00A-040A-A" content="MTPM-A-B0-40-01-00A-040A-A" techName="Переходник для крана" infoName="Описание" href="references\MTPM-A-B0-40-01-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-40-01-00A-040A-A
 Переходник
 для
@@ -28236,9 +28236,9 @@ U-образной
 для
 крана
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-40-01-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-40-01-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-40-01-00A-310A-A" content="MTPM-A-B0-40-01-00A-310A-A" techName="Переходник для крана" infoName="Визуальный осмотр" href="references\MTPM-A-B0-40-01-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-40-01-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-40-01-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-40-01-00A-310A-A" content="MTPM-A-B0-40-01-00A-310A-A" techName="Переходник для крана" infoName="Визуальный осмотр" href="references\MTPM-A-B0-40-01-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-40-01-00A-310A-A
 Переходник
 для
@@ -28469,9 +28469,9 @@ MTPM-A-B0-40-02-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-40-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-40-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-40-01-00A-922A-A" content="MTPM-A-B0-40-01-00A-922A-A" techName="Переходник для крана" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-40-01-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-40-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-40-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-40-01-00A-922A-A" content="MTPM-A-B0-40-01-00A-922A-A" techName="Переходник для крана" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-40-01-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-40-01-00A-922A-A
 Переходник
 для
@@ -28608,9 +28608,9 @@ MTPM-A-B0-40-01-00A-310A-A
 для
 крана
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-B0-40-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-40-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-40-02-00A-922A-A" content="MTPM-A-B0-40-02-00A-922A-A" techName="Такелажная скоба" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-40-02-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-B0-40-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-B0-40-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-B0-40-02-00A-922A-A" content="MTPM-A-B0-40-02-00A-922A-A" techName="Такелажная скоба" infoName="Демонтаж и монтаж" href="references\MTPM-A-B0-40-02-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-B0-40-02-00A-922A-A
 Такелажная
 скоба
@@ -28785,9 +28785,9 @@ MTPM-A-07-10-00-00A-171A-A
 такелажной
 скобы
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-00-00-00A-028A-A" content="MTPM-A-D2-00-00-00A-028A-A" techName="Электрические системы" infoName="Общие сведения" href="references\MTPM-A-D2-00-00-00A-028A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-00-00-00A-028A-A" content="MTPM-A-D2-00-00-00A-028A-A" techName="Электрические системы" infoName="Общие сведения" href="references\MTPM-A-D2-00-00-00A-028A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-00-00-00A-028A-A
 Электрические
 системы
@@ -29350,9 +29350,9 @@ PLC
 зарядной
 станции
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-20-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-20-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-20-00-00A-041A-A" content="MTPM-A-D2-20-00-00A-041A-A" techName="Аккумуляторы" infoName="Описание и работа" href="references\MTPM-A-D2-20-00-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-20-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-20-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-20-00-00A-041A-A" content="MTPM-A-D2-20-00-00A-041A-A" techName="Аккумуляторы" infoName="Описание и работа" href="references\MTPM-A-D2-20-00-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-20-00-00A-041A-A
 Аккумуляторы
 Описание
@@ -29630,9 +29630,9 @@ MP3-86TZ150
 двигатель
 MP3-86TZ150
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-20-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-20-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-20-00-00A-922A-A" content="MTPM-A-D2-20-00-00A-922A-A" techName="Аккумуляторы" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-20-00-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-20-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-20-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-20-00-00A-922A-A" content="MTPM-A-D2-20-00-00A-922A-A" techName="Аккумуляторы" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-20-00-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-20-00-00A-922A-A
 Аккумуляторы
 Демонтаж
@@ -29759,9 +29759,9 @@ MTPM-A-J1-41-00-00A-922A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-70-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-00-00A-040A-A" content="MTPM-A-D2-70-00-00A-040A-A" techName="Описание" infoName="Распределительные устройства" href="references\MTPM-A-D2-70-00-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-70-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-00-00A-040A-A" content="MTPM-A-D2-70-00-00A-040A-A" techName="Описание" infoName="Распределительные устройства" href="references\MTPM-A-D2-70-00-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-00-00A-040A-A
 Описание
 Распределительные
@@ -29880,9 +29880,9 @@ MTPM-A-D2-70-05-00A-041A-A
 Распределительные
 устройства
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-00-00A-310A-A" content="MTPM-A-D2-70-00-00A-310A-A" techName="Распределительные устройства" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-00-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-00-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-00-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-00-00A-310A-A" content="MTPM-A-D2-70-00-00A-310A-A" techName="Распределительные устройства" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-00-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-00-00A-310A-A
 Распределительные
 устройства
@@ -31804,9 +31804,9 @@ MTPM-A-20-00-01-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-00-00A-540A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-00-00A-540A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-00-00A-540A-A" content="MTPM-A-D2-70-00-00A-540A-A" techName="Распределительные устройства" infoName="Процедуры по обеспечению доступа" href="references\MTPM-A-D2-70-00-00A-540A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-00-00A-540A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-00-00A-540A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-00-00A-540A-A" content="MTPM-A-D2-70-00-00A-540A-A" techName="Распределительные устройства" infoName="Процедуры по обеспечению доступа" href="references\MTPM-A-D2-70-00-00A-540A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-00-00A-540A-A
 Распределительные
 устройства
@@ -31876,9 +31876,9 @@ MTPM-A-07-10-00-00A-176A-A
 распределительного
 устройства
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-00-00A-740A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-00-00A-740A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-00-00A-740A-A" content="MTPM-A-D2-70-00-00A-740A-A" techName="Распределительные устройства" infoName="Процедуры закрытия доступа" href="references\MTPM-A-D2-70-00-00A-740A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-00-00A-740A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-00-00A-740A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-00-00A-740A-A" content="MTPM-A-D2-70-00-00A-740A-A" techName="Распределительные устройства" infoName="Процедуры закрытия доступа" href="references\MTPM-A-D2-70-00-00A-740A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-00-00A-740A-A
 Распределительные
 устройства
@@ -31944,9 +31944,9 @@ S1000D-E-04-10-0301-00A-022A-D
 Закрытие
 доступа
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-01-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-70-01-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-01-00A-041A-A" content="MTPM-A-D2-70-01-00A-041A-A" techName="Распределительное устройство № 1" infoName="Описание и работа" href="references\MTPM-A-D2-70-01-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-01-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-70-01-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-01-00A-041A-A" content="MTPM-A-D2-70-01-00A-041A-A" techName="Распределительное устройство № 1" infoName="Описание и работа" href="references\MTPM-A-D2-70-01-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-01-00A-041A-A
 Распределительное
 устройство
@@ -33226,9 +33226,9 @@ PLC,
 №
 1
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-01-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-01-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-01-00A-310A-A" content="MTPM-A-D2-70-01-00A-310A-A" techName="Распределительное устройство №1" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-01-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-01-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-01-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-01-00A-310A-A" content="MTPM-A-D2-70-01-00A-310A-A" techName="Распределительное устройство №1" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-01-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-01-00A-310A-A
 Распределительное
 устройство
@@ -33986,9 +33986,9 @@ MTPM-A-20-21-03-00A-257A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-01-00A-311A-A_000-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-01-00A-311A-A" content="MTPM-A-D2-70-01-00A-311A-A" techName="Распределительное устройство №1" infoName="Осмотр" href="references\MTPM-A-D2-70-01-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-01-00A-311A-A_000-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-01-00A-311A-A" content="MTPM-A-D2-70-01-00A-311A-A" techName="Распределительное устройство №1" infoName="Осмотр" href="references\MTPM-A-D2-70-01-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-01-00A-311A-A
 Распределительное
 устройство
@@ -35305,9 +35305,9 @@ MTPM-A-20-11-00-00A-922A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-01-00A-922A-A" content="MTPM-A-D2-70-01-00A-922A-A" techName="Распределительное устройство № 1" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-70-01-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-01-00A-922A-A" content="MTPM-A-D2-70-01-00A-922A-A" techName="Распределительное устройство № 1" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-70-01-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-01-00A-922A-A
 Распределительное
 устройство
@@ -35626,9 +35626,9 @@ MTPM-A-12-25-00-00A-280A-A
 №
 1
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-02-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-70-02-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-02-00A-041A-A" content="MTPM-A-D2-70-02-00A-041A-A" techName="Распределительное устройство № 2" infoName="Описание и работа" href="references\MTPM-A-D2-70-02-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-02-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-70-02-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-02-00A-041A-A" content="MTPM-A-D2-70-02-00A-041A-A" techName="Распределительное устройство № 2" infoName="Описание и работа" href="references\MTPM-A-D2-70-02-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-02-00A-041A-A
 Распределительное
 устройство
@@ -37138,9 +37138,9 @@ PLC,
 №
 1
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-02-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-02-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-02-00A-310A-A" content="MTPM-A-D2-70-02-00A-310A-A" techName="Распределительное устройство №2" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-02-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-02-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-02-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-02-00A-310A-A" content="MTPM-A-D2-70-02-00A-310A-A" techName="Распределительное устройство №2" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-02-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-02-00A-310A-A
 Распределительное
 устройство
@@ -38319,9 +38319,9 @@ MTPM-A-20-21-03-00A-257A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-02-00A-311A-A" content="MTPM-A-D2-70-02-00A-311A-A" techName="Распределительное устройство №2" infoName="Осмотр" href="references\MTPM-A-D2-70-02-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-02-00A-311A-A" content="MTPM-A-D2-70-02-00A-311A-A" techName="Распределительное устройство №2" infoName="Осмотр" href="references\MTPM-A-D2-70-02-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-02-00A-311A-A
 Распределительное
 устройство
@@ -39703,9 +39703,9 @@ MTPM-A-20-11-00-00A-922A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-03-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-03-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-03-00A-310A-A" content="MTPM-A-D2-70-03-00A-310A-A" techName="Распределительное устройство АКБ №1" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-03-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-03-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-03-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-03-00A-310A-A" content="MTPM-A-D2-70-03-00A-310A-A" techName="Распределительное устройство АКБ №1" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-03-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-03-00A-310A-A
 Распределительное
 устройство
@@ -40339,9 +40339,9 @@ MTPM-A-20-21-03-00A-257A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-03-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-03-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-03-00A-311A-A" content="MTPM-A-D2-70-03-00A-311A-A" techName="Распределительное устройство АКБ №1" infoName="Осмотр" href="references\MTPM-A-D2-70-03-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-03-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-03-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-03-00A-311A-A" content="MTPM-A-D2-70-03-00A-311A-A" techName="Распределительное устройство АКБ №1" infoName="Осмотр" href="references\MTPM-A-D2-70-03-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-03-00A-311A-A
 Распределительное
 устройство
@@ -41840,9 +41840,9 @@ MTPM-A-20-11-00-00A-922A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-03-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-03-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-03-01A-922A-A" content="MTPM-A-D2-70-03-01A-922A-A" techName="Рым-болт" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-70-03-01A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-03-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-03-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-03-01A-922A-A" content="MTPM-A-D2-70-03-01A-922A-A" techName="Рым-болт" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-70-03-01A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-03-01A-922A-A
 Рым-болт
 Демонтаж
@@ -41974,9 +41974,9 @@ MTPM-A-07-10-00-00A-176A-A
 монтаж
 рым-болта
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-04-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-70-04-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-04-00A-041A-A" content="MTPM-A-D2-70-04-00A-041A-A" techName="Распределительные устройства АКБ" infoName="Описание и работа" href="references\MTPM-A-D2-70-04-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-04-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-70-04-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-04-00A-041A-A" content="MTPM-A-D2-70-04-00A-041A-A" techName="Распределительные устройства АКБ" infoName="Описание и работа" href="references\MTPM-A-D2-70-04-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-04-00A-041A-A
 Распределительные
 устройства
@@ -43169,9 +43169,9 @@ PLC,
 устройства
 АКБ
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-04-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-04-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-04-00A-310A-A" content="MTPM-A-D2-70-04-00A-310A-A" techName="Распределительное устройство АКБ №2" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-04-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-04-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-04-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-04-00A-310A-A" content="MTPM-A-D2-70-04-00A-310A-A" techName="Распределительное устройство АКБ №2" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-04-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-04-00A-310A-A
 Распределительное
 устройство
@@ -44028,9 +44028,9 @@ MTPM-A-20-21-03-00A-257A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-04-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-04-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-04-00A-922A-A" content="MTPM-A-D2-70-04-00A-922A-A" techName="Распределительное устройство АКБ № 2" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-70-04-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-04-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-04-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-04-00A-922A-A" content="MTPM-A-D2-70-04-00A-922A-A" techName="Распределительное устройство АКБ № 2" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-70-04-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-04-00A-922A-A
 Распределительное
 устройство
@@ -44393,9 +44393,9 @@ MTPM-A-D2-70-00-00A-740A-A
 №
 2
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-05-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-05-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-05-00A-310A-A" content="MTPM-A-D2-70-05-00A-310A-A" techName="Распределительный шкаф" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-05-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-05-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-05-00A-310A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-05-00A-310A-A" content="MTPM-A-D2-70-05-00A-310A-A" techName="Распределительный шкаф" infoName="Визуальный осмотр" href="references\MTPM-A-D2-70-05-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-05-00A-310A-A
 Распределительный
 шкаф
@@ -44606,9 +44606,9 @@ MTPM-A-D2-70-05-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-70-05-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-05-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-05-00A-311A-A" content="MTPM-A-D2-70-05-00A-311A-A" techName="Распределительный шкаф" infoName="Осмотр" href="references\MTPM-A-D2-70-05-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-70-05-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-70-05-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-70-05-00A-311A-A" content="MTPM-A-D2-70-05-00A-311A-A" techName="Распределительный шкаф" infoName="Осмотр" href="references\MTPM-A-D2-70-05-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-70-05-00A-311A-A
 Распределительный
 шкаф
@@ -44872,9 +44872,9 @@ MTPM-A-D2-70-05-00A-922A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-00A-041A-A" content="MTPM-A-D2-90-01-00A-041A-A" techName="Репей" infoName="Описание и работа" href="references\MTPM-A-D2-90-01-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-00A-041A-A" content="MTPM-A-D2-90-01-00A-041A-A" techName="Репей" infoName="Описание и работа" href="references\MTPM-A-D2-90-01-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-90-01-00A-041A-A
 Репей
 Описание
@@ -45419,9 +45419,9 @@ RS-485.
 базовой
 станцией.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-00A-311A-A" content="MTPM-A-D2-90-01-00A-311A-A" techName="Репей" infoName="Осмотр" href="references\MTPM-A-D2-90-01-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-00A-311A-A" content="MTPM-A-D2-90-01-00A-311A-A" techName="Репей" infoName="Осмотр" href="references\MTPM-A-D2-90-01-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-90-01-00A-311A-A
 Репей
 Осмотр
@@ -45869,9 +45869,9 @@ MTPM-A-D2-90-02-00A-922A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-00A-420A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-00A-420A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-00A-420A-A" content="MTPM-A-D2-90-01-00A-420A-A" techName="Репей" infoName="Общие процедуры по локализации неисправностей" href="references\MTPM-A-D2-90-01-00A-420A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-00A-420A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-00A-420A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-00A-420A-A" content="MTPM-A-D2-90-01-00A-420A-A" techName="Репей" infoName="Общие процедуры по локализации неисправностей" href="references\MTPM-A-D2-90-01-00A-420A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-90-01-00A-420A-A
 Репей
 Общие
@@ -46573,9 +46573,9 @@ MTPM-A-D2-90-01-02A-922A-A
 15 В
 ???
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-01A-922A-A" content="MTPM-A-D2-90-01-01A-922A-A" techName="Базовая станция" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-90-01-01A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-01A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-01A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-01A-922A-A" content="MTPM-A-D2-90-01-01A-922A-A" techName="Базовая станция" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-90-01-01A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-90-01-01A-922A-A
 Базовая
 станция
@@ -46739,9 +46739,9 @@ MTPM-A-12-00-00-00A-120A-A
 базовой
 станции
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-02A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-02A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-02A-922A-A" content="MTPM-A-D2-90-01-02A-922A-A" techName="Датчик" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-90-01-02A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-90-01-02A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-90-01-02A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-01-02A-922A-A" content="MTPM-A-D2-90-01-02A-922A-A" techName="Датчик" infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-90-01-02A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-90-01-02A-922A-A
 Датчик
 Демонтаж
@@ -46860,9 +46860,9 @@ MTPM-A-12-00-00-00A-120A-A
 монтаж
 датчика
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-90-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-90-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-02-00A-311A-A" content="MTPM-A-D2-90-02-00A-311A-A" techName="Панель оператора" infoName="Осмотр" href="references\MTPM-A-D2-90-02-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-90-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-90-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-90-02-00A-311A-A" content="MTPM-A-D2-90-02-00A-311A-A" techName="Панель оператора" infoName="Осмотр" href="references\MTPM-A-D2-90-02-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-90-02-00A-311A-A
 Панель
 оператора
@@ -47098,9 +47098,9 @@ MTPM-A-D2-70-00-00A-540A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-91-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-91-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-91-00-00A-041A-A" content="MTPM-A-D2-91-00-00A-041A-A" techName="Система контроля" infoName="Описание и работа" href="references\MTPM-A-D2-91-00-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-91-00-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-D2-91-00-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-91-00-00A-041A-A" content="MTPM-A-D2-91-00-00A-041A-A" techName="Система контроля" infoName="Описание и работа" href="references\MTPM-A-D2-91-00-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-91-00-00A-041A-A
 Система
 контроля
@@ -47543,9 +47543,9 @@ RS-485
 Система
 контроля
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-91-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-91-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-91-01-00A-311A-A" content="MTPM-A-D2-91-01-00A-311A-A" techName="Датчик угла наклона" infoName="Осмотр" href="references\MTPM-A-D2-91-01-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-91-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-91-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-91-01-00A-311A-A" content="MTPM-A-D2-91-01-00A-311A-A" techName="Датчик угла наклона" infoName="Осмотр" href="references\MTPM-A-D2-91-01-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-91-01-00A-311A-A
 Датчик
 угла
@@ -47782,9 +47782,9 @@ MTPM-A-D2-91-01-00A-922A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-91-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-91-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-91-02-00A-311A-A" content="MTPM-A-D2-91-02-00A-311A-A" techName="Индуктивный датчик" infoName="Осмотр" href="references\MTPM-A-D2-91-02-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-91-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-91-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-91-02-00A-311A-A" content="MTPM-A-D2-91-02-00A-311A-A" techName="Индуктивный датчик" infoName="Осмотр" href="references\MTPM-A-D2-91-02-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-91-02-00A-311A-A
 Индуктивный
 датчик
@@ -47975,9 +47975,9 @@ MTPM-A-D2-91-02-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-D2-91-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-91-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-91-02-00A-922A-A" content="MTPM-A-D2-91-02-00A-922A-A" techName="Индуктивный датчик  " infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-91-02-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-D2-91-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-D2-91-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-D2-91-02-00A-922A-A" content="MTPM-A-D2-91-02-00A-922A-A" techName="Индуктивный датчик  " infoName="Демонтаж и монтаж" href="references\MTPM-A-D2-91-02-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-D2-91-02-00A-922A-A
 Индуктивный
 датчик  
@@ -48160,9 +48160,9 @@ MTPM-A-12-25-00-00A-280A-A
 индуктивного
 датчика
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-E1-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-E1-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-00-00-00A-028A-A" content="MTPM-A-E1-00-00-00A-028A-A" techName="Система связи" infoName="Общие сведения" href="references\MTPM-A-E1-00-00-00A-028A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-E1-00-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-E1-00-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-00-00-00A-028A-A" content="MTPM-A-E1-00-00-00A-028A-A" techName="Система связи" infoName="Общие сведения" href="references\MTPM-A-E1-00-00-00A-028A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-E1-00-00-00A-028A-A
 Система
 связи
@@ -48275,9 +48275,9 @@ Wi-Fi,
 Система
 связи
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-E1-60-02-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-E1-60-02-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-60-02-00A-041A-A" content="MTPM-A-E1-60-02-00A-041A-A" techName="Антенна" infoName="Описание и работа" href="references\MTPM-A-E1-60-02-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-E1-60-02-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-E1-60-02-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-60-02-00A-041A-A" content="MTPM-A-E1-60-02-00A-041A-A" techName="Антенна" infoName="Описание и работа" href="references\MTPM-A-E1-60-02-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-E1-60-02-00A-041A-A
 Антенна
 Описание
@@ -48439,9 +48439,9 @@ Wi-Fi,
 именно
 работает
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-E1-60-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-60-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-60-02-00A-311A-A" content="MTPM-A-E1-60-02-00A-311A-A" techName="Антенна" infoName="Осмотр" href="references\MTPM-A-E1-60-02-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-E1-60-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-60-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-60-02-00A-311A-A" content="MTPM-A-E1-60-02-00A-311A-A" techName="Антенна" infoName="Осмотр" href="references\MTPM-A-E1-60-02-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-E1-60-02-00A-311A-A
 Антенна
 Осмотр
@@ -48745,9 +48745,9 @@ MTPM-A-E1-60-02-00A-922A-A
 посторонних
 предметов.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-E1-61-01-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-61-01-00A-310A-A_000-01_ru-RU.xml" id="ITEM-MTPM-A-E1-61-01-00A-310A-A" content="MTPM-A-E1-61-01-00A-310A-A" techName="Пульт управления" infoName="Визуальный осмотр" href="references\MTPM-A-E1-61-01-00A-310A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-E1-61-01-00A-310A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-61-01-00A-310A-A_000-01_ru-RU.xml" id="ITEM-MTPM-A-E1-61-01-00A-310A-A" content="MTPM-A-E1-61-01-00A-310A-A" techName="Пульт управления" infoName="Визуальный осмотр" href="references\MTPM-A-E1-61-01-00A-310A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-E1-61-01-00A-310A-A
 Пульт
 управления
@@ -48873,9 +48873,9 @@ S1000D-F-04-10-0301-00A-022A-D
 батарей
 пульта.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-E1-61-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-61-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-61-02-00A-311A-A" content="MTPM-A-E1-61-02-00A-311A-A" techName="Приемник" infoName="Осмотр" href="references\MTPM-A-E1-61-02-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-E1-61-02-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-61-02-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-61-02-00A-311A-A" content="MTPM-A-E1-61-02-00A-311A-A" techName="Приемник" infoName="Осмотр" href="references\MTPM-A-E1-61-02-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-E1-61-02-00A-311A-A
 Приемник
 Осмотр
@@ -49096,9 +49096,9 @@ MTPM-A-E1-61-02-00A-922A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-E1-80-01-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-E1-80-01-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-80-01-00A-040A-A" content="MTPM-A-E1-80-01-00A-040A-A" techName="Модуль внешней индикации" infoName="Описание" href="references\MTPM-A-E1-80-01-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-E1-80-01-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-E1-80-01-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-80-01-00A-040A-A" content="MTPM-A-E1-80-01-00A-040A-A" techName="Модуль внешней индикации" infoName="Описание" href="references\MTPM-A-E1-80-01-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-E1-80-01-00A-040A-A
 Модуль
 внешней
@@ -49327,9 +49327,9 @@ IP...
 внешней
 индикации
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-E1-80-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-80-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-80-01-00A-311A-A" content="MTPM-A-E1-80-01-00A-311A-A" techName="Модуль внешней индикации" infoName="Осмотр" href="references\MTPM-A-E1-80-01-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-E1-80-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-80-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-80-01-00A-311A-A" content="MTPM-A-E1-80-01-00A-311A-A" techName="Модуль внешней индикации" infoName="Осмотр" href="references\MTPM-A-E1-80-01-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-E1-80-01-00A-311A-A
 Модуль
 внешней
@@ -49601,9 +49601,9 @@ MTPM-A-E1-80-01-00A-922A-A
 MTPM-A-D2-70-00-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-E1-80-01-01A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-80-01-01A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-80-01-01A-921A-A" content="MTPM-A-E1-80-01-01A-921A-A" techName="Модуль светосигнальный" infoName="Замена" href="references\MTPM-A-E1-80-01-01A-921A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-E1-80-01-01A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-E1-80-01-01A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-E1-80-01-01A-921A-A" content="MTPM-A-E1-80-01-01A-921A-A" techName="Модуль светосигнальный" infoName="Замена" href="references\MTPM-A-E1-80-01-01A-921A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-E1-80-01-01A-921A-A
 Модуль
 светосигнальный
@@ -50125,9 +50125,9 @@ MTPM-A-12-25-00-00A-280A-A
 светосигнального
 модуля
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-40-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-J1-40-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-40-00-00A-028A-A" content="MTPM-A-J1-40-00-00A-028A-A" techName="Система охлаждения" infoName="Общие сведения" href="references\MTPM-A-J1-40-00-00A-028A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-40-00-00A-028A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-J1-40-00-00A-028A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-40-00-00A-028A-A" content="MTPM-A-J1-40-00-00A-028A-A" techName="Система охлаждения" infoName="Общие сведения" href="references\MTPM-A-J1-40-00-00A-028A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-40-00-00A-028A-A
 Система
 охлаждения
@@ -50228,9 +50228,9 @@ MTPM-A-J1-42-00-00A-041A-A
 Система
 охлаждения
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-00A-041A-A" content="MTPM-A-J1-41-01-00A-041A-A" techName="Вентилятор" infoName="Описание и работа" href="references\MTPM-A-J1-41-01-00A-041A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-00A-041A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-00A-041A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-00A-041A-A" content="MTPM-A-J1-41-01-00A-041A-A" techName="Вентилятор" infoName="Описание и работа" href="references\MTPM-A-J1-41-01-00A-041A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-41-01-00A-041A-A
 Вентилятор
 Описание
@@ -50574,9 +50574,9 @@ UL94V0.
 его
 охлаждение.
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-00A-311A-A" content="MTPM-A-J1-41-01-00A-311A-A" techName="Вентилятор" infoName="Осмотр" href="references\MTPM-A-J1-41-01-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-00A-311A-A" content="MTPM-A-J1-41-01-00A-311A-A" techName="Вентилятор" infoName="Осмотр" href="references\MTPM-A-J1-41-01-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-41-01-00A-311A-A
 Вентилятор
 Осмотр
@@ -50998,9 +50998,9 @@ MTPM-A-J1-41-01-00A-922A-A
 MTPM-A-J1-41-03-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-00A-922A-A" content="MTPM-A-J1-41-01-00A-922A-A" techName="Вентилятор" infoName="Демонтаж и монтаж" href="references\MTPM-A-J1-41-01-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-00A-922A-A" content="MTPM-A-J1-41-01-00A-922A-A" techName="Вентилятор" infoName="Демонтаж и монтаж" href="references\MTPM-A-J1-41-01-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-41-01-00A-922A-A
 Вентилятор
 Демонтаж
@@ -51162,9 +51162,9 @@ MTPM-A-D2-70-00-00A-740A-A
 монтаж
 вентилятора
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-01A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-01A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-01A-311A-A" content="MTPM-A-J1-41-01-01A-311A-A" techName="Фильтр" infoName="Осмотр" href="references\MTPM-A-J1-41-01-01A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-01A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-01A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-01A-311A-A" content="MTPM-A-J1-41-01-01A-311A-A" techName="Фильтр" infoName="Осмотр" href="references\MTPM-A-J1-41-01-01A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-41-01-01A-311A-A
 Фильтр
 Осмотр
@@ -51254,9 +51254,9 @@ MTPM-A-J1-41-01-01A-921A-A
 MTPM-A-J1-41-03-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-01A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-01A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-01A-921A-A" content="MTPM-A-J1-41-01-01A-921A-A" techName="Фильтр" infoName="Замена" href="references\MTPM-A-J1-41-01-01A-921A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-41-01-01A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-01-01A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-01-01A-921A-A" content="MTPM-A-J1-41-01-01A-921A-A" techName="Фильтр" infoName="Замена" href="references\MTPM-A-J1-41-01-01A-921A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-41-01-01A-921A-A
 Фильтр
 Замена
@@ -51344,9 +51344,9 @@ MTPM-A-J1-41-03-00A-740A-A
 Замена
 фильтра
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-41-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-02-00A-922A-A" content="MTPM-A-J1-41-02-00A-922A-A" techName="Вентилятор" infoName="Демонтаж и монтаж" href="references\MTPM-A-J1-41-02-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-41-02-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-02-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-02-00A-922A-A" content="MTPM-A-J1-41-02-00A-922A-A" techName="Вентилятор" infoName="Демонтаж и монтаж" href="references\MTPM-A-J1-41-02-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-41-02-00A-922A-A
 Вентилятор
 Демонтаж
@@ -51520,9 +51520,9 @@ MTPM-A-D2-70-00-00A-740A-A
 монтаж
 вентилятора
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-41-03-00A-540A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-03-00A-540A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-03-00A-540A-A" content="MTPM-A-J1-41-03-00A-540A-A" techName="Решетка" infoName="Процедуры по обеспечению доступа" href="references\MTPM-A-J1-41-03-00A-540A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-41-03-00A-540A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-03-00A-540A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-03-00A-540A-A" content="MTPM-A-J1-41-03-00A-540A-A" techName="Решетка" infoName="Процедуры по обеспечению доступа" href="references\MTPM-A-J1-41-03-00A-540A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-41-03-00A-540A-A
 Решетка
 Процедуры
@@ -51590,9 +51590,9 @@ MTPM-A-D2-70-04-00A-922A-A
 Обеспечение
 доступа
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-41-03-00A-740A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-03-00A-740A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-03-00A-740A-A" content="MTPM-A-J1-41-03-00A-740A-A" techName="Решетка" infoName="Процедуры закрытия доступа" href="references\MTPM-A-J1-41-03-00A-740A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-41-03-00A-740A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-41-03-00A-740A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-41-03-00A-740A-A" content="MTPM-A-J1-41-03-00A-740A-A" techName="Решетка" infoName="Процедуры закрытия доступа" href="references\MTPM-A-J1-41-03-00A-740A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-41-03-00A-740A-A
 Решетка
 Процедуры
@@ -51663,9 +51663,9 @@ MTPM-A-D2-70-04-00A-922A-A
 Закрытие
 доступа
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-42-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-J1-42-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-00-00A-040A-A" content="MTPM-A-J1-42-00-00A-040A-A" techName="Вентиляционная решетка" infoName="Описание" href="references\MTPM-A-J1-42-00-00A-040A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-42-00-00A-040A-A" schema="descript" projectType="general" docHref="references/DMC-MTPM-A-J1-42-00-00A-040A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-00-00A-040A-A" content="MTPM-A-J1-42-00-00A-040A-A" techName="Вентиляционная решетка" infoName="Описание" href="references\MTPM-A-J1-42-00-00A-040A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-42-00-00A-040A-A
 Вентиляционная
 решетка
@@ -51965,9 +51965,9 @@ UL94V0.
 Вентиляционная
 решетка
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-42-00-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-00-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-00-00A-311A-A" content="MTPM-A-J1-42-00-00A-311A-A" techName="Вентиляционная решетка" infoName="Осмотр" href="references\MTPM-A-J1-42-00-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-42-00-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-00-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-00-00A-311A-A" content="MTPM-A-J1-42-00-00A-311A-A" techName="Вентиляционная решетка" infoName="Осмотр" href="references\MTPM-A-J1-42-00-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-42-00-00A-311A-A
 Вентиляционная
 решетка
@@ -52240,9 +52240,9 @@ MTPM-A-J1-42-00-00A-922A-A
 MTPM-A-J1-42-02-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-42-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-00-00A-922A-A" content="MTPM-A-J1-42-00-00A-922A-A" techName="Вентиляционная решетка" infoName="Демонтаж и монтаж" href="references\MTPM-A-J1-42-00-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-42-00-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-00-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-00-00A-922A-A" content="MTPM-A-J1-42-00-00A-922A-A" techName="Вентиляционная решетка" infoName="Демонтаж и монтаж" href="references\MTPM-A-J1-42-00-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-42-00-00A-922A-A
 Вентиляционная
 решетка
@@ -52398,9 +52398,9 @@ MTPM-A-D2-70-00-00A-740A-A
 вентиляционной
 решетки
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-42-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-01-00A-311A-A" content="MTPM-A-J1-42-01-00A-311A-A" techName="Фильтр" infoName="Осмотр" href="references\MTPM-A-J1-42-01-00A-311A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-42-01-00A-311A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-01-00A-311A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-01-00A-311A-A" content="MTPM-A-J1-42-01-00A-311A-A" techName="Фильтр" infoName="Осмотр" href="references\MTPM-A-J1-42-01-00A-311A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-42-01-00A-311A-A
 Фильтр
 Осмотр
@@ -52490,9 +52490,9 @@ MTPM-A-J1-42-01-00A-921A-A
 MTPM-A-J1-42-02-00A-740A-A
 .
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-42-01-00A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-01-00A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-01-00A-921A-A" content="MTPM-A-J1-42-01-00A-921A-A" techName="Фильтр" infoName="Замена" href="references\MTPM-A-J1-42-01-00A-921A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-42-01-00A-921A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-01-00A-921A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-01-00A-921A-A" content="MTPM-A-J1-42-01-00A-921A-A" techName="Фильтр" infoName="Замена" href="references\MTPM-A-J1-42-01-00A-921A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-42-01-00A-921A-A
 Фильтр
 Замена
@@ -52582,9 +52582,9 @@ MTPM-A-J1-42-02-00A-740A-A
 Замена
 фильтра
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-42-02-00A-540A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-02-00A-540A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-02-00A-540A-A" content="MTPM-A-J1-42-02-00A-540A-A" techName="Вентиляционная решетка" infoName="Процедуры по обеспечению доступа" href="references\MTPM-A-J1-42-02-00A-540A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-42-02-00A-540A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-02-00A-540A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-02-00A-540A-A" content="MTPM-A-J1-42-02-00A-540A-A" techName="Вентиляционная решетка" infoName="Процедуры по обеспечению доступа" href="references\MTPM-A-J1-42-02-00A-540A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-42-02-00A-540A-A
 Вентиляционная
 решетка
@@ -52655,9 +52655,9 @@ MTPM-A-D2-70-04-00A-922A-A
 Обеспечение
 доступа
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-42-02-00A-740A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-02-00A-740A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-02-00A-740A-A" content="MTPM-A-J1-42-02-00A-740A-A" techName="Вентиляционная решетка" infoName="Процедуры закрытия доступа" href="references\MTPM-A-J1-42-02-00A-740A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-42-02-00A-740A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-02-00A-740A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-02-00A-740A-A" content="MTPM-A-J1-42-02-00A-740A-A" techName="Вентиляционная решетка" infoName="Процедуры закрытия доступа" href="references\MTPM-A-J1-42-02-00A-740A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-42-02-00A-740A-A
 Вентиляционная
 решетка
@@ -52730,9 +52730,9 @@ MTPM-A-D2-70-04-00A-922A-A
 Закрытие
 доступа
 ]]></html>
-</item>
-<item uri="URN:S1000D:DMC-MTPM-A-J1-42-03-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-03-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-03-00A-922A-A" content="MTPM-A-J1-42-03-00A-922A-A" techName="Защитный кожух" infoName="Демонтаж и монтаж" href="references\MTPM-A-J1-42-03-00A-922A-A.interactivity.xml">
-<html><![CDATA[
+  </item>
+  <item uri="URN:S1000D:DMC-MTPM-A-J1-42-03-00A-922A-A" schema="proced" projectType="general" docHref="references/DMC-MTPM-A-J1-42-03-00A-922A-A_001-01_ru-RU.xml" id="ITEM-MTPM-A-J1-42-03-00A-922A-A" content="MTPM-A-J1-42-03-00A-922A-A" techName="Защитный кожух" infoName="Демонтаж и монтаж" href="references\MTPM-A-J1-42-03-00A-922A-A.interactivity.xml">
+    <html><![CDATA[
 MTPM-A-J1-42-03-00A-922A-A
 Защитный
 кожух
@@ -52875,5 +52875,5 @@ MTPM-A-07-10-00-00A-176A-A
 защитного
 кожуха
 ]]></html>
-</item>
+  </item>
 </index>
