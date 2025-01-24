@@ -34,11 +34,11 @@ jobs:
 
     # Минифицируем JavaScript
     - name: Minify JavaScript files
-      run: find . -name '*.xml' -exec minify-xml --strip-whitespace --remove-comments -o {} -- {} \;
+      run: find . -name '*.js' -exec terser --compress --mangle -o {} -- {} \; 
       
     # Минифицируем XML
     - name: Minify XML files
-      run: find . -name '*.xml' -exec xmllint --format --noblanks {} -o {} \;
+      run: find . -name '*.xml' -exec minify-xml --minify -o {} -- {} \;
 
     # Деплоим минимизированные файлы в ветку gh-pages
     - name: Deploy to GitHub Pages
