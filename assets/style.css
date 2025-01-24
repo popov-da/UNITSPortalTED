@@ -127,6 +127,17 @@ h2 {
   padding-bottom: 5px;
   border-bottom: 2px solid #ddd;
 }
+.options-section {
+  display: flex;
+  justify-content: space-around; /* Равномерное распределение элементов */
+  gap: 20px; /* Расстояние между элементами */
+  flex-wrap: nowrap; /* Запрещаем перенос элементов */
+}
+.options-section .item-option {
+  flex: 1; /* Устанавливаем равную ширину для всех элементов */
+  max-width: 200px; /* Максимальная ширина карточки */
+  text-align: center;
+}
 .skin-tree {
   list-style-type: none;
   padding: 0;
@@ -458,15 +469,4 @@ iframe {
   50% {
     opacity: 1;
   }
-}
-.options-section {
-  display: flex;
-  justify-content: space-around; /* Равномерное распределение элементов */
-  gap: 20px; /* Расстояние между элементами */
-  flex-wrap: nowrap; /* Запрещаем перенос элементов */
-}
-.options-section .item-option {
-  flex: 1; /* Устанавливаем равную ширину для всех элементов */
-  max-width: 200px; /* Максимальная ширина карточки */
-  text-align: center;
 }
