@@ -1,0 +1,45 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Триггер при пуше в основную ветку
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Клонируем репозиторий
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Устанавливаем Node.js для инструментов минификации
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # Или другая версия
+
+    # Устанавливаем зависимости для минификации
+    - name: Install dependencies
+      run: npm install -g html-minifier terser clean-css-cli
+
+    # Минифицируем HTML
+    - name: Minify HTML files
+      run: find . -name '*.html' -exec html-minifier --collapse-whitespace --remove-comments --remove-optional-tags -o {} {} \;
+
+    # Минифицируем CSS
+    - name: Minify CSS files
+      run: find . -name '*.css' -exec cleancss -o {} {} \;
+
+    # Минифицируем JavaScript
+    - name: Minify JavaScript files
+      run: find . -name '*.js' -exec terser --compress --mangle -o {} -- {} \;
+
+    # Деплоим минимизированные файлы в ветку gh-pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: .  # Публикуем всё из корня репозитория
