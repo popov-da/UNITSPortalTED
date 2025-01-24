@@ -1,4 +1,5 @@
-    // Функция скрытия стартовой страницы
+
+// Функция скрытия стартовой страницы
     function hideStartPage() {
       const startPage = document.getElementById('startPage');
       startPage.style.display = 'none';
@@ -38,14 +39,26 @@
       loadContent(event.target.closest('.file-item'), pdfUrl);
     }
     // Функция для скрытия/показа структуры
-    function toggleStructure() {
-      const structure = document.getElementById('structure');
-      const contentArea = document.getElementById('contentArea');
-      const toggleIcon = document.getElementById('toggleIcon');
-      structure.classList.toggle('hidden');
-      contentArea.classList.toggle('full-width');
-      toggleIcon.textContent = structure.classList.contains('hidden') ? '▶' : '◀';
-    }
+function toggleStructure() {
+  const structure = document.getElementById('structure');
+  const contentArea = document.getElementById('contentArea');
+  const toggleIcon = document.getElementById('toggleIcon');
+
+  if (structure.classList.contains('hidden')) {
+    structure.classList.remove('hidden');
+    contentArea.classList.remove('full-width');
+    toggleIcon.textContent = '◀';
+    structure.style.width = '20%'; // Восстанавливаем стандартную ширину
+    contentArea.style.width = '80%';
+  } else {
+    structure.classList.add('hidden');
+    contentArea.classList.add('full-width');
+    toggleIcon.textContent = '▶';
+    structure.style.width = '0'; // Скрываем структуру
+    contentArea.style.width = '100%';
+  }
+}
+
 
     function showExploitationDocs() {
       hideStartPage();
@@ -93,3 +106,32 @@
       };
       iframe.src = pageUrl;
     }
+        // Анимация и сообщение о повороте устройства
+function checkOrientation() {
+  const rotateMessage = document.getElementById('rotateMessage');
+
+  if (window.matchMedia("(orientation: portrait)").matches) {
+    // Устройство в портретной ориентации
+    rotateMessage.style.display = 'flex';
+  } else {
+    // Устройство в ландшафтной ориентации
+    rotateMessage.style.display = 'none';
+  }
+}
+
+// Проверяем ориентацию при загрузке страницы
+window.addEventListener('load', checkOrientation);
+
+// Отслеживаем изменения ориентации
+window.addEventListener('orientationchange', checkOrientation);
+
+// Убираем сообщение, если пользователь вручную изменяет ориентацию
+window.addEventListener('resize', () => {
+  const rotateMessage = document.getElementById('rotateMessage');
+  if (!window.matchMedia("(orientation: portrait)").matches) {
+    rotateMessage.style.display = 'none';
+  }
+    
+});
+
+

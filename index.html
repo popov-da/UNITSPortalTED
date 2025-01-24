@@ -6,9 +6,15 @@
 <title>Портал ТЭД</title>
 <link rel="icon" href="https://units.ru/splash/img/dark-2x.png" type="image/png">
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/script.js"></script>
+<script src="assets/scriptBefore.js"></script> 
+<script src="assets/scriptAfter.js" defer></script> <!-- Скрипт регулирующий ширину левой колонки, требуется загрузка после формирования структуры -->
 </head>
-<body>
+<body><div id="rotateMessage" class="rotate-message">
+  <div class="rotate-container">
+    <p>Пожалуйста, поверните устройство</p>
+  </div>
+</div>
+
 <div class="container"> 
   <!-- Панель кнопок управления -->
   <div class="control-panel">
@@ -89,22 +95,22 @@
     <!-- Раздел "Презентационные материалы" -->
     <div class="skin-tree Pres-mat" id="PresSection">
       <div class="section-title">Презентационные материалы</div>
-      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/PresentUNITS.mp4'); toggleStructure()">
+      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/PresentUNITS.mp4')">
         <div>
           <div class="icon file"></div>
           <span>UNITS</span> </div>
       </div>
-      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/SborkaMDL.mp4'); toggleStructure()">
+      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/SborkaMDL.mp4')">
         <div>
           <div class="icon file"></div>
           <span>Сборка модуля</span> </div>
       </div>
-      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/Stapel.mp4'); toggleStructure()">
+      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/Stapel.mp4')">
         <div>
           <div class="icon file"></div>
           <span>Стапель-кантователь</span> </div>
       </div>
-      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/Factory MKD-500.mp4'); toggleStructure()">
+      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/Factory MKD-500.mp4')">
         <div>
           <div class="icon file"></div>
           <span>Завод МКД-500</span> </div>
@@ -113,18 +119,21 @@
         V3D </a> </div>
     </div>
   </div>
+  <div class="skin-split-pane col" style="cursor: col-resize;" id="resizer">
+    <div class="skin-split-pane-inner"></div>
+  </div>
   <!-- Правая колонка с контентом -->
   <div class="content-area" id="contentArea">
     <div class="loading" id="loadingIndicator"> <span>Загрузка...</span> </div>
     <div id="startPage" class="start-page">
-      <div>
+      <div class="welcome-section">
         <h2>Добро пожаловать на портал Технической и Эксплуатационной Документации</h2>
         <p>Воспользуйтесь структурой слева или выберите изделие для просмотра документации:</p>
-        <div style="display: flex; justify-content: center; margin-top: 20px;">
-          <div class="item-option" onclick="showExploitationDocs()"> <img src="assets/images/ClearTraverce.webp" alt="Механизированная траверса"> <span>Механизированная траверса</span> </div>
-          <div class="item-option" onclick="showTechnicalDocs()"> <img src="assets/images/ClearMod.webp" alt="Модуль"> <span>Модуль</span> </div>
-          <div class="item-option" onclick="showIETPDocs();"> <img src="assets/images/LinTraverce.webp" alt="Линейная траверса"> <span>Линейная траверса</span> </div>
-        </div>
+      </div>
+      <div class="options-section">
+        <div class="item-option" onclick="showExploitationDocs()"> <img src="assets/images/ClearTraverce.png" alt="Механизированная траверса"> <span>Механизированная траверса</span> </div>
+        <div class="item-option" onclick="showTechnicalDocs()"> <img src="assets/images/ClearMod.png" alt="Модуль"> <span>Модуль</span> </div>
+        <div class="item-option" onclick="showIETPDocs()"> <img src="assets/images/LinTraverce.png" alt="Линейная траверса"> <span>Линейная траверса</span> </div>
       </div>
     </div>
     <div id="selectMessage" class="select-message">
