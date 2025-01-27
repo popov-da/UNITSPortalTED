@@ -49,14 +49,14 @@ function toggleStructure() {
     toggleIcon.textContent = '◀';
     structure.style.width = '20%'; // Восстанавливаем стандартную ширину
     contentArea.style.width = '80%';
-  document.getElementById('resizer').style.display = 'flex';
+    document.getElementById('resizer').style.display = 'flex';
   } else {
     structure.classList.add('hidden');
     contentArea.classList.add('full-width');
     toggleIcon.textContent = '▶';
     structure.style.width = '0'; // Скрываем структуру
     contentArea.style.width = '100%';
-	document.getElementById('resizer').style.display = 'none';
+    document.getElementById('resizer').style.display = 'none';
   }
 }
 
