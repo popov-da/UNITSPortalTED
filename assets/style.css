@@ -238,25 +238,19 @@ iframe {
 /* Индикатор загрузки */
 .loading {
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-  font-size: 1.5em;
-  color: #b3b3b3;
+  right: 0;
+  margin-left: 2.2rem;
+  margin-top: -1rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
   font-weight: bold;
+  color: darkgray;
+  z-index: 100;
   display: none;
-  text-transform: uppercase;
-}
-.loading span {
-  font-family: Arial, sans-serif;
-  letter-spacing: 1px;
-  color: #0056b3;
+  justify-content: center;
 }
 .start-page {
   width: 100%;
@@ -313,29 +307,6 @@ iframe {
   font-weight: bold;
   color: #333;
   font-size: 1em; /* Яркий текст подписи */
-}
-.toggle-button, .home-button {
-  padding: 8px 12px;
-  background-color: #fff;
-  color: #0056b3;
-  border: 1px solid #0056b3;
-  cursor: pointer;
-  border-radius: 5px;
-  z-index: 20;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s, box-shadow 0.3s;
-}
-.toggle-button {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-.toggle-button:hover, .home-button:hover {
-  background-color: #e6f2ff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .control-panel {
   display: flex;
@@ -405,13 +376,6 @@ iframe {
   color: #333;
   text-align: center;
   flex-direction: column;
-}
-.close-button {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  font-size: 18px;
-  cursor: pointer;
 }
 .skin-split-pane {
   border: .2em solid transparent;
