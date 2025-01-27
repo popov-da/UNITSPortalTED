@@ -1,20 +1,21 @@
 <!DOCTYPE html>
+
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Портал ТЭД</title>
-<link rel="icon" href="https://units.ru/splash/img/dark-2x.png" type="image/png">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://units.ru/splash/img/dark-2x.png" rel="icon" type="image/png"/>
+<link href="assets/style.css" rel="stylesheet"/>
 <script src="assets/scriptBefore.js"></script> 
-<script src="assets/scriptAfter.js" defer></script> <!-- Скрипт регулирующий ширину левой колонки, требуется загрузка после формирования структуры -->
+<script defer="" src="assets/scriptAfter.js"></script> <!-- Скрипт регулирующий ширину левой колонки, требуется загрузка после формирования структуры -->
 </head>
-<body><div id="rotateMessage" class="rotate-message">
+<body>
+<div id="rotateMessage" class="rotate-message">
   <div class="rotate-container">
     <p>Пожалуйста, поверните устройство</p>
   </div>
 </div>
-
 <div class="container"> 
   <!-- Панель кнопок управления -->
   <div class="control-panel">
@@ -26,32 +27,32 @@
     <!-- Раздел "Эксплуатационная документация" -->
     <div class="skin-tree exploitation-docs" id="exploitationSection">
       <div class="section-title">Эксплуатационная документация ДЕМО</div>
-      <div class="file-item" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-921A-A.htm')">
+      <div class="file-item" data-file="MTPA-A-G1-41-00-00A-921A-A" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-921A-A.htm')">
         <div>
           <div class="icon file"></div>
           <span>Руководство по технической эксплуатации</span> </div>
-        <a href="#" class="pdf-link" onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-00-00A-921A-A.pdf')">
+        <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-00-00A-921A-A.pdf')">
         <div class="icon pdf"></div>
         PDF </a> </div>
-      <div class="file-item" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-01-010-941A-A.htm')">
+      <div class="file-item" data-file="MTPA-A-G1-41-01-010-941A-A" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-01-010-941A-A.htm')">
         <div>
           <div class="icon file"></div>
           <span>Каталог деталей и сборочных единиц</span> </div>
-        <a href="#" class="pdf-link" onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-01-010-941A-A.pdf')">
+        <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-01-010-941A-A.pdf')">
         <div class="icon pdf"></div>
         PDF </a> </div>
-      <div class="file-item" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-054A-A.htm')">
+      <div class="file-item" data-file="MTPA-A-G1-41-00-00A-054A-A" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-054A-A.htm')">
         <div>
           <div class="icon file"></div>
           <span>Альбом электрических схем</span> </div>
-        <a href="#" class="pdf-link" onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-00-00A-054A-A.pdf')">
+        <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-00-00A-054A-A.pdf')">
         <div class="icon pdf"></div>
         PDF </a> </div>
     </div>
     <!-- Раздел "Учебная документация" -->
     <div class="skin-tree Educate-docs" id="EducateSection">
       <div class="section-title">Учебная документация ДЕМО</div>
-      <div class="file-item" onclick="loadContent(this, 'files/Help/HeplForLearn.html')">
+      <div class="file-item" data-file="HeplForLearn" onclick="loadContent(this, 'files/Help/HeplForLearn.html')">
         <div>
           <div class="icon file"></div>
           <span>Каретка - Демонтаж и монтаж</span> </div>
@@ -60,20 +61,20 @@
     <!-- Раздел "Технологическая документация" -->
     <div class="skin-tree technical-docs" id="technicalSection">
       <div class="section-title">Технологическая документация ДЕМО</div>
-      <div class="file-item" onclick="loadContent(this, 'files/C3D/Монтаж ванны.htm')">
+      <div class="file-item" data-file="МонтажВанны" onclick="loadContent(this, 'files/C3D/Монтаж ванны.htm')">
         <div>
           <div class="icon file"></div>
           <span>Монтаж ванны</span> </div>
-        <a href="#" class="pdf-link" onclick="loadPdf(event, 'files/PDF/Монтаж ванны.pdf')">
+        <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/Монтаж ванны.pdf')">
         <div class="icon pdf"></div>
         PDF </a> </div>
-      <div class="file-item" onclick="loadContent(this, 'files/C3D/ТК на монтаж межкомнатных дверей.htm')">
+      <div class="file-item" data-file="МонтажДвери" onclick="loadContent(this, 'files/C3D/ТК на монтаж межкомнатных дверей.htm')">
         <div>
           <div class="icon file"></div>
           <span>Монтаж двери</span> </div>
-        <a href="#" class="verge3d-link" onclick="loadPdf(event, 'https://v3d.net/147m')">
+        <a class="verge3d-link" href="#" onclick="loadPdf(event, 'https://v3d.net/147m')">
         <div class="icon verge3d"></div>
-        V3D </a> <a href="#" class="pdf-link" onclick="loadPdf(event, 'files/PDF/ТК на монтаж межкомнатных дверей.pdf')">
+        V3D </a> <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/ТК на монтаж межкомнатных дверей.pdf')">
         <div class="icon pdf"></div>
         PDF </a> </div>
     </div>
@@ -83,11 +84,11 @@
       <div class="file-item" onclick="loadContent(this, 'files/C3D/MTPM-UNITS-MM000-00.htm'); toggleStructure()">
         <div>
           <div class="icon file"></div>
-          <span>MTPM-UNITS-MM000-00 Линейная траверса</span> <a href="#" class="pdf-link" onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00.pdf')">
+          <span>MTPM-UNITS-MM000-00 Линейная траверса</span> <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00.pdf')">
           <div class="icon pdf"></div>
-          S1000D </a> <a href="#" class="pdf-link" onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00_18675.pdf')">
+          S1000D </a> <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00_18675.pdf')">
           <div class="icon pdf"></div>
-          ГОСТ 18675-2012 </a> <a href="#" class="pdf-link" onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00_1500.pdf')">
+          ГОСТ 18675-2012 </a> <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00_1500.pdf')">
           <div class="icon pdf"></div>
           ГОСТ РВ 1500.005-2021 </a></div>
       </div>
@@ -95,48 +96,48 @@
     <!-- Раздел "Презентационные материалы" -->
     <div class="skin-tree Pres-mat" id="PresSection">
       <div class="section-title">Презентационные материалы</div>
-      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/PresentUNITS.mp4')">
+      <div class="file-item" data-file="PresentUNITS" onclick="loadContent(this, 'files/Presents/Video/PresentUNITS.mp4')">
         <div>
           <div class="icon file"></div>
           <span>UNITS</span> </div>
       </div>
-      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/SborkaMDL.mp4')">
+      <div class="file-item" data-file="SborkaMDL" onclick="loadContent(this, 'files/Presents/Video/SborkaMDL.mp4')">
         <div>
           <div class="icon file"></div>
           <span>Сборка модуля</span> </div>
       </div>
-      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/Stapel.mp4')">
+      <div class="file-item" data-file="Stapel" onclick="loadContent(this, 'files/Presents/Video/Stapel.mp4')">
         <div>
           <div class="icon file"></div>
           <span>Стапель-кантователь</span> </div>
       </div>
-      <div class="file-item" onclick="loadContent(this, 'files/Presents/Video/Factory MKD-500.mp4')">
+      <div class="file-item" data-file="FactoryMKD500" onclick="loadContent(this, 'files/Presents/Video/Factory MKD-500.mp4')">
         <div>
           <div class="icon file"></div>
           <span>Завод МКД-500</span> </div>
-        <a href="#" class="verge3d-link" onclick="loadPdf(event, 'https://v3d.net/156d')">
+        <a class="verge3d-link" href="#" onclick="loadPdf(event, 'https://v3d.net/156d')">
         <div class="icon verge3d"></div>
         V3D </a> </div>
     </div>
   </div>
-  <div class="skin-split-pane col" style="cursor: col-resize;" id="resizer">
+  <div class="skin-split-pane col" id="resizer" style="cursor: col-resize;">
     <div class="skin-split-pane-inner"></div>
   </div>
   <!-- Правая колонка с контентом -->
   <div class="content-area" id="contentArea">
     <div class="loading" id="loadingIndicator"> <span>Загрузка...</span> </div>
-    <div id="startPage" class="start-page">
+    <div class="start-page" id="startPage">
       <div class="welcome-section">
         <h2>Добро пожаловать на портал Технической и Эксплуатационной Документации</h2>
         <p>Воспользуйтесь структурой слева или выберите изделие для просмотра документации:</p>
       </div>
       <div class="options-section">
-        <div class="item-option" onclick="showExploitationDocs()"> <img src="assets/images/ClearTraverce.png" alt="Механизированная траверса"> <span>Механизированная траверса</span> </div>
-        <div class="item-option" onclick="showTechnicalDocs()"> <img src="assets/images/ClearMod.png" alt="Модуль"> <span>Модуль</span> </div>
-        <div class="item-option" onclick="showIETPDocs()"> <img src="assets/images/LinTraverce.png" alt="Линейная траверса"> <span>Линейная траверса</span> </div>
+        <div class="item-option" onclick="showExploitationDocs()"> <img alt="Механизированная траверса" src="assets/images/ClearTraverce.png"/> <span>Механизированная траверса</span> </div>
+        <div class="item-option" onclick="showTechnicalDocs()"> <img alt="Модуль" src="assets/images/ClearMod.png"/> <span>Модуль</span> </div>
+        <div class="item-option" onclick="showIETPDocs()"> <img alt="Линейная траверса" src="assets/images/LinTraverce.png"/> <span>Линейная траверса</span> </div>
       </div>
     </div>
-    <div id="selectMessage" class="select-message">
+    <div class="select-message" id="selectMessage">
       <h2>Выберите элемент в структуре</h2>
     </div>
     <iframe id="contentFrame" src="files/C3D/MTPA-A-G1-41-00-00A-054A-A.htm"></iframe>
