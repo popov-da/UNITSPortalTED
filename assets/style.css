@@ -398,6 +398,7 @@ iframe {
   width: 2px;
   border-left: 1px solid gray;
   border-right: 1px solid gray;
+  cursor: col-resize;
 }
 .skin-split-pane.row .skin-split-pane-inner {
   width: 1em;
