@@ -24,6 +24,11 @@
   </div>
   <!-- Левая колонка со структурой -->
   <div class="structure" id="structure"> 
+    <!-- Поле поиска -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Поиск по структуре..." oninput="searchDocuments()">
+      <button class="clear-search" onclick="clearSearch()">×</button>
+    </div>
     <!-- Раздел "Эксплуатационная документация" -->
     <div class="skin-tree exploitation-docs" id="exploitationSection">
       <div class="section-title">Эксплуатационная документация ДЕМО</div>

@@ -49,31 +49,48 @@ function loadPdf(event, pdfUrl) {
 function toggleStructure() {
   const structure = document.getElementById('structure');
   const contentArea = document.getElementById('contentArea');
+  const resizer = document.getElementById('resizer');
   const toggleIcon = document.getElementById('toggleIcon');
-  // Анимация по скрытию/показу
-  structure.style.transition = 'width 1s ease';
-  contentArea.style.transition = 'width 1s ease';
+
   if (structure.classList.contains('hidden')) {
+    // Показываем структуру и разделитель
     structure.classList.remove('hidden');
     contentArea.classList.remove('full-width');
+    resizer.classList.remove('hidden');
     toggleIcon.textContent = '◀';
-    structure.style.width = '20%'; // Восстанавливаем стандартную ширину
-    contentArea.style.width = '80%';
-    document.getElementById('resizer').style.display = 'flex';
   } else {
+    // Скрываем структуру и разделитель
     structure.classList.add('hidden');
     contentArea.classList.add('full-width');
+    resizer.classList.add('hidden');
     toggleIcon.textContent = '▶';
-    structure.style.width = '0'; // Скрываем структуру
-    contentArea.style.width = '100%';
-    document.getElementById('resizer').style.display = 'none';
   }
 }
 
+// Поиск по документации
+function searchDocuments() {
+  const searchText = document.getElementById('searchInput').value.toLowerCase();
+  const fileItems = document.querySelectorAll('.file-item');
 
+  fileItems.forEach(item => {
+    const itemText = item.textContent.toLowerCase();
+    if (itemText.includes(searchText)) {
+      item.style.display = 'flex'; // Показываем элемент
+    } else {
+      item.style.display = 'none'; // Скрываем элемент
+    }
+  });
+}
+
+// Очистка поиска
+function clearSearch() {
+  document.getElementById('searchInput').value = ''; // Очищаем поле поиска
+  searchDocuments(); // Возвращаем все элементы
+}
 // Показ раздела для Большой траверсы
 function showExploitationDocs() {
   hideStartPage();
+  document.getElementById('selectMessage').style.display = 'flex';
   document.getElementById('exploitationSection').style.display = 'block';
   document.querySelectorAll('.skin-tree:not(#exploitationSection)').forEach(section => section.style.display = 'none');
 }
@@ -81,6 +98,7 @@ function showExploitationDocs() {
 // Показ раздела для Модуля
 function showTechnicalDocs() {
   hideStartPage();
+  document.getElementById('selectMessage').style.display = 'flex';
   document.getElementById('technicalSection').style.display = 'block';
   document.querySelectorAll('.skin-tree:not(#technicalSection)').forEach(section => section.style.display = 'none');
   // функция для отображения элементов с ID PresentMDL
@@ -101,11 +119,10 @@ function showTechnicalDocs() {
 // Показ только раздела "Линейная траверса"
 function showIETPDocs() {
   hideStartPage();
+  document.getElementById('selectMessage').style.display = 'flex';
   document.getElementById('EducateSection').style.display = 'block';
   document.getElementById('IETPSection').style.display = 'block';
   document.querySelectorAll('.skin-tree:not(#EducateSection):not(#IETPSection)').forEach(section => section.style.display = 'none');
-
-
 }
 
 
