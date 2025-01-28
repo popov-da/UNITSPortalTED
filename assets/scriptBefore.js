@@ -17,7 +17,8 @@ function showStartPage() {
   document.getElementById('loadingIndicator').style.display = 'none';
   document.getElementById('contentFrame').src = 'about:blank';
   document.getElementById('startPage').style.display = 'flex';
-  document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'block');
+  document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'block'); //показ всех секций
+  document.querySelectorAll('.skin-tree > .file-item').forEach(item => item.style.display = 'flex'); // показ всех элементов, входящих в секции
 
   // Сбрасываем активные вкладки при возврате на стартовую страницу
   resetActiveTabs();
@@ -49,7 +50,9 @@ function toggleStructure() {
   const structure = document.getElementById('structure');
   const contentArea = document.getElementById('contentArea');
   const toggleIcon = document.getElementById('toggleIcon');
-
+  // Анимация по скрытию/показу
+  structure.style.transition = 'width 1s ease';
+  contentArea.style.transition = 'width 1s ease';
   if (structure.classList.contains('hidden')) {
     structure.classList.remove('hidden');
     contentArea.classList.remove('full-width');
@@ -75,19 +78,34 @@ function showExploitationDocs() {
   document.querySelectorAll('.skin-tree:not(#exploitationSection)').forEach(section => section.style.display = 'none');
 }
 
-// Показ раздела для Большой траверсы
+// Показ раздела для Модуля
 function showTechnicalDocs() {
   hideStartPage();
   document.getElementById('technicalSection').style.display = 'block';
   document.querySelectorAll('.skin-tree:not(#technicalSection)').forEach(section => section.style.display = 'none');
+  // функция для отображения элементов с ID PresentMDL
+  document.getElementById('PresSection').style.display = 'block';
+  // Получаем все элементы с классом .file-item внутри секции с ID PresSection
+  document.querySelectorAll('#PresSection .file-item').forEach(item => {
+    if (!item.id.includes('PresentMDL')) {
+      // Скрываем элементы, ID которых не содержит "PresentMDL"
+      item.style.display = 'none';
+    } else {
+      // Показываем элементы, ID которых содержит "PresentMDL"
+      item.style.display = 'block';
+    }
+  });
+
 }
 
-  // Показ только раздела "Линейная траверса"
+// Показ только раздела "Линейная траверса"
 function showIETPDocs() {
   hideStartPage();
   document.getElementById('EducateSection').style.display = 'block';
-document.getElementById('IETPSection').style.display = 'block';
+  document.getElementById('IETPSection').style.display = 'block';
   document.querySelectorAll('.skin-tree:not(#EducateSection):not(#IETPSection)').forEach(section => section.style.display = 'none');
+
+
 }
 
 
