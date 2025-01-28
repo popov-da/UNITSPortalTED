@@ -1,36 +1,43 @@
-// Функция скрытия стартовой страницы
+// Скрытие стартовой страницы
 function hideStartPage() {
   const startPage = document.getElementById('startPage');
   startPage.style.display = 'none';
+
+  // Снимаем активный класс у всех вкладок
+  resetActiveTabs();
 }
-// Функция отображения стартовой страницы
+
+// Сброс активных вкладок
+function resetActiveTabs() {
+  document.querySelectorAll('.file-item').forEach(item => item.classList.remove('active'));
+}
+
+// Показ стартовой страницы
 function showStartPage() {
-  // Скрываем индикатор загрузки и останавливаем загрузку фрейма
   document.getElementById('loadingIndicator').style.display = 'none';
   document.getElementById('contentFrame').src = 'about:blank';
-  // Отображаем стартовую страницу и обе секции
   document.getElementById('startPage').style.display = 'flex';
-  document.getElementById('exploitationSection').style.display = 'block';
-  document.getElementById('EducateSection').style.display = 'block';
-  document.getElementById('technicalSection').style.display = 'block';
-  document.getElementById('IETPSection').style.display = 'block';
-  document.getElementById('PresSection').style.display = 'block';
+  document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'block');
+
+  // Сбрасываем активные вкладки при возврате на стартовую страницу
+  resetActiveTabs();
 }
-// Функция загрузки HTML-контента или PDF в iframe с подсветкой активной вкладки
+
+// Загрузка контента
 function loadContent(element, pageUrl) {
-  hideStartPage(); // Скрыть стартовую страницу при загрузке любого элемента
+  hideStartPage(); // Скрываем стартовую страницу
   const loadingIndicator = document.getElementById('loadingIndicator');
   loadingIndicator.style.display = 'flex';
-  // Снятие активного класса с предыдущей вкладки
-  document.querySelectorAll('.file-item').forEach(item => item.classList.remove('active'));
-  // Установка активного класса на текущую вкладку
+
+  // Снимаем активный класс у всех вкладок и добавляем его к текущей
+  resetActiveTabs();
   element.classList.add('active');
+
   const iframe = document.getElementById('contentFrame');
-  iframe.onload = function () {
-    loadingIndicator.style.display = 'none';
-  };
+  iframe.onload = () => loadingIndicator.style.display = 'none';
   iframe.src = pageUrl;
 }
+
 // Функция загрузки PDF и предотвращения всплытия
 function loadPdf(event, pdfUrl) {
   hideStartPage(); // Скрыть стартовую страницу при загрузке любого PDF
@@ -61,52 +68,29 @@ function toggleStructure() {
 }
 
 
+// Показ раздела для Большой траверсы
 function showExploitationDocs() {
   hideStartPage();
-  document.getElementById('selectMessage').style.display = 'flex';
-  // Показ только раздела "Большая траверса"
   document.getElementById('exploitationSection').style.display = 'block';
-  document.getElementById('EducateSection').style.display = 'none';
-  document.getElementById('technicalSection').style.display = 'none';
-  document.getElementById('IETPSection').style.display = 'none';
-  document.getElementById('PresSection').style.display = 'none';
+  document.querySelectorAll('.skin-tree:not(#exploitationSection)').forEach(section => section.style.display = 'none');
 }
 
+// Показ раздела для Большой траверсы
 function showTechnicalDocs() {
   hideStartPage();
-  document.getElementById('selectMessage').style.display = 'flex';
-  // Показ только раздела "Модуль"
-  document.getElementById('exploitationSection').style.display = 'none';
-  document.getElementById('EducateSection').style.display = 'none';
   document.getElementById('technicalSection').style.display = 'block';
-  document.getElementById('IETPSection').style.display = 'none';
-  document.getElementById('PresSection').style.display = 'none';
+  document.querySelectorAll('.skin-tree:not(#technicalSection)').forEach(section => section.style.display = 'none');
 }
 
+  // Показ только раздела "Линейная траверса"
 function showIETPDocs() {
   hideStartPage();
-  document.getElementById('selectMessage').style.display = 'flex';
-  // Показ только раздела "Линейная траверса"
-  document.getElementById('exploitationSection').style.display = 'none';
   document.getElementById('EducateSection').style.display = 'block';
-  document.getElementById('technicalSection').style.display = 'none';
-  document.getElementById('IETPSection').style.display = 'block';
-  document.getElementById('PresSection').style.display = 'none';
+document.getElementById('IETPSection').style.display = 'block';
+  document.querySelectorAll('.skin-tree:not(#EducateSection):not(#IETPSection)').forEach(section => section.style.display = 'none');
 }
 
-function loadContent(element, pageUrl) {
-  hideStartPage();
-  document.getElementById('selectMessage').style.display = 'none'; // Скрываем сообщение
-  const loadingIndicator = document.getElementById('loadingIndicator');
-  loadingIndicator.style.display = 'flex';
-  document.querySelectorAll('.file-item').forEach(item => item.classList.remove('active'));
-  element.classList.add('active');
-  const iframe = document.getElementById('contentFrame');
-  iframe.onload = function () {
-    loadingIndicator.style.display = 'none';
-  };
-  iframe.src = pageUrl;
-}
+
 // Анимация и сообщение о повороте устройства
 function checkOrientation() {
   const rotateMessage = document.getElementById('rotateMessage');
