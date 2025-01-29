@@ -49,7 +49,7 @@ function loadPdf(event, pdfUrl) {
 function toggleStructure() {
   const structure = document.getElementById('structure');
   const contentArea = document.getElementById('contentArea');
-  const resizer = document.getElementById('resizer');
+  const resizer = document.getElementById('skin-split-pane');
   const toggleIcon = document.getElementById('toggleIcon');
 
   if (structure.classList.contains('hidden')) {
@@ -58,12 +58,16 @@ function toggleStructure() {
     contentArea.classList.remove('full-width');
     resizer.classList.remove('hidden');
     toggleIcon.textContent = '◀';
+    structure.style.width = '20%'; // Восстанавливаем стандартную ширину
+    contentArea.style.width = '80%';
   } else {
     // Скрываем структуру и разделитель
     structure.classList.add('hidden');
     contentArea.classList.add('full-width');
     resizer.classList.add('hidden');
     toggleIcon.textContent = '▶';
+    structure.style.width = '0'; // Скрываем структуру
+    contentArea.style.width = '100%';
   }
 }
 

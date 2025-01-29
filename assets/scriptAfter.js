@@ -1,4 +1,4 @@
-const resizer = document.getElementById('resizer');
+const resizer = document.getElementById('skin-split-pane');
 const leftPanel = document.getElementById('structure');
 const rightPanel = document.getElementById('contentArea');
 const container = document.querySelector('.container');

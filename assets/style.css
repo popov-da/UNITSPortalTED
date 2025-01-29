@@ -84,10 +84,9 @@ body {
   padding-bottom: 30px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
-  transition: width 0.3s ease;
+  transition: width 0.1s ease; /* Влияет на скорость resize  */
 }
 .hidden {
-  width: 0;
   padding: 0;
   overflow: hidden;
   transition: width 0.3s ease;
@@ -319,6 +318,7 @@ iframe {
   gap: 10px; /* Расстояние между кнопками */
   background-color: #f4f4f4;
   border-right: 1px solid #ddd;
+  z-index: 90;
 }
 .control-button {
   width: 40px;
