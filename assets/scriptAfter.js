@@ -1,44 +1,38 @@
-const resizer = document.getElementById('resizer');
+const resizer = document.getElementById('skin-split-pane');
 const leftPanel = document.getElementById('structure');
 const rightPanel = document.getElementById('contentArea');
 const container = document.querySelector('.container');
 
 let isResizing = false;
-let animationFrameId = null;
-let containerWidth = container.offsetWidth; // Кэшируем ширину контейнера
-
-// Обновляем ширину контейнера только при изменении размеров окна
-window.addEventListener('resize', () => {
-  containerWidth = container.offsetWidth;
-});
+let startX = 0;
+let startWidth = 0;
 
 resizer.addEventListener('mousedown', (e) => {
+  e.preventDefault(); // Отменяем выделение текста
   isResizing = true;
+  startX = e.clientX;
+  startWidth = leftPanel.offsetWidth; // Запоминаем текущую ширину
   document.body.style.cursor = 'col-resize';
-  document.body.style.pointerEvents = 'none'; // Отключаем события на другие элементы
+  document.body.style.pointerEvents = 'none';
 });
 
 document.addEventListener('mousemove', (e) => {
   if (!isResizing) return;
 
-  if (animationFrameId) return;
-  animationFrameId = requestAnimationFrame(() => {
-    const offsetX = e.clientX; // Текущая позиция курсора
-    const newWidth = (offsetX / containerWidth) * 100;
+  e.preventDefault();
+  const deltaX = e.clientX - startX; // Разница между начальной и текущей позицией
+  const newWidth = ((startWidth + deltaX) / container.offsetWidth) * 100; // Вычисляем новую ширину в процентах
 
-    if (newWidth >= 10 && newWidth <= 50) {
-      leftPanel.style.width = `${newWidth}%`;
-      rightPanel.style.width = `${100 - newWidth}%`;
-    }
-
-    animationFrameId = null;
-  });
+  if (newWidth >= 15 && newWidth <= 40) {
+    leftPanel.style.width = `${newWidth}%`;
+    rightPanel.style.width = `${100 - newWidth}%`;
+  }
 });
 
 document.addEventListener('mouseup', () => {
   if (isResizing) {
     isResizing = false;
     document.body.style.cursor = 'default';
-    document.body.style.pointerEvents = ''; // Включаем события обратно
+    document.body.style.pointerEvents = '';
   }
 });
