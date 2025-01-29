@@ -55,7 +55,6 @@ function toggleStructure() {
 
   if (structure.classList.contains('hidden')) {
     // Показываем структуру и разделитель
-    document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'block');
     structure.classList.remove('hidden');
     contentArea.classList.remove('full-width');
     resizer.classList.remove('hidden');
@@ -65,7 +64,6 @@ function toggleStructure() {
 
   } else {
     // Скрываем структуру и разделитель
-    document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'none');
     structure.classList.add('hidden');
     contentArea.classList.add('full-width');
     resizer.classList.add('hidden');
