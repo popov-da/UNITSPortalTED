@@ -27,7 +27,7 @@ function showStartPage() {
 // Загрузка контента
 function loadContent(element, pageUrl) {
   hideStartPage(); // Скрываем стартовую страницу
-	document.getElementById('selectMessage').style.display = 'none';
+  document.getElementById('selectMessage').style.display = 'none';
   const loadingIndicator = document.getElementById('loadingIndicator');
   loadingIndicator.style.display = 'flex';
 
@@ -55,17 +55,17 @@ function toggleStructure() {
 
   if (structure.classList.contains('hidden')) {
     // Показываем структуру и разделитель
-	  document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'block');
+    document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'block');
     structure.classList.remove('hidden');
     contentArea.classList.remove('full-width');
     resizer.classList.remove('hidden');
     toggleIcon.textContent = '◀';
     structure.style.width = '20%'; // Восстанавливаем стандартную ширину
     contentArea.style.width = '80%';
-	  
+
   } else {
     // Скрываем структуру и разделитель
-	  document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'none');
+    document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'none');
     structure.classList.add('hidden');
     contentArea.classList.add('full-width');
     resizer.classList.add('hidden');
