@@ -59,7 +59,7 @@ function toggleStructure() {
     structure.classList.remove('hidden');
     contentArea.classList.remove('full-width');
     resizer.classList.remove('hidden');
-    toggleIcon.textContent = '◀';
+    toggleIcon.textContent = '«';
     structure.style.width = '20%'; // Восстанавливаем стандартную ширину
     contentArea.style.width = '80%';
 
@@ -69,7 +69,7 @@ function toggleStructure() {
     structure.classList.add('hidden');
     contentArea.classList.add('full-width');
     resizer.classList.add('hidden');
-    toggleIcon.textContent = '▶';
+    toggleIcon.textContent = '»';
     structure.style.width = '0'; // Скрываем структуру
     contentArea.style.width = '100%';
   }

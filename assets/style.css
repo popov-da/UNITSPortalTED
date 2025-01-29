@@ -311,47 +311,48 @@ iframe {
   font-size: 1em; /* Яркий текст подписи */
 }
 .control-panel {
+  position: fixed; /* Фиксируем относительно экрана */
+  top: 8px;
+  left: 0;
   display: flex;
-  flex-direction: column; /* Кнопки располагаются вертикально */
-  align-items: center;
-  padding: 10px;
-  gap: 10px; /* Расстояние между кнопками */
-  background-color: #f4f4f4;
-  border-right: 1px solid #ddd;
-  z-index: 90;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 120; /* Поверх всех элементов */
+  pointer-events: none; /* Чтобы не блокировать клики по другим элементам */
 }
 .control-button {
-  width: 40px;
+  width: 10px;
   height: 40px;
-  background-color: #3152BA;
+  background: linear-gradient(135deg, #3152BA, #CBD4EE); /* Градиент */
   color: white;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.control-button:hover {
-  background-color: #004494;
-}
-.control-button {
-  padding: 8px;
-  background-color: #fff;
-  color: #3152BA;
-  border: 1px solid #3152BA;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s, box-shadow 0.3s;
+  transition: width 0.5s ease-in-out, background 0.3s ease-in-out;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0 5px;
+  pointer-events: auto;
+}
+/* Анимация наведения */
+.control-button:hover, .control-button:focus-within {
   width: 40px;
-  height: 40px;
+  background: linear-gradient(135deg, #3152BA, #98A8DC);
 }
-.control-button:hover {
-  background-color: #e6f2ff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+/* Исправляем фон иконок */
+.control-button span {
+  display: none;
+  color: white;
 }
+.control-button:hover span, .control-button:focus-within span {
+  display: inline;
+}
+/* Исправляем иконку дома */
 .icon-home {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/66/Home_icon_blue-1.png');
+  background-image: url('https://img.icons8.com/?size=100&id=2797&format=png&color=FFFFFF');
   background-size: contain;
   background-repeat: no-repeat;
   width: 20px;
