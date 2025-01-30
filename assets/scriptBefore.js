@@ -22,23 +22,51 @@ function showStartPage() {
 
   // Сбрасываем активные вкладки при возврате на стартовую страницу
   resetActiveTabs();
+  // Очистка URL при возврате на стартовую страницу
+  history.pushState({}, '', window.location.origin);
 }
+// Функция загрузки документа с обновлением URL
+function loadContent(element, url) {
+  hideStartPage();
+  document.getElementById("selectMessage").style.display = "none";
+  const loadingIndicator = document.getElementById("loadingIndicator");
+  loadingIndicator.style.display = "flex";
 
-// Загрузка контента
-function loadContent(element, pageUrl) {
-  hideStartPage(); // Скрываем стартовую страницу
-  document.getElementById('selectMessage').style.display = 'none';
-  const loadingIndicator = document.getElementById('loadingIndicator');
-  loadingIndicator.style.display = 'flex';
-
-  // Снимаем активный класс у всех вкладок и добавляем его к текущей
   resetActiveTabs();
-  element.classList.add('active');
+  element.classList.add("active");
 
-  const iframe = document.getElementById('contentFrame');
-  iframe.onload = () => loadingIndicator.style.display = 'none';
-  iframe.src = pageUrl;
+  const contentFrame = document.getElementById("contentFrame");
+  contentFrame.onload = () => loadingIndicator.style.display = "none";
+  contentFrame.src = url;
+
+  // Обновляем URL без перезагрузки страницы
+  history.pushState({}, '', "?doc=" + encodeURIComponent(url));
 }
+
+// Функция обработки загрузки страницы с параметром doc
+window.addEventListener("load", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const docUrl = urlParams.get('doc');
+
+  if (docUrl) {
+    const elements = document.querySelectorAll(".file-item");
+    let found = false;
+
+    elements.forEach(element => {
+      const onclickValue = element.getAttribute("onclick");
+      if (onclickValue && onclickValue.includes(docUrl)) {
+        found = true;
+        loadContent(element, docUrl);
+      }
+    });
+
+    // Если не найдено, загружаем стартовую страницу
+    if (!found) {
+      showStartPage();
+    }
+  }
+});
+
 
 // Функция загрузки PDF и предотвращения всплытия
 function loadPdf(event, pdfUrl) {
