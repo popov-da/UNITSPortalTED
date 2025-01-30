@@ -1,153 +1,340 @@
-<!DOCTYPE html>
-
-<html lang="ru">
+<!DOCTYPE html> <!-- Определяем тип документа (HTML5), это важно для корректной интерпретации кода браузерами -->
+<html lang="ru"> <!-- Указываем язык документа (русский), полезно для SEO и доступности (скринридеры, перевод) -->
 <head>
-<meta charset="utf-8"/>
-<meta name="description" content="Author: D.A. Popov, Portal of Technical and Operational Documentation">
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Портал ТЭД</title>
-<link href="https://units.ru/splash/img/dark-2x.png" rel="icon" type="image/png"/>
-<link href="assets/style.css" rel="stylesheet"/>
-<script src="assets/scriptBefore.js"></script> 
-<script defer="" src="assets/scriptAfter.js"></script> <!-- Скрипт регулирующий ширину левой колонки, требуется загрузка после формирования структуры -->
+  <meta charset="utf-8"/> <!-- Устанавливаем кодировку UTF-8, чтобы корректно отображать русские символы -->
+  <meta name="description" content="Author: D.A. Popov, Portal of Technical and Operational Documentation"> <!-- Мета-описание страницы, важно для SEO -->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/> <!-- Настройка адаптивности на мобильных устройствах (масштаб 1:1) -->
+  <title>Портал ТЭД</title> <!-- Заголовок вкладки браузера -->
+  <link href="https://units.ru/splash/img/dark-2x.png" rel="icon" type="image/png"/> <!-- Фавикон (иконка сайта) -->
+  <link href="assets/style.css" rel="stylesheet"/> <!-- Подключаем внешний файл со стилями -->
+  
+  <!-- 
+    Рекомендуется размещать скрипты как можно ближе к концу body с атрибутами defer или async,
+    чтобы не блокировать загрузку страницы. Здесь мы используем defer для второго скрипта, 
+    а первый может быть критичным для начальной отрисовки.
+  -->
+  <script src="assets/scriptBefore.js"></script>  <!-- Скрипт, который должен выполниться до построения DOM (если это критично) -->
+  <script defer="" src="assets/scriptAfter.js"></script> <!-- Скрипт, который выполняется после построения структуры DOM -->
+
 </head>
 <body>
-<div id="rotateMessage" class="rotate-message">
-  <div class="rotate-container">
-    <p>Пожалуйста, поверните устройство</p>
-  </div>
-</div>
-<div class="container"> 
-  <!-- Панель кнопок управления -->
-  <div class="control-panel">
-    <button class="control-button" onclick="toggleStructure()"> <span class="toggle-icon" id="toggleIcon">«</span> </button>
-    <button class="control-button" onclick="showStartPage()"> <span class="icon-home"></span> </button>
-  </div>
-  <!-- Левая колонка со структурой -->
-  <div class="structure" id="structure"> 
-    <!-- Поле поиска -->
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Поиск по структуре..." oninput="searchDocuments()">
-      <button class="clear-search" onclick="clearSearch()">×</button>
-    </div>
-    <!-- Раздел "Эксплуатационная документация" -->
-    <div class="skin-tree exploitation-docs" id="exploitationSection">
-      <div class="section-title">Эксплуатационная документация ДЕМО</div>
-      <div class="file-item" data-file="MTPA-A-G1-41-00-00A-921A-A" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-921A-A.htm')">
-        <div>
-          <div class="icon file"></div>
-          <span>Руководство по технической эксплуатации</span> </div>
-        <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-00-00A-921A-A.pdf')">
-        <div class="icon pdf"></div>
-        PDF </a> </div>
-      <div class="file-item" data-file="MTPA-A-G1-41-01-010-941A-A" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-01-010-941A-A.htm')">
-        <div>
-          <div class="icon file"></div>
-          <span>Каталог деталей и сборочных единиц</span> </div>
-        <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-01-010-941A-A.pdf')">
-        <div class="icon pdf"></div>
-        PDF </a> </div>
-      <div class="file-item" data-file="MTPA-A-G1-41-00-00A-054A-A" onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-054A-A.htm')">
-        <div>
-          <div class="icon file"></div>
-          <span>Альбом электрических схем</span> </div>
-        <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-00-00A-054A-A.pdf')">
-        <div class="icon pdf"></div>
-        PDF </a> </div>
-    </div>
-    <!-- Раздел "Учебная документация" -->
-    <div class="skin-tree Educate-docs" id="EducateSection">
-      <div class="section-title">Учебная документация ДЕМО</div>
-      <div class="file-item" data-file="HeplForLearn" onclick="loadContent(this, 'files/Help/HeplForLearn.html')">
-        <div>
-          <div class="icon file"></div>
-          <span>Каретка - Демонтаж и монтаж</span> </div>
-      </div>
-    </div>
-    <!-- Раздел "Технологическая документация" -->
-    <div class="skin-tree technical-docs" id="technicalSection">
-      <div class="section-title">Технологическая документация ДЕМО</div>
-      <div class="file-item" data-file="МонтажВанны" onclick="loadContent(this, 'files/C3D/Монтаж ванны.htm')">
-        <div>
-          <div class="icon file"></div>
-          <span>Монтаж ванны</span> </div>
-        <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/Монтаж ванны.pdf')">
-        <div class="icon pdf"></div>
-        PDF </a> </div>
-      <div class="file-item" data-file="МонтажДвери" onclick="loadContent(this, 'files/C3D/ТК на монтаж межкомнатных дверей.htm')">
-        <div>
-          <div class="icon file"></div>
-          <span>Монтаж двери</span> </div>
-        <a class="verge3d-link" href="#" onclick="loadPdf(event, 'https://v3d.net/147m')">
-        <div class="icon verge3d"></div>
-        V3D </a> <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/ТК на монтаж межкомнатных дверей.pdf')">
-        <div class="icon pdf"></div>
-        PDF </a> </div>
-    </div>
-    <!-- Раздел "Интерактивная публикация" -->
-    <div class="skin-tree IETP-docs" id="IETPSection">
-      <div class="section-title">Интерактивная публикация</div>
-      <div class="file-item" onclick="loadContent(this, 'files/C3D/MTPM-UNITS-MM000-00.htm'); toggleStructure()">
-        <div>
-          <div class="icon file"></div>
-          <span>MTPM-UNITS-MM000-00 Линейная траверса</span> <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00.pdf')">
-          <div class="icon pdf"></div>
-          S1000D </a> <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00_18675.pdf')">
-          <div class="icon pdf"></div>
-          ГОСТ 18675-2012 </a> <a class="pdf-link" href="#" onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00_1500.pdf')">
-          <div class="icon pdf"></div>
-          ГОСТ РВ 1500.005-2021 </a></div>
-      </div>
-    </div>
-    <!-- Раздел "Презентационные материалы" -->
-    <div class="skin-tree Pres-mat" id="PresSection">
-      <div class="section-title">Презентационные материалы</div>
-      <div class="file-item" id="PresentUnits" data-file="PresentUNITS" onclick="loadContent(this, 'files/Presents/Video/PresentUNITS.mp4')">
-        <div>
-          <div class="icon file"></div>
-          <span>UNITS</span> </div>
-      </div>
-      <div class="file-item" id="PresentMDLSborkaMDL" data-file="SborkaMDL" onclick="loadContent(this, 'files/Presents/Video/SborkaMDL.mp4')">
-        <div>
-          <div class="icon file"></div>
-          <span>Сборка модуля</span> </div>
-      </div>
-      <div class="file-item" id="PresentMDLStapel" data-file="Stapel" onclick="loadContent(this, 'files/Presents/Video/Stapel.mp4')">
-        <div>
-          <div class="icon file"></div>
-          <span>Стапель-кантователь</span> </div>
-      </div>
-      <div class="file-item"  id="PresentFactory" data-file="FactoryMKD500" onclick="loadContent(this, 'files/Presents/Video/Factory MKD-500.mp4')">
-        <div>
-          <div class="icon file"></div>
-          <span>Завод МКД-500</span> </div>
-        <a class="verge3d-link" href="#" onclick="loadPdf(event, 'https://v3d.net/156d')">
-        <div class="icon verge3d"></div>
-        V3D </a> </div>
+  <!-- Блок, который, вероятно, отображается при необходимости повернуть устройство (на мобильных) -->
+  <div id="rotateMessage" class="rotate-message">
+    <div class="rotate-container">
+      <p>Пожалуйста, поверните устройство</p>
     </div>
   </div>
-  <div class="skin-split-pane col" id="skin-split-pane" style="cursor: col-resize;">
-    <div class="skin-split-pane-inner"></div>
-  </div>
-  <!-- Правая колонка с контентом -->
-  <div class="content-area" id="contentArea">
-    <div class="loading" id="loadingIndicator"> <span>Загрузка</span> </div>
-    <div class="start-page" id="startPage">
-      <div class="welcome-section">
-        <h2>Добро пожаловать на портал Технической и Эксплуатационной Документации</h2>
-        <p>Воспользуйтесь структурой слева или выберите изделие для просмотра документации:</p>
+
+  <!-- Основной контейнер страницы -->
+  <div class="container"> 
+    <!-- Панель кнопок управления в верхней части левой колонки -->
+    <div class="control-panel">
+      <!-- Кнопка, сворачивающая/разворачивающая левую колонку -->
+      <button class="control-button" onclick="toggleStructure()"> 
+        <span class="toggle-icon" id="toggleIcon">«</span> 
+      </button>
+      <!-- Кнопка, возвращающая к стартовой странице -->
+      <button class="control-button" onclick="showStartPage()"> 
+        <span class="icon-home"></span> 
+      </button>
+    </div>
+
+    <!-- Левая колонка со структурой документации -->
+    <div class="structure" id="structure"> 
+      <!-- Поле поиска по дереву документов -->
+      <div class="search-box">
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Поиск по структуре..." 
+          oninput="searchDocuments()"
+        > <!-- При вводе вызывается searchDocuments() для фильтрации -->
+        <button class="clear-search" onclick="clearSearch()">×</button> <!-- Кнопка для очистки поиска -->
       </div>
-      <div class="options-section">
-        <div class="item-option" onclick="showExploitationDocs()"> <img alt="Механизированная траверса" src="assets/images/ClearTraverce.png"/> <span>Механизированная траверса</span> </div>
-        <div class="item-option" onclick="showTechnicalDocs()"> <img alt="Модуль" src="assets/images/ClearMod.png"/> <span>Модуль</span> </div>
-        <div class="item-option" onclick="showIETPDocs()"> <img alt="Линейная траверса" src="assets/images/LinTraverce.png"/> <span>Линейная траверса</span> </div>
+
+      <!-- Раздел "Эксплуатационная документация" -->
+      <div class="skin-tree exploitation-docs" id="exploitationSection">
+        <div class="section-title">Эксплуатационная документация ДЕМО</div>
+
+        <!-- Элемент-строка с файлом в структуре -->
+        <div 
+          class="file-item" 
+          data-file="MTPA-A-G1-41-00-00A-921A-A" 
+          onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-921A-A.htm')"
+        >
+          <div>
+            <div class="icon file"></div> <!-- Иконка файла -->
+            <span>Руководство по технической эксплуатации</span>
+          </div>
+          <!-- Ссылка для открытия PDF-файла (через функцию loadPdf) -->
+          <a 
+            class="pdf-link" 
+            href="#" 
+            onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-00-00A-921A-A.pdf')"
+          >
+            <div class="icon pdf"></div>
+            PDF
+          </a>
+        </div>
+
+        <!-- Аналогичные элементы для других документов -->
+        <div 
+          class="file-item" 
+          data-file="MTPA-A-G1-41-01-010-941A-A" 
+          onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-01-010-941A-A.htm')"
+        >
+          <div>
+            <div class="icon file"></div>
+            <span>Каталог деталей и сборочных единиц</span>
+          </div>
+          <a 
+            class="pdf-link" 
+            href="#" 
+            onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-01-010-941A-A.pdf')"
+          >
+            <div class="icon pdf"></div>
+            PDF
+          </a>
+        </div>
+
+        <div 
+          class="file-item" 
+          data-file="MTPA-A-G1-41-00-00A-054A-A" 
+          onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-054A-A.htm')"
+        >
+          <div>
+            <div class="icon file"></div>
+            <span>Альбом электрических схем</span>
+          </div>
+          <a 
+            class="pdf-link" 
+            href="#" 
+            onclick="loadPdf(event, 'files/PDF/MTPA-A-G1-41-00-00A-054A-A.pdf')"
+          >
+            <div class="icon pdf"></div>
+            PDF
+          </a>
+        </div>
+      </div>
+
+      <!-- Раздел "Учебная документация" -->
+      <div class="skin-tree Educate-docs" id="EducateSection">
+        <div class="section-title">Учебная документация ДЕМО</div>
+        <div 
+          class="file-item" 
+          data-file="HeplForLearn" 
+          onclick="loadContent(this, 'files/Help/HeplForLearn.html')"
+        >
+          <div>
+            <div class="icon file"></div>
+            <span>Каретка - Демонтаж и монтаж</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Раздел "Технологическая документация" -->
+      <div class="skin-tree technical-docs" id="technicalSection">
+        <div class="section-title">Технологическая документация ДЕМО</div>
+        <div 
+          class="file-item" 
+          data-file="МонтажВанны" 
+          onclick="loadContent(this, 'files/C3D/Монтаж ванны.htm')"
+        >
+          <div>
+            <div class="icon file"></div>
+            <span>Монтаж ванны</span>
+          </div>
+          <a 
+            class="pdf-link" 
+            href="#" 
+            onclick="loadPdf(event, 'files/PDF/Монтаж ванны.pdf')"
+          >
+            <div class="icon pdf"></div>
+            PDF
+          </a>
+        </div>
+
+        <div 
+          class="file-item" 
+          data-file="МонтажДвери" 
+          onclick="loadContent(this, 'files/C3D/ТК на монтаж межкомнатных дверей.htm')"
+        >
+          <div>
+            <div class="icon file"></div>
+            <span>Монтаж двери</span>
+          </div>
+          <!-- Ссылки на разные форматы: Verge3D и PDF -->
+          <a 
+            class="verge3d-link" 
+            href="#" 
+            onclick="loadPdf(event, 'https://v3d.net/147m')"
+          >
+            <div class="icon verge3d"></div>
+            V3D
+          </a>
+          <a 
+            class="pdf-link" 
+            href="#" 
+            onclick="loadPdf(event, 'files/PDF/ТК на монтаж межкомнатных дверей.pdf')"
+          >
+            <div class="icon pdf"></div>
+            PDF
+          </a>
+        </div>
+      </div>
+
+      <!-- Раздел "Интерактивная публикация" -->
+      <div class="skin-tree IETP-docs" id="IETPSection">
+        <div class="section-title">Интерактивная публикация</div>
+        <div 
+          class="file-item" 
+          onclick="loadContent(this, 'files/C3D/MTPM-UNITS-MM000-00.htm'); toggleStructure()"
+        >
+          <div>
+            <div class="icon file"></div>
+            <!-- При клике загружаем контент и сворачиваем левую колонку -->
+            <span>MTPM-UNITS-MM000-00 Линейная траверса</span> 
+            <a 
+              class="pdf-link" 
+              href="#" 
+              onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00.pdf')"
+            >
+              <div class="icon pdf"></div>
+              S1000D
+            </a> 
+            <a 
+              class="pdf-link" 
+              href="#" 
+              onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00_18675.pdf')"
+            >
+              <div class="icon pdf"></div>
+              ГОСТ 18675-2012
+            </a> 
+            <a 
+              class="pdf-link" 
+              href="#" 
+              onclick="loadPdf(event, 'files/PDF/MTPM-UNITS-MM000-00_1500.pdf')"
+            >
+              <div class="icon pdf"></div>
+              ГОСТ РВ 1500.005-2021
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Раздел "Презентационные материалы" -->
+      <div class="skin-tree Pres-mat" id="PresSection">
+        <div class="section-title">Презентационные материалы</div>
+
+        <!-- Несколько элементов, каждый из которых при клике загружает видео в правую колонку -->
+        <div 
+          class="file-item" 
+          id="PresentUnits" 
+          data-file="PresentUNITS" 
+          onclick="loadContent(this, 'files/Presents/Video/PresentUNITS.mp4')"
+        >
+          <div>
+            <div class="icon file"></div>
+            <span>UNITS</span>
+          </div>
+        </div>
+
+        <div 
+          class="file-item" 
+          id="PresentMDLSborkaMDL" 
+          data-file="SborkaMDL" 
+          onclick="loadContent(this, 'files/Presents/Video/SborkaMDL.mp4')"
+        >
+          <div>
+            <div class="icon file"></div>
+            <span>Сборка модуля</span>
+          </div>
+        </div>
+
+        <div 
+          class="file-item" 
+          id="PresentMDLStapel" 
+          data-file="Stapel" 
+          onclick="loadContent(this, 'files/Presents/Video/Stapel.mp4')"
+        >
+          <div>
+            <div class="icon file"></div>
+            <span>Стапель-кантователь</span>
+          </div>
+        </div>
+
+        <div 
+          class="file-item"  
+          id="PresentFactory" 
+          data-file="FactoryMKD500" 
+          onclick="loadContent(this, 'files/Presents/Video/Factory MKD-500.mp4')"
+        >
+          <div>
+            <div class="icon file"></div>
+            <span>Завод МКД-500</span>
+          </div>
+          <a 
+            class="verge3d-link" 
+            href="#" 
+            onclick="loadPdf(event, 'https://v3d.net/156d')"
+          >
+            <div class="icon verge3d"></div>
+            V3D
+          </a>
+        </div>
       </div>
     </div>
-    <div class="select-message" id="selectMessage">
-      <h2>Выберите элемент в структуре</h2>
+
+    <!-- Вертикальный разделитель (resize-панель) между колонками -->
+    <div 
+      class="skin-split-pane col" 
+      id="skin-split-pane" 
+      style="cursor: col-resize;"
+    >
+      <div class="skin-split-pane-inner"></div>
     </div>
-    <iframe id="contentFrame" src="files/C3D/MTPA-A-G1-41-00-00A-054A-A.htm"></iframe>
+
+    <!-- Правая колонка: область для контента (iframe, стартовая страница и пр.) -->
+    <div class="content-area" id="contentArea">
+      <!-- Индикатор загрузки для показа во время подгрузки материалов -->
+      <div class="loading" id="loadingIndicator">
+        <span>Загрузка</span>
+      </div>
+
+      <!-- Стартовая страница, отображается при первом входе или при нажатии "домой" -->
+      <div class="start-page" id="startPage">
+        <div class="welcome-section">
+          <h2>Добро пожаловать на портал Технической и Эксплуатационной Документации</h2>
+          <p>Воспользуйтесь структурой слева или выберите изделие для просмотра документации:</p>
+        </div>
+        <div class="options-section">
+          <!-- Плитки для перехода к разным разделам -->
+          <div class="item-option" onclick="showExploitationDocs()"> 
+            <img alt="Механизированная траверса" src="assets/images/ClearTraverce.png"/> 
+            <span>Механизированная траверса</span> 
+          </div>
+          <div class="item-option" onclick="showTechnicalDocs()"> 
+            <img alt="Модуль" src="assets/images/ClearMod.png"/> 
+            <span>Модуль</span> 
+          </div>
+          <div class="item-option" onclick="showIETPDocs()"> 
+            <img alt="Линейная траверса" src="assets/images/LinTraverce.png"/> 
+            <span>Линейная траверса</span> 
+          </div>
+        </div>
+      </div>
+
+      <!-- Сообщение, если пользователь не выбрал документ в структуре -->
+      <div class="select-message" id="selectMessage">
+        <h2>Выберите элемент в структуре</h2>
+      </div>
+
+      <!-- Основная рабочая область для отображения HTML-файлов или видео -->
+      <iframe 
+        id="contentFrame" 
+        src="files/C3D/MTPA-A-G1-41-00-00A-054A-A.htm"
+      ></iframe>
+    </div>
   </div>
-</div>
 </body>
 </html>

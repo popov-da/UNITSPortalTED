@@ -1,490 +1,525 @@
 /* Импорт шрифтов Google (Inter и Roboto Condensed) с поддержкой италика и разных начертаний */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Базовые стили для body: флекс-контейнер, фон, шрифт, скрытие скролла */
 body {
-  margin: 0;
-  font-family: Inter;
-  background-color: #F4F4F4;
-  height: 100vh;
-  color: #131A22;
-  display: flex;
-  overflow: hidden;
+  background-color: #F4F4F4; /* Цвет фона */
+  color: #131A22;            /* Основной цвет текста */
+  display: flex;             /* Блок становится флекс-контейнером */
+  font-family: Inter;        /* Устанавливаем основной шрифт */
+  height: 100vh;             /* Высота окна браузера */
+  margin: 0;                 /* Убираем внешние отступы */
+  overflow: hidden;          /* Отключаем прокрутку */
 }
+
 /* Стили для кнопки сброса поиска */
 .clear-search {
-  margin-left: 10px;
-  padding: 8px 12px;
-  background-color: #C2C6CB;
-  color: #F4F4F4;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 1;
+  background-color: #C2C6CB; /* Цвет фона кнопки */
+  border: none;              /* Без рамки */
+  border-radius: 5px;        /* Скругляем углы */
+  color: #F4F4F4;            /* Цвет текста */
+  cursor: pointer;           /* Указываем, что элемент кликабельный */
+  font-size: 16px;           /* Размер шрифта */
+  line-height: 1;            /* Межстрочный интервал */
+  margin-left: 10px;         /* Отступ слева */
+  padding: 8px 12px;         /* Внутренние отступы кнопки */
 }
 .clear-search:hover {
-  background-color: #cc0000;
+  background-color: #cc0000; /* Изменяем цвет фона при наведении */
 }
+
 /* Основной контейнер приложения (флекс-ряд) */
 .container {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-direction: row;
+  display: flex;           /* Флекс-контейнер */
+  flex-direction: row;     /* Размещаем элементы слева направо */
+  height: 100%;            /* Растягиваем на всю доступную высоту */
+  width: 100%;             /* Растягиваем на всю доступную ширину */
 }
+
 /* Контентная область (80% ширины, переходы для анимации) */
 .content-area {
-  width: 80%;
-  padding: 0;
-  position: relative;
-  transition: width 0.3s ease;
+  padding: 0;                             /* Убираем внутренние отступы */
+  position: relative;                     /* Относительное позиционирование */
+  transition: width 0.3s ease;           /* Плавная анимация изменения ширины */
+  width: 80%;                             /* Ширина контентной области */
 }
 /* Модификатор на всю ширину */
 .content-area.full-width {
   width: 100%;
 }
+
 /* Адаптивные стили для мобильных устройств */
 @media (max-width: 768px) {
   /* Контейнеры структуры и контента остаются рядом */
   .container {
-    flex-direction: row;
+    flex-direction: row; /* Все еще горизонтальное расположение */
   }
-	
+
   .file-item {
-    display: block !important;
+    display: block !important; /* Делаем элементы блочными */
   }
   .icon.file {
-    display: none;
+    display: none; /* Скрываем иконку файла */
   }
-	.search-box{
-    display: none !important;
+  .search-box {
+    display: none !important; /* Скрываем строку поиска */
   }
+
   .options-section {
-    flex-wrap: wrap; /* Разрешаем перенос элементов */
-    flex-direction: column; /* Располагаем элементы в столбик */
-    align-items: center; /* Центрируем карточки */
+    align-items: center;     /* Центрируем карточки */
+    flex-direction: column;  /* Располагаем элементы в столбик */
+    flex-wrap: wrap;         /* Разрешаем перенос элементов */
   }
   .options-section .item-option {
-    width: 100%; /* Карточки занимают всю ширину */
-    max-width: 100%; /* Снимаем ограничения */
+    max-width: 100%; /* Снимаем ограничение по ширине */
+    width: 100%;     /* Каждая карточка занимает всю ширину */
   }
+
   .structure {
-    width: 20%; /* Уменьшаем ширину структуры на мобильных */
-    border-right: 1px solid #ddd;
-    border-bottom: none;
+    border-bottom: none;       /* Отменяем нижнюю границу, если была */
+    border-right: 1px solid #ddd; /* Разделительная линия справа */
+    width: 20%;                /* Уменьшаем ширину структуры на мобильных */
   }
   .content-area {
-    width: 80%; /* Контент занимает остальную часть */
-    height: 100vh;
-    overflow-y: auto;
-    padding: 10px;
+    height: 100vh;   /* Полная высота окна */
+    overflow-y: auto; /* Включаем вертикальную прокрутку */
+    padding: 10px;   /* Добавляем отступы */
+    width: 80%;      /* Оставшуюся часть занимает контент */
   }
+
   /* Изображения на стартовой странице */
   .start-page {
-    display: flex;
-    flex-direction: column; /* Карточки располагаются в столбик */
-    align-items: center;
-    padding: 10px;
-    gap: 15px; /* Расстояние между карточками */
+    align-items: center;     /* Выравнивание по центру по вертикали */
+    display: flex;           /* Флекс-контейнер */
+    flex-direction: column;  /* Располагаем элементы в столбик */
+    gap: 15px;               /* Промежуток между элементами */
+    padding: 10px;           /* Внутренние отступы */
   }
   .start-page .options-section .item-option span {
-    display: none; /* Скрываем текст */
+    display: none; /* Скрываем подпись */
   }
   .start-page .item-option {
-    width: 100%; /* Карточка занимает всю ширину */
-    max-width: 100%; /* Убираем ограничения по ширине */
-    margin: 0; /* Убираем отступы */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center;    /* Выравниваем по центру */
+    cursor: pointer;        /* Указывает, что элемент кликабельный */
+    display: flex;          /* Делаем элемент флекс-контейнером */
+    flex-direction: column; /* Направление сверху вниз */
+    justify-content: center; /* По вертикали тоже по центру */
+    margin: 0;              /* Сбрасываем внешние отступы */
+    max-width: 100%;        /* Убираем ограничения ширины */
+    width: 100%;            /* Карточка занимает всю ширину */
   }
   .start-page .item-option img {
-    width: 100%; /* Изображение растягивается под карточку */
     height: auto; /* Сохраняем пропорции */
+    width: 100%;  /* Изображение растягивается до 100% ширины */
   }
   .start-page .options-section {
-    width: 50%; /* Изображение растягивается под карточку */
-    height: auto; /* Сохраняем пропорции */
+    height: auto; /* Высота подстраивается автоматически */
+    width: 50%;   /* Ширина для области с картинками */
   }
   .start-page .welcome-section {
-    display: none; /* Скрываем текст */
+    display: none; /* Скрываем приветственный текст */
   }
 }
+
 .structure {
-  width: 20%;
-  background-color: #fff;
-  border-right: 1px solid #ddd;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  overflow-y: auto;
-  transition: width 0.1s ease; /* Влияет на скорость resize  */
+  background-color: #fff;                       /* Белый фон */
+  border-right: 1px solid #ddd;                 /* Разделительная линия справа */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);      /* Тень справа */
+  overflow-y: auto;                             /* Вертикальная прокрутка */
+  padding-bottom: 30px;                         /* Отступ снизу */
+  padding-left: 30px;                           /* Отступ слева */
+  padding-right: 30px;                          /* Отступ справа */
+  padding-top: 20px;                            /* Отступ сверху */
+  transition: width 0.1s ease;                  /* Лёгкая анимация изменения ширины */
+  width: 20%;                                   /* Стандартная ширина структуры */
 }
+
 .hidden {
-  padding: 0;
-  overflow: hidden;
-  transition: width 0.3s ease;
+  overflow: hidden;         /* Скрываем содержимое за границами */
+  padding: 0;               /* Сбрасываем отступы */
+  transition: width 0.3s ease; /* Плавное изменение ширины */
 }
+
 .toggle-button {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  padding: 8px 12px;
-  background-color: #3152BA;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  z-index: 20;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  transition: background-color 0.3s, box-shadow 0.3s;
+  background-color: #3152BA;                 /* Цвет фона */
+  border: none;                              /* Без рамки */
+  border-radius: 5px;                        /* Скругляем углы */
+  color: #fff;                               /* Цвет текста */
+  cursor: pointer;                           /* Указываем, что элемент кликабельный */
+  display: flex;                             /* Флекс-контейнер */
+  font-size: 14px;                           /* Размер шрифта */
+  left: 10px;                                /* Отступ слева */
+  padding: 8px 12px;                         /* Внутренние отступы */
+  position: absolute;                        /* Абсолютное позиционирование */
+  top: 10px;                                 /* Отступ сверху */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Переходы при наведении */
+  z-index: 20;                               /* Поверх других элементов */
 }
 .toggle-button:hover {
-  background-color: #004494;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #004494; /* Более темный синий при наведении */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень при наведении */
 }
 .toggle-button span {
-  margin-left: 5px;
+  margin-left: 5px; /* Отступ слева от иконки */
 }
+
 h2 {
-  font-size: 1.6em;
-  color: #3152BA;
-  margin-bottom: 15px;
+  color: #3152BA;   /* Цвет текста */
+  font-size: 1.6em; /* Размер заголовка */
+  margin-bottom: 15px; /* Нижний отступ */
 }
+
 .section-title {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #333;
-  margin: 20px 0 10px;
-  padding-bottom: 5px;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #ddd; /* Нижняя граница */
+  color: #333;                   /* Цвет */
+  font-size: 1.2em;              /* Размер заголовка */
+  font-weight: bold;            /* Жирность */
+  margin: 20px 0 10px;          /* Отступы сверху и снизу */
+  padding-bottom: 5px;          /* Внутренний отступ снизу */
 }
+
 .options-section {
-  display: flex;
+  display: flex;         /* Флекс-контейнер */
+  flex-wrap: nowrap;     /* Элементы не переносятся */
+  gap: 20px;             /* Промежуток между элементами */
   justify-content: space-around; /* Равномерное распределение элементов */
-  gap: 20px; /* Расстояние между элементами */
-  flex-wrap: nowrap; /* Запрещаем перенос элементов */
 }
 .options-section .item-option {
-  flex: 1; /* Устанавливаем равную ширину для всех элементов */
-  max-width: 200px; /* Максимальная ширина карточки */
-  text-align: center;
+  flex: 1;          /* Все элементы растягиваются равномерно */
+  max-width: 200px; /* Максимальная ширина элемента */
+  text-align: center; /* Текст по центру */
 }
+
 .skin-tree {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: none; /* Убираем маркеры списка */
+  padding: 0;            /* Сбрасываем отступы */
 }
+
 .file-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-  transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
+  align-items: center; /* Выравниваем элементы по вертикали */
+  background-color: #f9f9f9; /* Светлый фон */
+  border-radius: 5px;  /* Скругленные углы */
+  cursor: pointer;     /* Указывает, что элемент кликабельный */
+  display: flex;       /* Флекс-контейнер */
+  justify-content: space-between; /* Разделяем элементы по горизонтали */
+  margin-bottom: 10px; /* Нижний отступ */
+  padding: 10px;       /* Внутренние отступы */
+  transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease; /* Плавные переходы при наведении */
 }
 .file-item:hover {
-  background-color: #e6f2ff;
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: #e6f2ff;  /* Цвет при наведении */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+  transform: translateY(-5px); /* Легкое смещение вверх */
 }
 .file-item.active {
-  background-color: #d0e8ff;
-  font-weight: bold;
-  color: #3152BA;
+  background-color: #d0e8ff; /* Цвет активного элемента */
+  color: #3152BA;           /* Синий цвет */
+  font-weight: bold;        /* Жирный шрифт */
 }
+
 .icon {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  border-radius: 5px;
+  border-radius: 5px; /* Скругление углов (если нужно для иконок) */
+  display: inline-block; /* Линейно-блочный элемент */
+  height: 20px;          /* Высота иконки */
+  margin-right: 10px;    /* Отступ справа */
+  width: 20px;           /* Ширина иконки */
 }
 .icon.file {
-  background-color: #3152BA;
+  background-color: #3152BA; /* Синий фон для иконки файлов */
 }
+
 .pdf-link {
-  display: flex;
-  align-items: center;
-  color: #d9534f;
-  text-decoration: none;
-  font-size: 0.9em;
-  margin-left: 10px;
-  padding: 5px;
-  border: 1px solid #d9534f;
-  border-radius: 3px;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
+  align-items: center;            /* Выравнивание по вертикали */
+  border: 1px solid #d9534f;      /* Красная рамка */
+  border-radius: 3px;            /* Скругленные углы */
+  color: #d9534f;                /* Цвет текста (красноватый) */
+  cursor: pointer;               /* Указывает, что элемент кликабельный */
+  display: flex;                 /* Флекс-контейнер */
+  font-size: 0.9em;              /* Размер шрифта */
+  margin-left: 10px;             /* Отступ слева */
+  padding: 5px;                  /* Внутренние отступы */
+  text-decoration: none;         /* Убираем подчеркивание */
+  transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
 }
 .pdf-link:hover {
-  background-color: #d9534f;
-  color: #fff;
+  background-color: #d9534f; /* При наведении заливаем красным */
+  color: #fff;               /* И делаем текст белым */
 }
+
 .verge3d-link {
-  display: flex;
-  align-items: center;
-  color: #002B8C;
-  text-decoration: none;
-  font-size: 0.9em;
-  padding: 5px;
-  border: 1px solid #002B8C;
-  border-radius: 3px;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
+  align-items: center;            /* Выравнивание по вертикали */
+  border: 1px solid #002B8C;      /* Синяя рамка */
+  border-radius: 3px;            /* Скругленные углы */
+  color: #002B8C;                /* Цвет текста (синий) */
+  cursor: pointer;               /* Указывает, что элемент кликабельный */
+  display: flex;                 /* Флекс-контейнер */
+  font-size: 0.9em;              /* Размер шрифта */
+  padding: 5px;                  /* Внутренние отступы */
+  text-decoration: none;         /* Убираем подчеркивание */
+  transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
 }
 .verge3d-link:hover {
-  background-color: #008c8c;
-  color: #fff;
+  background-color: #008c8c; /* При наведении меняем фон */
+  color: #fff;               /* Цвет текста становится белым */
 }
-.pdf-link .icon.pdf, .verge3d-link .icon.verge3d {
-  width: 18px;
-  height: 18px;
-  margin-right: 5px;
-  background-size: contain;
-  background-repeat: no-repeat;
+
+.pdf-link .icon.pdf,
+.verge3d-link .icon.verge3d {
+  background-repeat: no-repeat; /* Запрещаем повторяться фону */
+  background-size: contain;     /* Сохраняем пропорции картинки */
+  height: 18px;                 /* Высота иконки */
+  margin-right: 5px;            /* Отступ справа */
+  width: 18px;                  /* Ширина иконки */
 }
 .pdf-link .icon.pdf {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg');
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg'); /* Иконка PDF */
 }
 .verge3d-link .icon.verge3d {
-  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Verge3D_logo.png/237px-Verge3D_logo.png');
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Verge3D_logo.png/237px-Verge3D_logo.png'); /* Иконка Verge3D */
 }
 
 iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;  /* Без рамки */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  height: 100%; /* Высота 100% родителя */
+  width: 100%;  /* Ширина 100% родителя */
 }
+
 /* Индикатор загрузки */
 .loading {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  color: darkgray;
-  z-index: 100;
-  display: none;
-  justify-content: center;
-  background-color: rgba(244, 246, 248, 0.9);
+  align-items: center;           /* Выравниваем по вертикали по центру */
+  background-color: rgba(244, 246, 248, 0.9); /* Светлый полупрозрачный фон */
+  color: darkgray;               /* Цвет текста */
+  display: none;                 /* Скрыто по умолчанию */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Определяем шрифт */
+  font-size: 2rem;               /* Крупный размер текста */
+  font-weight: bold;             /* Жирный шрифт */
+  height: 100%;                  /* На всю высоту */
+  justify-content: center;       /* Горизонтально по центру */
+  left: 0;                       /* Левая граница */
+  position: absolute;            /* Позиционирование относительно родителя */
+  top: 0;                        /* Верхняя граница */
+  width: 100%;                   /* На всю ширину */
+  z-index: 100;                  /* Поверх многих элементов */
 }
 .loading span {
-  margin-top: 0.4rem;
+  margin-top: 0.4rem; /* Легкий отступ сверху */
 }
+
 .start-page {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(244, 246, 248, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 5;
-  font-size: 1.2em;
-  color: #333;
-  text-align: center;
-  flex-direction: column;
+  align-items: center;                        /* Выравнивание по центру по вертикали */
+  background-color: rgba(244, 246, 248, 0.9); /* Светлый полупрозрачный фон */
+  color: #333;                                /* Цвет текста */
+  display: flex;                              /* Флекс-контейнер */
+  flex-direction: column;                     /* Вертикальное расположение элементов */
+  font-size: 1.2em;                           /* Средний размер шрифта */
+  height: 100%;                               /* Полная высота */
+  justify-content: center;                    /* Выравнивание по центру по горизонтали */
+  text-align: center;                         /* Текст по центру */
+  width: 100%;                                /* Полная ширина */
+  z-index: 5;                                 /* Поверх прочих элементов */
 }
 .start-page button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 1em;
-  background-color: #3152BA;
-  color: #F4F4F4;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  background-color: #3152BA; /* Синий фон */
+  border: none;              /* Без рамки */
+  border-radius: 5px;        /* Скругленные углы */
+  color: #F4F4F4;            /* Светлый цвет текста */
+  cursor: pointer;           /* Указывает, что кнопка кликабельна */
+  font-size: 1em;            /* Размер шрифта */
+  margin-top: 20px;          /* Отступ сверху */
+  padding: 10px 20px;        /* Внутренние отступы кнопки */
+  transition: background-color 0.3s; /* Плавный переход при наведении */
 }
 .start-page button:hover {
-  background-color: #004494;
+  background-color: #004494; /* Более темный цвет при наведении */
 }
 .start-page .item-option {
-  margin: 20px;
-  text-align: center;
-  cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
-  padding: 15px;
-  border-radius: 10px;
   background-color: #F4F4F4; /* Легкий цвет фона для карточки */
+  border-radius: 10px;       /* Скругленные углы */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Легкая тень */
-  width: 180px; /* Фиксированная ширина для выравнивания */
+  cursor: pointer;           /* Указывает, что элемент кликабельный */
+  margin: 20px;              /* Отступ вокруг карточки */
+  padding: 15px;             /* Внутренние отступы */
+  text-align: center;        /* Текст по центру */
+  transition: transform 0.3s, box-shadow 0.3s; /* Плавные переходы при наведении */
+  width: 180px;              /* Фиксированная ширина для выравнивания */
 }
 .start-page .item-option img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 10px;
-  transition: transform 0.3s ease; /* Плавное увеличение */
+  border-radius: 8px;          /* Скругленные углы изображения */
+  height: auto;                /* Сохраняем пропорции */
+  margin-bottom: 10px;         /* Отступ снизу */
+  transition: transform 0.3s ease; /* Плавное увеличение при наведении */
+  width: 100%;                 /* Изображение растягивается на ширину карточки */
 }
 .start-page .item-option:hover {
-  transform: scale(1.05); /* Увеличение карточки при наведении */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Усиление тени при наведении */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Увеличенная тень */
+  transform: scale(1.05);                   /* Увеличение карточки при наведении */
 }
 .start-page .item-option span {
-  display: block;
-  margin-top: 8px;
-  font-weight: bold;
-  color: #131A22;
-  font-size: 1em; /* Яркий текст подписи */
+  color: #131A22;        /* Тёмно-серый цвет */
+  display: block;        /* Строчно-блочный элемент */
+  font-size: 1em;        /* Размер шрифта */
+  font-weight: bold;     /* Жирное начертание */
+  margin-top: 8px;       /* Отступ сверху */
 }
+
 .control-panel {
-  position: fixed; /* Фиксируем относительно экрана */
-  top: 8px;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  z-index: 120; /* Поверх всех элементов */
-  pointer-events: none; /* Чтобы не блокировать клики по другим элементам */
+  display: flex;       /* Флекс-контейнер */
+  flex-direction: column; /* Располагаем элементы в столбик */
+  gap: 8px;           /* Промежуток между элементами */
+  left: 0;            /* Прижимаем к левому краю */
+  pointer-events: none; /* Не перехватываем клики */
+  position: fixed;    /* Фиксируем панель в одном месте */
+  top: 8px;           /* Отступ сверху */
+  z-index: 120;       /* Поверх всего */
 }
 .control-button {
-  width: 10px;
-  height: 40px;
   background: linear-gradient(135deg, #3152BA, #CBD4EE); /* Градиент */
-  color: white;
-  border: none;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: width 0.5s ease-in-out, background 0.3s ease-in-out;
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 0 5px;
-  pointer-events: auto;
+  border: none;                /* Без рамки */
+  border-radius: 0 5px 5px 0;  /* Скругленные углы справа */
+  color: white;                /* Цвет текста */
+  cursor: pointer;             /* Указывает, что элемент кликабельный */
+  display: flex;               /* Флекс-контейнер */
+  align-items: center;         /* Выравниваем по вертикали по центру */
+  height: 40px;                /* Фиксированная высота */
+  justify-content: center;     /* По горизонтали по центру */
+  overflow: hidden;            /* Обрезаем содержимое за рамками */
+  padding: 0 5px;              /* Горизонтальные отступы */
+  pointer-events: auto;        /* Разрешаем клики */
+  transition: width 0.5s ease-in-out, background 0.3s ease-in-out; /* Плавные переходы при наведении */
+  white-space: nowrap;         /* Запрещаем перенос текста */
+  width: 10px;                 /* Минимальная ширина */
 }
 /* Анимация наведения */
-.control-button:hover, .control-button:focus-within {
-  width: 40px;
-  background: linear-gradient(135deg, #3152BA, #98A8DC);
+.control-button:hover,
+.control-button:focus-within {
+  background: linear-gradient(135deg, #3152BA, #98A8DC); /* Меняем градиент */
+  width: 40px;                                          /* Расширяем кнопку при наведении */
 }
 /* Исправляем фон иконок */
 .control-button span {
-  display: none;
-  color: white;
+  color: white;    /* Цвет текста */
+  display: none;   /* Скрываем текст */
 }
-.control-button:hover span, .control-button:focus-within span {
-  display: inline;
+.control-button:hover span,
+.control-button:focus-within span {
+  display: inline; /* Показываем текст при наведении */
 }
+
 /* Исправляем иконку дома */
 .icon-home {
-  background-image: url('https://img.icons8.com/?size=100&id=2797&format=png&color=FFFFFF');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  background-image: url('https://img.icons8.com/?size=100&id=2797&format=png&color=FFFFFF'); /* Ссылка на иконку дома */
+  background-repeat: no-repeat; /* Не повторяем */
+  background-size: contain;     /* Сохраняем пропорции */
+  height: 20px;                 /* Высота иконки */
+  width: 20px;                  /* Ширина иконки */
 }
 .icon-logo {
-  background-image: url('ref/LOGO.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
+  background-image: url('ref/LOGO.png'); /* Лого из локального пути */
+  background-repeat: no-repeat;          /* Не повторяем */
+  background-size: contain;              /* Сохраняем пропорции */
+  height: 40px;                          /* Высота иконки */
+  width: 40px;                           /* Ширина иконки */
 }
+
 .toggle-icon {
-  font-size: 20px;
-  color: #3152BA;
+  color: #3152BA;    /* Синий цвет */
+  font-size: 20px;   /* Размер символа */
 }
+
 .select-message {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.95);
-  display: none; /* Скрыто по умолчанию */
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2em;
-  color: #333;
-  text-align: center;
-  flex-direction: column;
+  align-items: center;                        /* По вертикали по центру */
+  background-color: rgba(255, 255, 255, 0.95); /* Светлый полупрозрачный фон */
+  color: #333;                                /* Тёмно-серый цвет */
+  display: none;                              /* Изначально скрыто */
+  flex-direction: column;                     /* Располагаем элементы в столбик */
+  font-size: 1.2em;                           /* Средний размер шрифта */
+  height: 100%;                               /* На всю высоту */
+  justify-content: center;                    /* По горизонтали по центру */
+  text-align: center;                         /* Текст по центру */
+  width: 100%;                                /* На всю ширину */
 }
+
 .skin-split-pane {
-  border: .2em solid transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  align-items: center;               /* Выравниваем по вертикали */
+  border: .2em solid transparent;    /* Прозрачная граница */
+  display: flex;                     /* Флекс-контейнер */
+  height: 100%;                      /* Высота на все доступное пространство */
+  justify-content: center;           /* Выравниваем по горизонтали */
 }
 .skin-split-pane:hover {
-  background-color: rgba(0, 128, 128, .1);
+  background-color: rgba(0, 128, 128, .1); /* Светлый полупрозрачный фон при наведении */
 }
-.skin-split-pane.disabled, .splitter-active iframe {
-  pointer-events: none;
+.skin-split-pane.disabled,
+.splitter-active iframe {
+  pointer-events: none; /* Отключаем события мыши */
 }
 .skin-split-pane-inner {
-  box-sizing: content-box;
+  box-sizing: content-box; /* Размер без учета границ и отступов */
 }
 .skin-split-pane.col .skin-split-pane-inner {
-  height: 1em;
-  width: 2px;
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
-  cursor: col-resize;
+  border-left: 1px solid gray;   /* Линия слева */
+  border-right: 1px solid gray;  /* Линия справа */
+  cursor: col-resize;            /* Курсор изменения размера по горизонтали */
+  height: 1em;                   /* Высота 1em */
+  width: 2px;                    /* Ширина 2px */
 }
 .skin-split-pane.row .skin-split-pane-inner {
-  width: 1em;
-  height: 2px;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid gray; /* Линия снизу */
+  border-top: 1px solid gray;    /* Линия сверху */
+  cursor: row-resize;            /* (Опционально) курсор изменения размера по вертикали */
+  height: 2px;                   /* Высота 2px */
+  width: 1em;                    /* Ширина 1em */
 }
 .skin-split-pane.disabled .skin-split-pane-inner {
-  display: none;
+  display: none; /* Не отображаем, если отключено */
 }
+
 /* Страница с просьбой повернуть устройство */
 .rotate-message {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  display: none; /* Скрыто по умолчанию */
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  text-align: center;
+  align-items: center;                /* Выравниваем по вертикали */
+  background-color: rgba(0, 0, 0, 0.8); /* Тёмный полупрозрачный фон */
+  color: #fff;                        /* Белый текст */
+  display: none;                      /* Изначально скрыто */
+  height: 100%;                       /* На всю высоту */
+  justify-content: center;            /* По горизонтали по центру */
+  left: 0;                            /* Привязываем к левой границе */
+  position: fixed;                    /* Фиксируем сообщение */
+  text-align: center;                 /* Текст по центру */
+  top: 0;                             /* Привязываем к верхней границе */
+  width: 100%;                        /* На всю ширину */
+  z-index: 1000;                      /* Поверх всех элементов */
 }
 .rotate-container {
-  animation: fade-in 1.5s ease-in-out infinite;
+  animation: fade-in 1.5s ease-in-out infinite; /* Анимация мигания */
 }
 @keyframes fade-in {
   0%, 100% {
-    opacity: 0.5;
+    opacity: 0.5; /* Полупрозрачность в начальной и конечной точках */
   }
   50% {
-    opacity: 1;
+    opacity: 1;   /* Полная непрозрачность в середине */
   }
-} /* Стили для поиска */
+}
+
+/* Стили для поиска */
 .search-box {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  padding: 10px;
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;                      /* Выравниваем по вертикали */
+  background-color: #f9f9f9;                /* Светлый фон */
+  border-radius: 5px;                       /* Скругленные углы */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  display: flex;                            /* Флекс-контейнер */
+  margin-bottom: 20px;                      /* Отступ снизу */
+  padding: 10px;                            /* Внутренние отступы */
 }
 #searchInput {
-  flex: 1;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 14px;
-  outline: none;
+  border: 1px solid #ddd;  /* Светлая рамка */
+  border-radius: 5px;      /* Скругленные углы */
+  flex: 1;                 /* Занимает всё доступное пространство */
+  font-size: 14px;         /* Размер шрифта */
+  outline: none;           /* Убираем обводку при фокусе */
+  padding: 8px;            /* Внутренние отступы */
 }
 #searchInput:focus {
-  border-color: #3152BA;
+  border-color: #3152BA;   /* Подсвечиваем при фокусе */
 }
