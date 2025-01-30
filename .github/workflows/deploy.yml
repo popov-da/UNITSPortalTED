@@ -28,10 +28,12 @@ jobs:
 
       # 4. Удаляем все файлы .cgm
       - name: Remove all .cgm files
+        continue-on-error: true
         run: find . -name '*.cgm' -type f -delete
 
       # 5. Минификация HTML/HTM
       - name: Minify HTML/HTM files
+        continue-on-error: true
         run: |
           set -e
           echo "Minifying HTML/HTM files..."
@@ -47,6 +49,7 @@ jobs:
 
       # 6. Минификация CSS
       - name: Minify CSS files
+        continue-on-error: true
         run: |
           set -e
           echo "Minifying CSS files..."
@@ -57,6 +60,7 @@ jobs:
 
       # 7. Минификация JS
       - name: Minify JS files
+        continue-on-error: true
         run: |
           set -e
           echo "Minifying JS files..."
@@ -67,6 +71,7 @@ jobs:
 
       # 8. Минификация XML
       - name: Minify XML files
+        continue-on-error: true
         run: |
           set -e
           echo "Minifying XML files..."
@@ -80,6 +85,7 @@ jobs:
 
       # 9. Минификация SVG
       - name: Minify SVG files
+        continue-on-error: true
         run: |
           set -e
           echo "Minifying SVG files..."
