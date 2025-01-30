@@ -9,7 +9,7 @@
 <SpecLang>ru</SpecLang>
 <XMLFileName>InstallationBathroom</XMLFileName>
 <FileName>InstallationBathroom</FileName>
-<DocumentFile>Монтаж ванны.xml</DocumentFile>
+<DocumentFile>InstallationBathroom.xml</DocumentFile>
 <Options>
 <Value name="3DFramePosition" type="string">Right</Value>
 <Value name="3DFrameSize" type="string">60</Value>
