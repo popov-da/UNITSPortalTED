@@ -9,7 +9,7 @@
     <SpecLang>ru</SpecLang>
     <XMLFileName>InstallationInteriorDoor</XMLFileName>
     <FileName>InstallationInteriorDoor</FileName>
-    <DocumentFile>ТК на монтаж межкомнатных дверей.xml</DocumentFile>
+    <DocumentFile>InstallationInteriorDoor.xml</DocumentFile>
     <Options>
       <Value name="3DFramePosition" type="string">Right</Value>
       <Value name="3DFrameSize" type="string">60</Value>

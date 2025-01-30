@@ -1,188 +1,187 @@
-﻿<?xml version="1.0"?>
-<!DOCTYPE dmodule [
-]>
-<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
-<identAndStatusSection>
-<dmAddress>
-<dmIdent>
-<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="2" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="254" infoCodeVariant="A" itemLocationCode="A"></dmCode>
-<language countryIsoCode="RU" languageIsoCode="ru"></language>
-<issueInfo issueNumber="001" inWork="01"></issueInfo>
-</dmIdent>
-<dmAddressItems>
-<issueDate year="2024" month="07" day="22"></issueDate>
-<dmTitle>
-<techName>Подготовка поверхностей перед склеиванием</techName>
-<infoName>Механическая очистка</infoName>
-</dmTitle>
-</dmAddressItems>
-</dmAddress>
-<dmStatus issueType="new">
-<security securityClassification="01"></security>
-<responsiblePartnerCompany enterpriseCode="MDMKD">
-<enterpriseName>МОДУЛЬ МКД</enterpriseName>
-</responsiblePartnerCompany>
-<originator enterpriseCode="MDMKD">
-<enterpriseName>МОДУЛЬ МКД</enterpriseName>
-</originator>
-<applic>
-<displayText>
-<simplePara>ВСЕ</simplePara>
-</displayText>
-</applic>
-<brexDmRef>
-<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
-<dmRefIdent>
-<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
-</dmRefIdent>
-</dmRef>
-</brexDmRef>
-<qualityAssurance>
-<unverified></unverified>
-</qualityAssurance>
-</dmStatus>
-</identAndStatusSection>
-<content>
-<procedure>
-<preliminaryRqmts>
-<reqCondGroup>
-<noConds></noConds>
-</reqCondGroup>
-<reqSupportEquips>
-<supportEquipDescrGroup>
-<supportEquipDescr>
-<name>Пневматический продувочный пистолет</name>
-<identNumber>
-<manufacturerCode></manufacturerCode>
-<partAndSerialNumber>
-<partNumber></partNumber>
-</partAndSerialNumber>
-</identNumber>
-<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
-</supportEquipDescr>
-<supportEquipDescr>
-<name>Пневматическая эксцентриковая шлиф-машина</name>
-<identNumber>
-<manufacturerCode></manufacturerCode>
-<partAndSerialNumber>
-<partNumber></partNumber>
-</partAndSerialNumber>
-</identNumber>
-<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
-</supportEquipDescr>
-<supportEquipDescr>
-<name>Шлифовальный блок</name>
-<identNumber>
-<manufacturerCode></manufacturerCode>
-<partAndSerialNumber>
-<partNumber></partNumber>
-</partAndSerialNumber>
-</identNumber>
-<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
-</supportEquipDescr>
-</supportEquipDescrGroup>
-</reqSupportEquips>
-<reqSupplies>
-<supplyDescrGroup>
-<supplyDescr>
-<name>Растворитель</name>
-<supplyRef supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" supplyNumberType="sp01"></supplyRef>
-<reqQuantity></reqQuantity>
-</supplyDescr>
-<supplyDescr>
-<name>Салфетки х/б безворсовые</name>
-<supplyRef supplyNumber="ГОСТ 29250-91" supplyNumberType="sp01"></supplyRef>
-<reqQuantity></reqQuantity>
-</supplyDescr>
-<supplyDescr>
-<name>Набор шлифовальных электрокорундовых шкурок</name>
-<supplyRef supplyNumber="Зернистость № 40-80 ГОСТ 5009-82" supplyNumberType="sp01"></supplyRef>
-<reqQuantity></reqQuantity>
-</supplyDescr>
-</supplyDescrGroup>
-</reqSupplies>
-<reqSpares>
-<noSpares></noSpares>
-</reqSpares>
-<reqSafety>
-<safetyRqmts>
-<warning>
-<warningAndCautionPara>СОБЛЮДАЙТЕ ПРАВИЛА ПОЖАРНОЙ БЕЗОПАСНОСТИ, ПРАВИЛА ЗАЩИТЫ
-ОТ СТАТИЧЕСКОГО ЭЛЕКТРИЧЕСТВА. </warningAndCautionPara>
-<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ПРИМЕНЕНИЕ ОТКРЫТОГО ОГНЯ.</warningAndCautionPara>
-<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ КУРЕНИЕ НА РАБОЧЕМ МЕСТЕ.</warningAndCautionPara>
-<warningAndCautionPara>РАБОТЫ ПРОВОДЯТСЯ ТОЛЬКО В
-СПЕЦОДЕЖДЕ.</warningAndCautionPara>
-</warning>
-<warning id="wrn-002">
-<warningAndCautionPara>СОБЛЮДАЙТЕ МЕРЫ
-ПРЕДОСТОРОЖНОСТИ ПРИ РАБОТЕ С МАТЕРИАЛАМИ.</warningAndCautionPara>
-<warningAndCautionPara>НЕ ПОДНОСИТЕ МАТЕРИАЛЫ КО РТУ.</warningAndCautionPara>
-<warningAndCautionPara>ИЗБЕГАЙТЕ ВДЫХАНИЯ ЯДОВИТЫХ
-ПАРОВ, ВЫДЕЛЯЕМЫХ МАТЕРИАЛАМИ.</warningAndCautionPara>
-<warningAndCautionPara>ОБРАТИТЕСЬ ЗА МЕДИЦИНСКОЙ ПОМОЩЬЮ ПРИ ВОЗНИКНОВЕНИИ
-РАЗДРАЖЕНИЯ КОЖИ И ГЛАЗ.</warningAndCautionPara>
-</warning>
-<caution id="ctn-001">
-<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ПРОВОДИТЬ РАБОТЫ ПРЕДВАРИТЕЛЬНО НЕ УДАЛИВ ЗАГРЯЗНЕНИЯ С ПОВЕРХНОСТИ.</warningAndCautionPara>
-<warningAndCautionPara>НА СКЛЕИВАЕМЫХ ПОВЕРХНОСТЯХ НЕ ДОПУСКАЮТСЯ
-МАСЛЯНЫЕ ПЯТНА И ЗАГРЯЗНЕНИЯ.</warningAndCautionPara>
-<warningAndCautionPara>ПРИ ОБЕЗЖИРИВАНИИ ПОВЕРХНОСТЕЙ ПОД
-СКЛЕИВАНИЕ НЕ ДОПУСКАЕТСЯ ОБРАЗОВАНИЕ ПОТЕКОВ И КАПЕЛЬ РАСТВОРИТЕЛЯ.</warningAndCautionPara>
-<warningAndCautionPara>ПРИ ОБРАЗОВАНИИ ПОТЕКОВ И КАПЕЛЬ ИХ НЕОБХОДИМО СРАЗУ ЖЕ УДАЛЯТЬ ХЛОПЧАТОБУМАЖНОЙ САЛФЕТКОЙ, НЕ ДОЖИДАЯСЬ ИХ ВЫСЫХАНИЯ.</warningAndCautionPara>
-</caution>
-</safetyRqmts>
-</reqSafety>
-</preliminaryRqmts>
-<mainProcedure>
-<proceduralStep>
-<title>Подготовительные работы</title>
-<proceduralStep>
-<para>Наденьте спецодежду: комбинезон,  респиратор аэрозольный, перчатки, очки.</para>
-</proceduralStep>
-<proceduralStep>
-<para>Обеспечьте доступ к месту выполнения работ.
+<?xml version="1.0"?>
+<!DOCTYPE dmodule>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="2" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="254" infoCodeVariant="A" itemLocationCode="A"/>
+        <language countryIsoCode="RU" languageIsoCode="ru"/>
+        <issueInfo issueNumber="001" inWork="01"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2024" month="07" day="22"/>
+        <dmTitle>
+          <techName>&#x41F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x43A;&#x430; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x435;&#x439; &#x43F;&#x435;&#x440;&#x435;&#x434; &#x441;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x435;&#x43C;</techName>
+          <infoName>&#x41C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; &#x43E;&#x447;&#x438;&#x441;&#x442;&#x43A;&#x430;</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="MDMKD">
+        <enterpriseName>&#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C; &#x41C;&#x41A;&#x414;</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="MDMKD">
+        <enterpriseName>&#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C; &#x41C;&#x41A;&#x414;</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>&#x412;&#x421;&#x415;</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <procedure>
+      <preliminaryRqmts>
+        <reqCondGroup>
+          <noConds/>
+        </reqCondGroup>
+        <reqSupportEquips>
+          <supportEquipDescrGroup>
+            <supportEquipDescr>
+              <name>&#x41F;&#x43D;&#x435;&#x432;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x43F;&#x440;&#x43E;&#x434;&#x443;&#x432;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x43F;&#x438;&#x441;&#x442;&#x43E;&#x43B;&#x435;&#x442;</name>
+              <identNumber>
+                <manufacturerCode/>
+                <partAndSerialNumber>
+                  <partNumber/>
+                </partAndSerialNumber>
+              </identNumber>
+              <reqQuantity unitOfMeasure="&#x448;&#x442;.">1</reqQuantity>
+            </supportEquipDescr>
+            <supportEquipDescr>
+              <name>&#x41F;&#x43D;&#x435;&#x432;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; &#x44D;&#x43A;&#x441;&#x446;&#x435;&#x43D;&#x442;&#x440;&#x438;&#x43A;&#x43E;&#x432;&#x430;&#x44F; &#x448;&#x43B;&#x438;&#x444;-&#x43C;&#x430;&#x448;&#x438;&#x43D;&#x430;</name>
+              <identNumber>
+                <manufacturerCode/>
+                <partAndSerialNumber>
+                  <partNumber/>
+                </partAndSerialNumber>
+              </identNumber>
+              <reqQuantity unitOfMeasure="&#x448;&#x442;.">1</reqQuantity>
+            </supportEquipDescr>
+            <supportEquipDescr>
+              <name>&#x428;&#x43B;&#x438;&#x444;&#x43E;&#x432;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x431;&#x43B;&#x43E;&#x43A;</name>
+              <identNumber>
+                <manufacturerCode/>
+                <partAndSerialNumber>
+                  <partNumber/>
+                </partAndSerialNumber>
+              </identNumber>
+              <reqQuantity unitOfMeasure="&#x448;&#x442;.">1</reqQuantity>
+            </supportEquipDescr>
+          </supportEquipDescrGroup>
+        </reqSupportEquips>
+        <reqSupplies>
+          <supplyDescrGroup>
+            <supplyDescr>
+              <name>&#x420;&#x430;&#x441;&#x442;&#x432;&#x43E;&#x440;&#x438;&#x442;&#x435;&#x43B;&#x44C;</name>
+              <supplyRef supplyNumber="&#x41D;&#x435;&#x444;&#x440;&#x430;&#x441;-&#x421;-50/170 &#x413;&#x41E;&#x421;&#x422; 8505-80" supplyNumberType="sp01"/>
+              <reqQuantity/>
+            </supplyDescr>
+            <supplyDescr>
+              <name>&#x421;&#x430;&#x43B;&#x444;&#x435;&#x442;&#x43A;&#x438; &#x445;/&#x431; &#x431;&#x435;&#x437;&#x432;&#x43E;&#x440;&#x441;&#x43E;&#x432;&#x44B;&#x435;</name>
+              <supplyRef supplyNumber="&#x413;&#x41E;&#x421;&#x422; 29250-91" supplyNumberType="sp01"/>
+              <reqQuantity/>
+            </supplyDescr>
+            <supplyDescr>
+              <name>&#x41D;&#x430;&#x431;&#x43E;&#x440; &#x448;&#x43B;&#x438;&#x444;&#x43E;&#x432;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x43E;&#x43A;&#x43E;&#x440;&#x443;&#x43D;&#x434;&#x43E;&#x432;&#x44B;&#x445; &#x448;&#x43A;&#x443;&#x440;&#x43E;&#x43A;</name>
+              <supplyRef supplyNumber="&#x417;&#x435;&#x440;&#x43D;&#x438;&#x441;&#x442;&#x43E;&#x441;&#x442;&#x44C; &#x2116;&#xA0;40-80&#xA0;&#x413;&#x41E;&#x421;&#x422;&#xA0;5009-82" supplyNumberType="sp01"/>
+              <reqQuantity/>
+            </supplyDescr>
+          </supplyDescrGroup>
+        </reqSupplies>
+        <reqSpares>
+          <noSpares/>
+        </reqSpares>
+        <reqSafety>
+          <safetyRqmts>
+            <warning>
+              <warningAndCautionPara>&#x421;&#x41E;&#x411;&#x41B;&#x42E;&#x414;&#x410;&#x419;&#x422;&#x415; &#x41F;&#x420;&#x410;&#x412;&#x418;&#x41B;&#x410; &#x41F;&#x41E;&#x416;&#x410;&#x420;&#x41D;&#x41E;&#x419; &#x411;&#x415;&#x417;&#x41E;&#x41F;&#x410;&#x421;&#x41D;&#x41E;&#x421;&#x422;&#x418;, &#x41F;&#x420;&#x410;&#x412;&#x418;&#x41B;&#x410; &#x417;&#x410;&#x429;&#x418;&#x422;&#x42B;
+&#x41E;&#x422; &#x421;&#x422;&#x410;&#x422;&#x418;&#x427;&#x415;&#x421;&#x41A;&#x41E;&#x413;&#x41E; &#x42D;&#x41B;&#x415;&#x41A;&#x422;&#x420;&#x418;&#x427;&#x415;&#x421;&#x422;&#x412;&#x410;. </warningAndCautionPara>
+              <warningAndCautionPara>&#x41D;&#x415; &#x414;&#x41E;&#x41F;&#x423;&#x421;&#x41A;&#x410;&#x415;&#x422;&#x421;&#x42F; &#x41F;&#x420;&#x418;&#x41C;&#x415;&#x41D;&#x415;&#x41D;&#x418;&#x415; &#x41E;&#x422;&#x41A;&#x420;&#x42B;&#x422;&#x41E;&#x413;&#x41E; &#x41E;&#x413;&#x41D;&#x42F;.</warningAndCautionPara>
+              <warningAndCautionPara>&#x41D;&#x415; &#x414;&#x41E;&#x41F;&#x423;&#x421;&#x41A;&#x410;&#x415;&#x422;&#x421;&#x42F; &#x41A;&#x423;&#x420;&#x415;&#x41D;&#x418;&#x415; &#x41D;&#x410; &#x420;&#x410;&#x411;&#x41E;&#x427;&#x415;&#x41C; &#x41C;&#x415;&#x421;&#x422;&#x415;.</warningAndCautionPara>
+              <warningAndCautionPara>&#x420;&#x410;&#x411;&#x41E;&#x422;&#x42B; &#x41F;&#x420;&#x41E;&#x412;&#x41E;&#x414;&#x42F;&#x422;&#x421;&#x42F; &#x422;&#x41E;&#x41B;&#x42C;&#x41A;&#x41E; &#x412;
+&#x421;&#x41F;&#x415;&#x426;&#x41E;&#x414;&#x415;&#x416;&#x414;&#x415;.</warningAndCautionPara>
+            </warning>
+            <warning id="wrn-002">
+              <warningAndCautionPara>&#x421;&#x41E;&#x411;&#x41B;&#x42E;&#x414;&#x410;&#x419;&#x422;&#x415; &#x41C;&#x415;&#x420;&#x42B;
+&#x41F;&#x420;&#x415;&#x414;&#x41E;&#x421;&#x422;&#x41E;&#x420;&#x41E;&#x416;&#x41D;&#x41E;&#x421;&#x422;&#x418; &#x41F;&#x420;&#x418; &#x420;&#x410;&#x411;&#x41E;&#x422;&#x415; &#x421; &#x41C;&#x410;&#x422;&#x415;&#x420;&#x418;&#x410;&#x41B;&#x410;&#x41C;&#x418;.</warningAndCautionPara>
+              <warningAndCautionPara>&#x41D;&#x415; &#x41F;&#x41E;&#x414;&#x41D;&#x41E;&#x421;&#x418;&#x422;&#x415; &#x41C;&#x410;&#x422;&#x415;&#x420;&#x418;&#x410;&#x41B;&#x42B; &#x41A;&#x41E; &#x420;&#x422;&#x423;.</warningAndCautionPara>
+              <warningAndCautionPara>&#x418;&#x417;&#x411;&#x415;&#x413;&#x410;&#x419;&#x422;&#x415; &#x412;&#x414;&#x42B;&#x425;&#x410;&#x41D;&#x418;&#x42F; &#x42F;&#x414;&#x41E;&#x412;&#x418;&#x422;&#x42B;&#x425;
+&#x41F;&#x410;&#x420;&#x41E;&#x412;, &#x412;&#x42B;&#x414;&#x415;&#x41B;&#x42F;&#x415;&#x41C;&#x42B;&#x425; &#x41C;&#x410;&#x422;&#x415;&#x420;&#x418;&#x410;&#x41B;&#x410;&#x41C;&#x418;.</warningAndCautionPara>
+              <warningAndCautionPara>&#x41E;&#x411;&#x420;&#x410;&#x422;&#x418;&#x422;&#x415;&#x421;&#x42C; &#x417;&#x410; &#x41C;&#x415;&#x414;&#x418;&#x426;&#x418;&#x41D;&#x421;&#x41A;&#x41E;&#x419; &#x41F;&#x41E;&#x41C;&#x41E;&#x429;&#x42C;&#x42E; &#x41F;&#x420;&#x418; &#x412;&#x41E;&#x417;&#x41D;&#x418;&#x41A;&#x41D;&#x41E;&#x412;&#x415;&#x41D;&#x418;&#x418;
+&#x420;&#x410;&#x417;&#x414;&#x420;&#x410;&#x416;&#x415;&#x41D;&#x418;&#x42F; &#x41A;&#x41E;&#x416;&#x418; &#x418; &#x413;&#x41B;&#x410;&#x417;.</warningAndCautionPara>
+            </warning>
+            <caution id="ctn-001">
+              <warningAndCautionPara>&#x41D;&#x415; &#x414;&#x41E;&#x41F;&#x423;&#x421;&#x41A;&#x410;&#x415;&#x422;&#x421;&#x42F; &#x41F;&#x420;&#x41E;&#x412;&#x41E;&#x414;&#x418;&#x422;&#x42C; &#x420;&#x410;&#x411;&#x41E;&#x422;&#x42B; &#x41F;&#x420;&#x415;&#x414;&#x412;&#x410;&#x420;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x41E; &#x41D;&#x415; &#x423;&#x414;&#x410;&#x41B;&#x418;&#x412; &#x417;&#x410;&#x413;&#x420;&#x42F;&#x417;&#x41D;&#x415;&#x41D;&#x418;&#x42F; &#x421; &#x41F;&#x41E;&#x412;&#x415;&#x420;&#x425;&#x41D;&#x41E;&#x421;&#x422;&#x418;.</warningAndCautionPara>
+              <warningAndCautionPara>&#x41D;&#x410; &#x421;&#x41A;&#x41B;&#x415;&#x418;&#x412;&#x410;&#x415;&#x41C;&#x42B;&#x425; &#x41F;&#x41E;&#x412;&#x415;&#x420;&#x425;&#x41D;&#x41E;&#x421;&#x422;&#x42F;&#x425; &#x41D;&#x415; &#x414;&#x41E;&#x41F;&#x423;&#x421;&#x41A;&#x410;&#x42E;&#x422;&#x421;&#x42F;
+&#x41C;&#x410;&#x421;&#x41B;&#x42F;&#x41D;&#x42B;&#x415; &#x41F;&#x42F;&#x422;&#x41D;&#x410; &#x418; &#x417;&#x410;&#x413;&#x420;&#x42F;&#x417;&#x41D;&#x415;&#x41D;&#x418;&#x42F;.</warningAndCautionPara>
+              <warningAndCautionPara>&#x41F;&#x420;&#x418; &#x41E;&#x411;&#x415;&#x417;&#x416;&#x418;&#x420;&#x418;&#x412;&#x410;&#x41D;&#x418;&#x418; &#x41F;&#x41E;&#x412;&#x415;&#x420;&#x425;&#x41D;&#x41E;&#x421;&#x422;&#x415;&#x419; &#x41F;&#x41E;&#x414;
+&#x421;&#x41A;&#x41B;&#x415;&#x418;&#x412;&#x410;&#x41D;&#x418;&#x415; &#x41D;&#x415; &#x414;&#x41E;&#x41F;&#x423;&#x421;&#x41A;&#x410;&#x415;&#x422;&#x421;&#x42F; &#x41E;&#x411;&#x420;&#x410;&#x417;&#x41E;&#x412;&#x410;&#x41D;&#x418;&#x415; &#x41F;&#x41E;&#x422;&#x415;&#x41A;&#x41E;&#x412; &#x418; &#x41A;&#x410;&#x41F;&#x415;&#x41B;&#x42C; &#x420;&#x410;&#x421;&#x422;&#x412;&#x41E;&#x420;&#x418;&#x422;&#x415;&#x41B;&#x42F;.</warningAndCautionPara>
+              <warningAndCautionPara>&#x41F;&#x420;&#x418; &#x41E;&#x411;&#x420;&#x410;&#x417;&#x41E;&#x412;&#x410;&#x41D;&#x418;&#x418; &#x41F;&#x41E;&#x422;&#x415;&#x41A;&#x41E;&#x412; &#x418; &#x41A;&#x410;&#x41F;&#x415;&#x41B;&#x42C; &#x418;&#x425; &#x41D;&#x415;&#x41E;&#x411;&#x425;&#x41E;&#x414;&#x418;&#x41C;&#x41E; &#x421;&#x420;&#x410;&#x417;&#x423; &#x416;&#x415; &#x423;&#x414;&#x410;&#x41B;&#x42F;&#x422;&#x42C; &#x425;&#x41B;&#x41E;&#x41F;&#x427;&#x410;&#x422;&#x41E;&#x411;&#x423;&#x41C;&#x410;&#x416;&#x41D;&#x41E;&#x419; &#x421;&#x410;&#x41B;&#x424;&#x415;&#x422;&#x41A;&#x41E;&#x419;, &#x41D;&#x415; &#x414;&#x41E;&#x416;&#x418;&#x414;&#x410;&#x42F;&#x421;&#x42C; &#x418;&#x425; &#x412;&#x42B;&#x421;&#x42B;&#x425;&#x410;&#x41D;&#x418;&#x42F;.</warningAndCautionPara>
+            </caution>
+          </safetyRqmts>
+        </reqSafety>
+      </preliminaryRqmts>
+      <mainProcedure>
+        <proceduralStep>
+          <title>&#x41F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B;</title>
+          <proceduralStep>
+            <para>&#x41D;&#x430;&#x434;&#x435;&#x43D;&#x44C;&#x442;&#x435; &#x441;&#x43F;&#x435;&#x446;&#x43E;&#x434;&#x435;&#x436;&#x434;&#x443;: &#x43A;&#x43E;&#x43C;&#x431;&#x438;&#x43D;&#x435;&#x437;&#x43E;&#x43D;,  &#x440;&#x435;&#x441;&#x43F;&#x438;&#x440;&#x430;&#x442;&#x43E;&#x440; &#x430;&#x44D;&#x440;&#x43E;&#x437;&#x43E;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;,&#xA0;&#x43F;&#x435;&#x440;&#x447;&#x430;&#x442;&#x43A;&#x438;, &#x43E;&#x447;&#x43A;&#x438;.</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>&#x41E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x44C;&#x442;&#x435; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F; &#x43A; &#x43C;&#x435;&#x441;&#x442;&#x443; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;.
 						</para>
-</proceduralStep>
-</proceduralStep>
-<proceduralStep>
-<title>Подготовка поверхностей резиновых изделий к склеиванию</title>
-<proceduralStep>
-<para>Протрите склеиваемые поверхности чистыми хлопчатобумажными салфетками,
-смоченными в растворителе.</para>
-</proceduralStep>
-<proceduralStep>
-<para>Протрите поверхность насухо чистыми сухими салфетками до высыхания растворителя.</para>
-<note id="not-001">
-<notePara>Операции повторяйте до тех пор, пока сухая салфетка при протирании поверхности
-не останется чистой и сухой.</notePara>
-</note>
-</proceduralStep>
-<proceduralStep>
-<para>Произведите шлифовку склеиваемого участка, последовательно уменьшая
-зернистость шлифовальных шкурок, с целью выравнивания толщины покрытия.</para>
-<note id="not-002">
-<notePara>Не допускаются пропуски и разная степень шероховатости обработанной
-поверхности.</notePara>
-</note>
-</proceduralStep>
-<proceduralStep>
-<para>Удалите образовавшуюся пыль с поверхности с помощью пневматического продувочного
-пистолета.</para>
-</proceduralStep>
-</proceduralStep>
-<proceduralStep>
-<title>Заключительные работы</title>
-<proceduralStep>
-<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
-</proceduralStep>
-</proceduralStep>
-</mainProcedure>
-<closeRqmts>
-<reqCondGroup>
-<noConds></noConds>
-</reqCondGroup>
-</closeRqmts>
-</procedure>
-</content>
+          </proceduralStep>
+        </proceduralStep>
+        <proceduralStep>
+          <title>&#x41F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x43A;&#x430; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x435;&#x439; &#x440;&#x435;&#x437;&#x438;&#x43D;&#x43E;&#x432;&#x44B;&#x445; &#x438;&#x437;&#x434;&#x435;&#x43B;&#x438;&#x439; &#x43A; &#x441;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x44E;</title>
+          <proceduralStep>
+            <para>&#x41F;&#x440;&#x43E;&#x442;&#x440;&#x438;&#x442;&#x435; &#x441;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x44B;&#x435; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x447;&#x438;&#x441;&#x442;&#x44B;&#x43C;&#x438; &#x445;&#x43B;&#x43E;&#x43F;&#x447;&#x430;&#x442;&#x43E;&#x431;&#x443;&#x43C;&#x430;&#x436;&#x43D;&#x44B;&#x43C;&#x438; &#x441;&#x430;&#x43B;&#x444;&#x435;&#x442;&#x43A;&#x430;&#x43C;&#x438;,
+&#x441;&#x43C;&#x43E;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x43C;&#x438; &#x432; &#x440;&#x430;&#x441;&#x442;&#x432;&#x43E;&#x440;&#x438;&#x442;&#x435;&#x43B;&#x435;.</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>&#x41F;&#x440;&#x43E;&#x442;&#x440;&#x438;&#x442;&#x435; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x43D;&#x430;&#x441;&#x443;&#x445;&#x43E; &#x447;&#x438;&#x441;&#x442;&#x44B;&#x43C;&#x438; &#x441;&#x443;&#x445;&#x438;&#x43C;&#x438; &#x441;&#x430;&#x43B;&#x444;&#x435;&#x442;&#x43A;&#x430;&#x43C;&#x438; &#x434;&#x43E; &#x432;&#x44B;&#x441;&#x44B;&#x445;&#x430;&#x43D;&#x438;&#x44F; &#x440;&#x430;&#x441;&#x442;&#x432;&#x43E;&#x440;&#x438;&#x442;&#x435;&#x43B;&#x44F;.</para>
+            <note id="not-001">
+              <notePara>&#x41E;&#x43F;&#x435;&#x440;&#x430;&#x446;&#x438;&#x438; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x44F;&#x439;&#x442;&#x435; &#x434;&#x43E; &#x442;&#x435;&#x445; &#x43F;&#x43E;&#x440;, &#x43F;&#x43E;&#x43A;&#x430; &#x441;&#x443;&#x445;&#x430;&#x44F; &#x441;&#x430;&#x43B;&#x444;&#x435;&#x442;&#x43A;&#x430; &#x43F;&#x440;&#x438; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x440;&#x430;&#x43D;&#x438;&#x438; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x438;
+&#x43D;&#x435; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x435;&#x442;&#x441;&#x44F; &#x447;&#x438;&#x441;&#x442;&#x43E;&#x439; &#x438; &#x441;&#x443;&#x445;&#x43E;&#x439;.</notePara>
+            </note>
+          </proceduralStep>
+          <proceduralStep>
+            <para>&#x41F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x435;&#x434;&#x438;&#x442;&#x435; &#x448;&#x43B;&#x438;&#x444;&#x43E;&#x432;&#x43A;&#x443; &#x441;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x43E;&#x433;&#x43E; &#x443;&#x447;&#x430;&#x441;&#x442;&#x43A;&#x430;, &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x443;&#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x430;&#x44F;
+&#x437;&#x435;&#x440;&#x43D;&#x438;&#x441;&#x442;&#x43E;&#x441;&#x442;&#x44C; &#x448;&#x43B;&#x438;&#x444;&#x43E;&#x432;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x448;&#x43A;&#x443;&#x440;&#x43E;&#x43A;, &#x441; &#x446;&#x435;&#x43B;&#x44C;&#x44E; &#x432;&#x44B;&#x440;&#x430;&#x432;&#x43D;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x442;&#x43E;&#x43B;&#x449;&#x438;&#x43D;&#x44B; &#x43F;&#x43E;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F;.</para>
+            <note id="not-002">
+              <notePara>&#x41D;&#x435; &#x434;&#x43E;&#x43F;&#x443;&#x441;&#x43A;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x43F;&#x440;&#x43E;&#x43F;&#x443;&#x441;&#x43A;&#x438; &#x438; &#x440;&#x430;&#x437;&#x43D;&#x430;&#x44F; &#x441;&#x442;&#x435;&#x43F;&#x435;&#x43D;&#x44C; &#x448;&#x435;&#x440;&#x43E;&#x445;&#x43E;&#x432;&#x430;&#x442;&#x43E;&#x441;&#x442;&#x438; &#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x43D;&#x43D;&#x43E;&#x439;
+&#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x438;.</notePara>
+            </note>
+          </proceduralStep>
+          <proceduralStep>
+            <para>&#x423;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x435; &#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x432;&#x448;&#x443;&#x44E;&#x441;&#x44F; &#x43F;&#x44B;&#x43B;&#x44C; &#x441; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; &#x43F;&#x43D;&#x435;&#x432;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x434;&#x443;&#x432;&#x43E;&#x447;&#x43D;&#x43E;&#x433;&#x43E;
+&#x43F;&#x438;&#x441;&#x442;&#x43E;&#x43B;&#x435;&#x442;&#x430;.</para>
+          </proceduralStep>
+        </proceduralStep>
+        <proceduralStep>
+          <title>&#x417;&#x430;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B;</title>
+          <proceduralStep>
+            <para>&#x41E;&#x447;&#x438;&#x441;&#x442;&#x438;&#x442;&#x435; &#x437;&#x43E;&#x43D;&#x443; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442; &#x438; &#x443;&#x431;&#x435;&#x434;&#x438;&#x442;&#x435;&#x441;&#x44C; &#x432; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x438;&#x438; &#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x440;&#x43E;&#x43D;&#x43D;&#x438;&#x445; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x43E;&#x432;.</para>
+          </proceduralStep>
+        </proceduralStep>
+      </mainProcedure>
+      <closeRqmts>
+        <reqCondGroup>
+          <noConds/>
+        </reqCondGroup>
+      </closeRqmts>
+    </procedure>
+  </content>
 </dmodule>

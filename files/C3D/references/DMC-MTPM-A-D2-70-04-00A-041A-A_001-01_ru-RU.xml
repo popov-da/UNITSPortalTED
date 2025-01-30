@@ -1,411 +1,278 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <!DOCTYPE dmodule [
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" >
 <!ENTITY ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
 <!ENTITY ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01.cgm" NDATA cgm>
 <!ENTITY ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.cgm" NDATA cgm>
-<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
 ]>
-<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
-<identAndStatusSection>
-<dmAddress>
-<dmIdent>
-<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="7" subSubSystemCode="0" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
-<language countryIsoCode="RU" languageIsoCode="ru"></language>
-<issueInfo issueNumber="001" inWork="01"></issueInfo>
-</dmIdent>
-<dmAddressItems>
-<issueDate year="2024" month="11" day="06"></issueDate>
-<dmTitle>
-<techName>Распределительные устройства АКБ</techName>
-<infoName>Описание и работа</infoName>
-</dmTitle>
-</dmAddressItems>
-</dmAddress>
-<dmStatus issueType="new">
-<security securityClassification="01"></security>
-<responsiblePartnerCompany enterpriseCode="MDMKD">
-<enterpriseName>МОДУЛЬ МКД</enterpriseName>
-</responsiblePartnerCompany>
-<originator enterpriseCode="MDMKD">
-<enterpriseName>МОДУЛЬ МКД</enterpriseName>
-</originator>
-<applic>
-<displayText>
-<simplePara>ВСЕ</simplePara>
-</displayText>
-</applic>
-<brexDmRef>
-<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
-<dmRefIdent>
-<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
-</dmRefIdent>
-</dmRef>
-</brexDmRef>
-<qualityAssurance>
-<unverified></unverified>
-</qualityAssurance>
-</dmStatus>
-</identAndStatusSection>
-<content>
-<description>
-<levelledPara>
-<title>Общие сведения</title>
-<levelledPara>
-<title>Назначение</title>
-<para>
-						Распределительные устройства аккумуляторных батарей (АКБ) предназначены для:<randomList>
-<listItem>
-<para>размещения оборудования;</para>
-</listItem>
-<listItem>
-<para>подключения зарядной станции и зарядки АКБ;</para>
-</listItem>
-<listItem>
-<para>распределения электроэнергии постоянного тока напряжением 5 В, 12 В, 24 В между потребителями;</para>
-</listItem>
-<listItem>
-<para>приема и перераспределения дискретных сигналов 24 В;</para>
-</listItem>
-<listItem>
-<para>транзитной передачи электроэнергии постоянного тока напряжением 12 В, 24 В и дискретных сигналов 24 В.</para>
-</listItem>
-</randomList>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="D2" subSystemCode="7" subSubSystemCode="0" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"/>
+        <language countryIsoCode="RU" languageIsoCode="ru"/>
+        <issueInfo issueNumber="001" inWork="01"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2024" month="11" day="06"/>
+        <dmTitle>
+          <techName>&#x420;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430; &#x410;&#x41A;&#x411;</techName>
+          <infoName>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x438; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="MDMKD">
+        <enterpriseName>&#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C; &#x41C;&#x41A;&#x414;</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="MDMKD">
+        <enterpriseName>&#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C; &#x41C;&#x41A;&#x414;</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>&#x412;&#x421;&#x415;</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <levelledPara>
+        <title>&#x41E;&#x431;&#x449;&#x438;&#x435; &#x441;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x438;&#x44F;</title>
+        <levelledPara>
+          <title>&#x41D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;</title>
+          <para>
+						&#x420;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430; &#x430;&#x43A;&#x43A;&#x443;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x43D;&#x44B;&#x445; &#x431;&#x430;&#x442;&#x430;&#x440;&#x435;&#x439; (&#x410;&#x41A;&#x411;) &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x44B; &#x434;&#x43B;&#x44F;:<randomList><listItem><para>&#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x431;&#x43E;&#x440;&#x443;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;;</para></listItem><listItem><para>&#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438; &#x438; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438; &#x410;&#x41A;&#x411;;</para></listItem><listItem><para>&#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x43E;&#x44D;&#x43D;&#x435;&#x440;&#x433;&#x438;&#x438; &#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x442;&#x43E;&#x43A;&#x430; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x43C; 5 &#x412;, 12 &#x412;, 24 &#x412; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x43F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x438;&#x442;&#x435;&#x43B;&#x44F;&#x43C;&#x438;;</para></listItem><listItem><para>&#x43F;&#x440;&#x438;&#x435;&#x43C;&#x430; &#x438; &#x43F;&#x435;&#x440;&#x435;&#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x438;&#x441;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x44B;&#x445; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x43E;&#x432; 24 &#x412;;</para></listItem><listItem><para>&#x442;&#x440;&#x430;&#x43D;&#x437;&#x438;&#x442;&#x43D;&#x43E;&#x439; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x438; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x43E;&#x44D;&#x43D;&#x435;&#x440;&#x433;&#x438;&#x438; &#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x442;&#x43E;&#x43A;&#x430; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x43C; 12 &#x412;, 24 &#x412; &#x438; &#x434;&#x438;&#x441;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x44B;&#x445; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x43E;&#x432; 24 &#x412;.</para></listItem></randomList>
 </para>
-</levelledPara>
-<levelledPara>
-<title>Состав</title>
-<para>						Распределительные устройства (РУ) АКБ состоит из двух одинаковых частей, которые зеркально
-отражены относительно центра траверсы. В состав одной части РУ АКБ входят:<randomList>
-<listItem>
-<para>шкаф (1 шт.) <dmRef>
-<dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
-</dmRefIdent>
-</dmRef>;</para>
-</listItem>
-<listItem>
-<para>кронштейн (2 шт.);</para>
-</listItem>
-<listItem>
-<para>вентилятор (2 шт.) <dmRef>
-<dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
-</dmRefIdent>
-</dmRef>;</para>
-</listItem>
-<listItem>
-<para>вентиляционная решетка (2 шт.) <dmRef>
-<dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
-</dmRefIdent>
-</dmRef>;</para>
-</listItem>
-<listItem>
-<para>репей (1 шт.) <dmRef>
-<dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
-</dmRefIdent>
-</dmRef>;</para>
-</listItem>
-<listItem>
-<para>аккумулятор (1 шт.) <dmRef>
-<dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="2" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
-</dmRefIdent>
-</dmRef>;</para>
-</listItem>
-<listItem>
-<para>светодиодный индикатор (3 шт.);</para>
-</listItem>
-<listItem>
-<para>кнопка аварийной остановки (1 шт.);</para>
-</listItem>
-<listItem>
-<para>выключатель нагрузки (1 шт.);</para>
-</listItem>
-<listItem>
-<para>модульный автоматический выключатель (2 шт.);</para>
-</listItem>
-<listItem>
-<para>сигнальный контакт (2 шт.);</para>
-</listItem>
-<listItem>
-<para>модульный контактор (3 шт.);</para>
-</listItem>
-<listItem>
-<para>дополнительный контактный модуль (3 шт.);</para>
-</listItem>
-<listItem>
-<para>проходная клемма (22 шт.);</para>
-</listItem>
-<listItem>
-<para>проходная клемма с предохранителем (4 шт.);</para>
-</listItem>
-<listItem>
-<para>проходная клемма с заземлением (2 шт.);</para>
-</listItem>
-<listItem>
-<para>разделитель (3 шт.);</para>
-</listItem>
-<listItem>
-<para>концевой фиксатор (2 шт.);</para>
-</listItem>
-<listItem>
-<para>DIN-рейка (1 шт.);</para>
-</listItem>
-<listItem>
-<para>перфорированный кабельный канал (4 шт.);</para>
-</listItem>
-<listItem>
-<para>крышка перфорированного кабельного канала (4 шт.).</para>
-</listItem>
-</randomList>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x421;&#x43E;&#x441;&#x442;&#x430;&#x432;</title>
+          <para>						&#x420;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430; (&#x420;&#x423;) &#x410;&#x41A;&#x411; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x438;&#x442; &#x438;&#x437; &#x434;&#x432;&#x443;&#x445; &#x43E;&#x434;&#x438;&#x43D;&#x430;&#x43A;&#x43E;&#x432;&#x44B;&#x445; &#x447;&#x430;&#x441;&#x442;&#x435;&#x439;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x437;&#x435;&#x440;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;
+&#x43E;&#x442;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x44B; &#x43E;&#x442;&#x43D;&#x43E;&#x441;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x446;&#x435;&#x43D;&#x442;&#x440;&#x430; &#x442;&#x440;&#x430;&#x432;&#x435;&#x440;&#x441;&#x44B;. &#x412; &#x441;&#x43E;&#x441;&#x442;&#x430;&#x432; &#x43E;&#x434;&#x43D;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x420;&#x423; &#x410;&#x41A;&#x411; &#x432;&#x445;&#x43E;&#x434;&#x44F;&#x442;:<randomList><listItem><para>&#x448;&#x43A;&#x430;&#x444; (1 &#x448;&#x442;.) <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>;</para></listItem><listItem><para>&#x43A;&#x440;&#x43E;&#x43D;&#x448;&#x442;&#x435;&#x439;&#x43D; (2 &#x448;&#x442;.);</para></listItem><listItem><para>&#x432;&#x435;&#x43D;&#x442;&#x438;&#x43B;&#x44F;&#x442;&#x43E;&#x440; (2 &#x448;&#x442;.) <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>;</para></listItem><listItem><para>&#x432;&#x435;&#x43D;&#x442;&#x438;&#x43B;&#x44F;&#x446;&#x438;&#x43E;&#x43D;&#x43D;&#x430;&#x44F; &#x440;&#x435;&#x448;&#x435;&#x442;&#x43A;&#x430; (2 &#x448;&#x442;.) <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="4" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>;</para></listItem><listItem><para>&#x440;&#x435;&#x43F;&#x435;&#x439; (1 &#x448;&#x442;.) <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>;</para></listItem><listItem><para>&#x430;&#x43A;&#x43A;&#x443;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440; (1 &#x448;&#x442;.) <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="2" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>;</para></listItem><listItem><para>&#x441;&#x432;&#x435;&#x442;&#x43E;&#x434;&#x438;&#x43E;&#x434;&#x43D;&#x44B;&#x439; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; (3 &#x448;&#x442;.);</para></listItem><listItem><para>&#x43A;&#x43D;&#x43E;&#x43F;&#x43A;&#x430; &#x430;&#x432;&#x430;&#x440;&#x438;&#x439;&#x43D;&#x43E;&#x439; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; (1 &#x448;&#x442;.);</para></listItem><listItem><para>&#x432;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44C; &#x43D;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x438; (1 &#x448;&#x442;.);</para></listItem><listItem><para>&#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x432;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44C; (2 &#x448;&#x442;.);</para></listItem><listItem><para>&#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442; (2 &#x448;&#x442;.);</para></listItem><listItem><para>&#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440; (3 &#x448;&#x442;.);</para></listItem><listItem><para>&#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43D;&#x44B;&#x439; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; (3 &#x448;&#x442;.);</para></listItem><listItem><para>&#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430; (22 &#x448;&#x442;.);</para></listItem><listItem><para>&#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430; &#x441; &#x43F;&#x440;&#x435;&#x434;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x43C; (4 &#x448;&#x442;.);</para></listItem><listItem><para>&#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430; &#x441; &#x437;&#x430;&#x437;&#x435;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x435;&#x43C; (2 &#x448;&#x442;.);</para></listItem><listItem><para>&#x440;&#x430;&#x437;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C; (3 &#x448;&#x442;.);</para></listItem><listItem><para>&#x43A;&#x43E;&#x43D;&#x446;&#x435;&#x432;&#x43E;&#x439; &#x444;&#x438;&#x43A;&#x441;&#x430;&#x442;&#x43E;&#x440; (2 &#x448;&#x442;.);</para></listItem><listItem><para>DIN-&#x440;&#x435;&#x439;&#x43A;&#x430; (1 &#x448;&#x442;.);</para></listItem><listItem><para>&#x43F;&#x435;&#x440;&#x444;&#x43E;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x430;&#x43D;&#x430;&#x43B; (4 &#x448;&#x442;.);</para></listItem><listItem><para>&#x43A;&#x440;&#x44B;&#x448;&#x43A;&#x430; &#x43F;&#x435;&#x440;&#x444;&#x43E;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x430;&#x43D;&#x430;&#x43B;&#x430; (4 &#x448;&#x442;.).</para></listItem></randomList>
 </para>
-</levelledPara>
-<levelledPara>
-<title>Технические характеристики</title>
-<para>Технические характеристики РУ АКБ <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
-<table id="tab-002">
-<title>Технические характеристики распределительного устройста АКБ</title>
-<tgroup cols="2" align="center">
-<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
-<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
-<thead>
-<row>
-<entry colname="col1">
-<para>Наименование параметра</para>
-</entry>
-<entry colname="col2">
-<para>Значение</para>
-</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry colname="col1" align="left">
-<para>Габаритные размеры (Д×Ш×В), мм, не более</para>
-</entry>
-<entry colname="col2">
-<para>702×280×485</para>
-</entry>
-</row>
-<row>
-<entry colname="col1" align="left">
-<para>Масса, кг, не более</para>
-</entry>
-<entry colname="col2">
-<para>???</para>
-</entry>
-</row>
-</tbody>
-</tgroup>
-</table>
-</levelledPara>
-</levelledPara>
-<levelledPara>
-<title>Размещение компонентов</title>
-<para>РУ АКБ размещено на основание траверсы.</para>
-</levelledPara>
-<levelledPara>
-<title>Описание</title>
-<para>
-<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x422;&#x435;&#x445;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x435; &#x445;&#x430;&#x440;&#x430;&#x43A;&#x442;&#x435;&#x440;&#x438;&#x441;&#x442;&#x438;&#x43A;&#x438;</title>
+          <para>&#x422;&#x435;&#x445;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x435; &#x445;&#x430;&#x440;&#x430;&#x43A;&#x442;&#x435;&#x440;&#x438;&#x441;&#x442;&#x438;&#x43A;&#x438; &#x420;&#x423; &#x410;&#x41A;&#x411; <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"/>.</para>
+          <table id="tab-002">
+            <title>&#x422;&#x435;&#x445;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x435; &#x445;&#x430;&#x440;&#x430;&#x43A;&#x442;&#x435;&#x440;&#x438;&#x441;&#x442;&#x438;&#x43A;&#x438; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x430; &#x410;&#x41A;&#x411;</title>
+            <tgroup cols="2" align="center">
+              <colspec colnum="1" colname="col1" colwidth="1*"/>
+              <colspec colnum="2" colname="col2" colwidth="1*"/>
+              <thead>
+                <row>
+                  <entry colname="col1">
+                    <para>&#x41D;&#x430;&#x438;&#x43C;&#x435;&#x43D;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x430;</para>
+                  </entry>
+                  <entry colname="col2">
+                    <para>&#x417;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;</para>
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry colname="col1" align="left">
+                    <para>&#x413;&#x430;&#x431;&#x430;&#x440;&#x438;&#x442;&#x43D;&#x44B;&#x435; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440;&#x44B; (&#x414;&#xD7;&#x428;&#xD7;&#x412;), &#x43C;&#x43C;, &#x43D;&#x435; &#x431;&#x43E;&#x43B;&#x435;&#x435;</para>
+                  </entry>
+                  <entry colname="col2">
+                    <para>702&#xD7;280&#xD7;485</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry colname="col1" align="left">
+                    <para>&#x41C;&#x430;&#x441;&#x441;&#x430;, &#x43A;&#x433;, &#x43D;&#x435; &#x431;&#x43E;&#x43B;&#x435;&#x435;</para>
+                  </entry>
+                  <entry colname="col2">
+                    <para>???</para>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </levelledPara>
+      </levelledPara>
+      <levelledPara>
+        <title>&#x420;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x43A;&#x43E;&#x43C;&#x43F;&#x43E;&#x43D;&#x435;&#x43D;&#x442;&#x43E;&#x432;</title>
+        <para>&#x420;&#x423; &#x410;&#x41A;&#x411; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x43E; &#x43D;&#x430; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x442;&#x440;&#x430;&#x432;&#x435;&#x440;&#x441;&#x44B;.</para>
+      </levelledPara>
+      <levelledPara>
+        <title>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;</title>
+        <para>
+          <internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"/>
+        </para>
+        <para>&#x420;&#x423; &#x410;&#x41A;&#x411; 
+&#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442; &#x441;&#x43E;&#x431;&#x43E;&#x439; &#x448;&#x43A;&#x430;&#x444; &#x441; &#x434;&#x432;&#x443;&#x43C;&#x44F; &#x43A;&#x440;&#x43E;&#x43D;&#x448;&#x442;&#x435;&#x439;&#x43D;&#x430;&#x43C;&#x438;, &#x432;&#x43D;&#x443;&#x442;&#x440;&#x438; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x433;&#x43E; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x44B; &#x410;&#x41A;&#x411; &#x438; &#x43A;&#x43E;&#x43C;&#x43C;&#x443;&#x442;&#x430;&#x446;&#x438;&#x43E;&#x43D;&#x43D;&#x43E;&#x435; &#x43E;&#x431;&#x43E;&#x440;&#x443;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;.</para>
+        <levelledPara>
+          <title>&#x428;&#x43A;&#x430;&#x444;</title>
+          <para>&#x428;&#x43A;&#x430;&#x444; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x438;&#x442; &#x438;&#x437; &#x43C;&#x435;&#x442;&#x430;&#x43B;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x43A;&#x430;&#x440;&#x43A;&#x430;&#x441;&#x430;, &#x434;&#x432;&#x435;&#x440;&#x446;&#x430; &#x438; &#x434;&#x432;&#x443;&#x445; &#x437;&#x430;&#x43C;&#x43A;&#x43E;&#x432;. &#x414;&#x43B;&#x44F; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438; &#x420;&#x423; &#x410;&#x41A;&#x411; &#x43D;&#x430; &#x432;&#x435;&#x440;&#x445;&#x43D;&#x435;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x43A;&#x43E;&#x440;&#x43F;&#x443;&#x441;&#x430; &#x43F;&#x440;&#x435;&#x434;&#x443;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x43D;&#x44B; &#x43E;&#x442;&#x432;&#x435;&#x440;&#x441;&#x442;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x440;&#x44B;&#x43C;-&#x431;&#x43E;&#x43B;&#x442;&#x43E;&#x432;. &#x41D;&#x430; &#x43A;&#x43E;&#x440;&#x43F;&#x443;&#x441;&#x435; &#x448;&#x43A;&#x430;&#x444;&#x430; &#x438;&#x43C;&#x435;&#x44E;&#x442;&#x441;&#x44F; &#x43E;&#x442;&#x432;&#x435;&#x440;&#x441;&#x442;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; &#x432;&#x435;&#x43D;&#x442;&#x438;&#x43B;&#x44F;&#x446;&#x438;&#x43E;&#x43D;&#x43D;&#x44B;&#x445; &#x440;&#x435;&#x448;&#x435;&#x442;&#x43E;&#x43A;, &#x432;&#x435;&#x43D;&#x442;&#x438;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x43E;&#x432; &#x438; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x445; &#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439;. &#x41D;&#x430; &#x434;&#x432;&#x435;&#x440;&#x446;&#x435; &#x448;&#x43A;&#x430;&#x444;&#x430; &#x43F;&#x440;&#x435;&#x434;&#x443;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x43D;&#x44B; &#x43E;&#x442;&#x432;&#x435;&#x440;&#x441;&#x442;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; &#x432;&#x435;&#x43D;&#x442;&#x438;&#x43B;&#x44F;&#x446;&#x438;&#x43E;&#x43D;&#x43D;&#x43E;&#x439; &#x440;&#x435;&#x448;&#x435;&#x442;&#x43A;&#x438;,  &#x431;&#x430;&#x437;&#x43E;&#x432;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438;, &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x43E;&#x432;, &#x43A;&#x43D;&#x43E;&#x43F;&#x43A;&#x438; &#x430;&#x432;&#x430;&#x440;&#x438;&#x439;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; &#x438; &#x432;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44F; &#x43D;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x438;. &#x412; &#x448;&#x43A;&#x430;&#x444;&#x443; &#x438;&#x43C;&#x435;&#x435;&#x442;&#x441;&#x44F; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x434;&#x43B;&#x44F; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; &#x410;&#x41A;&#x411;, &#x430; &#x434;&#x43B;&#x44F; &#x43D;&#x430;&#x434;&#x435;&#x436;&#x43D;&#x43E;&#x439; &#x444;&#x438;&#x43A;&#x441;&#x430;&#x446;&#x438;&#x438; &#x435;&#x433;&#x43E; &#x43F;&#x440;&#x435;&#x434;&#x443;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x43D;&#x44B; &#x43F;&#x440;&#x438;&#x436;&#x438;&#x43C;&#x43D;&#x44B;&#x435; &#x443;&#x43F;&#x43E;&#x440;&#x44B;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43A;&#x440;&#x435;&#x43F;&#x44F;&#x442;&#x441;&#x44F; &#x43A; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44E;. &#x414;&#x43B;&#x44F; &#x43F;&#x43B;&#x43E;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x438;&#x43B;&#x435;&#x433;&#x430;&#x43D;&#x438;&#x44F; &#x443;&#x43F;&#x43E;&#x440;&#x43E;&#x432; &#x43A; &#x410;&#x41A;&#x411; &#x43A; &#x43D;&#x438;&#x43C; &#x43F;&#x440;&#x438;&#x43A;&#x43B;&#x435;&#x435;&#x43D;&#x44B; &#x440;&#x435;&#x437;&#x438;&#x43D;&#x43E;&#x432;&#x44B;&#x435; &#x443;&#x43F;&#x43B;&#x43E;&#x442;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x438;. &#x422;&#x430;&#x43A;&#x436;&#x435; &#x432; &#x448;&#x43A;&#x430;&#x444;&#x443; &#x43F;&#x440;&#x435;&#x434;&#x443;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x43D;&#x430; &#x43C;&#x43E;&#x43D;&#x442;&#x430;&#x436;&#x43D;&#x430;&#x44F; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x44C;, &#x43D;&#x430; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x443;&#x44E; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x432;&#x43B;&#x438;&#x432;&#x430;&#x44E;&#x442; &#x43D;&#x430;&#x432;&#x435;&#x441;&#x43D;&#x43E;&#x435; &#x43E;&#x431;&#x43E;&#x440;&#x443;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;. </para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41A;&#x440;&#x43E;&#x43D;&#x448;&#x442;&#x435;&#x439;&#x43D;</title>
+          <para>&#x41A;&#x440;&#x43E;&#x448;&#x442;&#x435;&#x439;&#x43D; &#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442; &#x441;&#x43E;&#x431;&#x43E;&#x439; &#x441;&#x432;&#x430;&#x440;&#x43D;&#x443;&#x44E; &#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43A;&#x446;&#x438;&#x44E; &#x438;&#x437; &#x43F;&#x43E;&#x43B;&#x43A;&#x438;, &#x441;&#x442;&#x435;&#x43D;&#x43A;&#x438; &#x438; &#x43A;&#x43E;&#x441;&#x44B;&#x43D;&#x43A;&#x438;. &#x412; &#x43A;&#x440;&#x43E;&#x43D;&#x448;&#x442;&#x435;&#x439;&#x43D;&#x435; &#x43F;&#x440;&#x435;&#x434;&#x443;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x43D;&#x44B; &#x43E;&#x442;&#x432;&#x435;&#x440;&#x441;&#x442;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x43A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x43A; &#x448;&#x43A;&#x430;&#x444;&#x443; &#x438; &#x434;&#x43B;&#x44F; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; &#x43D;&#x430; &#x442;&#x440;&#x430;&#x432;&#x435;&#x440;&#x441;&#x443;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x421;&#x432;&#x435;&#x442;&#x43E;&#x434;&#x438;&#x43E;&#x434;&#x43D;&#x44B;&#x439; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;</title>
+          <para>&#x412; &#x448;&#x43A;&#x430;&#x444;&#x443; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x43E; &#x442;&#x440;&#x438; &#x441;&#x432;&#x435;&#x442;&#x43E;&#x434;&#x438;&#x43E;&#x434;&#x43D;&#x44B;&#x445; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x430;:<randomList><listItem><para>&#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438; &#x410;&#x41A;&#x411; &#x437;&#x435;&#x43B;&#x435;&#x43D;&#x43E;&#x433;&#x43E; &#x446;&#x432;&#x435;&#x442;&#x430; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x430;&#x43B;&#x438;&#x447;&#x438;&#x44F; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x44F; &#x43E;&#x442; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438;. &#x415;&#x433;&#x43E; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x443;&#x435;&#x442; &#x43E; &#x442;&#x43E;&#x43C;, &#x447;&#x442;&#x43E; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438; &#x43F;&#x43E;&#x434;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x430; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x443; &#x438; &#x410;&#x41A;&#x411; &#x43D;&#x430;&#x447;&#x438;&#x43D;&#x430;&#x435;&#x442; &#x43F;&#x440;&#x43E;&#x446;&#x435;&#x441;&#x441; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438;;</para></listItem><listItem><para>&#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438; &#x410;&#x41A;&#x411; &#x436;&#x435;&#x43B;&#x442;&#x43E;&#x433;&#x43E; &#x446;&#x432;&#x435;&#x442;&#x430; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x434;&#x43B;&#x44F; &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x44F; &#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x430; &#x410;&#x41A;&#x411;. &#x42D;&#x442;&#x43E;&#x442; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x437;&#x430;&#x433;&#x43E;&#x440;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x432; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x435;, &#x43A;&#x43E;&#x433;&#x434;&#x430; &#x446;&#x435;&#x43F;&#x438; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x430; &#x410;&#x41A;&#x411; &#x440;&#x430;&#x437;&#x43E;&#x43C;&#x43A;&#x43D;&#x443;&#x442;&#x44B;, &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x443;&#x44F; &#x43E;&#x431; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x438;&#x438; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438; &#x438;&#x43B;&#x438; &#x440;&#x430;&#x437;&#x440;&#x44F;&#x434;&#x43A;&#x438; &#x410;&#x41A;&#x411;;</para></listItem><listItem><para>&#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x44F; &#x410;&#x41A;&#x411; &#x436;&#x435;&#x43B;&#x442;&#x43E;&#x433;&#x43E; &#x446;&#x432;&#x435;&#x442;&#x430; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x430; &#x410;&#x41A;&#x411;. &#x415;&#x433;&#x43E; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x443;&#x435;&#x442; &#x43E; &#x442;&#x43E;&#x43C;, &#x447;&#x442;&#x43E; &#x437;&#x430;&#x440;&#x44F;&#x434; &#x410;&#x41A;&#x411; &#x43D;&#x438;&#x436;&#x435; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x438;&#x44F;. </para></listItem></randomList>
 </para>
-<para>РУ АКБ 
-представляет собой шкаф с двумя кронштейнами, внутри которого размещены АКБ и коммутационное оборудование.</para>
-<levelledPara>
-<title>Шкаф</title>
-<para>Шкаф состоит из металлического каркаса, дверца и двух замков. Для транспортировки РУ АКБ на верхней части корпуса предусмотрены отверстия для рым-болтов. На корпусе шкафа имеются отверстия для установки вентиляционных решеток, вентиляторов и электрических соединителей. На дверце шкафа предусмотрены отверстия для установки вентиляционной решетки,  базовой станции, индикаторов, кнопки аварийного остановки и выключателя нагрузки. В шкафу имеется основание для установки АКБ, а для надежной фиксации его предусмотрены прижимные упоры, которые крепятся к основанию. Для плотного прилегания упоров к АКБ к ним приклеены резиновые уплотнители. Также в шкафу предусмотрена монтажная панель, на которую устанавливают навесное оборудование. </para>
-</levelledPara>
-<levelledPara>
-<title>Кронштейн</title>
-<para>Кроштейн представляет собой сварную конструкцию из полки, стенки и косынки. В кронштейне предусмотрены отверстия для крепления к шкафу и для установки на траверсу.</para>
-</levelledPara>
-<levelledPara>
-<title>Светодиодный индикатор</title>
-<para>В шкафу установлено три светодиодных индикатора:<randomList>
-<listItem>
-<para>индикатор зарядки АКБ зеленого цвета предназначен для отображения наличия питания от зарядной станции. Его включение сигнализирует о том, что питание от зарядной станции подается на систему и АКБ начинает процесс зарядки;</para>
-</listItem>
-<listItem>
-<para>индикатор блокировки АКБ желтого цвета используется для отображения состояния блокировки контактора АКБ. Этот индикатор загорается в случае, когда цепи контактора АКБ разомкнуты, сигнализируя об отсутствии возможности зарядки или разрядки АКБ;</para>
-</listItem>
-<listItem>
-<para>индикатор состояния АКБ желтого цвета предназначен для отображения уровня заряда АКБ. Его включение сигнализирует о том, что заряд АКБ ниже установленного минимального уровня напряжения. </para>
-</listItem>
-</randomList>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41A;&#x43D;&#x43E;&#x43F;&#x43A;&#x430; &#x430;&#x432;&#x430;&#x440;&#x438;&#x439;&#x43D;&#x43E;&#x439; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438;</title>
+          <para>&#x41A;&#x43D;&#x43E;&#x43F;&#x43A;&#x430; &#x430;&#x432;&#x430;&#x440;&#x438;&#x439;&#x43D;&#x43E;&#x439; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; (&#x41A;&#x410;&#x41E;) &#x441;&#x43B;&#x443;&#x436;&#x438;&#x442; &#x434;&#x43B;&#x44F; &#x431;&#x44B;&#x441;&#x442;&#x440;&#x43E;&#x433;&#x43E; &#x441;&#x43D;&#x44F;&#x442;&#x438;&#x44F; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x441; &#x440;&#x435;&#x43B;&#x435; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x438; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x44B;&#x445; &#x430;&#x433;&#x440;&#x435;&#x433;&#x430;&#x442;&#x43E;&#x432;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x412;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44C; &#x43D;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x438;</title>
+          <para>&#x412;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44C; &#x43D;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x438; &#x43F;&#x43E;&#x437;&#x432;&#x43E;&#x43B;&#x44F;&#x435;&#x442; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x44C; &#x438; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x44C; &#x446;&#x435;&#x43F;&#x438; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x44F;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x432;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44C;</title>
+          <para>&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x432;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44C; (&#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B;) &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x446;&#x435;&#x43F;&#x438; &#x43F;&#x440;&#x438; &#x432;&#x43E;&#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x438;&#x438; &#x43A;&#x43E;&#x440;&#x43E;&#x442;&#x43A;&#x438;&#x445; &#x437;&#x430;&#x43C;&#x44B;&#x43A;&#x430;&#x43D;&#x438;&#x439; &#x438;&#x43B;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x433;&#x440;&#x443;&#x437;&#x43E;&#x43A;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x421;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;</title>
+          <para>&#x421;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442; (&#x421;&#x41A;) &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x430;&#x432;&#x430;&#x440;&#x438;&#x439;&#x43D;&#x43E;&#x433;&#x43E; &#x441;&#x440;&#x430;&#x431;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x440;&#x438; &#x432;&#x43E;&#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x438;&#x438; &#x43A;&#x43E;&#x440;&#x43E;&#x442;&#x43A;&#x438;&#x445; &#x437;&#x430;&#x43C;&#x44B;&#x43A;&#x430;&#x43D;&#x438;&#x439; &#x438;&#x43B;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x433;&#x440;&#x443;&#x437;&#x43E;&#x43A;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;</title>
+          <para>&#x412; &#x448;&#x43A;&#x430;&#x444;&#x443; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x43E; &#x442;&#x440;&#x438; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x430;:<randomList><listItem><para>&#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x43A;&#x43E;&#x43C;&#x43C;&#x443;&#x442;&#x430;&#x446;&#x438;&#x438; &#x446;&#x435;&#x43F;&#x438; &#x441; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x43C; 12 &#x412;, &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x44E;&#x449;&#x438;&#x43C; &#x43E;&#x442; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438;, &#x434;&#x43E; &#x448;&#x438;&#x43D;&#x44B; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438;;</para></listItem><listItem><para>&#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440; &#x420;&#x423; &#x410;&#x41A;&#x411;  &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x43A;&#x43E;&#x43C;&#x43C;&#x443;&#x442;&#x430;&#x446;&#x438;&#x438; &#x446;&#x435;&#x43F;&#x438; &#x441; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x43C; 12 &#x412;, &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x44E;&#x449;&#x438;&#x43C; &#x43E;&#x442; &#x420;&#x423; &#x410;&#x41A;&#x411; , &#x434;&#x43E; &#x448;&#x438;&#x43D;&#x44B; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438;;</para></listItem><listItem><para>&#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440; &#x410;&#x41A;&#x411; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x43A;&#x43E;&#x43C;&#x43C;&#x443;&#x442;&#x430;&#x446;&#x438;&#x438; &#x446;&#x435;&#x43F;&#x438; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x438;&#x44F; 12 &#x412; &#x43E;&#x442; &#x448;&#x438;&#x43D;&#x44B; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438; &#x434;&#x43E; &#x410;&#x41A;&#x411;.</para></listItem></randomList>
 </para>
-</levelledPara>
-<levelledPara>
-<title>Кнопка аварийной остановки</title>
-<para>Кнопка аварийной остановки (КАО) служит для быстрого снятия напряжения с реле управления и остановки силовых агрегатов.</para>
-</levelledPara>
-<levelledPara>
-<title>Выключатель нагрузки</title>
-<para>Выключатель нагрузки позволяет включать и отключать цепи питания.</para>
-</levelledPara>
-<levelledPara>
-<title>Модульный автоматический выключатель</title>
-<para>Модульный автоматический выключатель (автомат защиты) предназначен для автоматического отключения электрической цепи при возникновении коротких замыканий или перегрузок.</para>
-</levelledPara>
-<levelledPara>
-<title>Сигнальный контакт</title>
-<para>Сигнальный контакт (СК) предназначен для сигнализации аварийного срабатывания при возникновении коротких замыканий или перегрузок.</para>
-</levelledPara>
-<levelledPara>
-<title>Модульный контактор</title>
-<para>В шкафу установлено три модульных контактора:<randomList>
-<listItem>
-<para>контактор зарядной станции предназначен для коммутации цепи с напряжением 12 В, поступающим от зарядной станции, до шины зарядки;</para>
-</listItem>
-<listItem>
-<para>контактор РУ АКБ  предназначен для коммутации цепи с напряжением 12 В, поступающим от РУ АКБ , до шины зарядки;</para>
-</listItem>
-<listItem>
-<para>контактор АКБ предназначен для коммутации цепи напряжения 12 В от шины зарядки до АКБ.</para>
-</listItem>
-</randomList>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x414;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43D;&#x44B;&#x439; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;</title>
+          <para>&#x414;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43D;&#x44B;&#x439; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; (&#x414;&#x41A;&#x41C;) &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x438;&#x44F; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x43E;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x43E;&#x432;, &#x43E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x438;&#x432;&#x430;&#x44F; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x44B; &#x434;&#x43B;&#x44F; &#x43A;&#x43E;&#x43C;&#x43C;&#x443;&#x442;&#x430;&#x446;&#x438;&#x438; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x445; &#x446;&#x435;&#x43F;&#x435;&#x439;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430;</title>
+          <para>&#x41F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x430;  &#x434;&#x43B;&#x44F; &#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x432;&#x443;&#x445; &#x438; &#x431;&#x43E;&#x43B;&#x435;&#x435; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x43D;&#x438;&#x43A;&#x43E;&#x432;. &#x41E;&#x43D;&#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x434;&#x43B;&#x44F; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x43D;&#x44B;&#x445; &#x431;&#x43B;&#x43E;&#x43A;&#x43E;&#x432;, &#x447;&#x435;&#x440;&#x435;&#x437; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43E;&#x441;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x430; &#x43D;&#x430; &#x43F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439;.  </para>
+          <para>&#x412; &#x448;&#x43A;&#x430;&#x444;&#x443; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x43E; 18 &#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x435; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x44B;:<randomList><listItem><para>&#x447;&#x435;&#x442;&#x44B;&#x440;&#x435; &#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x435; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x44B; 1745230000 &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43B;&#x44E;&#x441;&#x43E;&#x432;&#x44B;&#x445; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x432; &#x410;&#x41A;&#x411; &#x438; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x43E;&#x432;;</para></listItem><listItem><para>&#x447;&#x435;&#x442;&#x44B;&#x440;&#x435; &#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x435; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x44B; 1745240000 &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43C;&#x438;&#x43D;&#x443;&#x441;&#x43E;&#x432;&#x44B;&#x445; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x432; &#x410;&#x41A;&#x411; &#x438; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x43E;&#x432;;</para></listItem><listItem><para>&#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x43D;&#x44B;&#x439; &#x431;&#x43B;&#x43E;&#x43A; &#x438;&#x437; &#x447;&#x435;&#x442;&#x44B;&#x440;&#x435;&#x445; &#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x445; &#x43A;&#x43B;&#x435;&#x43C;&#x43C; 1689990000 &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x44F; 24 &#x412; &#x43F;&#x43E; &#x43F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x438;&#x442;&#x435;&#x43B;&#x44F;&#x43C;;</para></listItem><listItem><para>&#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x43D;&#x44B;&#x439; &#x431;&#x43B;&#x43E;&#x43A; &#x438;&#x437; &#x448;&#x435;&#x441;&#x442;&#x438; &#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x445; &#x43A;&#x43B;&#x435;&#x43C;&#x43C; 1674300000 &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x438;&#x441;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x430; 24 &#x412; &#x43E;&#x442; &#x43F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439;;</para></listItem></randomList>
 </para>
-</levelledPara>
-<levelledPara>
-<title>Дополнительный контактный модуль</title>
-<para>Дополнительный контактный модуль (ДКМ) предназначен для расширения функциональности контакторов, обеспечивая дополнительные контакты для коммутации электрических цепей.</para>
-</levelledPara>
-<levelledPara>
-<title>Проходная клемма</title>
-<para>Проходная клемма предназначена  для соединения двух и более проводников. Она также используется для создания клеммных блоков, через которые осуществляется распределение сигнала на потребителей.  </para>
-<para>В шкафу установлено 18 проходные клеммы:<randomList>
-<listItem>
-<para>четыре проходные клеммы 1745230000 предназначен для подключения плюсовых контактов АКБ и модульных контакторов;</para>
-</listItem>
-<listItem>
-<para>четыре проходные клеммы 1745240000 предназначен для подключения минусовых контактов АКБ и модульных контакторов;</para>
-</listItem>
-<listItem>
-<para>клеммный блок из четырех проходных клемм 1689990000 предназначен для распределения силового питания 24 В по потребителям;</para>
-</listItem>
-<listItem>
-<para>клеммный блок из шести проходных клемм 1674300000 предназначен для распределения дискретного сигнала 24 В от потребителей;</para>
-</listItem>
-</randomList>
-</para>
-</levelledPara>
-<levelledPara>
-<title>Проходная клемма с предохранителем</title>
-<para>Проходная клемма с предохранителем предназначена  для соединения двух и более проводников, а также для защиты электрических цепей от перегрузок и коротких замыканий.</para>
-</levelledPara>
-<levelledPara>
-<title>Проходная клемма с заземлением</title>
-<para>Проходная клемма с заземлением предназначена для соединения двух и более проводников, а также для организации защитного заземления электрических цепей.</para>
-</levelledPara>
-<levelledPara>
-<title>Разделитель</title>
-<para>Разделитель обеспечивает  рабочий зазор между контакторами для штатного охлаждения.</para>
-</levelledPara>
-<levelledPara>
-<title>Концевой фиксатор</title>
-<para>Концевой фиксаторобеспечивает фиксацию и ограничивает перемещение установленного оборудования на DIN-рейке.</para>
-</levelledPara>
-<levelledPara>
-<title>DIN-рейка</title>
-<para>DIN-рейка обеспечивает установку оборудования на монтажную панель.</para>
-</levelledPara>
-<levelledPara>
-<title>Перфорированный кабельный канал</title>
-<para>Перфорированный кабельный канал предназначен для прокладки проводников и кабелей, а также для обеспечения их вентиляции.</para>
-</levelledPara>
-<levelledPara>
-<title>Крышка перфорированного кабельного канала</title>
-<para>Крышка перфорированного кабельного канала предназначена для защиты кабелей и проводников от механических повреждений, пыли и загрязнений, а также для предотвращения случайного контакта с проводниками.</para>
-</levelledPara>
-</levelledPara>
-<figure id="fig-001">
-<title>Распределительное устройство АКБ с оборудованием </title>
-<graphic infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
-<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_018" applicationStructureName="ВЕНТИЛЯЦИОННАЯ  РЕШЕТКА"></hotspot>
-<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_036" applicationStructureName="ВЕНТИЛЯЦИОННАЯ  РЕШЕТКА"></hotspot>
-<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="ВЕНТИЛЯТОР"></hotspot>
-<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_003" applicationStructureName="БАЗОВАЯ  СТАНЦИЯ"></hotspot>
-<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_006" applicationStructureName="СВЕТОДИОДНЫЙ  ИНДИКАТОР"></hotspot>
-<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_035" applicationStructureName="РАЗЪЕМ ПИТАНИЯ ЗАРЯДКИ АКБ"></hotspot>
-<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_004" applicationStructureName="КНОПКА АВАРИЙНОЙ ОСТАНОВКИ"></hotspot>
-<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_005" applicationStructureName="ЗАМОК"></hotspot>
-<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_008" applicationStructureName="РЫМ-БОЛТ"></hotspot>
-<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_001" applicationStructureName="ВЫКЛЮЧАТЕЛЬ НАГРУЗКИ"></hotspot>
-<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_012" applicationStructureName="РАСПРЕДЕЛИТЕЛЬНОЕ УСТРОЙСТВО № 2"></hotspot>
-<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_011" applicationStructureName="КРОНШТЕЙН"></hotspot>
-</graphic>
-<graphic infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
-<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_089" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
-<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_074" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
-<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_102" applicationStructureName="1674300000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_091" applicationStructureName="1814700000 КЛЕММА ПРОХОДНАЯ С ПРЕДОХРАНИТЕЛЕМ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_086" applicationStructureName="22.74 МОДУЛЬНЫЙ КОНТАКТОР"></hotspot>
-<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_087" applicationStructureName="22.09 РАЗДЕЛИТЕЛЬ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_092" applicationStructureName="22.09 РАЗДЕЛИТЕЛЬ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_085" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-009" applicationStructureIdent="AUTOID_088" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-010" applicationStructureIdent="AUTOID_093" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-011" applicationStructureIdent="AUTOID_685" applicationStructureName="1690000000 ПРОХОДНАЯ КЛЕММА С ЗАЗЕМЛЕНИЕМ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-012" applicationStructureIdent="AUTOID_075" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-013" applicationStructureIdent="AUTOID_076" applicationStructureName="1674300000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-014" applicationStructureIdent="AUTOID_101" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-015" applicationStructureIdent="AUTOID_097" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-016" applicationStructureIdent="AUTOID_078" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-017" applicationStructureIdent="AUTOID_081" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-018" applicationStructureIdent="AUTOID_098" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-019" applicationStructureIdent="AUTOID_077" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-020" applicationStructureIdent="AUTOID_082" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-021" applicationStructureIdent="AUTOID_095" applicationStructureName="182725 МОДУЛЬНЫЙ АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-022" applicationStructureIdent="AUTOID_079" applicationStructureName="182725 МОДУЛЬНЫЙ АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-023" applicationStructureIdent="AUTOID_080" applicationStructureName="184996 СИГНАЛЬНЫЙ КОНТАКТ SD"></hotspot>
-<hotspot id="fig-001-gra-002-hot-024" applicationStructureIdent="AUTOID_035" applicationStructureName="АККУМУЛЯТОРНАЯ БАТАРЕЯ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-025" applicationStructureIdent="AUTOID_036" applicationStructureName="РЕПЕЙ  ДАТЧИК"></hotspot>
-<hotspot id="fig-001-gra-002-hot-026" applicationStructureIdent="AUTOID_037" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
-<hotspot id="fig-001-gra-002-hot-027" applicationStructureIdent="AUTOID_038" applicationStructureName="7820000465 КОНЦЕВОЙ ФИКСАТОР"></hotspot>
-<hotspot id="fig-001-gra-002-hot-028" applicationStructureIdent="AUTOID_039" applicationStructureName="1674300000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-029" applicationStructureIdent="AUTOID_040" applicationStructureName="1814700000 КЛЕММА ПРОХОДНАЯ С ПРЕДОХРАНИТЕЛЕМ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-030" applicationStructureIdent="AUTOID_041" applicationStructureName="22.74 МОДУЛЬНЫЙ КОНТАКТОР"></hotspot>
-<hotspot id="fig-001-gra-002-hot-031" applicationStructureIdent="AUTOID_042" applicationStructureName="22.09 РАЗДЕЛИТЕЛЬ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-032" applicationStructureIdent="AUTOID_043" applicationStructureName="22.09 РАЗДЕЛИТЕЛЬ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-033" applicationStructureIdent="AUTOID_044" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-034" applicationStructureIdent="AUTOID_045" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-035" applicationStructureIdent="AUTOID_046" applicationStructureName="22.75 БЛОК ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-036" applicationStructureIdent="AUTOID_047" applicationStructureName="1690000000 ПРОХОДНАЯ КЛЕММА С ЗАЗЕМЛЕНИЕМ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-037" applicationStructureIdent="AUTOID_048" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-038" applicationStructureIdent="AUTOID_049" applicationStructureName="1674300000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-039" applicationStructureIdent="AUTOID_050" applicationStructureName="1689990000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-040" applicationStructureIdent="AUTOID_051" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-041" applicationStructureIdent="AUTOID_052" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-042" applicationStructureIdent="AUTOID_053" applicationStructureName="1745240000 ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-043" applicationStructureIdent="AUTOID_054" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-044" applicationStructureIdent="AUTOID_055" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-045" applicationStructureIdent="AUTOID_056" applicationStructureName="1745230000  ПРОХОДНАЯ КЛЕММА"></hotspot>
-<hotspot id="fig-001-gra-002-hot-046" applicationStructureIdent="AUTOID_057" applicationStructureName="182725 МОДУЛЬНЫЙ АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-047" applicationStructureIdent="AUTOID_058" applicationStructureName="182725 МОДУЛЬНЫЙ АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-048" applicationStructureIdent="AUTOID_059" applicationStructureName="184996 СИГНАЛЬНЫЙ КОНТАКТ SD"></hotspot>
-<hotspot id="fig-001-gra-002-hot-049" applicationStructureIdent="AUTOID_061" applicationStructureName="АККУМУЛЯТОРНАЯ БАТАРЕЯ"></hotspot>
-<hotspot id="fig-001-gra-002-hot-050" applicationStructureIdent="AUTOID_062" applicationStructureName="РЕПЕЙ  ДАТЧИК"></hotspot>
-</graphic>
-</figure>
-<levelledPara>
-<title>Работа</title>
-<para>
-<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
-</para>
-<para>АКБ выдает силовое питание 12 В на клеммный блок силовой шины 12 В. С данного клеммного блока силовое питание 12 В распределяется на потребителей в распределительном устройстве (РУ) № 1 и в распределительном шкафу (РШ).</para>
-<para>Силовое питание 24 В поступает с преобразователя 12 В / 24 В, который находится в РУ № 2, на клеммный блок. Отсюда оно распределяется на все СК, ДКМ   и на КАО. При срабатывании любого СК, ДКМ дискретный сигнал 24 В от него передается в модуль дискретного ввода PLC, расположенный в РУ № 2.</para>
-<para>При нажатии КАО генерируется дискретный сигнал 24 В, который поступает в РУ № 2. Одновременно с этим силовое питание 24 В, поступившее из РШ, коммутируется и возвращается обратно в РШ.</para>
-<para>При подключении кабеля зарядной станции, силовое питание 12 В от зарядной станции поступает на выключатель нагрузки. Далее питание проходит через автомат защиты и сигнал поступает на контактор зарядной станции. От контактора питание подается на клеммный блок шины зарядки 12 В, при этом загорается индикатор питания. С клеммного блока силовой шины 12 В, через контактор АКБ, силовое питание 12 В направляется на АКБ, обеспечивая его зарядку.</para>
-<para>Для контроля состояния АКБ к его клеммам подключен датчик, который в реальном времени передает показания на базовую станцию через беспроводную связь по протоколу Bluetooth. Базовая станция питается от силового питания 5 В, поступающего с преобразователя 12 В / 5 В, расположенного в РУ № 2. Кроме того, базовая станция передает свои данные по цифровой шине RS-485, которые поступают на модуль расширения RS-485 PLC, также расположенный в РУ № 2.</para>
-<para>При достижении заданного минимального  значения напряжения при разрядки АКБ, базовая станция выдает сигнал на включении индикации состояния АКБ, который сигнализирует о необходимости зарядки АКБ.</para>
-<para>При достижении заданного значения напряжения при зарядке АКБ, базовая станция генерирует дискретный сигнал 24 В, который используется для отключения контактной группы на контакторе АКБ. Параллельно с этим загорается индикатор блокировки АКБ, сигнализируя о завершении зарядки или необходимости устранения неисправности, а также выключается индикация состояния АКБ.</para>
-<para>Управление контактором зарядной станции и контактором РУ АКБ осуществляется с помощью дискретного сигнала 24 В. Каждый из этих сигналов поступает от соответствующего реле управления, расположенного в РУ № 2.</para>
-<figure id="fig-002">
-<title>Функциональная схема распределительного устройства АКБ</title>
-<graphic infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
-</figure>
-</levelledPara>
-</description>
-</content>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430; &#x441; &#x43F;&#x440;&#x435;&#x434;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x43C;</title>
+          <para>&#x41F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430; &#x441; &#x43F;&#x440;&#x435;&#x434;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x43C; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x430;  &#x434;&#x43B;&#x44F; &#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x432;&#x443;&#x445; &#x438; &#x431;&#x43E;&#x43B;&#x435;&#x435; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x43D;&#x438;&#x43A;&#x43E;&#x432;, &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x434;&#x43B;&#x44F; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x445; &#x446;&#x435;&#x43F;&#x435;&#x439; &#x43E;&#x442; &#x43F;&#x435;&#x440;&#x435;&#x433;&#x440;&#x443;&#x437;&#x43E;&#x43A; &#x438; &#x43A;&#x43E;&#x440;&#x43E;&#x442;&#x43A;&#x438;&#x445; &#x437;&#x430;&#x43C;&#x44B;&#x43A;&#x430;&#x43D;&#x438;&#x439;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430; &#x441; &#x437;&#x430;&#x437;&#x435;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x435;&#x43C;</title>
+          <para>&#x41F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430; &#x441; &#x437;&#x430;&#x437;&#x435;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x435;&#x43C; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x430; &#x434;&#x43B;&#x44F; &#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x432;&#x443;&#x445; &#x438; &#x431;&#x43E;&#x43B;&#x435;&#x435; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x43D;&#x438;&#x43A;&#x43E;&#x432;, &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x434;&#x43B;&#x44F; &#x43E;&#x440;&#x433;&#x430;&#x43D;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x437;&#x430;&#x449;&#x438;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x437;&#x430;&#x437;&#x435;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x445; &#x446;&#x435;&#x43F;&#x435;&#x439;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x420;&#x430;&#x437;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;</title>
+          <para>&#x420;&#x430;&#x437;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x43E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442;  &#x440;&#x430;&#x431;&#x43E;&#x447;&#x438;&#x439; &#x437;&#x430;&#x437;&#x43E;&#x440; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x430;&#x43C;&#x438; &#x434;&#x43B;&#x44F; &#x448;&#x442;&#x430;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x445;&#x43B;&#x430;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x44F;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41A;&#x43E;&#x43D;&#x446;&#x435;&#x432;&#x43E;&#x439; &#x444;&#x438;&#x43A;&#x441;&#x430;&#x442;&#x43E;&#x440;</title>
+          <para>&#x41A;&#x43E;&#x43D;&#x446;&#x435;&#x432;&#x43E;&#x439; &#x444;&#x438;&#x43A;&#x441;&#x430;&#x442;&#x43E;&#x440;&#x43E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x444;&#x438;&#x43A;&#x441;&#x430;&#x446;&#x438;&#x44E; &#x438; &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x431;&#x43E;&#x440;&#x443;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x430; DIN-&#x440;&#x435;&#x439;&#x43A;&#x435;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>DIN-&#x440;&#x435;&#x439;&#x43A;&#x430;</title>
+          <para>DIN-&#x440;&#x435;&#x439;&#x43A;&#x430; &#x43E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x443; &#x43E;&#x431;&#x43E;&#x440;&#x443;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x430; &#x43C;&#x43E;&#x43D;&#x442;&#x430;&#x436;&#x43D;&#x443;&#x44E; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x44C;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41F;&#x435;&#x440;&#x444;&#x43E;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x430;&#x43D;&#x430;&#x43B;</title>
+          <para>&#x41F;&#x435;&#x440;&#x444;&#x43E;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x430;&#x43D;&#x430;&#x43B; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D; &#x434;&#x43B;&#x44F; &#x43F;&#x440;&#x43E;&#x43A;&#x43B;&#x430;&#x434;&#x43A;&#x438; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x43D;&#x438;&#x43A;&#x43E;&#x432; &#x438; &#x43A;&#x430;&#x431;&#x435;&#x43B;&#x435;&#x439;, &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x434;&#x43B;&#x44F; &#x43E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x438;&#x445; &#x432;&#x435;&#x43D;&#x442;&#x438;&#x43B;&#x44F;&#x446;&#x438;&#x438;.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>&#x41A;&#x440;&#x44B;&#x448;&#x43A;&#x430; &#x43F;&#x435;&#x440;&#x444;&#x43E;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x430;&#x43D;&#x430;&#x43B;&#x430;</title>
+          <para>&#x41A;&#x440;&#x44B;&#x448;&#x43A;&#x430; &#x43F;&#x435;&#x440;&#x444;&#x43E;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x430;&#x43D;&#x430;&#x43B;&#x430; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x430; &#x434;&#x43B;&#x44F; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B; &#x43A;&#x430;&#x431;&#x435;&#x43B;&#x435;&#x439; &#x438; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x43D;&#x438;&#x43A;&#x43E;&#x432; &#x43E;&#x442; &#x43C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x445; &#x43F;&#x43E;&#x432;&#x440;&#x435;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x439;, &#x43F;&#x44B;&#x43B;&#x438; &#x438; &#x437;&#x430;&#x433;&#x440;&#x44F;&#x437;&#x43D;&#x435;&#x43D;&#x438;&#x439;, &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x434;&#x43B;&#x44F; &#x43F;&#x440;&#x435;&#x434;&#x43E;&#x442;&#x432;&#x440;&#x430;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x439;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x430; &#x441; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x43D;&#x438;&#x43A;&#x430;&#x43C;&#x438;.</para>
+        </levelledPara>
+      </levelledPara>
+      <figure id="fig-001">
+        <title>&#x420;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x43E; &#x410;&#x41A;&#x411; &#x441; &#x43E;&#x431;&#x43E;&#x440;&#x443;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;&#x43C; </title>
+        <graphic infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+          <hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_018" applicationStructureName="&#x412;&#x415;&#x41D;&#x422;&#x418;&#x41B;&#x42F;&#x426;&#x418;&#x41E;&#x41D;&#x41D;&#x410;&#x42F;  &#x420;&#x415;&#x428;&#x415;&#x422;&#x41A;&#x410;"/>
+          <hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_036" applicationStructureName="&#x412;&#x415;&#x41D;&#x422;&#x418;&#x41B;&#x42F;&#x426;&#x418;&#x41E;&#x41D;&#x41D;&#x410;&#x42F;  &#x420;&#x415;&#x428;&#x415;&#x422;&#x41A;&#x410;"/>
+          <hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="&#x412;&#x415;&#x41D;&#x422;&#x418;&#x41B;&#x42F;&#x422;&#x41E;&#x420;"/>
+          <hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_003" applicationStructureName="&#x411;&#x410;&#x417;&#x41E;&#x412;&#x410;&#x42F;  &#x421;&#x422;&#x410;&#x41D;&#x426;&#x418;&#x42F;"/>
+          <hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_006" applicationStructureName="&#x421;&#x412;&#x415;&#x422;&#x41E;&#x414;&#x418;&#x41E;&#x414;&#x41D;&#x42B;&#x419;  &#x418;&#x41D;&#x414;&#x418;&#x41A;&#x410;&#x422;&#x41E;&#x420;"/>
+          <hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_035" applicationStructureName="&#x420;&#x410;&#x417;&#x42A;&#x415;&#x41C; &#x41F;&#x418;&#x422;&#x410;&#x41D;&#x418;&#x42F; &#x417;&#x410;&#x420;&#x42F;&#x414;&#x41A;&#x418; &#x410;&#x41A;&#x411;"/>
+          <hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_004" applicationStructureName="&#x41A;&#x41D;&#x41E;&#x41F;&#x41A;&#x410; &#x410;&#x412;&#x410;&#x420;&#x418;&#x419;&#x41D;&#x41E;&#x419; &#x41E;&#x421;&#x422;&#x410;&#x41D;&#x41E;&#x412;&#x41A;&#x418;"/>
+          <hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_005" applicationStructureName="&#x417;&#x410;&#x41C;&#x41E;&#x41A;"/>
+          <hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_008" applicationStructureName="&#x420;&#x42B;&#x41C;-&#x411;&#x41E;&#x41B;&#x422;"/>
+          <hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_001" applicationStructureName="&#x412;&#x42B;&#x41A;&#x41B;&#x42E;&#x427;&#x410;&#x422;&#x415;&#x41B;&#x42C; &#x41D;&#x410;&#x413;&#x420;&#x423;&#x417;&#x41A;&#x418;"/>
+          <hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_012" applicationStructureName="&#x420;&#x410;&#x421;&#x41F;&#x420;&#x415;&#x414;&#x415;&#x41B;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x41E;&#x415; &#x423;&#x421;&#x422;&#x420;&#x41E;&#x419;&#x421;&#x422;&#x412;&#x41E; &#x2116; 2"/>
+          <hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_011" applicationStructureName="&#x41A;&#x420;&#x41E;&#x41D;&#x428;&#x422;&#x415;&#x419;&#x41D;"/>
+        </graphic>
+        <graphic infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+          <hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_089" applicationStructureName="7820000465 &#x41A;&#x41E;&#x41D;&#x426;&#x415;&#x412;&#x41E;&#x419; &#x424;&#x418;&#x41A;&#x421;&#x410;&#x422;&#x41E;&#x420;"/>
+          <hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_074" applicationStructureName="7820000465 &#x41A;&#x41E;&#x41D;&#x426;&#x415;&#x412;&#x41E;&#x419; &#x424;&#x418;&#x41A;&#x421;&#x410;&#x422;&#x41E;&#x420;"/>
+          <hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_102" applicationStructureName="1674300000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_091" applicationStructureName="1814700000 &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410; &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x421; &#x41F;&#x420;&#x415;&#x414;&#x41E;&#x425;&#x420;&#x410;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x415;&#x41C;"/>
+          <hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_086" applicationStructureName="22.74&#xA0;&#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422;&#x41E;&#x420;"/>
+          <hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_087" applicationStructureName="22.09 &#x420;&#x410;&#x417;&#x414;&#x415;&#x41B;&#x418;&#x422;&#x415;&#x41B;&#x42C;"/>
+          <hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_092" applicationStructureName="22.09 &#x420;&#x410;&#x417;&#x414;&#x415;&#x41B;&#x418;&#x422;&#x415;&#x41B;&#x42C;"/>
+          <hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_085" applicationStructureName="22.75 &#x411;&#x41B;&#x41E;&#x41A; &#x414;&#x41E;&#x41F;&#x41E;&#x41B;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x42B;&#x425; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422;&#x41E;&#x412;"/>
+          <hotspot id="fig-001-gra-002-hot-009" applicationStructureIdent="AUTOID_088" applicationStructureName="22.75 &#x411;&#x41B;&#x41E;&#x41A; &#x414;&#x41E;&#x41F;&#x41E;&#x41B;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x42B;&#x425; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422;&#x41E;&#x412;"/>
+          <hotspot id="fig-001-gra-002-hot-010" applicationStructureIdent="AUTOID_093" applicationStructureName="22.75 &#x411;&#x41B;&#x41E;&#x41A; &#x414;&#x41E;&#x41F;&#x41E;&#x41B;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x42B;&#x425; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422;&#x41E;&#x412;"/>
+          <hotspot id="fig-001-gra-002-hot-011" applicationStructureIdent="AUTOID_685" applicationStructureName="1690000000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410; &#x421; &#x417;&#x410;&#x417;&#x415;&#x41C;&#x41B;&#x415;&#x41D;&#x418;&#x415;&#x41C;"/>
+          <hotspot id="fig-001-gra-002-hot-012" applicationStructureIdent="AUTOID_075" applicationStructureName="1689990000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-013" applicationStructureIdent="AUTOID_076" applicationStructureName="1674300000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-014" applicationStructureIdent="AUTOID_101" applicationStructureName="1689990000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-015" applicationStructureIdent="AUTOID_097" applicationStructureName="1745240000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-016" applicationStructureIdent="AUTOID_078" applicationStructureName="1745240000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-017" applicationStructureIdent="AUTOID_081" applicationStructureName="1745240000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-018" applicationStructureIdent="AUTOID_098" applicationStructureName="1745230000  &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-019" applicationStructureIdent="AUTOID_077" applicationStructureName="1745230000  &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-020" applicationStructureIdent="AUTOID_082" applicationStructureName="1745230000  &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-021" applicationStructureIdent="AUTOID_095" applicationStructureName="182725 &#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x410;&#x412;&#x422;&#x41E;&#x41C;&#x410;&#x422;&#x418;&#x427;&#x415;&#x421;&#x41A;&#x418;&#x419; &#x412;&#x42B;&#x41A;&#x41B;&#x42E;&#x427;&#x410;&#x422;&#x415;&#x41B;&#x42C;"/>
+          <hotspot id="fig-001-gra-002-hot-022" applicationStructureIdent="AUTOID_079" applicationStructureName="182725 &#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x410;&#x412;&#x422;&#x41E;&#x41C;&#x410;&#x422;&#x418;&#x427;&#x415;&#x421;&#x41A;&#x418;&#x419; &#x412;&#x42B;&#x41A;&#x41B;&#x42E;&#x427;&#x410;&#x422;&#x415;&#x41B;&#x42C;"/>
+          <hotspot id="fig-001-gra-002-hot-023" applicationStructureIdent="AUTOID_080" applicationStructureName="184996 &#x421;&#x418;&#x413;&#x41D;&#x410;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422; SD"/>
+          <hotspot id="fig-001-gra-002-hot-024" applicationStructureIdent="AUTOID_035" applicationStructureName="&#x410;&#x41A;&#x41A;&#x423;&#x41C;&#x423;&#x41B;&#x42F;&#x422;&#x41E;&#x420;&#x41D;&#x410;&#x42F; &#x411;&#x410;&#x422;&#x410;&#x420;&#x415;&#x42F;"/>
+          <hotspot id="fig-001-gra-002-hot-025" applicationStructureIdent="AUTOID_036" applicationStructureName="&#x420;&#x415;&#x41F;&#x415;&#x419;  &#x414;&#x410;&#x422;&#x427;&#x418;&#x41A;"/>
+          <hotspot id="fig-001-gra-002-hot-026" applicationStructureIdent="AUTOID_037" applicationStructureName="7820000465 &#x41A;&#x41E;&#x41D;&#x426;&#x415;&#x412;&#x41E;&#x419; &#x424;&#x418;&#x41A;&#x421;&#x410;&#x422;&#x41E;&#x420;"/>
+          <hotspot id="fig-001-gra-002-hot-027" applicationStructureIdent="AUTOID_038" applicationStructureName="7820000465 &#x41A;&#x41E;&#x41D;&#x426;&#x415;&#x412;&#x41E;&#x419; &#x424;&#x418;&#x41A;&#x421;&#x410;&#x422;&#x41E;&#x420;"/>
+          <hotspot id="fig-001-gra-002-hot-028" applicationStructureIdent="AUTOID_039" applicationStructureName="1674300000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-029" applicationStructureIdent="AUTOID_040" applicationStructureName="1814700000 &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410; &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x421; &#x41F;&#x420;&#x415;&#x414;&#x41E;&#x425;&#x420;&#x410;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x415;&#x41C;"/>
+          <hotspot id="fig-001-gra-002-hot-030" applicationStructureIdent="AUTOID_041" applicationStructureName="22.74&#xA0;&#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422;&#x41E;&#x420;"/>
+          <hotspot id="fig-001-gra-002-hot-031" applicationStructureIdent="AUTOID_042" applicationStructureName="22.09 &#x420;&#x410;&#x417;&#x414;&#x415;&#x41B;&#x418;&#x422;&#x415;&#x41B;&#x42C;"/>
+          <hotspot id="fig-001-gra-002-hot-032" applicationStructureIdent="AUTOID_043" applicationStructureName="22.09 &#x420;&#x410;&#x417;&#x414;&#x415;&#x41B;&#x418;&#x422;&#x415;&#x41B;&#x42C;"/>
+          <hotspot id="fig-001-gra-002-hot-033" applicationStructureIdent="AUTOID_044" applicationStructureName="22.75 &#x411;&#x41B;&#x41E;&#x41A; &#x414;&#x41E;&#x41F;&#x41E;&#x41B;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x42B;&#x425; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422;&#x41E;&#x412;"/>
+          <hotspot id="fig-001-gra-002-hot-034" applicationStructureIdent="AUTOID_045" applicationStructureName="22.75 &#x411;&#x41B;&#x41E;&#x41A; &#x414;&#x41E;&#x41F;&#x41E;&#x41B;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x42B;&#x425; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422;&#x41E;&#x412;"/>
+          <hotspot id="fig-001-gra-002-hot-035" applicationStructureIdent="AUTOID_046" applicationStructureName="22.75 &#x411;&#x41B;&#x41E;&#x41A; &#x414;&#x41E;&#x41F;&#x41E;&#x41B;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x42B;&#x425; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422;&#x41E;&#x412;"/>
+          <hotspot id="fig-001-gra-002-hot-036" applicationStructureIdent="AUTOID_047" applicationStructureName="1690000000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410; &#x421; &#x417;&#x410;&#x417;&#x415;&#x41C;&#x41B;&#x415;&#x41D;&#x418;&#x415;&#x41C;"/>
+          <hotspot id="fig-001-gra-002-hot-037" applicationStructureIdent="AUTOID_048" applicationStructureName="1689990000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-038" applicationStructureIdent="AUTOID_049" applicationStructureName="1674300000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-039" applicationStructureIdent="AUTOID_050" applicationStructureName="1689990000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-040" applicationStructureIdent="AUTOID_051" applicationStructureName="1745240000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-041" applicationStructureIdent="AUTOID_052" applicationStructureName="1745240000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-042" applicationStructureIdent="AUTOID_053" applicationStructureName="1745240000 &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-043" applicationStructureIdent="AUTOID_054" applicationStructureName="1745230000  &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-044" applicationStructureIdent="AUTOID_055" applicationStructureName="1745230000  &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-045" applicationStructureIdent="AUTOID_056" applicationStructureName="1745230000  &#x41F;&#x420;&#x41E;&#x425;&#x41E;&#x414;&#x41D;&#x410;&#x42F; &#x41A;&#x41B;&#x415;&#x41C;&#x41C;&#x410;"/>
+          <hotspot id="fig-001-gra-002-hot-046" applicationStructureIdent="AUTOID_057" applicationStructureName="182725 &#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x410;&#x412;&#x422;&#x41E;&#x41C;&#x410;&#x422;&#x418;&#x427;&#x415;&#x421;&#x41A;&#x418;&#x419; &#x412;&#x42B;&#x41A;&#x41B;&#x42E;&#x427;&#x410;&#x422;&#x415;&#x41B;&#x42C;"/>
+          <hotspot id="fig-001-gra-002-hot-047" applicationStructureIdent="AUTOID_058" applicationStructureName="182725 &#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x410;&#x412;&#x422;&#x41E;&#x41C;&#x410;&#x422;&#x418;&#x427;&#x415;&#x421;&#x41A;&#x418;&#x419; &#x412;&#x42B;&#x41A;&#x41B;&#x42E;&#x427;&#x410;&#x422;&#x415;&#x41B;&#x42C;"/>
+          <hotspot id="fig-001-gra-002-hot-048" applicationStructureIdent="AUTOID_059" applicationStructureName="184996 &#x421;&#x418;&#x413;&#x41D;&#x410;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x41A;&#x41E;&#x41D;&#x422;&#x410;&#x41A;&#x422; SD"/>
+          <hotspot id="fig-001-gra-002-hot-049" applicationStructureIdent="AUTOID_061" applicationStructureName="&#x410;&#x41A;&#x41A;&#x423;&#x41C;&#x423;&#x41B;&#x42F;&#x422;&#x41E;&#x420;&#x41D;&#x410;&#x42F; &#x411;&#x410;&#x422;&#x410;&#x420;&#x415;&#x42F;"/>
+          <hotspot id="fig-001-gra-002-hot-050" applicationStructureIdent="AUTOID_062" applicationStructureName="&#x420;&#x415;&#x41F;&#x415;&#x419;  &#x414;&#x410;&#x422;&#x427;&#x418;&#x41A;"/>
+        </graphic>
+      </figure>
+      <levelledPara>
+        <title>&#x420;&#x430;&#x431;&#x43E;&#x442;&#x430;</title>
+        <para>
+          <internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"/>
+        </para>
+        <para>&#x410;&#x41A;&#x411; &#x432;&#x44B;&#x434;&#x430;&#x435;&#x442; &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x435; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x435; 12 &#x412; &#x43D;&#x430; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x43D;&#x44B;&#x439; &#x431;&#x43B;&#x43E;&#x43A; &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x439; &#x448;&#x438;&#x43D;&#x44B; 12 &#x412;. &#x421; &#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x431;&#x43B;&#x43E;&#x43A;&#x430; &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x435; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x435; 12 &#x412; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x430; &#x43F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x432; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x435; (&#x420;&#x423;) &#x2116; 1 &#x438; &#x432; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x448;&#x43A;&#x430;&#x444;&#x443; (&#x420;&#x428;).</para>
+        <para>&#x421;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x435; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x435; 24 &#x412; &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x435;&#x442; &#x441; &#x43F;&#x440;&#x435;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F; 12 &#x412; / 24 &#x412;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x432; &#x420;&#x423; &#x2116; 2, &#x43D;&#x430; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x43D;&#x44B;&#x439; &#x431;&#x43B;&#x43E;&#x43A;. &#x41E;&#x442;&#x441;&#x44E;&#x434;&#x430; &#x43E;&#x43D;&#x43E; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x430; &#x432;&#x441;&#x435; &#x421;&#x41A;, &#x414;&#x41A;&#x41C;   &#x438; &#x43D;&#x430; &#x41A;&#x410;&#x41E;. &#x41F;&#x440;&#x438; &#x441;&#x440;&#x430;&#x431;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x438; &#x43B;&#x44E;&#x431;&#x43E;&#x433;&#x43E; &#x421;&#x41A;, &#x414;&#x41A;&#x41C; &#x434;&#x438;&#x441;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x44B;&#x439; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B; 24 &#x412; &#x43E;&#x442; &#x43D;&#x435;&#x433;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x432; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x434;&#x438;&#x441;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x432;&#x432;&#x43E;&#x434;&#x430; PLC, &#x440;&#x430;&#x441;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x432; &#x420;&#x423; &#x2116; 2.</para>
+        <para>&#x41F;&#x440;&#x438; &#x43D;&#x430;&#x436;&#x430;&#x442;&#x438;&#x438; &#x41A;&#x410;&#x41E; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x438;&#x440;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x434;&#x438;&#x441;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x44B;&#x439; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B; 24 &#x412;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x435;&#x442; &#x432; &#x420;&#x423; &#x2116; 2. &#x41E;&#x434;&#x43D;&#x43E;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E; &#x441; &#x44D;&#x442;&#x438;&#x43C; &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x435; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x435; 24 &#x412;, &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x438;&#x432;&#x448;&#x435;&#x435; &#x438;&#x437; &#x420;&#x428;, &#x43A;&#x43E;&#x43C;&#x43C;&#x443;&#x442;&#x438;&#x440;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x438; &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43E;&#x431;&#x440;&#x430;&#x442;&#x43D;&#x43E; &#x432; &#x420;&#x428;.</para>
+        <para>&#x41F;&#x440;&#x438; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x438; &#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44F; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438;, &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x435; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x435; 12 &#x412; &#x43E;&#x442; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438; &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x435;&#x442; &#x43D;&#x430; &#x432;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44C; &#x43D;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x438;. &#x414;&#x430;&#x43B;&#x435;&#x435; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x447;&#x435;&#x440;&#x435;&#x437; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B; &#x438; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B; &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x435;&#x442; &#x43D;&#x430; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438;. &#x41E;&#x442; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x430; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x434;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x430; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x43D;&#x44B;&#x439; &#x431;&#x43B;&#x43E;&#x43A; &#x448;&#x438;&#x43D;&#x44B; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438; 12 &#x412;, &#x43F;&#x440;&#x438; &#x44D;&#x442;&#x43E;&#x43C; &#x437;&#x430;&#x433;&#x43E;&#x440;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x44F;. &#x421; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x431;&#x43B;&#x43E;&#x43A;&#x430; &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x439; &#x448;&#x438;&#x43D;&#x44B; 12 &#x412;, &#x447;&#x435;&#x440;&#x435;&#x437; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440; &#x410;&#x41A;&#x411;, &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x435; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x435; 12 &#x412; &#x43D;&#x430;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x430; &#x410;&#x41A;&#x411;, &#x43E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x438;&#x432;&#x430;&#x44F; &#x435;&#x433;&#x43E; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x443;.</para>
+        <para>&#x414;&#x43B;&#x44F; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44F; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x44F; &#x410;&#x41A;&#x411; &#x43A; &#x435;&#x433;&#x43E; &#x43A;&#x43B;&#x435;&#x43C;&#x43C;&#x430;&#x43C; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D; &#x434;&#x430;&#x442;&#x447;&#x438;&#x43A;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x432; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x435;&#x442; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x430; &#x431;&#x430;&#x437;&#x43E;&#x432;&#x443;&#x44E; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x44E; &#x447;&#x435;&#x440;&#x435;&#x437; &#x431;&#x435;&#x441;&#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x43D;&#x443;&#x44E; &#x441;&#x432;&#x44F;&#x437;&#x44C; &#x43F;&#x43E; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x43A;&#x43E;&#x43B;&#x443; Bluetooth. &#x411;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x44F; &#x43F;&#x438;&#x442;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43E;&#x442; &#x441;&#x438;&#x43B;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43F;&#x438;&#x442;&#x430;&#x43D;&#x438;&#x44F; 5 &#x412;, &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x44E;&#x449;&#x435;&#x433;&#x43E; &#x441; &#x43F;&#x440;&#x435;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F; 12 &#x412; / 5 &#x412;, &#x440;&#x430;&#x441;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x432; &#x420;&#x423; &#x2116; 2. &#x41A;&#x440;&#x43E;&#x43C;&#x435; &#x442;&#x43E;&#x433;&#x43E;, &#x431;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x44F; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x435;&#x442; &#x441;&#x432;&#x43E;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43F;&#x43E; &#x446;&#x438;&#x444;&#x440;&#x43E;&#x432;&#x43E;&#x439; &#x448;&#x438;&#x43D;&#x435; RS-485, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x44E;&#x442; &#x43D;&#x430; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x440;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x438;&#x44F; RS-485 PLC, &#x442;&#x430;&#x43A;&#x436;&#x435; &#x440;&#x430;&#x441;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x432; &#x420;&#x423; &#x2116; 2.</para>
+        <para>&#x41F;&#x440;&#x438; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x438; &#x437;&#x430;&#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E;  &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x440;&#x438; &#x440;&#x430;&#x437;&#x440;&#x44F;&#x434;&#x43A;&#x438; &#x410;&#x41A;&#x411;, &#x431;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x44F; &#x432;&#x44B;&#x434;&#x430;&#x435;&#x442; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B; &#x43D;&#x430; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x438; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x446;&#x438;&#x438; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x44F; &#x410;&#x41A;&#x411;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x443;&#x435;&#x442; &#x43E; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438; &#x410;&#x41A;&#x411;.</para>
+        <para>&#x41F;&#x440;&#x438; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x438; &#x437;&#x430;&#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x440;&#x438; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x435; &#x410;&#x41A;&#x411;, &#x431;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x44F; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x438;&#x440;&#x443;&#x435;&#x442; &#x434;&#x438;&#x441;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x44B;&#x439; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B; 24 &#x412;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x434;&#x43B;&#x44F; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43D;&#x43E;&#x439; &#x433;&#x440;&#x443;&#x43F;&#x43F;&#x44B; &#x43D;&#x430; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x435; &#x410;&#x41A;&#x411;. &#x41F;&#x430;&#x440;&#x430;&#x43B;&#x43B;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x441; &#x44D;&#x442;&#x438;&#x43C; &#x437;&#x430;&#x433;&#x43E;&#x440;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438; &#x410;&#x41A;&#x411;, &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x443;&#x44F; &#x43E; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x438;&#x438; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438; &#x438;&#x43B;&#x438; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; &#x443;&#x441;&#x442;&#x440;&#x430;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x435;&#x438;&#x441;&#x43F;&#x440;&#x430;&#x432;&#x43D;&#x43E;&#x441;&#x442;&#x438;, &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x432;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x446;&#x438;&#x44F; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x44F; &#x410;&#x41A;&#x411;.</para>
+        <para>&#x423;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x43E;&#x43C; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438; &#x438; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x43E;&#x43C; &#x420;&#x423; &#x410;&#x41A;&#x411; &#x43E;&#x441;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; &#x434;&#x438;&#x441;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x430; 24 &#x412;. &#x41A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x438;&#x437; &#x44D;&#x442;&#x438;&#x445; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x43E;&#x432; &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x435;&#x442; &#x43E;&#x442; &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x443;&#x44E;&#x449;&#x435;&#x433;&#x43E; &#x440;&#x435;&#x43B;&#x435; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;, &#x440;&#x430;&#x441;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x432; &#x420;&#x423; &#x2116; 2.</para>
+        <figure id="fig-002">
+          <title>&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x43E;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x441;&#x445;&#x435;&#x43C;&#x430; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430; &#x410;&#x41A;&#x411;</title>
+          <graphic infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"/>
+        </figure>
+      </levelledPara>
+    </description>
+  </content>
 </dmodule>
