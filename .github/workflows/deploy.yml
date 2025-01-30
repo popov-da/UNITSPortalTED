@@ -3,59 +3,95 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Триггер при пуше в основную ветку
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    # Клонируем репозиторий
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      # 1. Клонируем репозиторий
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    # Устанавливаем Node.js для инструментов минификации
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '16'  # Или другая версия
+      # 2. Устанавливаем Node.js для инструментов минификации
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Или другая версия
 
-    # Устанавливаем зависимости для минификации
-    - name: Install dependencies
-      run: npm install -g html-minifier terser clean-css-cli svgo
-    
-    # Установка xmllint
-    - name: Install xmllint
-      run: sudo apt-get update && sudo apt-get install -y libxml2-utils
-    
-    # Удаляем все файлы .cgm
-    - name: Remove all .cgm files
-      run: find . -name '*.cgm' -type f -delete
+      # 3. Устанавливаем глобально необходимые инструменты
+      - name: Install dependencies
+        run: |
+          npm install -g html-minifier terser clean-css-cli svgo
+          sudo apt-get update && sudo apt-get install -y libxml2-utils
 
-    # Минифицируем HTML
-    - name: Minify HTML files
-      run: find . -name '*.html' -exec html-minifier --collapse-whitespace --remove-comments --remove-optional-tags -o {} {} \;
+      # 4. Удаляем все файлы .cgm
+      - name: Remove all .cgm files
+        run: find . -name '*.cgm' -type f -delete
 
-    # Минифицируем CSS
-    - name: Minify CSS files
-      run: find . -name '*.css' -exec cleancss -o {} {} \;
+      # 5. Минификация HTML/HTM
+      - name: Minify HTML/HTM files
+        run: |
+          set -e
+          echo "Minifying HTML/HTM files..."
+          # ищем файлы *.html и *.htm
+          for file in $(find . -type f \( -name '*.html' -o -name '*.htm' \)); do
+            echo "  -> $file"
+            html-minifier \
+              --collapse-whitespace \
+              --remove-comments \
+              --remove-optional-tags \
+              -o "$file" "$file"
+          done
 
-    # Минифицируем JavaScript
-    - name: Minify JavaScript files
-      run: find . -name '*.js' -exec terser --compress --mangle -o {} -- {} \;
-      
-    # Минифицируем XML
-    - name: Minify XML files
-      run: find . -name '*.xml' -exec xmllint --format --noblanks {} -o {} \;
+      # 6. Минификация CSS
+      - name: Minify CSS files
+        run: |
+          set -e
+          echo "Minifying CSS files..."
+          for file in $(find . -type f -name '*.css'); do
+            echo "  -> $file"
+            cleancss -o "$file" "$file"
+          done
 
-    # Минифицируем SVG
-    - name: Minify SVG files
-      run: find . -name '*.svg' -exec svgo -i {} -o {} \;
+      # 7. Минификация JS
+      - name: Minify JS files
+        run: |
+          set -e
+          echo "Minifying JS files..."
+          for file in $(find . -type f -name '*.js'); do
+            echo "  -> $file"
+            terser --compress --mangle -o "$file" -- "$file"
+          done
 
-    # Деплоим минимизированные файлы в ветку gh-pages
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: .  # Публикуем всё из корня репозитория
+      # 8. Минификация XML
+      - name: Minify XML files
+        run: |
+          set -e
+          echo "Minifying XML files..."
+          for file in $(find . -type f -name '*.xml'); do
+            echo "  -> $file"
+            # Обратите внимание, что xmllint --format выравнивает XML,
+            # не всегда "минифицирует" сжатием пробелов до одной строки.
+            # Но --noblanks уберёт пустые строки между тегами
+            xmllint --format --noblanks "$file" -o "$file"
+          done
+
+      # 9. Минификация SVG
+      - name: Minify SVG files
+        run: |
+          set -e
+          echo "Minifying SVG files..."
+          for file in $(find . -type f -name '*.svg'); do
+            echo "  -> $file"
+            svgo -i "$file" -o "$file"
+          done
+
+      # 10. Деплой на gh-pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: .  # Публикуем всё из корня
