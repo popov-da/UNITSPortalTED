@@ -1,182 +1,187 @@
-<?xml version="1.0"?>
-<!DOCTYPE dmodule>
-<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd">
-  <identAndStatusSection>
-    <dmAddress>
-      <dmIdent>
-        <dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="2" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="621" infoCodeVariant="A" itemLocationCode="A"/>
-        <language countryIsoCode="RU" languageIsoCode="ru"/>
-        <issueInfo issueNumber="001" inWork="01"/>
-      </dmIdent>
-      <dmAddressItems>
-        <issueDate year="2024" month="07" day="22"/>
-        <dmTitle>
-          <techName>&#x421;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43A;&#x43B;&#x435;&#x435;&#x43C;</techName>
-          <infoName>&#x421;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x435;</infoName>
-        </dmTitle>
-      </dmAddressItems>
-    </dmAddress>
-    <dmStatus issueType="new">
-      <security securityClassification="01"/>
-      <responsiblePartnerCompany enterpriseCode="MDMKD">
-        <enterpriseName>&#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C; &#x41C;&#x41A;&#x414;</enterpriseName>
-      </responsiblePartnerCompany>
-      <originator enterpriseCode="MDMKD">
-        <enterpriseName>&#x41C;&#x41E;&#x414;&#x423;&#x41B;&#x42C; &#x41C;&#x41A;&#x414;</enterpriseName>
-      </originator>
-      <applic>
-        <displayText>
-          <simplePara>&#x412;&#x421;&#x415;</simplePara>
-        </displayText>
-      </applic>
-      <brexDmRef>
-        <dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
-          <dmRefIdent>
-            <dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
-          </dmRefIdent>
-        </dmRef>
-      </brexDmRef>
-      <qualityAssurance>
-        <unverified/>
-      </qualityAssurance>
-    </dmStatus>
-  </identAndStatusSection>
-  <content>
-    <procedure>
-      <preliminaryRqmts>
-        <reqCondGroup>
-          <noConds/>
-        </reqCondGroup>
-        <reqSupportEquips>
-          <supportEquipDescrGroup>
-            <supportEquipDescr>
-              <name>&#x41A;&#x438;&#x441;&#x442;&#x44C; &#x444;&#x438;&#x43B;&#x435;&#x43D;&#x43E;&#x447;&#x43D;&#x430;&#x44F;</name>
-              <identNumber>
-                <manufacturerCode/>
-                <partAndSerialNumber>
-                  <partNumber>&#x41A;&#x424;&#x41A;8 &#x413;&#x41E;&#x421;&#x422; &#x420; 58516-2019</partNumber>
-                </partAndSerialNumber>
-              </identNumber>
-              <reqQuantity unitOfMeasure="&#x448;&#x442;.">1</reqQuantity>
-            </supportEquipDescr>
-            <supportEquipDescr>
-              <name>&#x422;&#x435;&#x440;&#x43C;&#x43E;&#x433;&#x438;&#x433;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440; &#x418;&#x412;&#x410;-6&#x41D;</name>
-              <identNumber>
-                <manufacturerCode/>
-                <partAndSerialNumber>
-                  <partNumber/>
-                </partAndSerialNumber>
-              </identNumber>
-              <reqQuantity unitOfMeasure="&#x448;&#x442;.">1</reqQuantity>
-            </supportEquipDescr>
-            <supportEquipDescr>
-              <name>&#x421;&#x435;&#x43A;&#x443;&#x43D;&#x434;&#x43E;&#x43C;&#x435;&#x440;</name>
-              <identNumber>
-                <manufacturerCode/>
-                <partAndSerialNumber>
-                  <partNumber/>
-                </partAndSerialNumber>
-              </identNumber>
-              <reqQuantity unitOfMeasure="&#x448;&#x442;.">1</reqQuantity>
-            </supportEquipDescr>
-            <supportEquipDescr>
-              <name>&#x420;&#x43E;&#x43B;&#x438;&#x43A; &#x440;&#x430;&#x441;&#x43A;&#x430;&#x442;&#x43D;&#x43E;&#x439;</name>
-              <identNumber>
-                <manufacturerCode/>
-                <partAndSerialNumber>
-                  <partNumber/>
-                </partAndSerialNumber>
-              </identNumber>
-              <reqQuantity unitOfMeasure="&#x448;&#x442;.">1</reqQuantity>
-            </supportEquipDescr>
-          </supportEquipDescrGroup>
-        </reqSupportEquips>
-        <reqSupplies>
-          <supplyDescrGroup>
-            <supplyDescr>
-              <name>&#x41A;&#x43B;&#x435;&#x439;</name>
-              <supplyRef supplyNumber="88-&#x41D;&#x41F; &#x422;&#x423; 38 105540-85" supplyNumberType="sp01"/>
-              <reqQuantity/>
-            </supplyDescr>
-          </supplyDescrGroup>
-        </reqSupplies>
-        <reqSpares>
-          <noSpares/>
-        </reqSpares>
-        <reqSafety>
-          <safetyRqmts>
-            <warning id="wrn-001">
-              <warningAndCautionPara>&#x421;&#x41E;&#x411;&#x41B;&#x42E;&#x414;&#x410;&#x419;&#x422;&#x415; &#x41F;&#x420;&#x410;&#x412;&#x418;&#x41B;&#x410; &#x41F;&#x41E;&#x416;&#x410;&#x420;&#x41D;&#x41E;&#x419; &#x411;&#x415;&#x417;&#x41E;&#x41F;&#x410;&#x421;&#x41D;&#x41E;&#x421;&#x422;&#x418;, &#x41F;&#x420;&#x410;&#x412;&#x418;&#x41B;&#x410; &#x417;&#x410;&#x429;&#x418;&#x422;&#x42B;
-&#x41E;&#x422; &#x421;&#x422;&#x410;&#x422;&#x418;&#x427;&#x415;&#x421;&#x41A;&#x41E;&#x413;&#x41E; &#x42D;&#x41B;&#x415;&#x41A;&#x422;&#x420;&#x418;&#x427;&#x415;&#x421;&#x422;&#x412;&#x410;.</warningAndCautionPara>
-              <warningAndCautionPara>&#x41D;&#x415; &#x414;&#x41E;&#x41F;&#x423;&#x421;&#x41A;&#x410;&#x415;&#x422;&#x421;&#x42F; &#x41F;&#x420;&#x418;&#x41C;&#x415;&#x41D;&#x415;&#x41D;&#x418;&#x415; &#x41E;&#x422;&#x41A;&#x420;&#x42B;&#x422;&#x41E;&#x413;&#x41E; &#x41E;&#x413;&#x41D;&#x42F;.</warningAndCautionPara>
-              <warningAndCautionPara>&#x41D;&#x415; &#x414;&#x41E;&#x41F;&#x423;&#x421;&#x41A;&#x410;&#x415;&#x422;&#x421;&#x42F; &#x41A;&#x423;&#x420;&#x415;&#x41D;&#x418;&#x415; &#x41D;&#x410; &#x420;&#x410;&#x411;&#x41E;&#x427;&#x415;&#x41C; &#x41C;&#x415;&#x421;&#x422;&#x415;.</warningAndCautionPara>
-              <warningAndCautionPara>&#x420;&#x410;&#x411;&#x41E;&#x422;&#x42B; &#x41F;&#x420;&#x41E;&#x412;&#x41E;&#x414;&#x42F;&#x422;&#x421;&#x42F; &#x422;&#x41E;&#x41B;&#x42C;&#x41A;&#x41E; &#x412;
-&#x421;&#x41F;&#x415;&#x426;&#x41E;&#x414;&#x415;&#x416;&#x414;&#x415;.</warningAndCautionPara>
-            </warning>
-            <warning id="wrn-002">
-              <warningAndCautionPara>&#x421;&#x41E;&#x411;&#x41B;&#x42E;&#x414;&#x410;&#x419;&#x422;&#x415; &#x41C;&#x415;&#x420;&#x42B;
-&#x41F;&#x420;&#x415;&#x414;&#x41E;&#x421;&#x422;&#x41E;&#x420;&#x41E;&#x416;&#x41D;&#x41E;&#x421;&#x422;&#x418; &#x41F;&#x420;&#x418; &#x420;&#x410;&#x411;&#x41E;&#x422;&#x415; &#x421; &#x41C;&#x410;&#x422;&#x415;&#x420;&#x418;&#x410;&#x41B;&#x410;&#x41C;&#x418;.  </warningAndCautionPara>
-              <warningAndCautionPara>&#x41D;&#x415; &#x41F;&#x41E;&#x414;&#x41D;&#x41E;&#x421;&#x418;&#x422;&#x415; &#x41C;&#x410;&#x422;&#x415;&#x420;&#x418;&#x410;&#x41B;&#x42B; &#x41A;&#x41E; &#x420;&#x422;&#x423;.</warningAndCautionPara>
-              <warningAndCautionPara>&#x418;&#x417;&#x411;&#x415;&#x413;&#x410;&#x419;&#x422;&#x415; &#x412;&#x414;&#x42B;&#x425;&#x410;&#x41D;&#x418;&#x42F; &#x42F;&#x414;&#x41E;&#x412;&#x418;&#x422;&#x42B;&#x425;
-&#x41F;&#x410;&#x420;&#x41E;&#x412;, &#x412;&#x42B;&#x414;&#x415;&#x41B;&#x42F;&#x415;&#x41C;&#x42B;&#x425; &#x41C;&#x410;&#x422;&#x415;&#x420;&#x418;&#x410;&#x41B;&#x410;&#x41C;&#x418;. </warningAndCautionPara>
-              <warningAndCautionPara>&#x41E;&#x411;&#x420;&#x410;&#x422;&#x418;&#x422;&#x415;&#x421;&#x42C; &#x417;&#x410; &#x41C;&#x415;&#x414;&#x418;&#x426;&#x418;&#x41D;&#x421;&#x41A;&#x41E;&#x419; &#x41F;&#x41E;&#x41C;&#x41E;&#x429;&#x42C;&#x42E; &#x41F;&#x420;&#x418; &#x412;&#x41E;&#x417;&#x41D;&#x418;&#x41A;&#x41D;&#x41E;&#x412;&#x415;&#x41D;&#x418;&#x418;
-&#x420;&#x410;&#x417;&#x414;&#x420;&#x410;&#x416;&#x415;&#x41D;&#x418;&#x42F; &#x41A;&#x41E;&#x416;&#x418; &#x418; &#x413;&#x41B;&#x410;&#x417;.</warningAndCautionPara>
-            </warning>
-          </safetyRqmts>
-        </reqSafety>
-      </preliminaryRqmts>
-      <mainProcedure>
-        <proceduralStep>
-          <title>&#x41F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B;</title>
-          <proceduralStep>
-            <para>&#x41D;&#x430;&#x434;&#x435;&#x43D;&#x44C;&#x442;&#x435; &#x441;&#x43F;&#x435;&#x446;&#x43E;&#x434;&#x435;&#x436;&#x434;&#x443;: &#x43A;&#x43E;&#x43C;&#x431;&#x438;&#x43D;&#x435;&#x437;&#x43E;&#x43D;, &#x440;&#x435;&#x441;&#x43F;&#x438;&#x440;&#x430;&#x442;&#x43E;&#x440; &#x430;&#x44D;&#x440;&#x43E;&#x437;&#x43E;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;, &#x43F;&#x435;&#x440;&#x447;&#x430;&#x442;&#x43A;&#x438;, &#x43E;&#x447;&#x43A;&#x438;.</para>
-          </proceduralStep>
-          <proceduralStep>
-            <para>&#x41E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x44C;&#x442;&#x435; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F; &#x43A; &#x43C;&#x435;&#x441;&#x442;&#x443; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;.</para>
-          </proceduralStep>
-          <proceduralStep>
-            <para>&#x412;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435; &#x43F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x43A;&#x443; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x435;&#x439; <dmRef><dmRefIdent><dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="254" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="2" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"/></dmRefIdent></dmRef>.</para>
-          </proceduralStep>
-        </proceduralStep>
-        <proceduralStep>
-          <title>&#x41D;&#x430;&#x43D;&#x435;&#x441;&#x435;&#x43D;&#x438;&#x435; &#x43A;&#x43B;&#x435;&#x44F;</title>
-          <proceduralStep>
-            <para>&#x41D;&#x430;&#x43D;&#x435;&#x441;&#x438;&#x442;&#x435; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x439; &#x441;&#x43B;&#x43E;&#x439; &#x43A;&#x43B;&#x435;&#x44F; &#x43D;&#x430; &#x441;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x44B;&#x435; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x438;.</para>
-          </proceduralStep>
-          <proceduralStep>
-            <para>&#x412;&#x44B;&#x441;&#x443;&#x448;&#x438;&#x442;&#x435; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x439; &#x441;&#x43B;&#x43E;&#x439; &#x43A;&#x43B;&#x435;&#x44F; &#x43F;&#x440;&#x438; &#x442;&#x435;&#x43C;&#x43F;&#x435;&#x440;&#x430;&#x442;&#x443;&#x440;&#x435; &#x43E;&#x43A;&#x440;&#x443;&#x436;&#x430;&#x44E;&#x449;&#x435;&#x439; &#x441;&#x440;&#x435;&#x434;&#x44B; &#x43D;&#x435; &#x43C;&#x435;&#x43D;&#x435;&#x435; &#x43F;&#x43B;&#x44E;&#x441; 15 &#xB0;&#x421; &#x432;
-&#x442;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x435; (15 &#xB1; 1) &#x43C;&#x438;&#x43D;.</para>
-          </proceduralStep>
-          <proceduralStep>
-            <para>&#x41D;&#x430;&#x43D;&#x435;&#x441;&#x438;&#x442;&#x435; &#x432;&#x442;&#x43E;&#x440;&#x43E;&#x439; &#x441;&#x43B;&#x43E;&#x439; &#x43A;&#x43B;&#x435;&#x44F;.</para>
-          </proceduralStep>
-          <proceduralStep>
-            <para>&#x412;&#x44B;&#x441;&#x443;&#x448;&#x438;&#x442;&#x435; &#x432;&#x442;&#x43E;&#x440;&#x43E;&#x439; &#x441;&#x43B;&#x43E;&#x439; &#x43A;&#x43B;&#x435;&#x44F; &#x43F;&#x440;&#x438; &#x442;&#x435;&#x43C;&#x43F;&#x435;&#x440;&#x430;&#x442;&#x443;&#x440;&#x435; &#x43E;&#x43A;&#x440;&#x443;&#x436;&#x430;&#x44E;&#x449;&#x435;&#x439; &#x441;&#x440;&#x435;&#x434;&#x44B; &#x43D;&#x435; &#x43C;&#x435;&#x43D;&#x435;&#x435; &#x43F;&#x43B;&#x44E;&#x441; 15 &#xB0;&#x421; &#x432;
-&#x442;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x435; (5 &#xB1; 1) &#x43C;&#x438;&#x43D;.</para>
-          </proceduralStep>
-          <proceduralStep>
-            <para>&#x41F;&#x440;&#x438;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43F;&#x43B;&#x43E;&#x442;&#x43D;&#x43E; &#x434;&#x440;&#x443;&#x433; &#x43A; &#x434;&#x440;&#x443;&#x433;&#x443; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x441; &#x43D;&#x430;&#x43D;&#x435;&#x441;&#x435;&#x43D;&#x43D;&#x44B;&#x43C; &#x43A;&#x43B;&#x435;&#x435;&#x43C;.</para>
-            <note id="not-001">
-              <notePara>&#x41F;&#x440;&#x438; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; &#x441;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x44B;&#x435; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x440;&#x438;&#x43A;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x44E;&#x442; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x433;&#x43B;&#x430;&#x434;&#x43A;&#x438;&#x43C; &#x440;&#x43E;&#x43B;&#x438;&#x43A;&#x43E;&#x43C; &#x43E;&#x442; &#x446;&#x435;&#x43D;&#x442;&#x440;&#x430; &#x441;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x432; &#x434;&#x432;&#x443;&#x445;
-&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x43D;&#x44B;&#x445; &#x43D;&#x430;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;&#x445;.</notePara>
-            </note>
-          </proceduralStep>
-          <proceduralStep>
-            <para>&#x412;&#x44B;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442;&#x435; &#x441;&#x43A;&#x43B;&#x435;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x44B;&#x435; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43D;&#x435; &#x43C;&#x435;&#x43D;&#x435;&#x435; 24 &#x447;.</para>
-          </proceduralStep>
-        </proceduralStep>
-        <proceduralStep>
-          <title>&#x417;&#x430;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B;</title>
-          <proceduralStep>
-            <para>&#x41E;&#x447;&#x438;&#x441;&#x442;&#x438;&#x442;&#x435; &#x437;&#x43E;&#x43D;&#x443; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442; &#x438; &#x443;&#x431;&#x435;&#x434;&#x438;&#x442;&#x435;&#x441;&#x44C; &#x432; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x438;&#x438; &#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x440;&#x43E;&#x43D;&#x43D;&#x438;&#x445; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x43E;&#x432;.</para>
-          </proceduralStep>
-        </proceduralStep>
-      </mainProcedure>
-      <closeRqmts>
-        <reqCondGroup>
-          <noConds/>
-        </reqCondGroup>
-      </closeRqmts>
-    </procedure>
-  </content>
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="2" subSubSystemCode="2" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="621" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="07" day="22"></issueDate>
+<dmTitle>
+<techName>Склеивание клеем</techName>
+<infoName>Склеивание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Кисть филеночная</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber>КФК8 ГОСТ Р 58516-2019</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Термогигрометр ИВА-6Н</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Секундомер</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr>
+<name>Ролик раскатной</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+<partAndSerialNumber>
+<partNumber></partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="шт.">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Клей</name>
+<supplyRef supplyNumber="88-НП ТУ 38 105540-85" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning id="wrn-001">
+<warningAndCautionPara>СОБЛЮДАЙТЕ ПРАВИЛА ПОЖАРНОЙ БЕЗОПАСНОСТИ, ПРАВИЛА ЗАЩИТЫ
+ОТ СТАТИЧЕСКОГО ЭЛЕКТРИЧЕСТВА.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ ПРИМЕНЕНИЕ ОТКРЫТОГО ОГНЯ.</warningAndCautionPara>
+<warningAndCautionPara>НЕ ДОПУСКАЕТСЯ КУРЕНИЕ НА РАБОЧЕМ МЕСТЕ.</warningAndCautionPara>
+<warningAndCautionPara>РАБОТЫ ПРОВОДЯТСЯ ТОЛЬКО В
+СПЕЦОДЕЖДЕ.</warningAndCautionPara>
+</warning>
+<warning id="wrn-002">
+<warningAndCautionPara>СОБЛЮДАЙТЕ МЕРЫ
+ПРЕДОСТОРОЖНОСТИ ПРИ РАБОТЕ С МАТЕРИАЛАМИ.  </warningAndCautionPara>
+<warningAndCautionPara>НЕ ПОДНОСИТЕ МАТЕРИАЛЫ КО РТУ.</warningAndCautionPara>
+<warningAndCautionPara>ИЗБЕГАЙТЕ ВДЫХАНИЯ ЯДОВИТЫХ
+ПАРОВ, ВЫДЕЛЯЕМЫХ МАТЕРИАЛАМИ. </warningAndCautionPara>
+<warningAndCautionPara>ОБРАТИТЕСЬ ЗА МЕДИЦИНСКОЙ ПОМОЩЬЮ ПРИ ВОЗНИКНОВЕНИИ
+РАЗДРАЖЕНИЯ КОЖИ И ГЛАЗ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Наденьте спецодежду: комбинезон, респиратор аэрозольный, перчатки, очки.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ к месту выполнения работ.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните подготовку поверхностей <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="254" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="2" subSystemCode="2" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Нанесение клея</title>
+<proceduralStep>
+<para>Нанесите первый слой клея на склеиваемые поверхности.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Высушите первый слой клея при температуре окружающей среды не менее плюс 15 °С в
+течение (15 ± 1) мин.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нанесите второй слой клея.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Высушите второй слой клея при температуре окружающей среды не менее плюс 15 °С в
+течение (5 ± 1) мин.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Прижмите плотно друг к другу поверхности с нанесенным клеем.</para>
+<note id="not-001">
+<notePara>При необходимости склеиваемые поверхности прикатывают последовательно гладким роликом от центра склеивания в двух
+противоположных направлениях.</notePara>
+</note>
+</proceduralStep>
+<proceduralStep>
+<para>Выдержите склеиваемые поверхности не менее 24 ч.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
 </dmodule>
