@@ -73,6 +73,7 @@ jobs:
 
       # 8. Минификация XML
       - name: Minify XML files (real single-line)
+        continue-on-error: true
         run: |
           echo "Minifying XML files..."
           for file in $(find . -type f -name '*.xml'); do
