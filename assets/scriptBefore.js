@@ -27,7 +27,7 @@ function showStartPage() {
   // Сбрасываем активные вкладки при возврате на стартовую страницу
   resetActiveTabs(); // Вызываем функцию, удаляющую класс 'active' у всех вкладок
   // Очистка URL при возврате на стартовую страницу
-  history.pushState({}, '', window.location.origin); // Меняем URL на базовый (без параметров), не перезагружая страницу
+  history.pushState({}, '', window.location.origin + window.location.pathname); // Меняем URL на базовый (без параметров), не перезагружая страницу
 }
 
 // Функция загрузки документа с обновлением URL
