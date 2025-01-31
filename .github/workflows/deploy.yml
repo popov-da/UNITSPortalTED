@@ -44,6 +44,8 @@ jobs:
               --collapse-whitespace \
               --remove-comments \
               --remove-optional-tags \
+              --minify-js \
+              --minify-css \
               -o "$file" "$file"
           done
 
