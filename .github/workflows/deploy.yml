@@ -72,19 +72,14 @@ jobs:
           done
 
       # 8. Минификация XML
-      - name: Minify XML files
-        continue-on-error: true
+      - name: Minify XML files (real single-line)
         run: |
-          set -e
           echo "Minifying XML files..."
           for file in $(find . -type f -name '*.xml'); do
             echo "  -> $file"
-            # Обратите внимание, что xmllint --format выравнивает XML,
-            # не всегда "минифицирует" сжатием пробелов до одной строки.
-            # Но --noblanks уберёт пустые строки между тегами
-            xmllint --format --noblanks "$file" -o "$file"
+            xmllint --noblanks "$file" | tr -d '\n' > tmpfile && mv tmpfile "$file"
           done
-
+    
       # 9. Минификация SVG
       - name: Minify SVG files
         continue-on-error: true
