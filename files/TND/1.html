@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кликабельная схема</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        table {
+            border-collapse: separate;
+            width: 90%;
+            max-width: 1200px;
+            margin-top: 20px;
+            border-spacing: 5px;
+        }
+        th, td {
+            text-align: center;
+            padding: 10px;
+            border-bottom: none;
+        }
+        th {
+            background-color: #ddd;
+            border: none;
+        }
+        
+		
+        .fd { background-color: #a8d5ba; }
+        .to { background-color: #add8e6; }
+        .constructor { background-color: #98fb98; }
+        .initiator { background-color: #ffa500; }
+        .production { background-color: #d8a9e7; }
+        .pdo { background-color: #e8e8e8; }
+        .technologist { background-color: #f9f871; }
+        .logistics { background-color: #9999ff; }
+        .otk { background-color: #ff99aa; }
+        .director { background-color: #b0b0b0; }
+        .block {
+            cursor: pointer;
+            border: 2px solid black;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .block:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="fd">ФД</th>
+            <th class="to">ТО</th>
+            <th class="constructor">Конструктор</th>
+            <th class="initiator">Инициатор или РП ведущий направление</th>
+            <th class="production">Производство АЗ</th>
+            <th class="pdo">ПДО</th>
+            <th class="technologist">Технолог АЗ ведущий направление</th>
+            <th class="logistics">Отдел закупок и логистики (ОЗиЛ)</th>
+            <th class="otk">ОТК</th>
+            <th class="director">Директор по направлению</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><div class="block" onclick="alert('Разработка ТЗ')">Возникновение потребности в оснастке, либо ОС</div></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><div class="block" onclick="alert('Разработка ТЗ')">Принятие решения о месте изготовления. Назначение инициатора</div></td>
+        </tr>
+		<tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><div class="block" onclick="alert('Разработка ТЗ')">Разработка ТЗ</div></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><div class="block" onclick="alert('Разработка ТЗ')">Согласование / утверждение ТЗ</div></td>
+        </tr>       
+    </table>
+</body>
+</html>

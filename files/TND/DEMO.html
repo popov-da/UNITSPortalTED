@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="assets/style.css" rel="stylesheet"/>
+    	<link href="assets/modal.css" rel="stylesheet"/>
+		<script src="assets/modalOut.js"></script>
+		<title>Какой-то ТНД</title>
+	</head>
+	<body>
+		<div class="table">
+			<!-- Заголовок таблицы -->
+			<div class="cell header" style="background-color: #a8d5ba">ФД</div>
+			<div class="cell header" style="background-color: #add8e6">ТО</div>
+			<div class="cell header" style="background-color: #98fb98">Конструктор</div>
+			<div class="cell header" style="background-color: #ffa500">Инициатор</div>
+			<div class="cell header" style="background-color: #d8a9e7">Производство АЗ</div>
+			<div class="cell header" style="background-color: #e8e8e8">ПДО</div>
+			<div class="cell header" style="background-color: #f9f871">Технолог АЗ</div>
+			<div class="cell header" style="background-color: #9999ff">Отдел закупок и логистики (ОЗиЛ)</div>
+			<div class="cell header" style="background-color: #ff99aa">ОТК</div>
+			<div class="cell header" style="background-color: #b0b0b0">Директор по направлению</div>
+			<!-- Отступ таблицы -->
+			<div class="cell otstup" style=" height: 20px"></div>
+			<!-- Строка 1 таблицы -->
+			<div class="cell" style="grid-column: span 25"></div>
+			<button class="knopka" onclick="clicModal()" data-modal="modal1">Возникновение потребности в оснастке, либо ОС</button>
+			<div class="cell" style="grid-column: span 42"><div class="strHor Right"></div></div>
+			<button class="knopka" onclick="loadModal()" data-modal="modal2">Принятие решения о месте изготовления. Назначение инициатора</button>
+			<div class="cell"></div>
+			<!-- Строка 2 таблицы -->
+			<div class="cell" style="grid-column: span 80; height: 60px">
+				<div class="AngleLine">
+					<div class="vertical" style="--bottom: 75%; --top: 0; --right: 5%;"></div>
+					<div class="horizontal" style="--top: 25%; --left: 35%; --right: 5%;"></div>
+					<div class="vertical" style="--bottom: 30px; --top: 25%; --left: 35%;"></div>
+					<div class="pikDown" style="--left: 35.06%; --bottom: 0;"></div>
+				</div>
+			</div>
+			<!-- Строка 3 таблицы -->
+			<div class="cell" style="grid-column: span 25"></div>
+			<button class="knopka" onclick="loadModal()">Разработка ТЗ</button>
+			<div class="cell" style="grid-column: span 42"><div class="strHor Right"></div></div> 
+			<button class="knopka" onclick="loadModal()">Согласование / утверждение ТЗ</button>
+			<div class="cell"></div>
+			<!-- Строка 4 таблицы -->
+			<div class="cell" style="grid-column: span 72;"></div>
+			<div class="cell" style="grid-column: span 8; height: 60px"><div class="strVert Down"></div></div>
+			<!-- Строка 5 таблицы -->
+			<div class="cell" style="grid-column: span 17"></div>
+			<button class="knopka" onclick="loadModal()">Проектирование оснастки 1 этап</button>
+			<div class="cell" style="grid-column: span 2"><div class="strHor Left"></div></div>
+			<button class="knopka" onclick="loadModal()">Запуск в работу / Доработка</button>
+			<div class="cell" style="grid-column: span 40"><div class="strHor Left"></div></div>
+			<div class="cell choice">Да</div>
+			<div class="cell">
+				<div class="AngleLine">
+					<div class="horizontal" style="--top: 50%; --left: 0; --right: 0;"></div>
+				</div>
+			</div>
+			<button class="knopka" onclick="loadModal()">Изготовление своими силами?</button>
+			<div class="cell"></div>
+			<!-- Строка 6 таблицы -->
+			<div class="cell" style="grid-column: span 63; height: 60px">
+				<div class="AngleLine">
+					<div class="vertical" style="--bottom: 75%; --top: 0; --left: 31.7%;"></div>
+					<div class="horizontal" style="--top: 25%; --left: 31.7%; --right: 42.8%;"></div>
+					<div class="vertical" style="--bottom: 30px; --top: 25%; --left: 44.4%;"></div>
+					<div class="vertical" style="--bottom: 30px; --top: 25%; --left: 57.1%;"></div>
+					<div class="pikDown" style="--left: 44.5%; --bottom: 0;"></div>
+					<div class="pikDown" style="--left: 57.2%; --bottom: 0;"></div>
+				</div>
+			</div>
+			<div class="cell" style="grid-column: span 9"></div>
+			<div class="cell" style="grid-column: span 8; grid-row: span 2">
+				<div class="AngleLine">
+					<div class="vertical" style="--bottom: 25%; --top: 0; --right: 50%;"></div>
+					<div class="horizontal" style="--top: 75%; --left: 0; --right: 50%;"></div>
+				</div>
+			</div>
+			<!-- Строка 7 таблицы -->
+			<div class="cell" style="grid-column: span 25"></div>
+			<button class="knopka" onclick="loadModal()">Координация промежуточного конструктива</button>
+			<div class="cell" style="grid-column: span 2"></div> 
+			<button class="knopka" onclick="loadModal()">Координация промежуточного конструктива</button>
+			<div class="cell" style="grid-column: span 18"></div>
+			<button class="knopka" onclick="loadModal()">Заказ на стороне (отдельный процесс закупки)</button>
+			<div class="cell" style="grid-column: span 8"><div class="strHor Left"></div></div>
+			<div class="cell choice">Нет</div>
+			<!-- Строка 8 таблицы -->
+		</div>
+		
+		<div id="modalContainer"></div>
+</body>
+</html>
