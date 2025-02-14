@@ -22,7 +22,15 @@
   --> 
 <script src="assets/scriptBefore.js"></script> <!-- Скрипт, который должен выполниться до построения DOM (если это критично) --> 
 <script defer="" src="assets/scriptAfter.js"></script> <!-- Скрипт, который выполняется после построения структуры DOM -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q7P2E4FL50"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-Q7P2E4FL50');
+</script>
 </head>
 <body>
 <!-- Блок, который, вероятно, отображается при необходимости повернуть устройство (на мобильных) -->
